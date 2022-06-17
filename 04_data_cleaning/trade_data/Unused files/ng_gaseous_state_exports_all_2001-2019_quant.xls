@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title></title><META http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body><table align="center"><tr><td colspan="6"><center><b>List of exporters for the selected product </b></center></td></tr><tr><td colspan="6"><center>   Product: 271121 Natural gas in gaseous state</center></td></tr></table><table><tr><td> </td></tr></table><table id="ctl00_PageContent_GridLegendTable" class="table_legend" border="0">
+	<tr>
+		<td>Sources: ITC calculations based on UN COMTRADE and ITC statistics.</td>
+	</tr><tr>
+		<td>The world aggregation represents the sum of reporting and non reporting countries  </td>
+	</tr><tr>
+		<td>Data based on the partner reported data (Mirror data) are shown in orange </td>
+	</tr><tr>
+		<td></td>
+	</tr><tr>
+		<td></td>
+	</tr><tr>
+		<td>The quantities shown in dark green are estimated by ITC. For further information, please refer to the <a href="https://www.trademap.org/Docs/Metadata/Methodology_quantity_outliers_Y_EN.pdf" target="_blank">ITC explanatory note.</a></td>
+	</tr><tr>
+		<td>The quantities shown in light green are estimated by UNSD. For further information, please refer to the <a href="https://unstats.un.org/unsd/tradekb/Knowledgebase/Quantity-and-Weight-Data-in-UN-Comtrade" target="_blank">UNSD explanatory note.</a></td>
+	</tr>
+</table><table><tr><td> </td></tr></table><table id="ctl00_PageContent_GridLabelUnitTable" border="0">
+	<tr>
+		<td></td>
+	</tr>
+</table><table><tr><td> </td></tr></table><div>
+	<table cellspacing="0" cellpadding="4" rules="all" border="1" id="ctl00_PageContent_MyGridView1" style="color:#002B54;border-color:#002B54;width:100%;border-collapse:collapse;">
+		<tr style="color:White;background-color:#5D7B9D;font-size:80%;font-weight:bold;">
+			<th rowspan="2" scope="col">Exporters</th><td align="center" colspan="1">2001</td><td align="center" colspan="1">2002</td><td align="center" colspan="1">2003</td><td align="center" colspan="1">2004</td><td align="center" colspan="1">2005</td><td align="center" colspan="1">2006</td><td align="center" colspan="1">2007</td><td align="center" colspan="1">2008</td><td align="center" colspan="1">2009</td><td align="center" colspan="1">2010</td><td align="center" colspan="1">2011</td><td align="center" colspan="1">2012</td><td align="center" colspan="1">2013</td><td align="center" colspan="1">2014</td><td align="center" colspan="2">2015</td><td align="center" colspan="2">2016</td><td align="center" colspan="2">2017</td><td align="center" colspan="2">2018</td><td align="center" colspan="2">2019</td>
+		</tr><tr style="color:White;background-color:#5D7B9D;font-size:80%;font-weight:bold;">
+			<th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity, Tons</th><th scope="col">Exported quantity</th><th scope="col">Unit</th><th scope="col">Exported quantity</th><th scope="col">Unit</th><th scope="col">Exported quantity</th><th scope="col">Unit</th><th scope="col">Exported quantity</th><th scope="col">Unit</th><th scope="col">Exported quantity</th><th scope="col">Unit</th>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td title="The world aggregation represents the sum of reporting and non reporting countries  " align="left" style="width:30%;">
+                            World
+                                </td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">305189411</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">413093853</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">557677823</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">596353052</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">572707577</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">959526866</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">257806122</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">350614305</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">473031750</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">438572186</td><td title="The data aggregated are mirror and direct data" style="color:BlueViolet;border-color:#002B54;">361790957</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:BlueViolet;border-color:#002B54;">No Quantity</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Canada
+                                </td><td>108242</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">78115897</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">105106584</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">108085487</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">154186880</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">127333779</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">110611911</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">208799963</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">24200657</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">28836987</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">37849190</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">17774708</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">21136382</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">22533505</td><td>78162102000</td><td>Cubic meters</td><td>81824837000</td><td>Cubic meters</td><td>84717189000</td><td>Cubic meters</td><td>80291533000</td><td>Cubic meters</td><td>74468059000</td><td>Cubic meters</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            United States of America
+                                </td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2538449</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">6704633</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">10243141</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">15337136</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">10803990</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">12415447</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">29397668</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4815376</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">8489010</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">15796363</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">8897582</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11765268</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11379038</td><td>43083477005</td><td>Cubic meters</td><td>46392812081</td><td>Cubic meters</td><td>49232456610</td><td>Cubic meters</td><td>43004991387</td><td>Cubic meters</td><td>63915227448</td><td>Cubic meters</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Uzbekistan
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>10232647613</td><td>Cubic meters</td><td>14870661245</td><td>Cubic meters</td><td>13470334900</td><td>Cubic meters</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Mexico
+                                </td><td>205470</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">75688</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">7420</td><td>3615</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">243989</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">437826</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1433003</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1747071</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">211265</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">343964</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">51148</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2390</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5437</td><td>0</td><td>27658681</td><td>Cubic meters</td><td>26260874</td><td>Cubic meters</td><td>26144827</td><td>Cubic meters</td><td>207398659</td><td>Cubic meters</td><td>91325100</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Norway
+                                </td><td>37927550</td><td>50268540</td><td>54205739</td><td>57013063</td><td>61351776</td><td>63322841</td><td>63865814</td><td>70314784</td><td>72268916</td><td>73110944</td><td>72467260</td><td>82329029</td><td>78633722</td><td>78416573</td><td>83488914</td><td>Tons</td><td>83551267</td><td>Tons</td><td>95722840</td><td>Tons</td><td>87419446</td><td>Tons</td><td>82336705</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Germany
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10318311</td><td>8717058</td><td>13675997</td><td>20414390</td><td>14769224</td><td>15207635</td><td>16812010</td><td>28400392</td><td>Tons</td><td>22280491</td><td>Tons</td><td>26484517</td><td>Tons</td><td>34139489</td><td>Tons</td><td>55504802</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Turkmenistan
+                                </td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">18197510</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">20816246</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">No Quantity</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">26205629</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">28433023</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">28264470</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">25944453</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">23061262</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">3517862</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">2599486</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">11944196</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">16651923</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">18988234</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">19500841</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">21213583</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">22943225</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">24623256</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">25539334</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">24063714</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Belgium
+                                </td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">7422276</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">16703862</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">21981687</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">33086085</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">39448874</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">22727155</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">58427491</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">9983447</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11794127</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">23563718</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">14633609</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">20175077</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">10373326</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11083608</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>17449199</td><td>Tons</td><td>21105125</td><td>Tons</td><td>18336040</td><td>Tons</td><td>16808334</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Algeria
+                                </td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">0</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">20801865</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">22119772</td><td>42385214</td><td>38598913</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">92684893</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">26153069</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">13837654</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">67404632</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">37294734</td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">27227126</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">16947078</td><td>1122219</td><td>Tons</td><td>1471125</td><td>Tons</td><td>1427270</td><td>Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">22760873</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">15328423</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Kazakhstan
+                                </td><td title="No quantity has been reported">No Quantity</td><td>8991104</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">1291147</td><td>14340848</td><td>12880439</td><td>12572968</td><td>12775841</td><td>14214291</td><td>14434549</td><td>9922075</td><td>17208678</td><td>16434839</td><td>16550235</td><td>16900814</td><td>15914796</td><td>Tons</td><td>13409438</td><td>Tons</td><td>6364590</td><td>Tons</td><td>8260407</td><td>Tons</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">13408389</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Azerbaijan
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>47941</td><td>66461</td><td>270723</td><td>505682</td><td>1223824</td><td>2102276</td><td>1932976</td><td>2187892</td><td>1324253</td><td>6099380</td><td>Tons</td><td>5772066</td><td>Tons</td><td>6070560</td><td>Tons</td><td>5814210</td><td>Tons</td><td>9116488</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Bolivia, Plurinational State of
+                                </td><td>5102230</td><td>5780401</td><td>7259724</td><td>11190769</td><td>13808542</td><td>14795430</td><td>15772023</td><td>9225356</td><td>7518312</td><td>8856827</td><td>9606826</td><td>11225409</td><td>12981069</td><td>13464476</td><td>13219277</td><td>Tons</td><td>12050503</td><td>Tons</td><td>11461526</td><td>Tons</td><td>10445821</td><td>Tons</td><td>8903619</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Myanmar
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>369246</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">8125284</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4420620</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">7315042</td><td>1698618</td><td>198124</td><td>Tons</td><td>0</td><td></td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">984625</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4477157</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">7978608</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Indonesia
+                                </td><td>0</td><td>5</td><td>0</td><td>0</td><td>10204</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">1352</td><td>0</td><td>0</td><td>3436944</td><td>6066127</td><td>6658221</td><td>7235682</td><td>6671916</td><td>7542951</td><td>8358483</td><td>Tons</td><td>6979808</td><td>Tons</td><td>7920997</td><td>Tons</td><td>8982150</td><td>Tons</td><td>7638417</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            United Kingdom
+                                </td><td>6179698</td><td>9363239</td><td>10755632</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">6050825</td><td>1812841</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">2120824</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">1202467</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">4974104</td><td>0</td><td>8228029</td><td>11829680</td><td>9020242</td><td>6554196</td><td>7889507</td><td>10528092</td><td>Tons</td><td>7391128</td><td>Tons</td><td>8256370</td><td>Tons</td><td>4991319</td><td>Tons</td><td>5951769</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Libya, State of
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>4922527</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">1693202</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">4683416</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">4129343</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">4714109</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">5144830</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">3479930</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">3359400</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">3233520</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">4127242</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            China
+                                </td><td>2201815</td><td>2320971</td><td>1357412</td><td>1768094</td><td>2150970</td><td>2099920</td><td>1883751</td><td>2351092</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2325064</td><td>2920581</td><td>2310447</td><td>2094247</td><td>1988871</td><td>1890575</td><td>2351765</td><td>Tons</td><td>2448520</td><td>Tons</td><td>2542756</td><td>Tons</td><td>2436407</td><td>Tons</td><td>2538374</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Hungary
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>11560</td><td>0</td><td>127853</td><td>0</td><td>43142</td><td>0</td><td>0</td><td>421603</td><td>821379</td><td>440049</td><td>255884</td><td>Tons</td><td>246612</td><td>Tons</td><td>1010827</td><td>Tons</td><td>1155315</td><td>Tons</td><td>1887287</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Argentina
+                                </td><td>3636630</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">3617917</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4049603</td><td>4743697</td><td>4299833</td><td>4494882</td><td>2111239</td><td>625186</td><td>701938</td><td>367111</td><td>149255</td><td>64359</td><td>55123</td><td>38741</td><td>33313</td><td>Tons</td><td>37043</td><td>Tons</td><td>43074</td><td>Tons</td><td>199552</td><td>Tons</td><td>1392315</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Austria
+                                </td><td>0</td><td>0</td><td>650992</td><td>979540</td><td>1082296</td><td>1645995</td><td>2688210</td><td>2812303</td><td>3148456</td><td>2645056</td><td>2945349</td><td>1995160</td><td>992867</td><td>942452</td><td>907363</td><td>Tons</td><td>1128050</td><td>Tons</td><td>1240320</td><td>Tons</td><td>1062110</td><td>Tons</td><td>1367320</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Ukraine
+                                </td><td>687468</td><td>1073320</td><td>3605519</td><td>2948766</td><td>1795570</td><td>2857</td><td>3012</td><td>3457</td><td>3643</td><td>4251</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">1162470</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Iran, Islamic Republic of
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>377</td><td>42</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>40</td><td>Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">998598</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Czech Republic
+                                </td><td>210</td><td>344</td><td>29129</td><td>110</td><td>0</td><td>0</td><td>0</td><td>0</td><td>837145</td><td>1717651</td><td>1116691</td><td>1151598</td><td>991896</td><td>1595303</td><td>3828105</td><td>Tons</td><td>1677509</td><td>Tons</td><td>476889</td><td>Tons</td><td>418691</td><td>Tons</td><td>642610</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Slovenia
+                                </td><td>2</td><td>2</td><td>2</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">0</td><td>72043</td><td>54579</td><td>34212</td><td>24368</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">3900</td><td>0</td><td>0</td><td>0</td><td>71993</td><td>258652</td><td>419514</td><td>Tons</td><td>357067</td><td>Tons</td><td>369768</td><td>Tons</td><td>44681</td><td>Tons</td><td>316725</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Slovakia
+                                </td><td>0</td><td>0</td><td>2732</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">10411</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>104189</td><td>Tons</td><td>161794</td><td>Tons</td><td>204609</td><td>Tons</td><td>315540</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Greece
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>10</td><td>Tons</td><td>323</td><td>Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5205</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>287896</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Lithuania
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>272</td><td>50350</td><td>Tons</td><td>6126</td><td>Tons</td><td>146063</td><td>Tons</td><td>97784</td><td>Tons</td><td>183221</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Portugal
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>244991</td><td>645966</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1337</td><td>8534</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>21884</td><td>Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">149337</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Italy
+                                </td><td>244041</td><td>302700</td><td>272523</td><td>299160</td><td>284816</td><td>280308</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">58874</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">180067</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">106564</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">113070</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">100373</td><td>140292</td><td>163167</td><td>156073</td><td>146517</td><td>Tons</td><td>122050</td><td>Tons</td><td>128203</td><td>Tons</td><td>124366</td><td>Tons</td><td>119299</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Latvia
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>11862</td><td>Tons</td><td>25242</td><td>Tons</td><td>51813</td><td>Tons</td><td>92152</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Mozambique
+                                </td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">162465</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">520328</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">569408</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">468772</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">9717</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">21919</td><td>0</td><td>8797</td><td>505272</td><td>2431769</td><td>2481092</td><td>20000</td><td>Tons</td><td>11184</td><td>Tons</td><td>88791</td><td>Tons</td><td>240137</td><td>Tons</td><td>74491</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Bulgaria
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1416</td><td>1616</td><td>Tons</td><td>1935</td><td>Tons</td><td>3262</td><td>Tons</td><td>13001</td><td>Tons</td><td>58715</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Croatia
+                                </td><td>346459</td><td>449517</td><td>460198</td><td>468533</td><td>600444</td><td>870971</td><td>539970</td><td>456556</td><td>569552</td><td>346890</td><td>179774</td><td>173816</td><td>260782</td><td>247564</td><td>258328</td><td>Tons</td><td>260883</td><td>Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">122520</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>72915</td><td>Tons</td><td>49925</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Sweden
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">21</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">958</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4909</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td>7353</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11580</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5572</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>3809</td><td>Tons</td><td>7199</td><td>Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">28830</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Romania
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>762</td><td>Tons</td><td>831</td><td>Tons</td><td>18526</td><td>Tons</td><td>21175</td><td>Tons</td><td>9235</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Bosnia and Herzegovina
+                                </td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>303</td><td>Tons</td><td>2363</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Serbia
+                                </td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>1889</td><td>6815</td><td>3870</td><td>3577</td><td>Tons</td><td>3245</td><td>Tons</td><td>2580</td><td>Tons</td><td>1090</td><td>Tons</td><td>1492</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Macedonia, North
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>542</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Estonia
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>4809</td><td>Tons</td><td>432</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Georgia
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>73169</td><td>Tons</td><td>45</td><td>Tons</td><td>0</td><td></td><td>340</td><td>Tons</td><td>353</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Lao People's Democratic Republic
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>120</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            South Africa
+                                </td><td>1</td><td>35</td><td>20</td><td>459</td><td>4</td><td>4</td><td>6</td><td>103</td><td>9</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1033</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">600</td><td title="No quantity has been reported" style="color:MediumSeaGreen;border-color:#002B54;">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">254</td><td>216</td><td>152</td><td>Tons</td><td>65</td><td>Tons</td><td>280</td><td>Tons</td><td>80</td><td>Tons</td><td>105</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Luxembourg
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>6</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>123</td><td>Tons</td><td>97</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Samoa
+                                </td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>2</td><td>Tons</td><td>0</td><td></td><td>32</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Ireland
+                                </td><td>253</td><td>18</td><td>0</td><td>0</td><td>254</td><td>642980</td><td>5433</td><td>0</td><td>383</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td></td><td>12767</td><td>Tons</td><td>18454</td><td>Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">23195</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">20</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Thailand
+                                </td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">335</td><td>0</td><td>0</td><td>13</td><td>0</td><td>92</td><td>1</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">0</td><td>79</td><td>Tons</td><td>180</td><td>Tons</td><td>238</td><td>Tons</td><td>24</td><td>Tons</td><td>19</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Fiji
+                                </td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>0</td><td>130</td><td>110</td><td>41</td><td>Tons</td><td>8</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>17</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Guyana
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>16</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            United Arab Emirates
+                                </td><td></td><td></td><td></td><td></td><td>71</td><td></td><td>24</td><td>4</td><td></td><td></td><td></td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">11</td><td title="No quantity has been reported">No Quantity</td><td>3</td><td>1</td><td>Tons</td><td>2</td><td>Tons</td><td>3</td><td>Tons</td><td>71</td><td>Tons</td><td>9</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            India
+                                </td><td>32</td><td>947</td><td>2594</td><td>2470</td><td>121</td><td>86</td><td>111</td><td>3997</td><td>255</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4021</td><td>106</td><td>14963</td><td>30</td><td>36</td><td>53</td><td>Tons</td><td>2424</td><td>Tons</td><td>1</td><td>Tons</td><td>0</td><td></td><td>7</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Viet Nam
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">33</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>0</td><td></td><td>0</td><td></td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">3</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Singapore
+                                </td><td>4</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>67</td><td>384</td><td>5</td><td>185</td><td>308</td><td>Tons</td><td>121</td><td>Tons</td><td>7</td><td>Tons</td><td>10</td><td>Tons</td><td>1</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Hong Kong, China
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>1</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Botswana
+                                </td><td>16</td><td>0</td><td>0</td><td>0</td><td>5</td><td>2</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">57</td><td>20</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">5</td><td>8</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td title="No quantity has been reported" style="color:MediumSeaGreen;border-color:#002B54;">No Quantity</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td>0</td><td>Tons</td><td>1</td><td>Tons</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">1</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">Tons</td><td>1</td><td>Tons</td><td>1</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Brazil
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td>Tons</td><td>0</td><td></td><td>0</td><td>Tons</td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Brunei Darussalam
+                                </td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>1</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Armenia
+                                </td><td>0</td><td>0</td><td>0</td><td>8738</td><td>8636</td><td>14556</td><td>18665</td><td>22989</td><td>25592</td><td>59063</td><td>55808</td><td>51308</td><td>40223</td><td>33055</td><td>38798</td><td>Tons</td><td>10673</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Cambodia
+                                </td><td>0</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Australia
+                                </td><td>3</td><td>1</td><td>20</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>1</td><td>5</td><td>6</td><td>17</td><td>3</td><td>Tons</td><td>0</td><td>Tons</td><td>92</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            France
+                                </td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1289559</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2043772</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2627392</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">8975317</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">11440620</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">10247329</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">22086809</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">3469468</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2908145</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">8017320</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5394307</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4412869</td><td>0</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Ghana
+                                </td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Ecuador
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Colombia
+                                </td><td>50778</td><td>20869</td><td>18892</td><td>611</td><td>5392</td><td>11520</td><td>4182</td><td>778978</td><td>245884</td><td>35493</td><td>62686</td><td>422734</td><td>144551</td><td>1179137</td><td>512388</td><td>Tons</td><td>0</td><td></td><td>0</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Costa Rica
+                                </td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Chile
+                                </td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">117</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>274576</td><td>Tons</td><td>210604</td><td>Tons</td><td>160319</td><td>Tons</td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Guatemala
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>246</td><td>405</td><td>35</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Israel
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">202</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">5398</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td title="No quantity has been reported">No Quantity</td><td title="No quantity has been reported">No Quantity</td><td title="No quantity has been reported">No Quantity</td><td title="No quantity has been reported">No Quantity</td><td title="No quantity has been reported">No Quantity</td><td title="No quantity has been reported">No Quantity</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Lesotho
+                                </td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td>5</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Côte d'Ivoire
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Japan
+                                </td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">144</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">365</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">627</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">69</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">73</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">201</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">759</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">128</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">576</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">587</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">360</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">108</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">90</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Jordan
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Kenya
+                                </td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>21</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>1</td><td>Tons</td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Korea, Republic of
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>1</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Malawi
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Malaysia
+                                </td><td>0</td><td>0</td><td>116</td><td>110</td><td>55</td><td>92</td><td>0</td><td>289</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Taipei, Chinese
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Namibia
+                                </td><td>30</td><td>32</td><td>34</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">592</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">999</td><td>223</td><td>41</td><td>0</td><td>27</td><td title="Quantity estimated by ITC" style="color:Green;border-color:#002B54;">19</td><td>0</td><td>0</td><td>1</td><td>3</td><td>45</td><td>Tons</td><td>0</td><td></td><td>26</td><td>Tons</td><td title="No quantity has been reported" style="color:MediumSeaGreen;border-color:#002B54;">No Quantity</td><td title="No quantity has been reported" style="color:MediumSeaGreen;border-color:#002B54;">No Quantity</td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Netherlands
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38043214</td><td>33582540</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">19</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Pakistan
+                                </td><td></td><td></td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">710</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">381</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Qatar
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>0</td><td>Tons</td><td></td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Zimbabwe
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Spain
+                                </td><td>0</td><td>2322237</td><td>2291788</td><td>2041369</td><td>778037</td><td>0</td><td>0</td><td>0</td><td>17834</td><td>173680</td><td>155289</td><td>2373</td><td>0</td><td>7</td><td>32</td><td>Tons</td><td>370</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Sudan
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td></td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Suriname
+                                </td><td>0</td><td></td><td></td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Eswatini
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">20</td><td>0</td><td>0</td><td>17</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Russian Federation
+                                </td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">102530059</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">108889855</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">108642134</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">157960531</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">222558386</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">180717843</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">451325274</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">68104897</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">91398406</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">178572024</td><td title="No quantity has been reported">No Quantity</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">134783584</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">85925758</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Rwanda
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td>17</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Senegal
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            New Zealand
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">20</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">3</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">2</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Nigeria
+                                </td><td>0</td><td>0</td><td>0</td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>1401</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Peru
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">4</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">15</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Poland
+                                </td><td>57551</td><td>30214</td><td>30638</td><td>30231</td><td>26291</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Switzerland
+                                </td><td>1</td><td>1</td><td>0</td><td>0</td><td>3243</td><td>0</td><td>1</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>4</td><td>Tons</td><td>3</td><td>Tons</td><td>2</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Turkey
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2974</td><td>5392</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">412451</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">174005</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Egypt
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>553900</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Zambia
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">45</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>Tons</td><td>0</td><td></td><td>2</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Yemen
+                                </td><td></td><td></td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Serbia and Montenegro
+                                </td><td>9382</td><td>0</td><td></td><td>0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Uganda
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>5</td><td>1</td><td>10</td><td>13</td><td>10</td><td>0</td><td>8</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Tanzania, United Republic of
+                                </td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>84</td><td>0</td><td>2</td><td>60</td><td>26</td><td>0</td><td>0</td><td>0</td><td>15</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            United States Minor Outlying Islands
+                                </td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">8</td><td></td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">67</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td></td><td></td><td></td><td></td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">49</td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td></td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Trinidad and Tobago
+                                </td><td>0</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">64585</td><td>139726</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">1</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">No Quantity</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">No Quantity</td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Panama
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Papua New Guinea
+                                </td><td>0</td><td>0</td><td>0</td><td>389</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            New Caledonia
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Oman
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>134</td><td>47</td><td>0</td><td>0</td><td title="Quantity estimated by UNSD" style="color:MediumSeaGreen;border-color:#002B54;">44</td><td>0</td><td></td><td>0</td><td></td><td>325</td><td>Tons</td><td>1745</td><td>Tons</td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Kuwait
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>10</td><td>Tons</td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Iraq
+                                </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">937</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">0</td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">Tons</td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Equatorial Guinea
+                                </td><td></td><td title="Mirror data" style="color:Goldenrod;border-color:#002B54;">27</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Dominican Republic
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>54</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>Tons</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Gabon
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Bahrain
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Bangladesh
+                                </td><td>0</td><td>0</td><td>0</td><td>4</td><td>13</td><td>6</td><td>6</td><td>5</td><td>13</td><td>14</td><td>14</td><td>10</td><td>15</td><td></td><td>13</td><td>Tons</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:#F7F6F3;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Albania
+                                </td><td>0</td><td>23</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td>0</td><td></td><td></td><td></td>
+		</tr><tr align="right" style="background-color:White;font-size:80%;">
+			<td align="left" style="width:30%;">
+                            Cameroon
+                                </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>Tons</td><td>0</td><td>Tons</td><td>0</td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+	</table>
+</div></body></html>

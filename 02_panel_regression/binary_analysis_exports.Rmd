@@ -1,0 +1,86 @@
+---
+title: "Binary analysis exports"
+author: "Sarah Wenzel"
+date: "17 3 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r libraries, message=FALSE}
+library(tidyverse)
+library(AER)
+library(plm)
+library(stargazer)
+#library(ggpubr)
+library(lmtest) #for bptest
+#library(lme4)
+options(scipen=999)
+```
+
+
+```{r}
+binary_est_exp <- read_csv(here::here("05_clean_data/df_binary_exports.csv"), show_col_types = FALSE)
+
+```
+
+
+
+
+## Regression models binary investment dummy
+
+```{r models binary investment dummy}
+#Problem: Year fixed effects remove my main IV (oil price), since he very obviously is static across all countries
+
+
+#Model 1: Country and year fixed effects, binary energy and transport investment dummy 
+# no regional dummies, because they will be dropped with country FE
+fex_mod1 <- plm(exports_share_percent_gdp ~ oil_price + gdp +  inv_dummy +  bri_dummy + connectivity_index +  resource_rents +  trade_share_gdp +  country + year,
+                   data = binary_est_exp,
+                   index = c("country", "year"), 
+                   model = "within",
+                   effect = "twoways",
+                   na.action=na.exclude
+                   )
+coeftest(fex_mod1, vcov. = vcovHC, type = "HC1") 
+summary(fex_mod1)
+
+#Model 2: Year fixed effects, binary energy and transport investment dummy (add regions here)
+
+fex_mod2 <- plm(exports_share_percent_gdp ~ oil_price + gdp +  inv_dummy +  bri_dummy + connectivity_index +  resource_rents +  trade_share_gdp +  year,
+               data = binary_est_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "time")
+
+summary(fex_mod2)
+coeftest(fex_mod2, vcov. = vcovHC, type = "HC1") 
+
+#Model 3: country fixed effects, binary energy and transport investment dummy 
+# dummies not significant
+fex_mod3 <- plm(exports_share_percent_gdp ~ oil_price + gdp +  inv_dummy +  bri_dummy + connectivity_index +  resource_rents +  trade_share_gdp + country,
+               data = binary_est_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+summary(fs_mod3)
+coeftest(fs_mod3, vcov. = vcovHC, type = "HC1") 
+
+
+#Model 4: Random effects model, using energy and transport investment dummy
+# Estimable RE models: walhus, amemiya, nerlove, dummies stay insignificant though
+# Do not use: Hausmann test shows model is biased
+fex_random <- plm(exports_share_percent_gdp ~ oil_price + gdp +  inv_dummy +  bri_dummy + connectivity_index +  resource_rents +  trade_share_gdp,
+               data = binary_est_exp,
+               index = c("country", "year"), 
+               model = "random",
+               random.method = "nerlove")
+summary(fs_mod4)
+coeftest(fs_mod4, vcov. = vcovHC, type = "HC1") 
+
+
+```

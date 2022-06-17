@@ -1,0 +1,386 @@
+---
+title: "Analysis Exports"
+author: "Sarah Wenzel"
+date: "23 2 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this script, a panel regression will be estimated to examine the effect of Chinese investments on the share of fossil fuel exports in a country's GDP. 
+
+```{r libraries, message=FALSE}
+library(tidyverse)
+library(AER)
+library(plm)
+library(stargazer)
+library(texreg)
+#library(ggpubr)
+library(lmtest) #for bptest
+#library(lme4)
+library(funtimes) # for trend testing
+library(psych)
+library(RColorBrewer)
+options(scipen=999)
+```
+
+
+
+```{r}
+ivstock_exp <- read_csv(here::here("05_clean_data/df_investmentstock_all_exports.csv"), show_col_types = FALSE)%>%
+  mutate(region = as.factor(region),
+         region = relevel(region, ref = "North America"))
+ffivstock_exp <- read_csv(here::here("05_clean_data/df_ffcontinuous_exports.csv"), show_col_types = FALSE)
+lcivstock_exp <- read_csv(here::here("05_clean_data/df_lccontinuous_exports.csv"), show_col_types = FALSE)
+trivstock_exp <- read_csv(here::here("05_clean_data/df_transportcontinuous_exports.csv"), show_col_types = FALSE)
+```
+
+
+
+# Checking for multicollinearity, normality, heteroskedasticity, and serial correlation
+
+
+```{r}
+# testing for multicollinearity, correlation should not be > 0.7
+reg_data <- ivstock_exp[, c(7:length(names(ivstock_exp)))]%>%
+  na.omit()
+test <- cor(reg_data)
+test
+
+
+# testing for normality, p-value should be > 0.05
+shapiro.test(ivstock_exp$exports_share_percent_gdp)
+
+
+# testing for heteroskedasticity, p-value should be > 0.05
+bptest(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  resource_rents +  trade_share_gdp + 
+         country,
+       data = ivstock_exp)
+
+# Wooldridge's test for serial correlation
+pwartest()
+
+# Pesaran’s CD test for cross-sectional dependence
+pcdtest()
+
+```
+
+Result: The oil price is strongly correlated with the price for natural gas, and correlated with the coal price. For this reason, the regression was estimated using only the price for crude oil. 
+
+The dependent variable not normally distributed, which should be okay due to the large sample size. 
+The data is characterized by heteroskedasticity and both serial and cross-sectional correlation. To account for this, robust standard errors will be used in the estimation of the regression models.
+
+For the export models, only country fixed effects were estimated, as using year effects removes the (global) oil price, which is the main predictor variable. Also, running the estimation with twoways fixed effects shows that the adjusted R2 is higher using only country fixed effects, which will be done going forward.
+
+## Investment stock independent variable
+
+Here, the investment variable was defined as the rolling sum of investments since the beginning of the dataset in 2005. 
+
+```{r}
+
+# Country fixed effects, energy and transport investment stock
+fex_ivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ivstock, vcov. = vcovSCC, type = "HC0") 
+summary(fex_ivstock)
+cov_fex_ivstock <- vcovSCC(fex_ivstock, type = "HC0")
+robust_se_fexivstock <- sqrt(diag(cov_fex_ivstock))
+
+# For test purposes:
+fex_ivstock_2w <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "twoways")
+coeftest(fex_ivstock_2w, vcov. = vcovSCC, type = "HC0") 
+summary(fex_ivstock_2w)
+
+
+#Model 4: Random effects model, using energy and transport investment stock
+fex_random <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "random",
+               random.method = "nerlove")
+summary(fex_random)
+coeftest(fex_random, vcov. = vcovHC, type = "HC1") 
+
+```
+
+
+## Hausmann test
+
+```{r}
+phtest(fex_ivstock, fex_random)
+
+```
+The Hausmann test shows that the random effects model is biased, so that only fixed effects will be used going forward.
+
+
+
+### Regression models with disaggregated investment variables
+
+```{r}
+
+# Country fixed effects, fossil fuel investments
+
+fex_ffivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = ffivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ffivstock, vcov. = vcovSCC, type = "HC0") 
+cov_fex_ffivstock <- vcovSCC(fex_ffivstock, type = "HC0")
+robust_se_ff <- sqrt(diag(cov_fex_ffivstock))
+
+# Country fixed effects, low carbon investment stock
+fex_lcivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = lcivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_lcivstock, vcov. = vcovSCC, type = "HC0") 
+cov_fex_lcivstock <- vcovSCC(fex_lcivstock, type = "HC0")
+robust_se_lc <- sqrt(diag(cov_fex_lcivstock))
+
+# Country fixed effects, transport investment stock
+fex_trivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = trivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_trivstock, vcov. = vcovSCC, type = "HC0")
+cov_fex_trivstock <- vcovSCC(fex_trivstock, type = "HC0")
+robust_se_tr <- sqrt(diag(cov_fex_trivstock))
+
+```
+
+
+## BRI investment stock estimations
+
+```{r}
+
+# Country fixed effects, BRI investment stock
+fex_bristock <- plm(exports_share_percent_gdp ~ oil_price + bri_investment_stock + connectivity_index +  bri_investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_bristock, vcov. = vcovSCC, type = "HC0")
+cov_fex_bristock <- vcovSCC(fex_bristock, type = "HC0")
+robust_se_bri <- sqrt(diag(cov_fex_bristock))
+
+
+# Country fixed effects, BRI fossil fuel investments
+fex_briffstock <- plm(exports_share_percent_gdp ~ oil_price + bri_investment_stock + connectivity_index +  bri_investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = ffivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_briffstock, vcov. = vcovSCC, type = "HC0")
+cov_fex_briffstock <- vcovSCC(fex_briffstock, type = "HC0")
+robust_se_briff <- sqrt(diag(cov_fex_briffstock))
+
+
+# Country fixed effects, BRI low carbon investment stock
+fex_brilcstock <- plm(exports_share_percent_gdp ~ oil_price + bri_investment_stock + connectivity_index +  bri_investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = lcivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_brilcstock, vcov. = vcovSCC, type = "HC0") 
+cov_fex_brilcstock <- vcovSCC(fex_brilcstock, type = "HC0")
+robust_se_brilc <- sqrt(diag(cov_fex_brilcstock))
+
+# Country fixed effects, BRI transport investment stock
+fex_britrstock <- plm(exports_share_percent_gdp ~ oil_price + bri_investment_stock + connectivity_index +  bri_investment_stock*resource_rents +  trade_share_gdp + time + covid_19,
+               data = trivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_britrstock, vcov. = vcovSCC, type = "HC0")
+cov_fex_britrstock <- vcovSCC(fex_britrstock, type = "HC0")
+robust_se_britr <- sqrt(diag(cov_fex_britrstock))
+
+```
+
+
+# Regression tables
+
+## Table 1: OFDIs
+
+```{r}
+
+# Akaike calculation
+
+Sum11 <- summary(fex_ivstock)
+RSS11 <- sum(Sum11$residuals^2)
+K11 <- max(fex_ivstock$assign)
+N11 <- length(fex_ivstock$residuals)
+n11 <- N11 - K11 - fex_ivstock$df.residual
+
+AIC_fex_ivstock = log(RSS11/n11) + (2*K11)/n11
+
+
+Sum12 <- summary(fex_ffivstock)
+RSS12 <- sum(Sum12$residuals^2)
+K12 <- max(fex_ffivstock$assign)
+N12 <- length(fex_ffivstock$residuals)
+n12 <- N12 - K12 - fex_ffivstock$df.residual
+
+AIC_fex_ffivstock = log(RSS12/n12) + (2*K12)/n12
+
+Sum13 <- summary(fex_lcivstock)
+RSS13 <- sum(Sum13$residuals^2)
+K13 <- max(fex_lcivstock$assign)
+N13 <- length(fex_lcivstock$residuals)
+n13 <- N13 - K13 - fex_lcivstock$df.residual
+
+AIC_fex_lcivstock = log(RSS13/n13) + (2*K13)/n13
+
+Sum14 <- summary(fex_trivstock)
+RSS14 <- sum(Sum14$residuals^2)
+K14 <- max(fex_trivstock$assign)
+N14 <- length(fex_trivstock$residuals)
+n14 <- N14 - K14 - fex_trivstock$df.residual
+
+AIC_fex_trivstock = log(RSS14/n14) + (2*K14)/n14
+
+
+fex_ivstock$AIC <- AIC_fex_ivstock
+fex_ffivstock$AIC <- AIC_fex_ffivstock
+fex_lcivstock$AIC <- AIC_fex_lcivstock
+fex_trivstock$AIC <- AIC_fex_trivstock
+
+
+
+stargazer(fex_ivstock, fex_ffivstock, fex_lcivstock, fex_trivstock,
+          title = "Energy exports and Chinese OFDI",
+          dep.var.caption="Dependent variable: Fossil fuel exports as share of domestic GDP",
+         column.labels = c("OFDI stock", "Fossil fuel OFDI stock", "Low carbon OFDI stock", "Transport OFDI stock"),
+         dep.var.labels.include = FALSE,
+         se = list(robust_se_fexivstock, robust_se_ff, robust_se_lc, robust_se_tr), 
+         single.row = TRUE,
+         order = c(2, 1, 3:4, 8, 5, 7, 6),
+         covariate.labels=c("OFDI stock", "Oil price", "Shipping line connectivity",  "Resource rents", "OFDI stock*Resource rents", "Trade openness", "Covid19", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+         float.env = "sidewaystable")
+
+
+
+```
+
+
+## Table 2: BRI
+
+```{r}
+
+Sum15 <- summary(fex_bristock)
+RSS15 <- sum(Sum15$residuals^2)
+K15 <- max(fex_bristock$assign)
+N15 <- length(fex_bristock$residuals)
+n15 <- N15 - K15 - fex_bristock$df.residual
+
+AIC_fex_bristock = log(RSS15/n15) + (2*K15)/n15
+
+
+Sum16 <- summary(fex_briffstock)
+RSS16 <- sum(Sum16$residuals^2)
+K16 <- max(fex_briffstock$assign)
+N16 <- length(fex_briffstock$residuals)
+n16 <- N16 - K16 - fex_briffstock$df.residual
+
+AIC_fex_ffbristock = log(RSS16/n16) + (2*K16)/n16
+
+Sum17 <- summary(fex_brilcstock)
+RSS17 <- sum(Sum17$residuals^2)
+K17 <- max(fex_brilcstock$assign)
+N17 <- length(fex_brilcstock$residuals)
+n17 <- N17 - K17 - fex_brilcstock$df.residual
+
+AIC_fex_lcbristock = log(RSS17/n17) + (2*K17)/n17
+
+
+Sum18 <- summary(fex_britrstock)
+RSS18 <- sum(Sum18$residuals^2)
+K18 <- max(fex_britrstock$assign)
+N18 <- length(fex_britrstock$residuals)
+n18 <- N18 - K18 - fex_britrstock$df.residual
+
+AIC_fex_trbristock = log(RSS18/n18) + (2*K18)/n18
+
+
+fex_bristock$AIC <- AIC_fex_bristock
+fex_briffstock$AIC <- AIC_fex_ffbristock
+fex_brilcstock$AIC <- AIC_fex_lcbristock
+fex_britrstock$AIC <- AIC_fex_trbristock
+
+
+
+stargazer(fex_bristock, fex_briffstock, fex_brilcstock, fex_britrstock,
+          title = "Energy exports and BRI OFDI, aggregate and sectoral disaggregation",
+          dep.var.caption="Dependent variable: Fossil fuel exports as share of domestic GDP",
+         column.labels = c("BRI investment stock", "BRI fossil fuel investment stock", "BRI low carbon investment stock", "BRI transport investment stock"),
+         dep.var.labels.include = FALSE,
+         se = list(robust_se_bri, robust_se_briff, robust_se_brilc, robust_se_britr), 
+         single.row = TRUE,
+         order = c(2, 1, 3:4, 8, 5, 7, 6),
+         covariate.labels=c("BRI OFDI stock", "Oil price", "Shipping line connectivity",  "Resource rents", "OFDI stock*Resource rents", "Trade openness", "Covid19", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+         float.env = "sidewaystable")
+
+
+```
+
+
+
+
+## Interpretation of the regression results
+
+
+In the disaggregated export model, transport investments were shown to be negatively correlated with fossil fuel consumption. The reasons for this  result are examined here:
+
+```{r}
+
+ivsum <- read.csv(here::here("05_clean_data/investments_absolute.csv"))
+
+test <- ivsum%>%
+  group_by(country)%>%
+  summarize(ivsum = sum(quantity_in_millions)) #This number cannot be interpreted, as it is the sum of investments as GDP shares. I just wanted to know roughly 
+
+test <- test[with(test,order(-ivsum)),]
+mostiv <- test[1:10,]
+
+subset <- trivstock_exp%>%
+  filter(country %in% mostiv$country)
+
+ggplot(subset, aes(x = year, y = exports)) +
+  geom_line(aes(colour=country))
+
+my_palette2 <- brewer.pal(name="Set3",n=10)[c(1:7, 11, 12)]
+
+ggplot(subset, aes(x = year, y = exports_share_percent_gdp)) +
+  geom_line(aes(colour=country), size = 1)+
+  scale_color_manual(values = my_palette2) +
+  theme_minimal()+
+  theme(text = element_text(size=20))+
+  ggtitle("Fossil exports in countries which received the largest transport investments", subtitle = "Source: International Trade Center (2021)")+
+  labs(color ="Country", y = 'GDP share of fossil energy exports', x = 'Year')  
+
+ggsave(here::here("06_tables_and_plots/fossil_exports_data_issue.pdf"), width = 14, height = 8, dpi = 300)
+
+
+test3 <- trivstock_exp%>%
+  group_by(country)%>%
+  summarize(mean_exp = mean(exports))
+
+test3 <- test3[with(test3,order(-mean_exp)),]
+
+test4 <- test3[1:10,]
+
+```

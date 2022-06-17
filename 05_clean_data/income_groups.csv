@@ -1,0 +1,3441 @@
+"year","income_group","iso","country","income_group_High income","income_group_Low income","income_group_Lower-middle income","income_group_Not categorized","income_group_Upper-middle income"
+2001,"Low income","AFG","Afghanistan",0,1,0,0,0
+2002,"Low income","AFG","Afghanistan",0,1,0,0,0
+2003,"Low income","AFG","Afghanistan",0,1,0,0,0
+2004,"Low income","AFG","Afghanistan",0,1,0,0,0
+2005,"Low income","AFG","Afghanistan",0,1,0,0,0
+2006,"Low income","AFG","Afghanistan",0,1,0,0,0
+2007,"Low income","AFG","Afghanistan",0,1,0,0,0
+2008,"Low income","AFG","Afghanistan",0,1,0,0,0
+2009,"Low income","AFG","Afghanistan",0,1,0,0,0
+2010,"Low income","AFG","Afghanistan",0,1,0,0,0
+2011,"Low income","AFG","Afghanistan",0,1,0,0,0
+2012,"Low income","AFG","Afghanistan",0,1,0,0,0
+2013,"Low income","AFG","Afghanistan",0,1,0,0,0
+2014,"Low income","AFG","Afghanistan",0,1,0,0,0
+2015,"Low income","AFG","Afghanistan",0,1,0,0,0
+2016,"Low income","AFG","Afghanistan",0,1,0,0,0
+2001,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2002,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2003,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2004,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2005,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2006,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2007,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2008,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2009,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2010,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2011,"Lower-middle income","ALB","Albania",0,0,1,0,0
+2012,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2013,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2014,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2015,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2016,"Upper-middle income","ALB","Albania",0,0,0,0,1
+2001,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2002,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2003,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2004,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2005,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2006,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2007,"Lower-middle income","DZA","Algeria",0,0,1,0,0
+2008,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2009,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2010,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2011,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2012,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2013,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2014,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2015,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2016,"Upper-middle income","DZA","Algeria",0,0,0,0,1
+2001,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2002,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2003,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2004,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2005,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2006,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2007,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2008,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2009,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2010,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2011,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2012,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2013,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2014,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2015,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2016,"Upper-middle income","ASM","American Samoa",0,0,0,0,1
+2001,"High income","AND","Andorra",1,0,0,0,0
+2002,"High income","AND","Andorra",1,0,0,0,0
+2003,"High income","AND","Andorra",1,0,0,0,0
+2004,"High income","AND","Andorra",1,0,0,0,0
+2005,"High income","AND","Andorra",1,0,0,0,0
+2006,"High income","AND","Andorra",1,0,0,0,0
+2007,"High income","AND","Andorra",1,0,0,0,0
+2008,"High income","AND","Andorra",1,0,0,0,0
+2009,"High income","AND","Andorra",1,0,0,0,0
+2010,"High income","AND","Andorra",1,0,0,0,0
+2011,"High income","AND","Andorra",1,0,0,0,0
+2012,"High income","AND","Andorra",1,0,0,0,0
+2013,"High income","AND","Andorra",1,0,0,0,0
+2014,"High income","AND","Andorra",1,0,0,0,0
+2015,"High income","AND","Andorra",1,0,0,0,0
+2016,"High income","AND","Andorra",1,0,0,0,0
+2001,"Low income","AGO","Angola",0,1,0,0,0
+2002,"Low income","AGO","Angola",0,1,0,0,0
+2003,"Low income","AGO","Angola",0,1,0,0,0
+2004,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2005,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2006,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2007,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2008,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2009,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2010,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2011,"Upper-middle income","AGO","Angola",0,0,0,0,1
+2012,"Upper-middle income","AGO","Angola",0,0,0,0,1
+2013,"Upper-middle income","AGO","Angola",0,0,0,0,1
+2014,"Upper-middle income","AGO","Angola",0,0,0,0,1
+2015,"Upper-middle income","AGO","Angola",0,0,0,0,1
+2016,"Lower-middle income","AGO","Angola",0,0,1,0,0
+2001,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2002,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2003,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2004,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2005,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2006,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2007,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2008,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2009,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2010,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2011,"Upper-middle income","ATG","Antigua & Barbuda",0,0,0,0,1
+2012,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2013,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2014,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2015,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2016,"High income","ATG","Antigua & Barbuda",1,0,0,0,0
+2001,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2002,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2003,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2004,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2005,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2006,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2007,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2008,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2009,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2010,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2011,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2012,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2013,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2014,"High income","ARG","Argentina",1,0,0,0,0
+2015,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2016,"Upper-middle income","ARG","Argentina",0,0,0,0,1
+2001,"Low income","ARM","Armenia",0,1,0,0,0
+2002,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2003,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2004,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2005,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2006,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2007,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2008,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2009,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2010,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2011,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2012,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2013,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2014,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2015,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2016,"Lower-middle income","ARM","Armenia",0,0,1,0,0
+2001,"High income","ABW","Aruba",1,0,0,0,0
+2002,"High income","ABW","Aruba",1,0,0,0,0
+2003,"High income","ABW","Aruba",1,0,0,0,0
+2004,"High income","ABW","Aruba",1,0,0,0,0
+2005,"High income","ABW","Aruba",1,0,0,0,0
+2006,"High income","ABW","Aruba",1,0,0,0,0
+2007,"High income","ABW","Aruba",1,0,0,0,0
+2008,"High income","ABW","Aruba",1,0,0,0,0
+2009,"High income","ABW","Aruba",1,0,0,0,0
+2010,"High income","ABW","Aruba",1,0,0,0,0
+2011,"High income","ABW","Aruba",1,0,0,0,0
+2012,"High income","ABW","Aruba",1,0,0,0,0
+2013,"High income","ABW","Aruba",1,0,0,0,0
+2014,"High income","ABW","Aruba",1,0,0,0,0
+2015,"High income","ABW","Aruba",1,0,0,0,0
+2016,"High income","ABW","Aruba",1,0,0,0,0
+2001,"High income","AUS","Australia",1,0,0,0,0
+2002,"High income","AUS","Australia",1,0,0,0,0
+2003,"High income","AUS","Australia",1,0,0,0,0
+2004,"High income","AUS","Australia",1,0,0,0,0
+2005,"High income","AUS","Australia",1,0,0,0,0
+2006,"High income","AUS","Australia",1,0,0,0,0
+2007,"High income","AUS","Australia",1,0,0,0,0
+2008,"High income","AUS","Australia",1,0,0,0,0
+2009,"High income","AUS","Australia",1,0,0,0,0
+2010,"High income","AUS","Australia",1,0,0,0,0
+2011,"High income","AUS","Australia",1,0,0,0,0
+2012,"High income","AUS","Australia",1,0,0,0,0
+2013,"High income","AUS","Australia",1,0,0,0,0
+2014,"High income","AUS","Australia",1,0,0,0,0
+2015,"High income","AUS","Australia",1,0,0,0,0
+2016,"High income","AUS","Australia",1,0,0,0,0
+2001,"High income","AUT","Austria",1,0,0,0,0
+2002,"High income","AUT","Austria",1,0,0,0,0
+2003,"High income","AUT","Austria",1,0,0,0,0
+2004,"High income","AUT","Austria",1,0,0,0,0
+2005,"High income","AUT","Austria",1,0,0,0,0
+2006,"High income","AUT","Austria",1,0,0,0,0
+2007,"High income","AUT","Austria",1,0,0,0,0
+2008,"High income","AUT","Austria",1,0,0,0,0
+2009,"High income","AUT","Austria",1,0,0,0,0
+2010,"High income","AUT","Austria",1,0,0,0,0
+2011,"High income","AUT","Austria",1,0,0,0,0
+2012,"High income","AUT","Austria",1,0,0,0,0
+2013,"High income","AUT","Austria",1,0,0,0,0
+2014,"High income","AUT","Austria",1,0,0,0,0
+2015,"High income","AUT","Austria",1,0,0,0,0
+2016,"High income","AUT","Austria",1,0,0,0,0
+2001,"Low income","AZE","Azerbaijan",0,1,0,0,0
+2002,"Low income","AZE","Azerbaijan",0,1,0,0,0
+2003,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2004,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2005,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2006,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2007,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2008,"Lower-middle income","AZE","Azerbaijan",0,0,1,0,0
+2009,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2010,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2011,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2012,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2013,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2014,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2015,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2016,"Upper-middle income","AZE","Azerbaijan",0,0,0,0,1
+2001,"High income","BHS","Bahamas",1,0,0,0,0
+2002,"High income","BHS","Bahamas",1,0,0,0,0
+2003,"High income","BHS","Bahamas",1,0,0,0,0
+2004,"High income","BHS","Bahamas",1,0,0,0,0
+2005,"High income","BHS","Bahamas",1,0,0,0,0
+2006,"High income","BHS","Bahamas",1,0,0,0,0
+2007,"High income","BHS","Bahamas",1,0,0,0,0
+2008,"High income","BHS","Bahamas",1,0,0,0,0
+2009,"High income","BHS","Bahamas",1,0,0,0,0
+2010,"High income","BHS","Bahamas",1,0,0,0,0
+2011,"High income","BHS","Bahamas",1,0,0,0,0
+2012,"High income","BHS","Bahamas",1,0,0,0,0
+2013,"High income","BHS","Bahamas",1,0,0,0,0
+2014,"High income","BHS","Bahamas",1,0,0,0,0
+2015,"High income","BHS","Bahamas",1,0,0,0,0
+2016,"High income","BHS","Bahamas",1,0,0,0,0
+2001,"High income","BHR","Bahrain",1,0,0,0,0
+2002,"High income","BHR","Bahrain",1,0,0,0,0
+2003,"High income","BHR","Bahrain",1,0,0,0,0
+2004,"High income","BHR","Bahrain",1,0,0,0,0
+2005,"High income","BHR","Bahrain",1,0,0,0,0
+2006,"High income","BHR","Bahrain",1,0,0,0,0
+2007,"High income","BHR","Bahrain",1,0,0,0,0
+2008,"High income","BHR","Bahrain",1,0,0,0,0
+2009,"High income","BHR","Bahrain",1,0,0,0,0
+2010,"High income","BHR","Bahrain",1,0,0,0,0
+2011,"High income","BHR","Bahrain",1,0,0,0,0
+2012,"High income","BHR","Bahrain",1,0,0,0,0
+2013,"High income","BHR","Bahrain",1,0,0,0,0
+2014,"High income","BHR","Bahrain",1,0,0,0,0
+2015,"High income","BHR","Bahrain",1,0,0,0,0
+2016,"High income","BHR","Bahrain",1,0,0,0,0
+2001,"Low income","BGD","Bangladesh",0,1,0,0,0
+2002,"Low income","BGD","Bangladesh",0,1,0,0,0
+2003,"Low income","BGD","Bangladesh",0,1,0,0,0
+2004,"Low income","BGD","Bangladesh",0,1,0,0,0
+2005,"Low income","BGD","Bangladesh",0,1,0,0,0
+2006,"Low income","BGD","Bangladesh",0,1,0,0,0
+2007,"Low income","BGD","Bangladesh",0,1,0,0,0
+2008,"Low income","BGD","Bangladesh",0,1,0,0,0
+2009,"Low income","BGD","Bangladesh",0,1,0,0,0
+2010,"Low income","BGD","Bangladesh",0,1,0,0,0
+2011,"Low income","BGD","Bangladesh",0,1,0,0,0
+2012,"Low income","BGD","Bangladesh",0,1,0,0,0
+2013,"Low income","BGD","Bangladesh",0,1,0,0,0
+2014,"Lower-middle income","BGD","Bangladesh",0,0,1,0,0
+2015,"Lower-middle income","BGD","Bangladesh",0,0,1,0,0
+2016,"Lower-middle income","BGD","Bangladesh",0,0,1,0,0
+2001,"Upper-middle income","BRB","Barbados",0,0,0,0,1
+2002,"High income","BRB","Barbados",1,0,0,0,0
+2003,"Upper-middle income","BRB","Barbados",0,0,0,0,1
+2004,"Upper-middle income","BRB","Barbados",0,0,0,0,1
+2005,"Upper-middle income","BRB","Barbados",0,0,0,0,1
+2006,"High income","BRB","Barbados",1,0,0,0,0
+2007,"High income","BRB","Barbados",1,0,0,0,0
+2008,"High income","BRB","Barbados",1,0,0,0,0
+2009,"High income","BRB","Barbados",1,0,0,0,0
+2010,"High income","BRB","Barbados",1,0,0,0,0
+2011,"High income","BRB","Barbados",1,0,0,0,0
+2012,"High income","BRB","Barbados",1,0,0,0,0
+2013,"High income","BRB","Barbados",1,0,0,0,0
+2014,"High income","BRB","Barbados",1,0,0,0,0
+2015,"High income","BRB","Barbados",1,0,0,0,0
+2016,"High income","BRB","Barbados",1,0,0,0,0
+2001,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2002,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2003,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2004,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2005,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2006,"Lower-middle income","BLR","Belarus",0,0,1,0,0
+2007,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2008,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2009,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2010,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2011,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2012,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2013,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2014,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2015,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2016,"Upper-middle income","BLR","Belarus",0,0,0,0,1
+2001,"High income","BEL","Belgium",1,0,0,0,0
+2002,"High income","BEL","Belgium",1,0,0,0,0
+2003,"High income","BEL","Belgium",1,0,0,0,0
+2004,"High income","BEL","Belgium",1,0,0,0,0
+2005,"High income","BEL","Belgium",1,0,0,0,0
+2006,"High income","BEL","Belgium",1,0,0,0,0
+2007,"High income","BEL","Belgium",1,0,0,0,0
+2008,"High income","BEL","Belgium",1,0,0,0,0
+2009,"High income","BEL","Belgium",1,0,0,0,0
+2010,"High income","BEL","Belgium",1,0,0,0,0
+2011,"High income","BEL","Belgium",1,0,0,0,0
+2012,"High income","BEL","Belgium",1,0,0,0,0
+2013,"High income","BEL","Belgium",1,0,0,0,0
+2014,"High income","BEL","Belgium",1,0,0,0,0
+2015,"High income","BEL","Belgium",1,0,0,0,0
+2016,"High income","BEL","Belgium",1,0,0,0,0
+2001,"Lower-middle income","BLZ","Belize",0,0,1,0,0
+2002,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2003,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2004,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2005,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2006,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2007,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2008,"Lower-middle income","BLZ","Belize",0,0,1,0,0
+2009,"Lower-middle income","BLZ","Belize",0,0,1,0,0
+2010,"Lower-middle income","BLZ","Belize",0,0,1,0,0
+2011,"Lower-middle income","BLZ","Belize",0,0,1,0,0
+2012,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2013,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2014,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2015,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2016,"Upper-middle income","BLZ","Belize",0,0,0,0,1
+2001,"Low income","BEN","Benin",0,1,0,0,0
+2002,"Low income","BEN","Benin",0,1,0,0,0
+2003,"Low income","BEN","Benin",0,1,0,0,0
+2004,"Low income","BEN","Benin",0,1,0,0,0
+2005,"Low income","BEN","Benin",0,1,0,0,0
+2006,"Low income","BEN","Benin",0,1,0,0,0
+2007,"Low income","BEN","Benin",0,1,0,0,0
+2008,"Low income","BEN","Benin",0,1,0,0,0
+2009,"Low income","BEN","Benin",0,1,0,0,0
+2010,"Low income","BEN","Benin",0,1,0,0,0
+2011,"Low income","BEN","Benin",0,1,0,0,0
+2012,"Low income","BEN","Benin",0,1,0,0,0
+2013,"Low income","BEN","Benin",0,1,0,0,0
+2014,"Low income","BEN","Benin",0,1,0,0,0
+2015,"Low income","BEN","Benin",0,1,0,0,0
+2016,"Low income","BEN","Benin",0,1,0,0,0
+2001,"High income","BMU","Bermuda",1,0,0,0,0
+2002,"High income","BMU","Bermuda",1,0,0,0,0
+2003,"High income","BMU","Bermuda",1,0,0,0,0
+2004,"High income","BMU","Bermuda",1,0,0,0,0
+2005,"High income","BMU","Bermuda",1,0,0,0,0
+2006,"High income","BMU","Bermuda",1,0,0,0,0
+2007,"High income","BMU","Bermuda",1,0,0,0,0
+2008,"High income","BMU","Bermuda",1,0,0,0,0
+2009,"High income","BMU","Bermuda",1,0,0,0,0
+2010,"High income","BMU","Bermuda",1,0,0,0,0
+2011,"High income","BMU","Bermuda",1,0,0,0,0
+2012,"High income","BMU","Bermuda",1,0,0,0,0
+2013,"High income","BMU","Bermuda",1,0,0,0,0
+2014,"High income","BMU","Bermuda",1,0,0,0,0
+2015,"High income","BMU","Bermuda",1,0,0,0,0
+2016,"High income","BMU","Bermuda",1,0,0,0,0
+2001,"Low income","BTN","Bhutan",0,1,0,0,0
+2002,"Low income","BTN","Bhutan",0,1,0,0,0
+2003,"Low income","BTN","Bhutan",0,1,0,0,0
+2004,"Low income","BTN","Bhutan",0,1,0,0,0
+2005,"Low income","BTN","Bhutan",0,1,0,0,0
+2006,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2007,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2008,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2009,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2010,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2011,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2012,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2013,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2014,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2015,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2016,"Lower-middle income","BTN","Bhutan",0,0,1,0,0
+2001,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2002,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2003,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2004,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2005,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2006,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2007,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2008,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2009,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2010,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2011,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2012,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2013,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2014,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2015,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2016,"Lower-middle income","BOL","Bolivia",0,0,1,0,0
+2001,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2002,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2003,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2004,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2005,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2006,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2007,"Lower-middle income","BIH","Bosnia & Herzegovina",0,0,1,0,0
+2008,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2009,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2010,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2011,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2012,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2013,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2014,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2015,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2016,"Upper-middle income","BIH","Bosnia & Herzegovina",0,0,0,0,1
+2001,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2002,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2003,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2004,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2005,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2006,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2007,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2008,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2009,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2010,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2011,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2012,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2013,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2014,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2015,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2016,"Upper-middle income","BWA","Botswana",0,0,0,0,1
+2001,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2002,"Lower-middle income","BRA","Brazil",0,0,1,0,0
+2003,"Lower-middle income","BRA","Brazil",0,0,1,0,0
+2004,"Lower-middle income","BRA","Brazil",0,0,1,0,0
+2005,"Lower-middle income","BRA","Brazil",0,0,1,0,0
+2006,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2007,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2008,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2009,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2010,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2011,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2012,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2013,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2014,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2015,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2016,"Upper-middle income","BRA","Brazil",0,0,0,0,1
+2001,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2002,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2003,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2004,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2005,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2006,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2007,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2008,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2009,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2010,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2011,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2012,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2013,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2014,"Not categorized","VGB","British Virgin Islands",0,0,0,1,0
+2015,"High income","VGB","British Virgin Islands",1,0,0,0,0
+2016,"High income","VGB","British Virgin Islands",1,0,0,0,0
+2001,"High income","BRN","Brunei",1,0,0,0,0
+2002,"High income","BRN","Brunei",1,0,0,0,0
+2003,"High income","BRN","Brunei",1,0,0,0,0
+2004,"High income","BRN","Brunei",1,0,0,0,0
+2005,"High income","BRN","Brunei",1,0,0,0,0
+2006,"High income","BRN","Brunei",1,0,0,0,0
+2007,"High income","BRN","Brunei",1,0,0,0,0
+2008,"High income","BRN","Brunei",1,0,0,0,0
+2009,"High income","BRN","Brunei",1,0,0,0,0
+2010,"High income","BRN","Brunei",1,0,0,0,0
+2011,"High income","BRN","Brunei",1,0,0,0,0
+2012,"High income","BRN","Brunei",1,0,0,0,0
+2013,"High income","BRN","Brunei",1,0,0,0,0
+2014,"High income","BRN","Brunei",1,0,0,0,0
+2015,"High income","BRN","Brunei",1,0,0,0,0
+2016,"High income","BRN","Brunei",1,0,0,0,0
+2001,"Lower-middle income","BGR","Bulgaria",0,0,1,0,0
+2002,"Lower-middle income","BGR","Bulgaria",0,0,1,0,0
+2003,"Lower-middle income","BGR","Bulgaria",0,0,1,0,0
+2004,"Lower-middle income","BGR","Bulgaria",0,0,1,0,0
+2005,"Lower-middle income","BGR","Bulgaria",0,0,1,0,0
+2006,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2007,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2008,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2009,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2010,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2011,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2012,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2013,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2014,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2015,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2016,"Upper-middle income","BGR","Bulgaria",0,0,0,0,1
+2001,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2002,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2003,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2004,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2005,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2006,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2007,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2008,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2009,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2010,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2011,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2012,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2013,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2014,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2015,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2016,"Low income","BFA","Burkina Faso",0,1,0,0,0
+2001,"Low income","BDI","Burundi",0,1,0,0,0
+2002,"Low income","BDI","Burundi",0,1,0,0,0
+2003,"Low income","BDI","Burundi",0,1,0,0,0
+2004,"Low income","BDI","Burundi",0,1,0,0,0
+2005,"Low income","BDI","Burundi",0,1,0,0,0
+2006,"Low income","BDI","Burundi",0,1,0,0,0
+2007,"Low income","BDI","Burundi",0,1,0,0,0
+2008,"Low income","BDI","Burundi",0,1,0,0,0
+2009,"Low income","BDI","Burundi",0,1,0,0,0
+2010,"Low income","BDI","Burundi",0,1,0,0,0
+2011,"Low income","BDI","Burundi",0,1,0,0,0
+2012,"Low income","BDI","Burundi",0,1,0,0,0
+2013,"Low income","BDI","Burundi",0,1,0,0,0
+2014,"Low income","BDI","Burundi",0,1,0,0,0
+2015,"Low income","BDI","Burundi",0,1,0,0,0
+2016,"Low income","BDI","Burundi",0,1,0,0,0
+2001,"Low income","KHM","Cambodia",0,1,0,0,0
+2002,"Low income","KHM","Cambodia",0,1,0,0,0
+2003,"Low income","KHM","Cambodia",0,1,0,0,0
+2004,"Low income","KHM","Cambodia",0,1,0,0,0
+2005,"Low income","KHM","Cambodia",0,1,0,0,0
+2006,"Low income","KHM","Cambodia",0,1,0,0,0
+2007,"Low income","KHM","Cambodia",0,1,0,0,0
+2008,"Low income","KHM","Cambodia",0,1,0,0,0
+2009,"Low income","KHM","Cambodia",0,1,0,0,0
+2010,"Low income","KHM","Cambodia",0,1,0,0,0
+2011,"Low income","KHM","Cambodia",0,1,0,0,0
+2012,"Low income","KHM","Cambodia",0,1,0,0,0
+2013,"Low income","KHM","Cambodia",0,1,0,0,0
+2014,"Low income","KHM","Cambodia",0,1,0,0,0
+2015,"Lower-middle income","KHM","Cambodia",0,0,1,0,0
+2016,"Lower-middle income","KHM","Cambodia",0,0,1,0,0
+2001,"Low income","CMR","Cameroon",0,1,0,0,0
+2002,"Low income","CMR","Cameroon",0,1,0,0,0
+2003,"Low income","CMR","Cameroon",0,1,0,0,0
+2004,"Low income","CMR","Cameroon",0,1,0,0,0
+2005,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2006,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2007,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2008,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2009,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2010,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2011,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2012,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2013,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2014,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2015,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2016,"Lower-middle income","CMR","Cameroon",0,0,1,0,0
+2001,"High income","CAN","Canada",1,0,0,0,0
+2002,"High income","CAN","Canada",1,0,0,0,0
+2003,"High income","CAN","Canada",1,0,0,0,0
+2004,"High income","CAN","Canada",1,0,0,0,0
+2005,"High income","CAN","Canada",1,0,0,0,0
+2006,"High income","CAN","Canada",1,0,0,0,0
+2007,"High income","CAN","Canada",1,0,0,0,0
+2008,"High income","CAN","Canada",1,0,0,0,0
+2009,"High income","CAN","Canada",1,0,0,0,0
+2010,"High income","CAN","Canada",1,0,0,0,0
+2011,"High income","CAN","Canada",1,0,0,0,0
+2012,"High income","CAN","Canada",1,0,0,0,0
+2013,"High income","CAN","Canada",1,0,0,0,0
+2014,"High income","CAN","Canada",1,0,0,0,0
+2015,"High income","CAN","Canada",1,0,0,0,0
+2016,"High income","CAN","Canada",1,0,0,0,0
+2001,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2002,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2003,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2004,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2005,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2006,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2007,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2008,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2009,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2010,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2011,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2012,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2013,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2014,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2015,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2016,"Lower-middle income","CPV","Cape Verde",0,0,1,0,0
+2001,"High income","CYM","Cayman Islands",1,0,0,0,0
+2002,"High income","CYM","Cayman Islands",1,0,0,0,0
+2003,"High income","CYM","Cayman Islands",1,0,0,0,0
+2004,"High income","CYM","Cayman Islands",1,0,0,0,0
+2005,"High income","CYM","Cayman Islands",1,0,0,0,0
+2006,"High income","CYM","Cayman Islands",1,0,0,0,0
+2007,"High income","CYM","Cayman Islands",1,0,0,0,0
+2008,"High income","CYM","Cayman Islands",1,0,0,0,0
+2009,"High income","CYM","Cayman Islands",1,0,0,0,0
+2010,"High income","CYM","Cayman Islands",1,0,0,0,0
+2011,"High income","CYM","Cayman Islands",1,0,0,0,0
+2012,"High income","CYM","Cayman Islands",1,0,0,0,0
+2013,"High income","CYM","Cayman Islands",1,0,0,0,0
+2014,"High income","CYM","Cayman Islands",1,0,0,0,0
+2015,"High income","CYM","Cayman Islands",1,0,0,0,0
+2016,"High income","CYM","Cayman Islands",1,0,0,0,0
+2001,"Low income","CAF","Central African Republic",0,1,0,0,0
+2002,"Low income","CAF","Central African Republic",0,1,0,0,0
+2003,"Low income","CAF","Central African Republic",0,1,0,0,0
+2004,"Low income","CAF","Central African Republic",0,1,0,0,0
+2005,"Low income","CAF","Central African Republic",0,1,0,0,0
+2006,"Low income","CAF","Central African Republic",0,1,0,0,0
+2007,"Low income","CAF","Central African Republic",0,1,0,0,0
+2008,"Low income","CAF","Central African Republic",0,1,0,0,0
+2009,"Low income","CAF","Central African Republic",0,1,0,0,0
+2010,"Low income","CAF","Central African Republic",0,1,0,0,0
+2011,"Low income","CAF","Central African Republic",0,1,0,0,0
+2012,"Low income","CAF","Central African Republic",0,1,0,0,0
+2013,"Low income","CAF","Central African Republic",0,1,0,0,0
+2014,"Low income","CAF","Central African Republic",0,1,0,0,0
+2015,"Low income","CAF","Central African Republic",0,1,0,0,0
+2016,"Low income","CAF","Central African Republic",0,1,0,0,0
+2001,"Low income","TCD","Chad",0,1,0,0,0
+2002,"Low income","TCD","Chad",0,1,0,0,0
+2003,"Low income","TCD","Chad",0,1,0,0,0
+2004,"Low income","TCD","Chad",0,1,0,0,0
+2005,"Low income","TCD","Chad",0,1,0,0,0
+2006,"Low income","TCD","Chad",0,1,0,0,0
+2007,"Low income","TCD","Chad",0,1,0,0,0
+2008,"Low income","TCD","Chad",0,1,0,0,0
+2009,"Low income","TCD","Chad",0,1,0,0,0
+2010,"Low income","TCD","Chad",0,1,0,0,0
+2011,"Low income","TCD","Chad",0,1,0,0,0
+2012,"Low income","TCD","Chad",0,1,0,0,0
+2013,"Low income","TCD","Chad",0,1,0,0,0
+2014,"Low income","TCD","Chad",0,1,0,0,0
+2015,"Low income","TCD","Chad",0,1,0,0,0
+2016,"Low income","TCD","Chad",0,1,0,0,0
+2001,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2002,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2003,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2004,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2005,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2006,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2007,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2008,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2009,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2010,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2011,"Upper-middle income","CHL","Chile",0,0,0,0,1
+2012,"High income","CHL","Chile",1,0,0,0,0
+2013,"High income","CHL","Chile",1,0,0,0,0
+2014,"High income","CHL","Chile",1,0,0,0,0
+2015,"High income","CHL","Chile",1,0,0,0,0
+2016,"High income","CHL","Chile",1,0,0,0,0
+2001,"Lower-middle income","CHN","China",0,0,1,0,0
+2002,"Lower-middle income","CHN","China",0,0,1,0,0
+2003,"Lower-middle income","CHN","China",0,0,1,0,0
+2004,"Lower-middle income","CHN","China",0,0,1,0,0
+2005,"Lower-middle income","CHN","China",0,0,1,0,0
+2006,"Lower-middle income","CHN","China",0,0,1,0,0
+2007,"Lower-middle income","CHN","China",0,0,1,0,0
+2008,"Lower-middle income","CHN","China",0,0,1,0,0
+2009,"Lower-middle income","CHN","China",0,0,1,0,0
+2010,"Upper-middle income","CHN","China",0,0,0,0,1
+2011,"Upper-middle income","CHN","China",0,0,0,0,1
+2012,"Upper-middle income","CHN","China",0,0,0,0,1
+2013,"Upper-middle income","CHN","China",0,0,0,0,1
+2014,"Upper-middle income","CHN","China",0,0,0,0,1
+2015,"Upper-middle income","CHN","China",0,0,0,0,1
+2016,"Upper-middle income","CHN","China",0,0,0,0,1
+2001,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2002,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2003,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2004,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2005,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2006,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2007,"Lower-middle income","COL","Colombia",0,0,1,0,0
+2008,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2009,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2010,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2011,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2012,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2013,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2014,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2015,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2016,"Upper-middle income","COL","Colombia",0,0,0,0,1
+2001,"Low income","COM","Comoros",0,1,0,0,0
+2002,"Low income","COM","Comoros",0,1,0,0,0
+2003,"Low income","COM","Comoros",0,1,0,0,0
+2004,"Low income","COM","Comoros",0,1,0,0,0
+2005,"Low income","COM","Comoros",0,1,0,0,0
+2006,"Low income","COM","Comoros",0,1,0,0,0
+2007,"Low income","COM","Comoros",0,1,0,0,0
+2008,"Low income","COM","Comoros",0,1,0,0,0
+2009,"Low income","COM","Comoros",0,1,0,0,0
+2010,"Low income","COM","Comoros",0,1,0,0,0
+2011,"Low income","COM","Comoros",0,1,0,0,0
+2012,"Low income","COM","Comoros",0,1,0,0,0
+2013,"Low income","COM","Comoros",0,1,0,0,0
+2014,"Low income","COM","Comoros",0,1,0,0,0
+2015,"Low income","COM","Comoros",0,1,0,0,0
+2016,"Low income","COM","Comoros",0,1,0,0,0
+2001,"Low income","COG","Congo - Brazzaville",0,1,0,0,0
+2002,"Low income","COG","Congo - Brazzaville",0,1,0,0,0
+2003,"Low income","COG","Congo - Brazzaville",0,1,0,0,0
+2004,"Low income","COG","Congo - Brazzaville",0,1,0,0,0
+2005,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2006,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2007,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2008,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2009,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2010,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2011,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2012,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2013,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2014,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2015,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2016,"Lower-middle income","COG","Congo - Brazzaville",0,0,1,0,0
+2001,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2002,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2003,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2004,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2005,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2006,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2007,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2008,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2009,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2010,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2011,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2012,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2013,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2014,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2015,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2016,"Upper-middle income","CRI","Costa Rica",0,0,0,0,1
+2001,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2002,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2003,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2004,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2005,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2006,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2007,"Low income","CIV","Côte d’Ivoire",0,1,0,0,0
+2008,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2009,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2010,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2011,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2012,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2013,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2014,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2015,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2016,"Lower-middle income","CIV","Côte d’Ivoire",0,0,1,0,0
+2001,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2002,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2003,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2004,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2005,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2006,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2007,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2008,"High income","HRV","Croatia",1,0,0,0,0
+2009,"High income","HRV","Croatia",1,0,0,0,0
+2010,"High income","HRV","Croatia",1,0,0,0,0
+2011,"High income","HRV","Croatia",1,0,0,0,0
+2012,"High income","HRV","Croatia",1,0,0,0,0
+2013,"High income","HRV","Croatia",1,0,0,0,0
+2014,"High income","HRV","Croatia",1,0,0,0,0
+2015,"High income","HRV","Croatia",1,0,0,0,0
+2016,"Upper-middle income","HRV","Croatia",0,0,0,0,1
+2001,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2002,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2003,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2004,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2005,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2006,"Lower-middle income","CUB","Cuba",0,0,1,0,0
+2007,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2008,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2009,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2010,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2011,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2012,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2013,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2014,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2015,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2016,"Upper-middle income","CUB","Cuba",0,0,0,0,1
+2001,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2002,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2003,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2004,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2005,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2006,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2007,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2008,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2009,"Not categorized","CUW","Curaçao",0,0,0,1,0
+2010,"High income","CUW","Curaçao",1,0,0,0,0
+2011,"High income","CUW","Curaçao",1,0,0,0,0
+2012,"High income","CUW","Curaçao",1,0,0,0,0
+2013,"High income","CUW","Curaçao",1,0,0,0,0
+2014,"High income","CUW","Curaçao",1,0,0,0,0
+2015,"High income","CUW","Curaçao",1,0,0,0,0
+2016,"High income","CUW","Curaçao",1,0,0,0,0
+2001,"High income","CYP","Cyprus",1,0,0,0,0
+2002,"High income","CYP","Cyprus",1,0,0,0,0
+2003,"High income","CYP","Cyprus",1,0,0,0,0
+2004,"High income","CYP","Cyprus",1,0,0,0,0
+2005,"High income","CYP","Cyprus",1,0,0,0,0
+2006,"High income","CYP","Cyprus",1,0,0,0,0
+2007,"High income","CYP","Cyprus",1,0,0,0,0
+2008,"High income","CYP","Cyprus",1,0,0,0,0
+2009,"High income","CYP","Cyprus",1,0,0,0,0
+2010,"High income","CYP","Cyprus",1,0,0,0,0
+2011,"High income","CYP","Cyprus",1,0,0,0,0
+2012,"High income","CYP","Cyprus",1,0,0,0,0
+2013,"High income","CYP","Cyprus",1,0,0,0,0
+2014,"High income","CYP","Cyprus",1,0,0,0,0
+2015,"High income","CYP","Cyprus",1,0,0,0,0
+2016,"High income","CYP","Cyprus",1,0,0,0,0
+2001,"Upper-middle income","CZE","Czechia",0,0,0,0,1
+2002,"Upper-middle income","CZE","Czechia",0,0,0,0,1
+2003,"Upper-middle income","CZE","Czechia",0,0,0,0,1
+2004,"Upper-middle income","CZE","Czechia",0,0,0,0,1
+2005,"Upper-middle income","CZE","Czechia",0,0,0,0,1
+2006,"High income","CZE","Czechia",1,0,0,0,0
+2007,"High income","CZE","Czechia",1,0,0,0,0
+2008,"High income","CZE","Czechia",1,0,0,0,0
+2009,"High income","CZE","Czechia",1,0,0,0,0
+2010,"High income","CZE","Czechia",1,0,0,0,0
+2011,"High income","CZE","Czechia",1,0,0,0,0
+2012,"High income","CZE","Czechia",1,0,0,0,0
+2013,"High income","CZE","Czechia",1,0,0,0,0
+2014,"High income","CZE","Czechia",1,0,0,0,0
+2015,"High income","CZE","Czechia",1,0,0,0,0
+2016,"High income","CZE","Czechia",1,0,0,0,0
+2001,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2002,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2003,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2004,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2005,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2006,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2007,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2008,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2009,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2010,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2011,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2012,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2013,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2014,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2015,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2016,"Low income","COD","Congo - Kinshasa",0,1,0,0,0
+2001,"High income","DNK","Denmark",1,0,0,0,0
+2002,"High income","DNK","Denmark",1,0,0,0,0
+2003,"High income","DNK","Denmark",1,0,0,0,0
+2004,"High income","DNK","Denmark",1,0,0,0,0
+2005,"High income","DNK","Denmark",1,0,0,0,0
+2006,"High income","DNK","Denmark",1,0,0,0,0
+2007,"High income","DNK","Denmark",1,0,0,0,0
+2008,"High income","DNK","Denmark",1,0,0,0,0
+2009,"High income","DNK","Denmark",1,0,0,0,0
+2010,"High income","DNK","Denmark",1,0,0,0,0
+2011,"High income","DNK","Denmark",1,0,0,0,0
+2012,"High income","DNK","Denmark",1,0,0,0,0
+2013,"High income","DNK","Denmark",1,0,0,0,0
+2014,"High income","DNK","Denmark",1,0,0,0,0
+2015,"High income","DNK","Denmark",1,0,0,0,0
+2016,"High income","DNK","Denmark",1,0,0,0,0
+2001,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2002,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2003,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2004,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2005,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2006,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2007,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2008,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2009,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2010,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2011,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2012,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2013,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2014,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2015,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2016,"Lower-middle income","DJI","Djibouti",0,0,1,0,0
+2001,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2002,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2003,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2004,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2005,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2006,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2007,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2008,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2009,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2010,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2011,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2012,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2013,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2014,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2015,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2016,"Upper-middle income","DMA","Dominica",0,0,0,0,1
+2001,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2002,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2003,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2004,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2005,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2006,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2007,"Lower-middle income","DOM","Dominican Republic",0,0,1,0,0
+2008,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2009,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2010,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2011,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2012,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2013,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2014,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2015,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2016,"Upper-middle income","DOM","Dominican Republic",0,0,0,0,1
+2001,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2002,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2003,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2004,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2005,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2006,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2007,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2008,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2009,"Lower-middle income","ECU","Ecuador",0,0,1,0,0
+2010,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2011,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2012,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2013,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2014,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2015,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2016,"Upper-middle income","ECU","Ecuador",0,0,0,0,1
+2001,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2002,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2003,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2004,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2005,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2006,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2007,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2008,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2009,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2010,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2011,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2012,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2013,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2014,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2015,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2016,"Lower-middle income","EGY","Egypt",0,0,1,0,0
+2001,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2002,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2003,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2004,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2005,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2006,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2007,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2008,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2009,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2010,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2011,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2012,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2013,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2014,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2015,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2016,"Lower-middle income","SLV","El Salvador",0,0,1,0,0
+2001,"Low income","GNQ","Equatorial Guinea",0,1,0,0,0
+2002,"Low income","GNQ","Equatorial Guinea",0,1,0,0,0
+2003,"Low income","GNQ","Equatorial Guinea",0,1,0,0,0
+2004,"Upper-middle income","GNQ","Equatorial Guinea",0,0,0,0,1
+2005,"Upper-middle income","GNQ","Equatorial Guinea",0,0,0,0,1
+2006,"Upper-middle income","GNQ","Equatorial Guinea",0,0,0,0,1
+2007,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2008,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2009,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2010,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2011,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2012,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2013,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2014,"High income","GNQ","Equatorial Guinea",1,0,0,0,0
+2015,"Upper-middle income","GNQ","Equatorial Guinea",0,0,0,0,1
+2016,"Upper-middle income","GNQ","Equatorial Guinea",0,0,0,0,1
+2001,"Low income","ERI","Eritrea",0,1,0,0,0
+2002,"Low income","ERI","Eritrea",0,1,0,0,0
+2003,"Low income","ERI","Eritrea",0,1,0,0,0
+2004,"Low income","ERI","Eritrea",0,1,0,0,0
+2005,"Low income","ERI","Eritrea",0,1,0,0,0
+2006,"Low income","ERI","Eritrea",0,1,0,0,0
+2007,"Low income","ERI","Eritrea",0,1,0,0,0
+2008,"Low income","ERI","Eritrea",0,1,0,0,0
+2009,"Low income","ERI","Eritrea",0,1,0,0,0
+2010,"Low income","ERI","Eritrea",0,1,0,0,0
+2011,"Low income","ERI","Eritrea",0,1,0,0,0
+2012,"Low income","ERI","Eritrea",0,1,0,0,0
+2013,"Low income","ERI","Eritrea",0,1,0,0,0
+2014,"Low income","ERI","Eritrea",0,1,0,0,0
+2015,"Low income","ERI","Eritrea",0,1,0,0,0
+2016,"Low income","ERI","Eritrea",0,1,0,0,0
+2001,"Upper-middle income","EST","Estonia",0,0,0,0,1
+2002,"Upper-middle income","EST","Estonia",0,0,0,0,1
+2003,"Upper-middle income","EST","Estonia",0,0,0,0,1
+2004,"Upper-middle income","EST","Estonia",0,0,0,0,1
+2005,"Upper-middle income","EST","Estonia",0,0,0,0,1
+2006,"High income","EST","Estonia",1,0,0,0,0
+2007,"High income","EST","Estonia",1,0,0,0,0
+2008,"High income","EST","Estonia",1,0,0,0,0
+2009,"High income","EST","Estonia",1,0,0,0,0
+2010,"High income","EST","Estonia",1,0,0,0,0
+2011,"High income","EST","Estonia",1,0,0,0,0
+2012,"High income","EST","Estonia",1,0,0,0,0
+2013,"High income","EST","Estonia",1,0,0,0,0
+2014,"High income","EST","Estonia",1,0,0,0,0
+2015,"High income","EST","Estonia",1,0,0,0,0
+2016,"High income","EST","Estonia",1,0,0,0,0
+2001,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2002,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2003,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2004,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2005,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2006,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2007,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2008,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2009,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2010,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2011,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2012,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2013,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2014,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2015,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2016,"Lower-middle income","SWZ","Eswatini",0,0,1,0,0
+2001,"Low income","ETH","Ethiopia",0,1,0,0,0
+2002,"Low income","ETH","Ethiopia",0,1,0,0,0
+2003,"Low income","ETH","Ethiopia",0,1,0,0,0
+2004,"Low income","ETH","Ethiopia",0,1,0,0,0
+2005,"Low income","ETH","Ethiopia",0,1,0,0,0
+2006,"Low income","ETH","Ethiopia",0,1,0,0,0
+2007,"Low income","ETH","Ethiopia",0,1,0,0,0
+2008,"Low income","ETH","Ethiopia",0,1,0,0,0
+2009,"Low income","ETH","Ethiopia",0,1,0,0,0
+2010,"Low income","ETH","Ethiopia",0,1,0,0,0
+2011,"Low income","ETH","Ethiopia",0,1,0,0,0
+2012,"Low income","ETH","Ethiopia",0,1,0,0,0
+2013,"Low income","ETH","Ethiopia",0,1,0,0,0
+2014,"Low income","ETH","Ethiopia",0,1,0,0,0
+2015,"Low income","ETH","Ethiopia",0,1,0,0,0
+2016,"Low income","ETH","Ethiopia",0,1,0,0,0
+2001,"High income","FRO","Faroe Islands",1,0,0,0,0
+2002,"High income","FRO","Faroe Islands",1,0,0,0,0
+2003,"High income","FRO","Faroe Islands",1,0,0,0,0
+2004,"High income","FRO","Faroe Islands",1,0,0,0,0
+2005,"High income","FRO","Faroe Islands",1,0,0,0,0
+2006,"High income","FRO","Faroe Islands",1,0,0,0,0
+2007,"High income","FRO","Faroe Islands",1,0,0,0,0
+2008,"High income","FRO","Faroe Islands",1,0,0,0,0
+2009,"High income","FRO","Faroe Islands",1,0,0,0,0
+2010,"High income","FRO","Faroe Islands",1,0,0,0,0
+2011,"High income","FRO","Faroe Islands",1,0,0,0,0
+2012,"High income","FRO","Faroe Islands",1,0,0,0,0
+2013,"High income","FRO","Faroe Islands",1,0,0,0,0
+2014,"High income","FRO","Faroe Islands",1,0,0,0,0
+2015,"High income","FRO","Faroe Islands",1,0,0,0,0
+2016,"High income","FRO","Faroe Islands",1,0,0,0,0
+2001,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2002,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2003,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2004,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2005,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2006,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2007,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2008,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2009,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2010,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2011,"Lower-middle income","FJI","Fiji",0,0,1,0,0
+2012,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2013,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2014,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2015,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2016,"Upper-middle income","FJI","Fiji",0,0,0,0,1
+2001,"High income","FIN","Finland",1,0,0,0,0
+2002,"High income","FIN","Finland",1,0,0,0,0
+2003,"High income","FIN","Finland",1,0,0,0,0
+2004,"High income","FIN","Finland",1,0,0,0,0
+2005,"High income","FIN","Finland",1,0,0,0,0
+2006,"High income","FIN","Finland",1,0,0,0,0
+2007,"High income","FIN","Finland",1,0,0,0,0
+2008,"High income","FIN","Finland",1,0,0,0,0
+2009,"High income","FIN","Finland",1,0,0,0,0
+2010,"High income","FIN","Finland",1,0,0,0,0
+2011,"High income","FIN","Finland",1,0,0,0,0
+2012,"High income","FIN","Finland",1,0,0,0,0
+2013,"High income","FIN","Finland",1,0,0,0,0
+2014,"High income","FIN","Finland",1,0,0,0,0
+2015,"High income","FIN","Finland",1,0,0,0,0
+2016,"High income","FIN","Finland",1,0,0,0,0
+2001,"High income","FRA","France",1,0,0,0,0
+2002,"High income","FRA","France",1,0,0,0,0
+2003,"High income","FRA","France",1,0,0,0,0
+2004,"High income","FRA","France",1,0,0,0,0
+2005,"High income","FRA","France",1,0,0,0,0
+2006,"High income","FRA","France",1,0,0,0,0
+2007,"High income","FRA","France",1,0,0,0,0
+2008,"High income","FRA","France",1,0,0,0,0
+2009,"High income","FRA","France",1,0,0,0,0
+2010,"High income","FRA","France",1,0,0,0,0
+2011,"High income","FRA","France",1,0,0,0,0
+2012,"High income","FRA","France",1,0,0,0,0
+2013,"High income","FRA","France",1,0,0,0,0
+2014,"High income","FRA","France",1,0,0,0,0
+2015,"High income","FRA","France",1,0,0,0,0
+2016,"High income","FRA","France",1,0,0,0,0
+2001,"High income","PYF","French Polynesia",1,0,0,0,0
+2002,"High income","PYF","French Polynesia",1,0,0,0,0
+2003,"High income","PYF","French Polynesia",1,0,0,0,0
+2004,"High income","PYF","French Polynesia",1,0,0,0,0
+2005,"High income","PYF","French Polynesia",1,0,0,0,0
+2006,"High income","PYF","French Polynesia",1,0,0,0,0
+2007,"High income","PYF","French Polynesia",1,0,0,0,0
+2008,"High income","PYF","French Polynesia",1,0,0,0,0
+2009,"High income","PYF","French Polynesia",1,0,0,0,0
+2010,"High income","PYF","French Polynesia",1,0,0,0,0
+2011,"High income","PYF","French Polynesia",1,0,0,0,0
+2012,"High income","PYF","French Polynesia",1,0,0,0,0
+2013,"High income","PYF","French Polynesia",1,0,0,0,0
+2014,"High income","PYF","French Polynesia",1,0,0,0,0
+2015,"High income","PYF","French Polynesia",1,0,0,0,0
+2016,"High income","PYF","French Polynesia",1,0,0,0,0
+2001,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2002,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2003,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2004,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2005,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2006,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2007,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2008,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2009,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2010,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2011,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2012,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2013,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2014,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2015,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2016,"Upper-middle income","GAB","Gabon",0,0,0,0,1
+2001,"Low income","GMB","Gambia",0,1,0,0,0
+2002,"Low income","GMB","Gambia",0,1,0,0,0
+2003,"Low income","GMB","Gambia",0,1,0,0,0
+2004,"Low income","GMB","Gambia",0,1,0,0,0
+2005,"Low income","GMB","Gambia",0,1,0,0,0
+2006,"Low income","GMB","Gambia",0,1,0,0,0
+2007,"Low income","GMB","Gambia",0,1,0,0,0
+2008,"Low income","GMB","Gambia",0,1,0,0,0
+2009,"Low income","GMB","Gambia",0,1,0,0,0
+2010,"Low income","GMB","Gambia",0,1,0,0,0
+2011,"Low income","GMB","Gambia",0,1,0,0,0
+2012,"Low income","GMB","Gambia",0,1,0,0,0
+2013,"Low income","GMB","Gambia",0,1,0,0,0
+2014,"Low income","GMB","Gambia",0,1,0,0,0
+2015,"Low income","GMB","Gambia",0,1,0,0,0
+2016,"Low income","GMB","Gambia",0,1,0,0,0
+2001,"Low income","GEO","Georgia",0,1,0,0,0
+2002,"Low income","GEO","Georgia",0,1,0,0,0
+2003,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2004,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2005,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2006,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2007,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2008,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2009,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2010,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2011,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2012,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2013,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2014,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2015,"Upper-middle income","GEO","Georgia",0,0,0,0,1
+2016,"Lower-middle income","GEO","Georgia",0,0,1,0,0
+2001,"High income","DEU","Germany",1,0,0,0,0
+2002,"High income","DEU","Germany",1,0,0,0,0
+2003,"High income","DEU","Germany",1,0,0,0,0
+2004,"High income","DEU","Germany",1,0,0,0,0
+2005,"High income","DEU","Germany",1,0,0,0,0
+2006,"High income","DEU","Germany",1,0,0,0,0
+2007,"High income","DEU","Germany",1,0,0,0,0
+2008,"High income","DEU","Germany",1,0,0,0,0
+2009,"High income","DEU","Germany",1,0,0,0,0
+2010,"High income","DEU","Germany",1,0,0,0,0
+2011,"High income","DEU","Germany",1,0,0,0,0
+2012,"High income","DEU","Germany",1,0,0,0,0
+2013,"High income","DEU","Germany",1,0,0,0,0
+2014,"High income","DEU","Germany",1,0,0,0,0
+2015,"High income","DEU","Germany",1,0,0,0,0
+2016,"High income","DEU","Germany",1,0,0,0,0
+2001,"Low income","GHA","Ghana",0,1,0,0,0
+2002,"Low income","GHA","Ghana",0,1,0,0,0
+2003,"Low income","GHA","Ghana",0,1,0,0,0
+2004,"Low income","GHA","Ghana",0,1,0,0,0
+2005,"Low income","GHA","Ghana",0,1,0,0,0
+2006,"Low income","GHA","Ghana",0,1,0,0,0
+2007,"Low income","GHA","Ghana",0,1,0,0,0
+2008,"Low income","GHA","Ghana",0,1,0,0,0
+2009,"Low income","GHA","Ghana",0,1,0,0,0
+2010,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2011,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2012,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2013,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2014,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2015,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2016,"Lower-middle income","GHA","Ghana",0,0,1,0,0
+2001,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2002,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2003,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2004,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2005,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2006,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2007,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2008,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2009,"High income","GIB","Gibraltar",1,0,0,0,0
+2010,"High income","GIB","Gibraltar",1,0,0,0,0
+2011,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2012,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2013,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2014,"Not categorized","GIB","Gibraltar",0,0,0,1,0
+2015,"High income","GIB","Gibraltar",1,0,0,0,0
+2016,"High income","GIB","Gibraltar",1,0,0,0,0
+2001,"High income","GRC","Greece",1,0,0,0,0
+2002,"High income","GRC","Greece",1,0,0,0,0
+2003,"High income","GRC","Greece",1,0,0,0,0
+2004,"High income","GRC","Greece",1,0,0,0,0
+2005,"High income","GRC","Greece",1,0,0,0,0
+2006,"High income","GRC","Greece",1,0,0,0,0
+2007,"High income","GRC","Greece",1,0,0,0,0
+2008,"High income","GRC","Greece",1,0,0,0,0
+2009,"High income","GRC","Greece",1,0,0,0,0
+2010,"High income","GRC","Greece",1,0,0,0,0
+2011,"High income","GRC","Greece",1,0,0,0,0
+2012,"High income","GRC","Greece",1,0,0,0,0
+2013,"High income","GRC","Greece",1,0,0,0,0
+2014,"High income","GRC","Greece",1,0,0,0,0
+2015,"High income","GRC","Greece",1,0,0,0,0
+2016,"High income","GRC","Greece",1,0,0,0,0
+2001,"High income","GRL","Greenland",1,0,0,0,0
+2002,"High income","GRL","Greenland",1,0,0,0,0
+2003,"High income","GRL","Greenland",1,0,0,0,0
+2004,"High income","GRL","Greenland",1,0,0,0,0
+2005,"High income","GRL","Greenland",1,0,0,0,0
+2006,"High income","GRL","Greenland",1,0,0,0,0
+2007,"High income","GRL","Greenland",1,0,0,0,0
+2008,"High income","GRL","Greenland",1,0,0,0,0
+2009,"High income","GRL","Greenland",1,0,0,0,0
+2010,"High income","GRL","Greenland",1,0,0,0,0
+2011,"High income","GRL","Greenland",1,0,0,0,0
+2012,"High income","GRL","Greenland",1,0,0,0,0
+2013,"High income","GRL","Greenland",1,0,0,0,0
+2014,"High income","GRL","Greenland",1,0,0,0,0
+2015,"High income","GRL","Greenland",1,0,0,0,0
+2016,"High income","GRL","Greenland",1,0,0,0,0
+2001,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2002,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2003,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2004,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2005,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2006,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2007,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2008,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2009,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2010,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2011,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2012,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2013,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2014,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2015,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2016,"Upper-middle income","GRD","Grenada",0,0,0,0,1
+2001,"High income","GUM","Guam",1,0,0,0,0
+2002,"High income","GUM","Guam",1,0,0,0,0
+2003,"High income","GUM","Guam",1,0,0,0,0
+2004,"High income","GUM","Guam",1,0,0,0,0
+2005,"High income","GUM","Guam",1,0,0,0,0
+2006,"High income","GUM","Guam",1,0,0,0,0
+2007,"High income","GUM","Guam",1,0,0,0,0
+2008,"High income","GUM","Guam",1,0,0,0,0
+2009,"High income","GUM","Guam",1,0,0,0,0
+2010,"High income","GUM","Guam",1,0,0,0,0
+2011,"High income","GUM","Guam",1,0,0,0,0
+2012,"High income","GUM","Guam",1,0,0,0,0
+2013,"High income","GUM","Guam",1,0,0,0,0
+2014,"High income","GUM","Guam",1,0,0,0,0
+2015,"High income","GUM","Guam",1,0,0,0,0
+2016,"High income","GUM","Guam",1,0,0,0,0
+2001,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2002,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2003,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2004,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2005,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2006,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2007,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2008,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2009,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2010,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2011,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2012,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2013,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2014,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2015,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2016,"Lower-middle income","GTM","Guatemala",0,0,1,0,0
+2001,"Low income","GIN","Guinea",0,1,0,0,0
+2002,"Low income","GIN","Guinea",0,1,0,0,0
+2003,"Low income","GIN","Guinea",0,1,0,0,0
+2004,"Low income","GIN","Guinea",0,1,0,0,0
+2005,"Low income","GIN","Guinea",0,1,0,0,0
+2006,"Low income","GIN","Guinea",0,1,0,0,0
+2007,"Low income","GIN","Guinea",0,1,0,0,0
+2008,"Low income","GIN","Guinea",0,1,0,0,0
+2009,"Low income","GIN","Guinea",0,1,0,0,0
+2010,"Low income","GIN","Guinea",0,1,0,0,0
+2011,"Low income","GIN","Guinea",0,1,0,0,0
+2012,"Low income","GIN","Guinea",0,1,0,0,0
+2013,"Low income","GIN","Guinea",0,1,0,0,0
+2014,"Low income","GIN","Guinea",0,1,0,0,0
+2015,"Low income","GIN","Guinea",0,1,0,0,0
+2016,"Low income","GIN","Guinea",0,1,0,0,0
+2001,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2002,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2003,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2004,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2005,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2006,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2007,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2008,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2009,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2010,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2011,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2012,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2013,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2014,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2015,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2016,"Low income","GNB","Guinea-Bissau",0,1,0,0,0
+2001,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2002,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2003,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2004,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2005,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2006,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2007,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2008,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2009,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2010,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2011,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2012,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2013,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2014,"Lower-middle income","GUY","Guyana",0,0,1,0,0
+2015,"Upper-middle income","GUY","Guyana",0,0,0,0,1
+2016,"Upper-middle income","GUY","Guyana",0,0,0,0,1
+2001,"Low income","HTI","Haiti",0,1,0,0,0
+2002,"Low income","HTI","Haiti",0,1,0,0,0
+2003,"Low income","HTI","Haiti",0,1,0,0,0
+2004,"Low income","HTI","Haiti",0,1,0,0,0
+2005,"Low income","HTI","Haiti",0,1,0,0,0
+2006,"Low income","HTI","Haiti",0,1,0,0,0
+2007,"Low income","HTI","Haiti",0,1,0,0,0
+2008,"Low income","HTI","Haiti",0,1,0,0,0
+2009,"Low income","HTI","Haiti",0,1,0,0,0
+2010,"Low income","HTI","Haiti",0,1,0,0,0
+2011,"Low income","HTI","Haiti",0,1,0,0,0
+2012,"Low income","HTI","Haiti",0,1,0,0,0
+2013,"Low income","HTI","Haiti",0,1,0,0,0
+2014,"Low income","HTI","Haiti",0,1,0,0,0
+2015,"Low income","HTI","Haiti",0,1,0,0,0
+2016,"Low income","HTI","Haiti",0,1,0,0,0
+2001,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2002,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2003,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2004,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2005,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2006,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2007,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2008,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2009,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2010,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2011,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2012,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2013,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2014,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2015,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2016,"Lower-middle income","HND","Honduras",0,0,1,0,0
+2001,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2002,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2003,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2004,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2005,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2006,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2007,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2008,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2009,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2010,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2011,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2012,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2013,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2014,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2015,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2016,"High income","HKG","Hong Kong SAR China",1,0,0,0,0
+2001,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2002,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2003,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2004,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2005,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2006,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2007,"High income","HUN","Hungary",1,0,0,0,0
+2008,"High income","HUN","Hungary",1,0,0,0,0
+2009,"High income","HUN","Hungary",1,0,0,0,0
+2010,"High income","HUN","Hungary",1,0,0,0,0
+2011,"High income","HUN","Hungary",1,0,0,0,0
+2012,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2013,"Upper-middle income","HUN","Hungary",0,0,0,0,1
+2014,"High income","HUN","Hungary",1,0,0,0,0
+2015,"High income","HUN","Hungary",1,0,0,0,0
+2016,"High income","HUN","Hungary",1,0,0,0,0
+2001,"High income","ISL","Iceland",1,0,0,0,0
+2002,"High income","ISL","Iceland",1,0,0,0,0
+2003,"High income","ISL","Iceland",1,0,0,0,0
+2004,"High income","ISL","Iceland",1,0,0,0,0
+2005,"High income","ISL","Iceland",1,0,0,0,0
+2006,"High income","ISL","Iceland",1,0,0,0,0
+2007,"High income","ISL","Iceland",1,0,0,0,0
+2008,"High income","ISL","Iceland",1,0,0,0,0
+2009,"High income","ISL","Iceland",1,0,0,0,0
+2010,"High income","ISL","Iceland",1,0,0,0,0
+2011,"High income","ISL","Iceland",1,0,0,0,0
+2012,"High income","ISL","Iceland",1,0,0,0,0
+2013,"High income","ISL","Iceland",1,0,0,0,0
+2014,"High income","ISL","Iceland",1,0,0,0,0
+2015,"High income","ISL","Iceland",1,0,0,0,0
+2016,"High income","ISL","Iceland",1,0,0,0,0
+2001,"Low income","IND","India",0,1,0,0,0
+2002,"Low income","IND","India",0,1,0,0,0
+2003,"Low income","IND","India",0,1,0,0,0
+2004,"Low income","IND","India",0,1,0,0,0
+2005,"Low income","IND","India",0,1,0,0,0
+2006,"Low income","IND","India",0,1,0,0,0
+2007,"Lower-middle income","IND","India",0,0,1,0,0
+2008,"Lower-middle income","IND","India",0,0,1,0,0
+2009,"Lower-middle income","IND","India",0,0,1,0,0
+2010,"Lower-middle income","IND","India",0,0,1,0,0
+2011,"Lower-middle income","IND","India",0,0,1,0,0
+2012,"Lower-middle income","IND","India",0,0,1,0,0
+2013,"Lower-middle income","IND","India",0,0,1,0,0
+2014,"Lower-middle income","IND","India",0,0,1,0,0
+2015,"Lower-middle income","IND","India",0,0,1,0,0
+2016,"Lower-middle income","IND","India",0,0,1,0,0
+2001,"Low income","IDN","Indonesia",0,1,0,0,0
+2002,"Low income","IDN","Indonesia",0,1,0,0,0
+2003,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2004,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2005,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2006,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2007,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2008,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2009,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2010,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2011,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2012,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2013,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2014,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2015,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2016,"Lower-middle income","IDN","Indonesia",0,0,1,0,0
+2001,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2002,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2003,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2004,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2005,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2006,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2007,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2008,"Lower-middle income","IRN","Iran",0,0,1,0,0
+2009,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2010,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2011,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2012,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2013,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2014,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2015,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2016,"Upper-middle income","IRN","Iran",0,0,0,0,1
+2001,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2002,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2003,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2004,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2005,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2006,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2007,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2008,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2009,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2010,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2011,"Lower-middle income","IRQ","Iraq",0,0,1,0,0
+2012,"Upper-middle income","IRQ","Iraq",0,0,0,0,1
+2013,"Upper-middle income","IRQ","Iraq",0,0,0,0,1
+2014,"Upper-middle income","IRQ","Iraq",0,0,0,0,1
+2015,"Upper-middle income","IRQ","Iraq",0,0,0,0,1
+2016,"Upper-middle income","IRQ","Iraq",0,0,0,0,1
+2001,"High income","IRL","Ireland",1,0,0,0,0
+2002,"High income","IRL","Ireland",1,0,0,0,0
+2003,"High income","IRL","Ireland",1,0,0,0,0
+2004,"High income","IRL","Ireland",1,0,0,0,0
+2005,"High income","IRL","Ireland",1,0,0,0,0
+2006,"High income","IRL","Ireland",1,0,0,0,0
+2007,"High income","IRL","Ireland",1,0,0,0,0
+2008,"High income","IRL","Ireland",1,0,0,0,0
+2009,"High income","IRL","Ireland",1,0,0,0,0
+2010,"High income","IRL","Ireland",1,0,0,0,0
+2011,"High income","IRL","Ireland",1,0,0,0,0
+2012,"High income","IRL","Ireland",1,0,0,0,0
+2013,"High income","IRL","Ireland",1,0,0,0,0
+2014,"High income","IRL","Ireland",1,0,0,0,0
+2015,"High income","IRL","Ireland",1,0,0,0,0
+2016,"High income","IRL","Ireland",1,0,0,0,0
+2001,"Upper-middle income","IMN","Isle of Man",0,0,0,0,1
+2002,"High income","IMN","Isle of Man",1,0,0,0,0
+2003,"High income","IMN","Isle of Man",1,0,0,0,0
+2004,"High income","IMN","Isle of Man",1,0,0,0,0
+2005,"High income","IMN","Isle of Man",1,0,0,0,0
+2006,"High income","IMN","Isle of Man",1,0,0,0,0
+2007,"High income","IMN","Isle of Man",1,0,0,0,0
+2008,"High income","IMN","Isle of Man",1,0,0,0,0
+2009,"High income","IMN","Isle of Man",1,0,0,0,0
+2010,"High income","IMN","Isle of Man",1,0,0,0,0
+2011,"High income","IMN","Isle of Man",1,0,0,0,0
+2012,"High income","IMN","Isle of Man",1,0,0,0,0
+2013,"High income","IMN","Isle of Man",1,0,0,0,0
+2014,"High income","IMN","Isle of Man",1,0,0,0,0
+2015,"High income","IMN","Isle of Man",1,0,0,0,0
+2016,"High income","IMN","Isle of Man",1,0,0,0,0
+2001,"High income","ISR","Israel",1,0,0,0,0
+2002,"High income","ISR","Israel",1,0,0,0,0
+2003,"High income","ISR","Israel",1,0,0,0,0
+2004,"High income","ISR","Israel",1,0,0,0,0
+2005,"High income","ISR","Israel",1,0,0,0,0
+2006,"High income","ISR","Israel",1,0,0,0,0
+2007,"High income","ISR","Israel",1,0,0,0,0
+2008,"High income","ISR","Israel",1,0,0,0,0
+2009,"High income","ISR","Israel",1,0,0,0,0
+2010,"High income","ISR","Israel",1,0,0,0,0
+2011,"High income","ISR","Israel",1,0,0,0,0
+2012,"High income","ISR","Israel",1,0,0,0,0
+2013,"High income","ISR","Israel",1,0,0,0,0
+2014,"High income","ISR","Israel",1,0,0,0,0
+2015,"High income","ISR","Israel",1,0,0,0,0
+2016,"High income","ISR","Israel",1,0,0,0,0
+2001,"High income","ITA","Italy",1,0,0,0,0
+2002,"High income","ITA","Italy",1,0,0,0,0
+2003,"High income","ITA","Italy",1,0,0,0,0
+2004,"High income","ITA","Italy",1,0,0,0,0
+2005,"High income","ITA","Italy",1,0,0,0,0
+2006,"High income","ITA","Italy",1,0,0,0,0
+2007,"High income","ITA","Italy",1,0,0,0,0
+2008,"High income","ITA","Italy",1,0,0,0,0
+2009,"High income","ITA","Italy",1,0,0,0,0
+2010,"High income","ITA","Italy",1,0,0,0,0
+2011,"High income","ITA","Italy",1,0,0,0,0
+2012,"High income","ITA","Italy",1,0,0,0,0
+2013,"High income","ITA","Italy",1,0,0,0,0
+2014,"High income","ITA","Italy",1,0,0,0,0
+2015,"High income","ITA","Italy",1,0,0,0,0
+2016,"High income","ITA","Italy",1,0,0,0,0
+2001,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2002,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2003,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2004,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2005,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2006,"Lower-middle income","JAM","Jamaica",0,0,1,0,0
+2007,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2008,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2009,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2010,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2011,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2012,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2013,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2014,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2015,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2016,"Upper-middle income","JAM","Jamaica",0,0,0,0,1
+2001,"High income","JPN","Japan",1,0,0,0,0
+2002,"High income","JPN","Japan",1,0,0,0,0
+2003,"High income","JPN","Japan",1,0,0,0,0
+2004,"High income","JPN","Japan",1,0,0,0,0
+2005,"High income","JPN","Japan",1,0,0,0,0
+2006,"High income","JPN","Japan",1,0,0,0,0
+2007,"High income","JPN","Japan",1,0,0,0,0
+2008,"High income","JPN","Japan",1,0,0,0,0
+2009,"High income","JPN","Japan",1,0,0,0,0
+2010,"High income","JPN","Japan",1,0,0,0,0
+2011,"High income","JPN","Japan",1,0,0,0,0
+2012,"High income","JPN","Japan",1,0,0,0,0
+2013,"High income","JPN","Japan",1,0,0,0,0
+2014,"High income","JPN","Japan",1,0,0,0,0
+2015,"High income","JPN","Japan",1,0,0,0,0
+2016,"High income","JPN","Japan",1,0,0,0,0
+2001,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2002,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2003,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2004,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2005,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2006,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2007,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2008,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2009,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2010,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2011,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2012,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2013,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2014,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2015,"Upper-middle income","JOR","Jordan",0,0,0,0,1
+2016,"Lower-middle income","JOR","Jordan",0,0,1,0,0
+2001,"Lower-middle income","KAZ","Kazakhstan",0,0,1,0,0
+2002,"Lower-middle income","KAZ","Kazakhstan",0,0,1,0,0
+2003,"Lower-middle income","KAZ","Kazakhstan",0,0,1,0,0
+2004,"Lower-middle income","KAZ","Kazakhstan",0,0,1,0,0
+2005,"Lower-middle income","KAZ","Kazakhstan",0,0,1,0,0
+2006,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2007,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2008,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2009,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2010,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2011,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2012,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2013,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2014,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2015,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2016,"Upper-middle income","KAZ","Kazakhstan",0,0,0,0,1
+2001,"Low income","KEN","Kenya",0,1,0,0,0
+2002,"Low income","KEN","Kenya",0,1,0,0,0
+2003,"Low income","KEN","Kenya",0,1,0,0,0
+2004,"Low income","KEN","Kenya",0,1,0,0,0
+2005,"Low income","KEN","Kenya",0,1,0,0,0
+2006,"Low income","KEN","Kenya",0,1,0,0,0
+2007,"Low income","KEN","Kenya",0,1,0,0,0
+2008,"Low income","KEN","Kenya",0,1,0,0,0
+2009,"Low income","KEN","Kenya",0,1,0,0,0
+2010,"Low income","KEN","Kenya",0,1,0,0,0
+2011,"Low income","KEN","Kenya",0,1,0,0,0
+2012,"Low income","KEN","Kenya",0,1,0,0,0
+2013,"Low income","KEN","Kenya",0,1,0,0,0
+2014,"Lower-middle income","KEN","Kenya",0,0,1,0,0
+2015,"Lower-middle income","KEN","Kenya",0,0,1,0,0
+2016,"Lower-middle income","KEN","Kenya",0,0,1,0,0
+2001,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2002,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2003,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2004,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2005,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2006,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2007,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2008,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2009,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2010,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2011,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2012,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2013,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2014,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2015,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2016,"Lower-middle income","KIR","Kiribati",0,0,1,0,0
+2001,"High income","KWT","Kuwait",1,0,0,0,0
+2002,"High income","KWT","Kuwait",1,0,0,0,0
+2003,"High income","KWT","Kuwait",1,0,0,0,0
+2004,"High income","KWT","Kuwait",1,0,0,0,0
+2005,"High income","KWT","Kuwait",1,0,0,0,0
+2006,"High income","KWT","Kuwait",1,0,0,0,0
+2007,"High income","KWT","Kuwait",1,0,0,0,0
+2008,"High income","KWT","Kuwait",1,0,0,0,0
+2009,"High income","KWT","Kuwait",1,0,0,0,0
+2010,"High income","KWT","Kuwait",1,0,0,0,0
+2011,"High income","KWT","Kuwait",1,0,0,0,0
+2012,"High income","KWT","Kuwait",1,0,0,0,0
+2013,"High income","KWT","Kuwait",1,0,0,0,0
+2014,"High income","KWT","Kuwait",1,0,0,0,0
+2015,"High income","KWT","Kuwait",1,0,0,0,0
+2016,"High income","KWT","Kuwait",1,0,0,0,0
+2001,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2002,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2003,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2004,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2005,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2006,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2007,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2008,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2009,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2010,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2011,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2012,"Low income","KGZ","Kyrgyzstan",0,1,0,0,0
+2013,"Lower-middle income","KGZ","Kyrgyzstan",0,0,1,0,0
+2014,"Lower-middle income","KGZ","Kyrgyzstan",0,0,1,0,0
+2015,"Lower-middle income","KGZ","Kyrgyzstan",0,0,1,0,0
+2016,"Lower-middle income","KGZ","Kyrgyzstan",0,0,1,0,0
+2001,"Low income","LAO","Laos",0,1,0,0,0
+2002,"Low income","LAO","Laos",0,1,0,0,0
+2003,"Low income","LAO","Laos",0,1,0,0,0
+2004,"Low income","LAO","Laos",0,1,0,0,0
+2005,"Low income","LAO","Laos",0,1,0,0,0
+2006,"Low income","LAO","Laos",0,1,0,0,0
+2007,"Low income","LAO","Laos",0,1,0,0,0
+2008,"Low income","LAO","Laos",0,1,0,0,0
+2009,"Low income","LAO","Laos",0,1,0,0,0
+2010,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2011,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2012,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2013,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2014,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2015,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2016,"Lower-middle income","LAO","Laos",0,0,1,0,0
+2001,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2002,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2003,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2004,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2005,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2006,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2007,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2008,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2009,"High income","LVA","Latvia",1,0,0,0,0
+2010,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2011,"Upper-middle income","LVA","Latvia",0,0,0,0,1
+2012,"High income","LVA","Latvia",1,0,0,0,0
+2013,"High income","LVA","Latvia",1,0,0,0,0
+2014,"High income","LVA","Latvia",1,0,0,0,0
+2015,"High income","LVA","Latvia",1,0,0,0,0
+2016,"High income","LVA","Latvia",1,0,0,0,0
+2001,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2002,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2003,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2004,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2005,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2006,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2007,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2008,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2009,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2010,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2011,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2012,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2013,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2014,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2015,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2016,"Upper-middle income","LBN","Lebanon",0,0,0,0,1
+2001,"Low income","LSO","Lesotho",0,1,0,0,0
+2002,"Low income","LSO","Lesotho",0,1,0,0,0
+2003,"Low income","LSO","Lesotho",0,1,0,0,0
+2004,"Low income","LSO","Lesotho",0,1,0,0,0
+2005,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2006,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2007,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2008,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2009,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2010,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2011,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2012,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2013,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2014,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2015,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2016,"Lower-middle income","LSO","Lesotho",0,0,1,0,0
+2001,"Low income","LBR","Liberia",0,1,0,0,0
+2002,"Low income","LBR","Liberia",0,1,0,0,0
+2003,"Low income","LBR","Liberia",0,1,0,0,0
+2004,"Low income","LBR","Liberia",0,1,0,0,0
+2005,"Low income","LBR","Liberia",0,1,0,0,0
+2006,"Low income","LBR","Liberia",0,1,0,0,0
+2007,"Low income","LBR","Liberia",0,1,0,0,0
+2008,"Low income","LBR","Liberia",0,1,0,0,0
+2009,"Low income","LBR","Liberia",0,1,0,0,0
+2010,"Low income","LBR","Liberia",0,1,0,0,0
+2011,"Low income","LBR","Liberia",0,1,0,0,0
+2012,"Low income","LBR","Liberia",0,1,0,0,0
+2013,"Low income","LBR","Liberia",0,1,0,0,0
+2014,"Low income","LBR","Liberia",0,1,0,0,0
+2015,"Low income","LBR","Liberia",0,1,0,0,0
+2016,"Low income","LBR","Liberia",0,1,0,0,0
+2001,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2002,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2003,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2004,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2005,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2006,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2007,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2008,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2009,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2010,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2011,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2012,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2013,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2014,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2015,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2016,"Upper-middle income","LBY","Libya",0,0,0,0,1
+2001,"High income","LIE","Liechtenstein",1,0,0,0,0
+2002,"High income","LIE","Liechtenstein",1,0,0,0,0
+2003,"High income","LIE","Liechtenstein",1,0,0,0,0
+2004,"High income","LIE","Liechtenstein",1,0,0,0,0
+2005,"High income","LIE","Liechtenstein",1,0,0,0,0
+2006,"High income","LIE","Liechtenstein",1,0,0,0,0
+2007,"High income","LIE","Liechtenstein",1,0,0,0,0
+2008,"High income","LIE","Liechtenstein",1,0,0,0,0
+2009,"High income","LIE","Liechtenstein",1,0,0,0,0
+2010,"High income","LIE","Liechtenstein",1,0,0,0,0
+2011,"High income","LIE","Liechtenstein",1,0,0,0,0
+2012,"High income","LIE","Liechtenstein",1,0,0,0,0
+2013,"High income","LIE","Liechtenstein",1,0,0,0,0
+2014,"High income","LIE","Liechtenstein",1,0,0,0,0
+2015,"High income","LIE","Liechtenstein",1,0,0,0,0
+2016,"High income","LIE","Liechtenstein",1,0,0,0,0
+2001,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2002,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2003,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2004,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2005,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2006,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2007,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2008,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2009,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2010,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2011,"Upper-middle income","LTU","Lithuania",0,0,0,0,1
+2012,"High income","LTU","Lithuania",1,0,0,0,0
+2013,"High income","LTU","Lithuania",1,0,0,0,0
+2014,"High income","LTU","Lithuania",1,0,0,0,0
+2015,"High income","LTU","Lithuania",1,0,0,0,0
+2016,"High income","LTU","Lithuania",1,0,0,0,0
+2001,"High income","LUX","Luxembourg",1,0,0,0,0
+2002,"High income","LUX","Luxembourg",1,0,0,0,0
+2003,"High income","LUX","Luxembourg",1,0,0,0,0
+2004,"High income","LUX","Luxembourg",1,0,0,0,0
+2005,"High income","LUX","Luxembourg",1,0,0,0,0
+2006,"High income","LUX","Luxembourg",1,0,0,0,0
+2007,"High income","LUX","Luxembourg",1,0,0,0,0
+2008,"High income","LUX","Luxembourg",1,0,0,0,0
+2009,"High income","LUX","Luxembourg",1,0,0,0,0
+2010,"High income","LUX","Luxembourg",1,0,0,0,0
+2011,"High income","LUX","Luxembourg",1,0,0,0,0
+2012,"High income","LUX","Luxembourg",1,0,0,0,0
+2013,"High income","LUX","Luxembourg",1,0,0,0,0
+2014,"High income","LUX","Luxembourg",1,0,0,0,0
+2015,"High income","LUX","Luxembourg",1,0,0,0,0
+2016,"High income","LUX","Luxembourg",1,0,0,0,0
+2001,"High income","MAC","Macao SAR China",1,0,0,0,0
+2002,"High income","MAC","Macao SAR China",1,0,0,0,0
+2003,"High income","MAC","Macao SAR China",1,0,0,0,0
+2004,"High income","MAC","Macao SAR China",1,0,0,0,0
+2005,"High income","MAC","Macao SAR China",1,0,0,0,0
+2006,"High income","MAC","Macao SAR China",1,0,0,0,0
+2007,"High income","MAC","Macao SAR China",1,0,0,0,0
+2008,"High income","MAC","Macao SAR China",1,0,0,0,0
+2009,"High income","MAC","Macao SAR China",1,0,0,0,0
+2010,"High income","MAC","Macao SAR China",1,0,0,0,0
+2011,"High income","MAC","Macao SAR China",1,0,0,0,0
+2012,"High income","MAC","Macao SAR China",1,0,0,0,0
+2013,"High income","MAC","Macao SAR China",1,0,0,0,0
+2014,"High income","MAC","Macao SAR China",1,0,0,0,0
+2015,"High income","MAC","Macao SAR China",1,0,0,0,0
+2016,"High income","MAC","Macao SAR China",1,0,0,0,0
+2001,"Low income","MDG","Madagascar",0,1,0,0,0
+2002,"Low income","MDG","Madagascar",0,1,0,0,0
+2003,"Low income","MDG","Madagascar",0,1,0,0,0
+2004,"Low income","MDG","Madagascar",0,1,0,0,0
+2005,"Low income","MDG","Madagascar",0,1,0,0,0
+2006,"Low income","MDG","Madagascar",0,1,0,0,0
+2007,"Low income","MDG","Madagascar",0,1,0,0,0
+2008,"Low income","MDG","Madagascar",0,1,0,0,0
+2009,"Low income","MDG","Madagascar",0,1,0,0,0
+2010,"Low income","MDG","Madagascar",0,1,0,0,0
+2011,"Low income","MDG","Madagascar",0,1,0,0,0
+2012,"Low income","MDG","Madagascar",0,1,0,0,0
+2013,"Low income","MDG","Madagascar",0,1,0,0,0
+2014,"Low income","MDG","Madagascar",0,1,0,0,0
+2015,"Low income","MDG","Madagascar",0,1,0,0,0
+2016,"Low income","MDG","Madagascar",0,1,0,0,0
+2001,"Low income","MWI","Malawi",0,1,0,0,0
+2002,"Low income","MWI","Malawi",0,1,0,0,0
+2003,"Low income","MWI","Malawi",0,1,0,0,0
+2004,"Low income","MWI","Malawi",0,1,0,0,0
+2005,"Low income","MWI","Malawi",0,1,0,0,0
+2006,"Low income","MWI","Malawi",0,1,0,0,0
+2007,"Low income","MWI","Malawi",0,1,0,0,0
+2008,"Low income","MWI","Malawi",0,1,0,0,0
+2009,"Low income","MWI","Malawi",0,1,0,0,0
+2010,"Low income","MWI","Malawi",0,1,0,0,0
+2011,"Low income","MWI","Malawi",0,1,0,0,0
+2012,"Low income","MWI","Malawi",0,1,0,0,0
+2013,"Low income","MWI","Malawi",0,1,0,0,0
+2014,"Low income","MWI","Malawi",0,1,0,0,0
+2015,"Low income","MWI","Malawi",0,1,0,0,0
+2016,"Low income","MWI","Malawi",0,1,0,0,0
+2001,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2002,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2003,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2004,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2005,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2006,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2007,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2008,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2009,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2010,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2011,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2012,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2013,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2014,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2015,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2016,"Upper-middle income","MYS","Malaysia",0,0,0,0,1
+2001,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2002,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2003,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2004,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2005,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2006,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2007,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2008,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2009,"Lower-middle income","MDV","Maldives",0,0,1,0,0
+2010,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2011,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2012,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2013,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2014,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2015,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2016,"Upper-middle income","MDV","Maldives",0,0,0,0,1
+2001,"Low income","MLI","Mali",0,1,0,0,0
+2002,"Low income","MLI","Mali",0,1,0,0,0
+2003,"Low income","MLI","Mali",0,1,0,0,0
+2004,"Low income","MLI","Mali",0,1,0,0,0
+2005,"Low income","MLI","Mali",0,1,0,0,0
+2006,"Low income","MLI","Mali",0,1,0,0,0
+2007,"Low income","MLI","Mali",0,1,0,0,0
+2008,"Low income","MLI","Mali",0,1,0,0,0
+2009,"Low income","MLI","Mali",0,1,0,0,0
+2010,"Low income","MLI","Mali",0,1,0,0,0
+2011,"Low income","MLI","Mali",0,1,0,0,0
+2012,"Low income","MLI","Mali",0,1,0,0,0
+2013,"Low income","MLI","Mali",0,1,0,0,0
+2014,"Low income","MLI","Mali",0,1,0,0,0
+2015,"Low income","MLI","Mali",0,1,0,0,0
+2016,"Low income","MLI","Mali",0,1,0,0,0
+2001,"Upper-middle income","MLT","Malta",0,0,0,0,1
+2002,"High income","MLT","Malta",1,0,0,0,0
+2003,"High income","MLT","Malta",1,0,0,0,0
+2004,"High income","MLT","Malta",1,0,0,0,0
+2005,"High income","MLT","Malta",1,0,0,0,0
+2006,"High income","MLT","Malta",1,0,0,0,0
+2007,"High income","MLT","Malta",1,0,0,0,0
+2008,"High income","MLT","Malta",1,0,0,0,0
+2009,"High income","MLT","Malta",1,0,0,0,0
+2010,"High income","MLT","Malta",1,0,0,0,0
+2011,"High income","MLT","Malta",1,0,0,0,0
+2012,"High income","MLT","Malta",1,0,0,0,0
+2013,"High income","MLT","Malta",1,0,0,0,0
+2014,"High income","MLT","Malta",1,0,0,0,0
+2015,"High income","MLT","Malta",1,0,0,0,0
+2016,"High income","MLT","Malta",1,0,0,0,0
+2001,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2002,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2003,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2004,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2005,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2006,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2007,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2008,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2009,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2010,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2011,"Lower-middle income","MHL","Marshall Islands",0,0,1,0,0
+2012,"Upper-middle income","MHL","Marshall Islands",0,0,0,0,1
+2013,"Upper-middle income","MHL","Marshall Islands",0,0,0,0,1
+2014,"Upper-middle income","MHL","Marshall Islands",0,0,0,0,1
+2015,"Upper-middle income","MHL","Marshall Islands",0,0,0,0,1
+2016,"Upper-middle income","MHL","Marshall Islands",0,0,0,0,1
+2001,"Low income","MRT","Mauritania",0,1,0,0,0
+2002,"Low income","MRT","Mauritania",0,1,0,0,0
+2003,"Low income","MRT","Mauritania",0,1,0,0,0
+2004,"Low income","MRT","Mauritania",0,1,0,0,0
+2005,"Low income","MRT","Mauritania",0,1,0,0,0
+2006,"Low income","MRT","Mauritania",0,1,0,0,0
+2007,"Low income","MRT","Mauritania",0,1,0,0,0
+2008,"Low income","MRT","Mauritania",0,1,0,0,0
+2009,"Low income","MRT","Mauritania",0,1,0,0,0
+2010,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2011,"Low income","MRT","Mauritania",0,1,0,0,0
+2012,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2013,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2014,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2015,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2016,"Lower-middle income","MRT","Mauritania",0,0,1,0,0
+2001,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2002,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2003,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2004,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2005,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2006,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2007,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2008,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2009,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2010,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2011,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2012,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2013,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2014,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2015,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2016,"Upper-middle income","MUS","Mauritius",0,0,0,0,1
+2001,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2002,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2003,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2004,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2005,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2006,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2007,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2008,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2009,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2010,"Upper-middle income","MYT","Mayotte",0,0,0,0,1
+2011,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2012,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2013,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2014,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2015,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2016,"Not categorized","MYT","Mayotte",0,0,0,1,0
+2001,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2002,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2003,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2004,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2005,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2006,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2007,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2008,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2009,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2010,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2011,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2012,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2013,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2014,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2015,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2016,"Upper-middle income","MEX","Mexico",0,0,0,0,1
+2001,"Low income","MDA","Moldova",0,1,0,0,0
+2002,"Low income","MDA","Moldova",0,1,0,0,0
+2003,"Low income","MDA","Moldova",0,1,0,0,0
+2004,"Low income","MDA","Moldova",0,1,0,0,0
+2005,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2006,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2007,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2008,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2009,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2010,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2011,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2012,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2013,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2014,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2015,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2016,"Lower-middle income","MDA","Moldova",0,0,1,0,0
+2001,"High income","MCO","Monaco",1,0,0,0,0
+2002,"High income","MCO","Monaco",1,0,0,0,0
+2003,"High income","MCO","Monaco",1,0,0,0,0
+2004,"High income","MCO","Monaco",1,0,0,0,0
+2005,"High income","MCO","Monaco",1,0,0,0,0
+2006,"High income","MCO","Monaco",1,0,0,0,0
+2007,"High income","MCO","Monaco",1,0,0,0,0
+2008,"High income","MCO","Monaco",1,0,0,0,0
+2009,"High income","MCO","Monaco",1,0,0,0,0
+2010,"High income","MCO","Monaco",1,0,0,0,0
+2011,"High income","MCO","Monaco",1,0,0,0,0
+2012,"High income","MCO","Monaco",1,0,0,0,0
+2013,"High income","MCO","Monaco",1,0,0,0,0
+2014,"High income","MCO","Monaco",1,0,0,0,0
+2015,"High income","MCO","Monaco",1,0,0,0,0
+2016,"High income","MCO","Monaco",1,0,0,0,0
+2001,"Low income","MNG","Mongolia",0,1,0,0,0
+2002,"Low income","MNG","Mongolia",0,1,0,0,0
+2003,"Low income","MNG","Mongolia",0,1,0,0,0
+2004,"Low income","MNG","Mongolia",0,1,0,0,0
+2005,"Low income","MNG","Mongolia",0,1,0,0,0
+2006,"Low income","MNG","Mongolia",0,1,0,0,0
+2007,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2008,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2009,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2010,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2011,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2012,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2013,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2014,"Upper-middle income","MNG","Mongolia",0,0,0,0,1
+2015,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2016,"Lower-middle income","MNG","Mongolia",0,0,1,0,0
+2001,"Lower-middle income","MNE","Montenegro",0,0,1,0,0
+2002,"Lower-middle income","MNE","Montenegro",0,0,1,0,0
+2003,"Lower-middle income","MNE","Montenegro",0,0,1,0,0
+2004,"Lower-middle income","MNE","Montenegro",0,0,1,0,0
+2005,"Lower-middle income","MNE","Montenegro",0,0,1,0,0
+2006,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2007,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2008,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2009,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2010,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2011,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2012,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2013,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2014,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2015,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2016,"Upper-middle income","MNE","Montenegro",0,0,0,0,1
+2001,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2002,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2003,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2004,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2005,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2006,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2007,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2008,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2009,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2010,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2011,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2012,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2013,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2014,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2015,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2016,"Lower-middle income","MAR","Morocco",0,0,1,0,0
+2001,"Low income","MOZ","Mozambique",0,1,0,0,0
+2002,"Low income","MOZ","Mozambique",0,1,0,0,0
+2003,"Low income","MOZ","Mozambique",0,1,0,0,0
+2004,"Low income","MOZ","Mozambique",0,1,0,0,0
+2005,"Low income","MOZ","Mozambique",0,1,0,0,0
+2006,"Low income","MOZ","Mozambique",0,1,0,0,0
+2007,"Low income","MOZ","Mozambique",0,1,0,0,0
+2008,"Low income","MOZ","Mozambique",0,1,0,0,0
+2009,"Low income","MOZ","Mozambique",0,1,0,0,0
+2010,"Low income","MOZ","Mozambique",0,1,0,0,0
+2011,"Low income","MOZ","Mozambique",0,1,0,0,0
+2012,"Low income","MOZ","Mozambique",0,1,0,0,0
+2013,"Low income","MOZ","Mozambique",0,1,0,0,0
+2014,"Low income","MOZ","Mozambique",0,1,0,0,0
+2015,"Low income","MOZ","Mozambique",0,1,0,0,0
+2016,"Low income","MOZ","Mozambique",0,1,0,0,0
+2001,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2002,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2003,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2004,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2005,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2006,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2007,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2008,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2009,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2010,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2011,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2012,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2013,"Low income","MMR","Myanmar (Burma)",0,1,0,0,0
+2014,"Lower-middle income","MMR","Myanmar (Burma)",0,0,1,0,0
+2015,"Lower-middle income","MMR","Myanmar (Burma)",0,0,1,0,0
+2016,"Lower-middle income","MMR","Myanmar (Burma)",0,0,1,0,0
+2001,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2002,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2003,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2004,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2005,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2006,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2007,"Lower-middle income","NAM","Namibia",0,0,1,0,0
+2008,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2009,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2010,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2011,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2012,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2013,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2014,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2015,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2016,"Upper-middle income","NAM","Namibia",0,0,0,0,1
+2001,"Not categorized","NRU","Nauru",0,0,0,1,0
+2002,"Not categorized","NRU","Nauru",0,0,0,1,0
+2003,"Not categorized","NRU","Nauru",0,0,0,1,0
+2004,"Not categorized","NRU","Nauru",0,0,0,1,0
+2005,"Not categorized","NRU","Nauru",0,0,0,1,0
+2006,"Not categorized","NRU","Nauru",0,0,0,1,0
+2007,"Not categorized","NRU","Nauru",0,0,0,1,0
+2008,"Not categorized","NRU","Nauru",0,0,0,1,0
+2009,"Not categorized","NRU","Nauru",0,0,0,1,0
+2010,"Not categorized","NRU","Nauru",0,0,0,1,0
+2011,"Not categorized","NRU","Nauru",0,0,0,1,0
+2012,"Not categorized","NRU","Nauru",0,0,0,1,0
+2013,"Not categorized","NRU","Nauru",0,0,0,1,0
+2014,"Not categorized","NRU","Nauru",0,0,0,1,0
+2015,"High income","NRU","Nauru",1,0,0,0,0
+2016,"Upper-middle income","NRU","Nauru",0,0,0,0,1
+2001,"Low income","NPL","Nepal",0,1,0,0,0
+2002,"Low income","NPL","Nepal",0,1,0,0,0
+2003,"Low income","NPL","Nepal",0,1,0,0,0
+2004,"Low income","NPL","Nepal",0,1,0,0,0
+2005,"Low income","NPL","Nepal",0,1,0,0,0
+2006,"Low income","NPL","Nepal",0,1,0,0,0
+2007,"Low income","NPL","Nepal",0,1,0,0,0
+2008,"Low income","NPL","Nepal",0,1,0,0,0
+2009,"Low income","NPL","Nepal",0,1,0,0,0
+2010,"Low income","NPL","Nepal",0,1,0,0,0
+2011,"Low income","NPL","Nepal",0,1,0,0,0
+2012,"Low income","NPL","Nepal",0,1,0,0,0
+2013,"Low income","NPL","Nepal",0,1,0,0,0
+2014,"Low income","NPL","Nepal",0,1,0,0,0
+2015,"Low income","NPL","Nepal",0,1,0,0,0
+2016,"Low income","NPL","Nepal",0,1,0,0,0
+2001,"High income","NLD","Netherlands",1,0,0,0,0
+2002,"High income","NLD","Netherlands",1,0,0,0,0
+2003,"High income","NLD","Netherlands",1,0,0,0,0
+2004,"High income","NLD","Netherlands",1,0,0,0,0
+2005,"High income","NLD","Netherlands",1,0,0,0,0
+2006,"High income","NLD","Netherlands",1,0,0,0,0
+2007,"High income","NLD","Netherlands",1,0,0,0,0
+2008,"High income","NLD","Netherlands",1,0,0,0,0
+2009,"High income","NLD","Netherlands",1,0,0,0,0
+2010,"High income","NLD","Netherlands",1,0,0,0,0
+2011,"High income","NLD","Netherlands",1,0,0,0,0
+2012,"High income","NLD","Netherlands",1,0,0,0,0
+2013,"High income","NLD","Netherlands",1,0,0,0,0
+2014,"High income","NLD","Netherlands",1,0,0,0,0
+2015,"High income","NLD","Netherlands",1,0,0,0,0
+2016,"High income","NLD","Netherlands",1,0,0,0,0
+2001,"High income","NCL","New Caledonia",1,0,0,0,0
+2002,"High income","NCL","New Caledonia",1,0,0,0,0
+2003,"High income","NCL","New Caledonia",1,0,0,0,0
+2004,"High income","NCL","New Caledonia",1,0,0,0,0
+2005,"High income","NCL","New Caledonia",1,0,0,0,0
+2006,"High income","NCL","New Caledonia",1,0,0,0,0
+2007,"High income","NCL","New Caledonia",1,0,0,0,0
+2008,"High income","NCL","New Caledonia",1,0,0,0,0
+2009,"High income","NCL","New Caledonia",1,0,0,0,0
+2010,"High income","NCL","New Caledonia",1,0,0,0,0
+2011,"High income","NCL","New Caledonia",1,0,0,0,0
+2012,"High income","NCL","New Caledonia",1,0,0,0,0
+2013,"High income","NCL","New Caledonia",1,0,0,0,0
+2014,"High income","NCL","New Caledonia",1,0,0,0,0
+2015,"High income","NCL","New Caledonia",1,0,0,0,0
+2016,"High income","NCL","New Caledonia",1,0,0,0,0
+2001,"High income","NZL","New Zealand",1,0,0,0,0
+2002,"High income","NZL","New Zealand",1,0,0,0,0
+2003,"High income","NZL","New Zealand",1,0,0,0,0
+2004,"High income","NZL","New Zealand",1,0,0,0,0
+2005,"High income","NZL","New Zealand",1,0,0,0,0
+2006,"High income","NZL","New Zealand",1,0,0,0,0
+2007,"High income","NZL","New Zealand",1,0,0,0,0
+2008,"High income","NZL","New Zealand",1,0,0,0,0
+2009,"High income","NZL","New Zealand",1,0,0,0,0
+2010,"High income","NZL","New Zealand",1,0,0,0,0
+2011,"High income","NZL","New Zealand",1,0,0,0,0
+2012,"High income","NZL","New Zealand",1,0,0,0,0
+2013,"High income","NZL","New Zealand",1,0,0,0,0
+2014,"High income","NZL","New Zealand",1,0,0,0,0
+2015,"High income","NZL","New Zealand",1,0,0,0,0
+2016,"High income","NZL","New Zealand",1,0,0,0,0
+2001,"Low income","NIC","Nicaragua",0,1,0,0,0
+2002,"Low income","NIC","Nicaragua",0,1,0,0,0
+2003,"Low income","NIC","Nicaragua",0,1,0,0,0
+2004,"Low income","NIC","Nicaragua",0,1,0,0,0
+2005,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2006,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2007,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2008,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2009,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2010,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2011,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2012,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2013,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2014,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2015,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2016,"Lower-middle income","NIC","Nicaragua",0,0,1,0,0
+2001,"Low income","NER","Niger",0,1,0,0,0
+2002,"Low income","NER","Niger",0,1,0,0,0
+2003,"Low income","NER","Niger",0,1,0,0,0
+2004,"Low income","NER","Niger",0,1,0,0,0
+2005,"Low income","NER","Niger",0,1,0,0,0
+2006,"Low income","NER","Niger",0,1,0,0,0
+2007,"Low income","NER","Niger",0,1,0,0,0
+2008,"Low income","NER","Niger",0,1,0,0,0
+2009,"Low income","NER","Niger",0,1,0,0,0
+2010,"Low income","NER","Niger",0,1,0,0,0
+2011,"Low income","NER","Niger",0,1,0,0,0
+2012,"Low income","NER","Niger",0,1,0,0,0
+2013,"Low income","NER","Niger",0,1,0,0,0
+2014,"Low income","NER","Niger",0,1,0,0,0
+2015,"Low income","NER","Niger",0,1,0,0,0
+2016,"Low income","NER","Niger",0,1,0,0,0
+2001,"Low income","NGA","Nigeria",0,1,0,0,0
+2002,"Low income","NGA","Nigeria",0,1,0,0,0
+2003,"Low income","NGA","Nigeria",0,1,0,0,0
+2004,"Low income","NGA","Nigeria",0,1,0,0,0
+2005,"Low income","NGA","Nigeria",0,1,0,0,0
+2006,"Low income","NGA","Nigeria",0,1,0,0,0
+2007,"Low income","NGA","Nigeria",0,1,0,0,0
+2008,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2009,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2010,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2011,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2012,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2013,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2014,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2015,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2016,"Lower-middle income","NGA","Nigeria",0,0,1,0,0
+2001,"Low income","PRK","North Korea",0,1,0,0,0
+2002,"Low income","PRK","North Korea",0,1,0,0,0
+2003,"Low income","PRK","North Korea",0,1,0,0,0
+2004,"Low income","PRK","North Korea",0,1,0,0,0
+2005,"Low income","PRK","North Korea",0,1,0,0,0
+2006,"Low income","PRK","North Korea",0,1,0,0,0
+2007,"Low income","PRK","North Korea",0,1,0,0,0
+2008,"Low income","PRK","North Korea",0,1,0,0,0
+2009,"Low income","PRK","North Korea",0,1,0,0,0
+2010,"Low income","PRK","North Korea",0,1,0,0,0
+2011,"Low income","PRK","North Korea",0,1,0,0,0
+2012,"Low income","PRK","North Korea",0,1,0,0,0
+2013,"Low income","PRK","North Korea",0,1,0,0,0
+2014,"Low income","PRK","North Korea",0,1,0,0,0
+2015,"Low income","PRK","North Korea",0,1,0,0,0
+2016,"Low income","PRK","North Korea",0,1,0,0,0
+2001,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2002,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2003,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2004,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2005,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2006,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2007,"Lower-middle income","MKD","North Macedonia",0,0,1,0,0
+2008,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2009,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2010,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2011,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2012,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2013,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2014,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2015,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2016,"Upper-middle income","MKD","North Macedonia",0,0,0,0,1
+2001,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2002,"Upper-middle income","MNP","Northern Mariana Islands",0,0,0,0,1
+2003,"Upper-middle income","MNP","Northern Mariana Islands",0,0,0,0,1
+2004,"Upper-middle income","MNP","Northern Mariana Islands",0,0,0,0,1
+2005,"Upper-middle income","MNP","Northern Mariana Islands",0,0,0,0,1
+2006,"Upper-middle income","MNP","Northern Mariana Islands",0,0,0,0,1
+2007,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2008,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2009,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2010,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2011,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2012,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2013,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2014,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2015,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2016,"High income","MNP","Northern Mariana Islands",1,0,0,0,0
+2001,"High income","NOR","Norway",1,0,0,0,0
+2002,"High income","NOR","Norway",1,0,0,0,0
+2003,"High income","NOR","Norway",1,0,0,0,0
+2004,"High income","NOR","Norway",1,0,0,0,0
+2005,"High income","NOR","Norway",1,0,0,0,0
+2006,"High income","NOR","Norway",1,0,0,0,0
+2007,"High income","NOR","Norway",1,0,0,0,0
+2008,"High income","NOR","Norway",1,0,0,0,0
+2009,"High income","NOR","Norway",1,0,0,0,0
+2010,"High income","NOR","Norway",1,0,0,0,0
+2011,"High income","NOR","Norway",1,0,0,0,0
+2012,"High income","NOR","Norway",1,0,0,0,0
+2013,"High income","NOR","Norway",1,0,0,0,0
+2014,"High income","NOR","Norway",1,0,0,0,0
+2015,"High income","NOR","Norway",1,0,0,0,0
+2016,"High income","NOR","Norway",1,0,0,0,0
+2001,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2002,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2003,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2004,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2005,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2006,"Upper-middle income","OMN","Oman",0,0,0,0,1
+2007,"High income","OMN","Oman",1,0,0,0,0
+2008,"High income","OMN","Oman",1,0,0,0,0
+2009,"High income","OMN","Oman",1,0,0,0,0
+2010,"High income","OMN","Oman",1,0,0,0,0
+2011,"High income","OMN","Oman",1,0,0,0,0
+2012,"High income","OMN","Oman",1,0,0,0,0
+2013,"High income","OMN","Oman",1,0,0,0,0
+2014,"High income","OMN","Oman",1,0,0,0,0
+2015,"High income","OMN","Oman",1,0,0,0,0
+2016,"High income","OMN","Oman",1,0,0,0,0
+2001,"Low income","PAK","Pakistan",0,1,0,0,0
+2002,"Low income","PAK","Pakistan",0,1,0,0,0
+2003,"Low income","PAK","Pakistan",0,1,0,0,0
+2004,"Low income","PAK","Pakistan",0,1,0,0,0
+2005,"Low income","PAK","Pakistan",0,1,0,0,0
+2006,"Low income","PAK","Pakistan",0,1,0,0,0
+2007,"Low income","PAK","Pakistan",0,1,0,0,0
+2008,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2009,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2010,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2011,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2012,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2013,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2014,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2015,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2016,"Lower-middle income","PAK","Pakistan",0,0,1,0,0
+2001,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2002,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2003,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2004,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2005,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2006,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2007,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2008,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2009,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2010,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2011,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2012,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2013,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2014,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2015,"Upper-middle income","PLW","Palau",0,0,0,0,1
+2016,"High income","PLW","Palau",1,0,0,0,0
+2001,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2002,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2003,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2004,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2005,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2006,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2007,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2008,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2009,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2010,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2011,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2012,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2013,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2014,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2015,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2016,"Lower-middle income","PSE","Palestinian Territories",0,0,1,0,0
+2001,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2002,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2003,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2004,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2005,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2006,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2007,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2008,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2009,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2010,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2011,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2012,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2013,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2014,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2015,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2016,"Upper-middle income","PAN","Panama",0,0,0,0,1
+2001,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2002,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2003,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2004,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2005,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2006,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2007,"Low income","PNG","Papua New Guinea",0,1,0,0,0
+2008,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2009,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2010,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2011,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2012,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2013,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2014,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2015,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2016,"Lower-middle income","PNG","Papua New Guinea",0,0,1,0,0
+2001,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2002,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2003,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2004,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2005,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2006,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2007,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2008,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2009,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2010,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2011,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2012,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2013,"Lower-middle income","PRY","Paraguay",0,0,1,0,0
+2014,"Upper-middle income","PRY","Paraguay",0,0,0,0,1
+2015,"Upper-middle income","PRY","Paraguay",0,0,0,0,1
+2016,"Upper-middle income","PRY","Paraguay",0,0,0,0,1
+2001,"Lower-middle income","PER","Peru",0,0,1,0,0
+2002,"Lower-middle income","PER","Peru",0,0,1,0,0
+2003,"Lower-middle income","PER","Peru",0,0,1,0,0
+2004,"Lower-middle income","PER","Peru",0,0,1,0,0
+2005,"Lower-middle income","PER","Peru",0,0,1,0,0
+2006,"Lower-middle income","PER","Peru",0,0,1,0,0
+2007,"Lower-middle income","PER","Peru",0,0,1,0,0
+2008,"Upper-middle income","PER","Peru",0,0,0,0,1
+2009,"Upper-middle income","PER","Peru",0,0,0,0,1
+2010,"Upper-middle income","PER","Peru",0,0,0,0,1
+2011,"Upper-middle income","PER","Peru",0,0,0,0,1
+2012,"Upper-middle income","PER","Peru",0,0,0,0,1
+2013,"Upper-middle income","PER","Peru",0,0,0,0,1
+2014,"Upper-middle income","PER","Peru",0,0,0,0,1
+2015,"Upper-middle income","PER","Peru",0,0,0,0,1
+2016,"Upper-middle income","PER","Peru",0,0,0,0,1
+2001,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2002,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2003,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2004,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2005,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2006,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2007,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2008,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2009,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2010,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2011,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2012,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2013,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2014,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2015,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2016,"Lower-middle income","PHL","Philippines",0,0,1,0,0
+2001,"Upper-middle income","POL","Poland",0,0,0,0,1
+2002,"Upper-middle income","POL","Poland",0,0,0,0,1
+2003,"Upper-middle income","POL","Poland",0,0,0,0,1
+2004,"Upper-middle income","POL","Poland",0,0,0,0,1
+2005,"Upper-middle income","POL","Poland",0,0,0,0,1
+2006,"Upper-middle income","POL","Poland",0,0,0,0,1
+2007,"Upper-middle income","POL","Poland",0,0,0,0,1
+2008,"Upper-middle income","POL","Poland",0,0,0,0,1
+2009,"High income","POL","Poland",1,0,0,0,0
+2010,"High income","POL","Poland",1,0,0,0,0
+2011,"High income","POL","Poland",1,0,0,0,0
+2012,"High income","POL","Poland",1,0,0,0,0
+2013,"High income","POL","Poland",1,0,0,0,0
+2014,"High income","POL","Poland",1,0,0,0,0
+2015,"High income","POL","Poland",1,0,0,0,0
+2016,"High income","POL","Poland",1,0,0,0,0
+2001,"High income","PRT","Portugal",1,0,0,0,0
+2002,"High income","PRT","Portugal",1,0,0,0,0
+2003,"High income","PRT","Portugal",1,0,0,0,0
+2004,"High income","PRT","Portugal",1,0,0,0,0
+2005,"High income","PRT","Portugal",1,0,0,0,0
+2006,"High income","PRT","Portugal",1,0,0,0,0
+2007,"High income","PRT","Portugal",1,0,0,0,0
+2008,"High income","PRT","Portugal",1,0,0,0,0
+2009,"High income","PRT","Portugal",1,0,0,0,0
+2010,"High income","PRT","Portugal",1,0,0,0,0
+2011,"High income","PRT","Portugal",1,0,0,0,0
+2012,"High income","PRT","Portugal",1,0,0,0,0
+2013,"High income","PRT","Portugal",1,0,0,0,0
+2014,"High income","PRT","Portugal",1,0,0,0,0
+2015,"High income","PRT","Portugal",1,0,0,0,0
+2016,"High income","PRT","Portugal",1,0,0,0,0
+2001,"Upper-middle income","PRI","Puerto Rico",0,0,0,0,1
+2002,"High income","PRI","Puerto Rico",1,0,0,0,0
+2003,"High income","PRI","Puerto Rico",1,0,0,0,0
+2004,"High income","PRI","Puerto Rico",1,0,0,0,0
+2005,"High income","PRI","Puerto Rico",1,0,0,0,0
+2006,"High income","PRI","Puerto Rico",1,0,0,0,0
+2007,"High income","PRI","Puerto Rico",1,0,0,0,0
+2008,"High income","PRI","Puerto Rico",1,0,0,0,0
+2009,"High income","PRI","Puerto Rico",1,0,0,0,0
+2010,"High income","PRI","Puerto Rico",1,0,0,0,0
+2011,"High income","PRI","Puerto Rico",1,0,0,0,0
+2012,"High income","PRI","Puerto Rico",1,0,0,0,0
+2013,"High income","PRI","Puerto Rico",1,0,0,0,0
+2014,"High income","PRI","Puerto Rico",1,0,0,0,0
+2015,"High income","PRI","Puerto Rico",1,0,0,0,0
+2016,"High income","PRI","Puerto Rico",1,0,0,0,0
+2001,"High income","QAT","Qatar",1,0,0,0,0
+2002,"High income","QAT","Qatar",1,0,0,0,0
+2003,"High income","QAT","Qatar",1,0,0,0,0
+2004,"High income","QAT","Qatar",1,0,0,0,0
+2005,"High income","QAT","Qatar",1,0,0,0,0
+2006,"High income","QAT","Qatar",1,0,0,0,0
+2007,"High income","QAT","Qatar",1,0,0,0,0
+2008,"High income","QAT","Qatar",1,0,0,0,0
+2009,"High income","QAT","Qatar",1,0,0,0,0
+2010,"High income","QAT","Qatar",1,0,0,0,0
+2011,"High income","QAT","Qatar",1,0,0,0,0
+2012,"High income","QAT","Qatar",1,0,0,0,0
+2013,"High income","QAT","Qatar",1,0,0,0,0
+2014,"High income","QAT","Qatar",1,0,0,0,0
+2015,"High income","QAT","Qatar",1,0,0,0,0
+2016,"High income","QAT","Qatar",1,0,0,0,0
+2001,"Lower-middle income","ROU","Romania",0,0,1,0,0
+2002,"Lower-middle income","ROU","Romania",0,0,1,0,0
+2003,"Lower-middle income","ROU","Romania",0,0,1,0,0
+2004,"Lower-middle income","ROU","Romania",0,0,1,0,0
+2005,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2006,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2007,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2008,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2009,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2010,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2011,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2012,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2013,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2014,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2015,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2016,"Upper-middle income","ROU","Romania",0,0,0,0,1
+2001,"Lower-middle income","RUS","Russia",0,0,1,0,0
+2002,"Lower-middle income","RUS","Russia",0,0,1,0,0
+2003,"Lower-middle income","RUS","Russia",0,0,1,0,0
+2004,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2005,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2006,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2007,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2008,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2009,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2010,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2011,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2012,"High income","RUS","Russia",1,0,0,0,0
+2013,"High income","RUS","Russia",1,0,0,0,0
+2014,"High income","RUS","Russia",1,0,0,0,0
+2015,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2016,"Upper-middle income","RUS","Russia",0,0,0,0,1
+2001,"Low income","RWA","Rwanda",0,1,0,0,0
+2002,"Low income","RWA","Rwanda",0,1,0,0,0
+2003,"Low income","RWA","Rwanda",0,1,0,0,0
+2004,"Low income","RWA","Rwanda",0,1,0,0,0
+2005,"Low income","RWA","Rwanda",0,1,0,0,0
+2006,"Low income","RWA","Rwanda",0,1,0,0,0
+2007,"Low income","RWA","Rwanda",0,1,0,0,0
+2008,"Low income","RWA","Rwanda",0,1,0,0,0
+2009,"Low income","RWA","Rwanda",0,1,0,0,0
+2010,"Low income","RWA","Rwanda",0,1,0,0,0
+2011,"Low income","RWA","Rwanda",0,1,0,0,0
+2012,"Low income","RWA","Rwanda",0,1,0,0,0
+2013,"Low income","RWA","Rwanda",0,1,0,0,0
+2014,"Low income","RWA","Rwanda",0,1,0,0,0
+2015,"Low income","RWA","Rwanda",0,1,0,0,0
+2016,"Low income","RWA","Rwanda",0,1,0,0,0
+2001,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2002,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2003,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2004,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2005,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2006,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2007,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2008,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2009,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2010,"Upper-middle income","KNA","St. Kitts & Nevis",0,0,0,0,1
+2011,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2012,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2013,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2014,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2015,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2016,"High income","KNA","St. Kitts & Nevis",1,0,0,0,0
+2001,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2002,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2003,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2004,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2005,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2006,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2007,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2008,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2009,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2010,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2011,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2012,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2013,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2014,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2015,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2016,"Upper-middle income","LCA","St. Lucia",0,0,0,0,1
+2001,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2002,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2003,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2004,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2005,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2006,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2007,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2008,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2009,"Not categorized","MAF","Saint Martin (French part)",0,0,0,1,0
+2010,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2011,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2012,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2013,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2014,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2015,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2016,"High income","MAF","Saint Martin (French part)",1,0,0,0,0
+2001,"Lower-middle income","VCT","St. Vincent & Grenadines",0,0,1,0,0
+2002,"Lower-middle income","VCT","St. Vincent & Grenadines",0,0,1,0,0
+2003,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2004,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2005,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2006,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2007,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2008,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2009,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2010,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2011,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2012,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2013,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2014,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2015,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2016,"Upper-middle income","VCT","St. Vincent & Grenadines",0,0,0,0,1
+2001,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2002,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2003,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2004,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2005,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2006,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2007,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2008,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2009,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2010,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2011,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2012,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2013,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2014,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2015,"Lower-middle income","WSM","Samoa",0,0,1,0,0
+2016,"Upper-middle income","WSM","Samoa",0,0,0,0,1
+2001,"High income","SMR","San Marino",1,0,0,0,0
+2002,"High income","SMR","San Marino",1,0,0,0,0
+2003,"High income","SMR","San Marino",1,0,0,0,0
+2004,"High income","SMR","San Marino",1,0,0,0,0
+2005,"High income","SMR","San Marino",1,0,0,0,0
+2006,"High income","SMR","San Marino",1,0,0,0,0
+2007,"High income","SMR","San Marino",1,0,0,0,0
+2008,"High income","SMR","San Marino",1,0,0,0,0
+2009,"High income","SMR","San Marino",1,0,0,0,0
+2010,"High income","SMR","San Marino",1,0,0,0,0
+2011,"High income","SMR","San Marino",1,0,0,0,0
+2012,"High income","SMR","San Marino",1,0,0,0,0
+2013,"High income","SMR","San Marino",1,0,0,0,0
+2014,"High income","SMR","San Marino",1,0,0,0,0
+2015,"High income","SMR","San Marino",1,0,0,0,0
+2016,"High income","SMR","San Marino",1,0,0,0,0
+2001,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2002,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2003,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2004,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2005,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2006,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2007,"Low income","STP","São Tomé & Príncipe",0,1,0,0,0
+2008,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2009,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2010,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2011,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2012,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2013,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2014,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2015,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2016,"Lower-middle income","STP","São Tomé & Príncipe",0,0,1,0,0
+2001,"Upper-middle income","SAU","Saudi Arabia",0,0,0,0,1
+2002,"Upper-middle income","SAU","Saudi Arabia",0,0,0,0,1
+2003,"Upper-middle income","SAU","Saudi Arabia",0,0,0,0,1
+2004,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2005,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2006,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2007,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2008,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2009,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2010,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2011,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2012,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2013,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2014,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2015,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2016,"High income","SAU","Saudi Arabia",1,0,0,0,0
+2001,"Low income","SEN","Senegal",0,1,0,0,0
+2002,"Low income","SEN","Senegal",0,1,0,0,0
+2003,"Low income","SEN","Senegal",0,1,0,0,0
+2004,"Low income","SEN","Senegal",0,1,0,0,0
+2005,"Low income","SEN","Senegal",0,1,0,0,0
+2006,"Low income","SEN","Senegal",0,1,0,0,0
+2007,"Low income","SEN","Senegal",0,1,0,0,0
+2008,"Low income","SEN","Senegal",0,1,0,0,0
+2009,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2010,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2011,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2012,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2013,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2014,"Lower-middle income","SEN","Senegal",0,0,1,0,0
+2015,"Low income","SEN","Senegal",0,1,0,0,0
+2016,"Low income","SEN","Senegal",0,1,0,0,0
+2001,"Lower-middle income","SRB","Serbia",0,0,1,0,0
+2002,"Lower-middle income","SRB","Serbia",0,0,1,0,0
+2003,"Lower-middle income","SRB","Serbia",0,0,1,0,0
+2004,"Lower-middle income","SRB","Serbia",0,0,1,0,0
+2005,"Lower-middle income","SRB","Serbia",0,0,1,0,0
+2006,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2007,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2008,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2009,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2010,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2011,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2012,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2013,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2014,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2015,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2016,"Upper-middle income","SRB","Serbia",0,0,0,0,1
+2001,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2002,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2003,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2004,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2005,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2006,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2007,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2008,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2009,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2010,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2011,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2012,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2013,"Upper-middle income","SYC","Seychelles",0,0,0,0,1
+2014,"High income","SYC","Seychelles",1,0,0,0,0
+2015,"High income","SYC","Seychelles",1,0,0,0,0
+2016,"High income","SYC","Seychelles",1,0,0,0,0
+2001,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2002,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2003,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2004,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2005,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2006,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2007,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2008,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2009,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2010,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2011,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2012,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2013,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2014,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2015,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2016,"Low income","SLE","Sierra Leone",0,1,0,0,0
+2001,"High income","SGP","Singapore",1,0,0,0,0
+2002,"High income","SGP","Singapore",1,0,0,0,0
+2003,"High income","SGP","Singapore",1,0,0,0,0
+2004,"High income","SGP","Singapore",1,0,0,0,0
+2005,"High income","SGP","Singapore",1,0,0,0,0
+2006,"High income","SGP","Singapore",1,0,0,0,0
+2007,"High income","SGP","Singapore",1,0,0,0,0
+2008,"High income","SGP","Singapore",1,0,0,0,0
+2009,"High income","SGP","Singapore",1,0,0,0,0
+2010,"High income","SGP","Singapore",1,0,0,0,0
+2011,"High income","SGP","Singapore",1,0,0,0,0
+2012,"High income","SGP","Singapore",1,0,0,0,0
+2013,"High income","SGP","Singapore",1,0,0,0,0
+2014,"High income","SGP","Singapore",1,0,0,0,0
+2015,"High income","SGP","Singapore",1,0,0,0,0
+2016,"High income","SGP","Singapore",1,0,0,0,0
+2001,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2002,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2003,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2004,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2005,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2006,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2007,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2008,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2009,"Not categorized","SXM","Sint Maarten",0,0,0,1,0
+2010,"High income","SXM","Sint Maarten",1,0,0,0,0
+2011,"High income","SXM","Sint Maarten",1,0,0,0,0
+2012,"High income","SXM","Sint Maarten",1,0,0,0,0
+2013,"High income","SXM","Sint Maarten",1,0,0,0,0
+2014,"High income","SXM","Sint Maarten",1,0,0,0,0
+2015,"High income","SXM","Sint Maarten",1,0,0,0,0
+2016,"High income","SXM","Sint Maarten",1,0,0,0,0
+2001,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2002,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2003,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2004,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2005,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2006,"Upper-middle income","SVK","Slovakia",0,0,0,0,1
+2007,"High income","SVK","Slovakia",1,0,0,0,0
+2008,"High income","SVK","Slovakia",1,0,0,0,0
+2009,"High income","SVK","Slovakia",1,0,0,0,0
+2010,"High income","SVK","Slovakia",1,0,0,0,0
+2011,"High income","SVK","Slovakia",1,0,0,0,0
+2012,"High income","SVK","Slovakia",1,0,0,0,0
+2013,"High income","SVK","Slovakia",1,0,0,0,0
+2014,"High income","SVK","Slovakia",1,0,0,0,0
+2015,"High income","SVK","Slovakia",1,0,0,0,0
+2016,"High income","SVK","Slovakia",1,0,0,0,0
+2001,"High income","SVN","Slovenia",1,0,0,0,0
+2002,"High income","SVN","Slovenia",1,0,0,0,0
+2003,"High income","SVN","Slovenia",1,0,0,0,0
+2004,"High income","SVN","Slovenia",1,0,0,0,0
+2005,"High income","SVN","Slovenia",1,0,0,0,0
+2006,"High income","SVN","Slovenia",1,0,0,0,0
+2007,"High income","SVN","Slovenia",1,0,0,0,0
+2008,"High income","SVN","Slovenia",1,0,0,0,0
+2009,"High income","SVN","Slovenia",1,0,0,0,0
+2010,"High income","SVN","Slovenia",1,0,0,0,0
+2011,"High income","SVN","Slovenia",1,0,0,0,0
+2012,"High income","SVN","Slovenia",1,0,0,0,0
+2013,"High income","SVN","Slovenia",1,0,0,0,0
+2014,"High income","SVN","Slovenia",1,0,0,0,0
+2015,"High income","SVN","Slovenia",1,0,0,0,0
+2016,"High income","SVN","Slovenia",1,0,0,0,0
+2001,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2002,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2003,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2004,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2005,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2006,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2007,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2008,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2009,"Low income","SLB","Solomon Islands",0,1,0,0,0
+2010,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2011,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2012,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2013,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2014,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2015,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2016,"Lower-middle income","SLB","Solomon Islands",0,0,1,0,0
+2001,"Low income","SOM","Somalia",0,1,0,0,0
+2002,"Low income","SOM","Somalia",0,1,0,0,0
+2003,"Low income","SOM","Somalia",0,1,0,0,0
+2004,"Low income","SOM","Somalia",0,1,0,0,0
+2005,"Low income","SOM","Somalia",0,1,0,0,0
+2006,"Low income","SOM","Somalia",0,1,0,0,0
+2007,"Low income","SOM","Somalia",0,1,0,0,0
+2008,"Low income","SOM","Somalia",0,1,0,0,0
+2009,"Low income","SOM","Somalia",0,1,0,0,0
+2010,"Low income","SOM","Somalia",0,1,0,0,0
+2011,"Low income","SOM","Somalia",0,1,0,0,0
+2012,"Low income","SOM","Somalia",0,1,0,0,0
+2013,"Low income","SOM","Somalia",0,1,0,0,0
+2014,"Low income","SOM","Somalia",0,1,0,0,0
+2015,"Low income","SOM","Somalia",0,1,0,0,0
+2016,"Low income","SOM","Somalia",0,1,0,0,0
+2001,"Lower-middle income","ZAF","South Africa",0,0,1,0,0
+2002,"Lower-middle income","ZAF","South Africa",0,0,1,0,0
+2003,"Lower-middle income","ZAF","South Africa",0,0,1,0,0
+2004,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2005,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2006,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2007,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2008,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2009,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2010,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2011,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2012,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2013,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2014,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2015,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2016,"Upper-middle income","ZAF","South Africa",0,0,0,0,1
+2001,"High income","KOR","South Korea",1,0,0,0,0
+2002,"High income","KOR","South Korea",1,0,0,0,0
+2003,"High income","KOR","South Korea",1,0,0,0,0
+2004,"High income","KOR","South Korea",1,0,0,0,0
+2005,"High income","KOR","South Korea",1,0,0,0,0
+2006,"High income","KOR","South Korea",1,0,0,0,0
+2007,"High income","KOR","South Korea",1,0,0,0,0
+2008,"High income","KOR","South Korea",1,0,0,0,0
+2009,"High income","KOR","South Korea",1,0,0,0,0
+2010,"High income","KOR","South Korea",1,0,0,0,0
+2011,"High income","KOR","South Korea",1,0,0,0,0
+2012,"High income","KOR","South Korea",1,0,0,0,0
+2013,"High income","KOR","South Korea",1,0,0,0,0
+2014,"High income","KOR","South Korea",1,0,0,0,0
+2015,"High income","KOR","South Korea",1,0,0,0,0
+2016,"High income","KOR","South Korea",1,0,0,0,0
+2001,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2002,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2003,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2004,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2005,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2006,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2007,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2008,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2009,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2010,"Not categorized","SSD","South Sudan",0,0,0,1,0
+2011,"Lower-middle income","SSD","South Sudan",0,0,1,0,0
+2012,"Low income","SSD","South Sudan",0,1,0,0,0
+2013,"Lower-middle income","SSD","South Sudan",0,0,1,0,0
+2014,"Low income","SSD","South Sudan",0,1,0,0,0
+2015,"Low income","SSD","South Sudan",0,1,0,0,0
+2016,"Low income","SSD","South Sudan",0,1,0,0,0
+2001,"High income","ESP","Spain",1,0,0,0,0
+2002,"High income","ESP","Spain",1,0,0,0,0
+2003,"High income","ESP","Spain",1,0,0,0,0
+2004,"High income","ESP","Spain",1,0,0,0,0
+2005,"High income","ESP","Spain",1,0,0,0,0
+2006,"High income","ESP","Spain",1,0,0,0,0
+2007,"High income","ESP","Spain",1,0,0,0,0
+2008,"High income","ESP","Spain",1,0,0,0,0
+2009,"High income","ESP","Spain",1,0,0,0,0
+2010,"High income","ESP","Spain",1,0,0,0,0
+2011,"High income","ESP","Spain",1,0,0,0,0
+2012,"High income","ESP","Spain",1,0,0,0,0
+2013,"High income","ESP","Spain",1,0,0,0,0
+2014,"High income","ESP","Spain",1,0,0,0,0
+2015,"High income","ESP","Spain",1,0,0,0,0
+2016,"High income","ESP","Spain",1,0,0,0,0
+2001,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2002,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2003,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2004,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2005,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2006,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2007,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2008,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2009,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2010,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2011,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2012,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2013,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2014,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2015,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2016,"Lower-middle income","LKA","Sri Lanka",0,0,1,0,0
+2001,"Low income","SDN","Sudan",0,1,0,0,0
+2002,"Low income","SDN","Sudan",0,1,0,0,0
+2003,"Low income","SDN","Sudan",0,1,0,0,0
+2004,"Low income","SDN","Sudan",0,1,0,0,0
+2005,"Low income","SDN","Sudan",0,1,0,0,0
+2006,"Low income","SDN","Sudan",0,1,0,0,0
+2007,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2008,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2009,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2010,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2011,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2012,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2013,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2014,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2015,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2016,"Lower-middle income","SDN","Sudan",0,0,1,0,0
+2001,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2002,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2003,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2004,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2005,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2006,"Lower-middle income","SUR","Suriname",0,0,1,0,0
+2007,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2008,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2009,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2010,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2011,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2012,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2013,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2014,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2015,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2016,"Upper-middle income","SUR","Suriname",0,0,0,0,1
+2001,"High income","SWE","Sweden",1,0,0,0,0
+2002,"High income","SWE","Sweden",1,0,0,0,0
+2003,"High income","SWE","Sweden",1,0,0,0,0
+2004,"High income","SWE","Sweden",1,0,0,0,0
+2005,"High income","SWE","Sweden",1,0,0,0,0
+2006,"High income","SWE","Sweden",1,0,0,0,0
+2007,"High income","SWE","Sweden",1,0,0,0,0
+2008,"High income","SWE","Sweden",1,0,0,0,0
+2009,"High income","SWE","Sweden",1,0,0,0,0
+2010,"High income","SWE","Sweden",1,0,0,0,0
+2011,"High income","SWE","Sweden",1,0,0,0,0
+2012,"High income","SWE","Sweden",1,0,0,0,0
+2013,"High income","SWE","Sweden",1,0,0,0,0
+2014,"High income","SWE","Sweden",1,0,0,0,0
+2015,"High income","SWE","Sweden",1,0,0,0,0
+2016,"High income","SWE","Sweden",1,0,0,0,0
+2001,"High income","CHE","Switzerland",1,0,0,0,0
+2002,"High income","CHE","Switzerland",1,0,0,0,0
+2003,"High income","CHE","Switzerland",1,0,0,0,0
+2004,"High income","CHE","Switzerland",1,0,0,0,0
+2005,"High income","CHE","Switzerland",1,0,0,0,0
+2006,"High income","CHE","Switzerland",1,0,0,0,0
+2007,"High income","CHE","Switzerland",1,0,0,0,0
+2008,"High income","CHE","Switzerland",1,0,0,0,0
+2009,"High income","CHE","Switzerland",1,0,0,0,0
+2010,"High income","CHE","Switzerland",1,0,0,0,0
+2011,"High income","CHE","Switzerland",1,0,0,0,0
+2012,"High income","CHE","Switzerland",1,0,0,0,0
+2013,"High income","CHE","Switzerland",1,0,0,0,0
+2014,"High income","CHE","Switzerland",1,0,0,0,0
+2015,"High income","CHE","Switzerland",1,0,0,0,0
+2016,"High income","CHE","Switzerland",1,0,0,0,0
+2001,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2002,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2003,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2004,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2005,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2006,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2007,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2008,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2009,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2010,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2011,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2012,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2013,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2014,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2015,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2016,"Lower-middle income","SYR","Syria",0,0,1,0,0
+2001,"High income","TWN","Taiwan",1,0,0,0,0
+2002,"High income","TWN","Taiwan",1,0,0,0,0
+2003,"High income","TWN","Taiwan",1,0,0,0,0
+2004,"High income","TWN","Taiwan",1,0,0,0,0
+2005,"High income","TWN","Taiwan",1,0,0,0,0
+2006,"High income","TWN","Taiwan",1,0,0,0,0
+2007,"High income","TWN","Taiwan",1,0,0,0,0
+2008,"High income","TWN","Taiwan",1,0,0,0,0
+2009,"High income","TWN","Taiwan",1,0,0,0,0
+2010,"High income","TWN","Taiwan",1,0,0,0,0
+2011,"High income","TWN","Taiwan",1,0,0,0,0
+2012,"High income","TWN","Taiwan",1,0,0,0,0
+2013,"High income","TWN","Taiwan",1,0,0,0,0
+2014,"High income","TWN","Taiwan",1,0,0,0,0
+2015,"High income","TWN","Taiwan",1,0,0,0,0
+2016,"High income","TWN","Taiwan",1,0,0,0,0
+2001,"Low income","TJK","Tajikistan",0,1,0,0,0
+2002,"Low income","TJK","Tajikistan",0,1,0,0,0
+2003,"Low income","TJK","Tajikistan",0,1,0,0,0
+2004,"Low income","TJK","Tajikistan",0,1,0,0,0
+2005,"Low income","TJK","Tajikistan",0,1,0,0,0
+2006,"Low income","TJK","Tajikistan",0,1,0,0,0
+2007,"Low income","TJK","Tajikistan",0,1,0,0,0
+2008,"Low income","TJK","Tajikistan",0,1,0,0,0
+2009,"Low income","TJK","Tajikistan",0,1,0,0,0
+2010,"Low income","TJK","Tajikistan",0,1,0,0,0
+2011,"Low income","TJK","Tajikistan",0,1,0,0,0
+2012,"Low income","TJK","Tajikistan",0,1,0,0,0
+2013,"Low income","TJK","Tajikistan",0,1,0,0,0
+2014,"Lower-middle income","TJK","Tajikistan",0,0,1,0,0
+2015,"Lower-middle income","TJK","Tajikistan",0,0,1,0,0
+2016,"Lower-middle income","TJK","Tajikistan",0,0,1,0,0
+2001,"Low income","TZA","Tanzania",0,1,0,0,0
+2002,"Low income","TZA","Tanzania",0,1,0,0,0
+2003,"Low income","TZA","Tanzania",0,1,0,0,0
+2004,"Low income","TZA","Tanzania",0,1,0,0,0
+2005,"Low income","TZA","Tanzania",0,1,0,0,0
+2006,"Low income","TZA","Tanzania",0,1,0,0,0
+2007,"Low income","TZA","Tanzania",0,1,0,0,0
+2008,"Low income","TZA","Tanzania",0,1,0,0,0
+2009,"Low income","TZA","Tanzania",0,1,0,0,0
+2010,"Low income","TZA","Tanzania",0,1,0,0,0
+2011,"Low income","TZA","Tanzania",0,1,0,0,0
+2012,"Low income","TZA","Tanzania",0,1,0,0,0
+2013,"Low income","TZA","Tanzania",0,1,0,0,0
+2014,"Low income","TZA","Tanzania",0,1,0,0,0
+2015,"Low income","TZA","Tanzania",0,1,0,0,0
+2016,"Low income","TZA","Tanzania",0,1,0,0,0
+2001,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2002,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2003,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2004,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2005,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2006,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2007,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2008,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2009,"Lower-middle income","THA","Thailand",0,0,1,0,0
+2010,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2011,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2012,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2013,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2014,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2015,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2016,"Upper-middle income","THA","Thailand",0,0,0,0,1
+2001,"Low income","TGO","Togo",0,1,0,0,0
+2002,"Low income","TGO","Togo",0,1,0,0,0
+2003,"Low income","TGO","Togo",0,1,0,0,0
+2004,"Low income","TGO","Togo",0,1,0,0,0
+2005,"Low income","TGO","Togo",0,1,0,0,0
+2006,"Low income","TGO","Togo",0,1,0,0,0
+2007,"Low income","TGO","Togo",0,1,0,0,0
+2008,"Low income","TGO","Togo",0,1,0,0,0
+2009,"Low income","TGO","Togo",0,1,0,0,0
+2010,"Low income","TGO","Togo",0,1,0,0,0
+2011,"Low income","TGO","Togo",0,1,0,0,0
+2012,"Low income","TGO","Togo",0,1,0,0,0
+2013,"Low income","TGO","Togo",0,1,0,0,0
+2014,"Low income","TGO","Togo",0,1,0,0,0
+2015,"Low income","TGO","Togo",0,1,0,0,0
+2016,"Low income","TGO","Togo",0,1,0,0,0
+2001,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2002,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2003,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2004,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2005,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2006,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2007,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2008,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2009,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2010,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2011,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2012,"Upper-middle income","TON","Tonga",0,0,0,0,1
+2013,"Upper-middle income","TON","Tonga",0,0,0,0,1
+2014,"Upper-middle income","TON","Tonga",0,0,0,0,1
+2015,"Lower-middle income","TON","Tonga",0,0,1,0,0
+2016,"Upper-middle income","TON","Tonga",0,0,0,0,1
+2001,"Upper-middle income","TTO","Trinidad & Tobago",0,0,0,0,1
+2002,"Upper-middle income","TTO","Trinidad & Tobago",0,0,0,0,1
+2003,"Upper-middle income","TTO","Trinidad & Tobago",0,0,0,0,1
+2004,"Upper-middle income","TTO","Trinidad & Tobago",0,0,0,0,1
+2005,"Upper-middle income","TTO","Trinidad & Tobago",0,0,0,0,1
+2006,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2007,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2008,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2009,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2010,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2011,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2012,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2013,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2014,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2015,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2016,"High income","TTO","Trinidad & Tobago",1,0,0,0,0
+2001,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2002,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2003,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2004,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2005,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2006,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2007,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2008,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2009,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2010,"Upper-middle income","TUN","Tunisia",0,0,0,0,1
+2011,"Upper-middle income","TUN","Tunisia",0,0,0,0,1
+2012,"Upper-middle income","TUN","Tunisia",0,0,0,0,1
+2013,"Upper-middle income","TUN","Tunisia",0,0,0,0,1
+2014,"Upper-middle income","TUN","Tunisia",0,0,0,0,1
+2015,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2016,"Lower-middle income","TUN","Tunisia",0,0,1,0,0
+2001,"Lower-middle income","TUR","Turkey",0,0,1,0,0
+2002,"Lower-middle income","TUR","Turkey",0,0,1,0,0
+2003,"Lower-middle income","TUR","Turkey",0,0,1,0,0
+2004,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2005,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2006,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2007,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2008,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2009,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2010,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2011,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2012,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2013,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2014,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2015,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2016,"Upper-middle income","TUR","Turkey",0,0,0,0,1
+2001,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2002,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2003,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2004,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2005,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2006,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2007,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2008,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2009,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2010,"Lower-middle income","TKM","Turkmenistan",0,0,1,0,0
+2011,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2012,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2013,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2014,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2015,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2016,"Upper-middle income","TKM","Turkmenistan",0,0,0,0,1
+2001,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2002,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2003,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2004,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2005,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2006,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2007,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2008,"Not categorized","TCA","Turks & Caicos Islands",0,0,0,1,0
+2009,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2010,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2011,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2012,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2013,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2014,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2015,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2016,"High income","TCA","Turks & Caicos Islands",1,0,0,0,0
+2001,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2002,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2003,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2004,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2005,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2006,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2007,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2008,"Not categorized","TUV","Tuvalu",0,0,0,1,0
+2009,"Lower-middle income","TUV","Tuvalu",0,0,1,0,0
+2010,"Lower-middle income","TUV","Tuvalu",0,0,1,0,0
+2011,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2012,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2013,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2014,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2015,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2016,"Upper-middle income","TUV","Tuvalu",0,0,0,0,1
+2001,"Low income","UGA","Uganda",0,1,0,0,0
+2002,"Low income","UGA","Uganda",0,1,0,0,0
+2003,"Low income","UGA","Uganda",0,1,0,0,0
+2004,"Low income","UGA","Uganda",0,1,0,0,0
+2005,"Low income","UGA","Uganda",0,1,0,0,0
+2006,"Low income","UGA","Uganda",0,1,0,0,0
+2007,"Low income","UGA","Uganda",0,1,0,0,0
+2008,"Low income","UGA","Uganda",0,1,0,0,0
+2009,"Low income","UGA","Uganda",0,1,0,0,0
+2010,"Low income","UGA","Uganda",0,1,0,0,0
+2011,"Low income","UGA","Uganda",0,1,0,0,0
+2012,"Low income","UGA","Uganda",0,1,0,0,0
+2013,"Low income","UGA","Uganda",0,1,0,0,0
+2014,"Low income","UGA","Uganda",0,1,0,0,0
+2015,"Low income","UGA","Uganda",0,1,0,0,0
+2016,"Low income","UGA","Uganda",0,1,0,0,0
+2001,"Low income","UKR","Ukraine",0,1,0,0,0
+2002,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2003,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2004,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2005,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2006,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2007,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2008,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2009,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2010,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2011,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2012,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2013,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2014,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2015,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2016,"Lower-middle income","UKR","Ukraine",0,0,1,0,0
+2001,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2002,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2003,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2004,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2005,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2006,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2007,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2008,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2009,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2010,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2011,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2012,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2013,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2014,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2015,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2016,"High income","ARE","United Arab Emirates",1,0,0,0,0
+2001,"High income","GBR","United Kingdom",1,0,0,0,0
+2002,"High income","GBR","United Kingdom",1,0,0,0,0
+2003,"High income","GBR","United Kingdom",1,0,0,0,0
+2004,"High income","GBR","United Kingdom",1,0,0,0,0
+2005,"High income","GBR","United Kingdom",1,0,0,0,0
+2006,"High income","GBR","United Kingdom",1,0,0,0,0
+2007,"High income","GBR","United Kingdom",1,0,0,0,0
+2008,"High income","GBR","United Kingdom",1,0,0,0,0
+2009,"High income","GBR","United Kingdom",1,0,0,0,0
+2010,"High income","GBR","United Kingdom",1,0,0,0,0
+2011,"High income","GBR","United Kingdom",1,0,0,0,0
+2012,"High income","GBR","United Kingdom",1,0,0,0,0
+2013,"High income","GBR","United Kingdom",1,0,0,0,0
+2014,"High income","GBR","United Kingdom",1,0,0,0,0
+2015,"High income","GBR","United Kingdom",1,0,0,0,0
+2016,"High income","GBR","United Kingdom",1,0,0,0,0
+2001,"High income","USA","United States",1,0,0,0,0
+2002,"High income","USA","United States",1,0,0,0,0
+2003,"High income","USA","United States",1,0,0,0,0
+2004,"High income","USA","United States",1,0,0,0,0
+2005,"High income","USA","United States",1,0,0,0,0
+2006,"High income","USA","United States",1,0,0,0,0
+2007,"High income","USA","United States",1,0,0,0,0
+2008,"High income","USA","United States",1,0,0,0,0
+2009,"High income","USA","United States",1,0,0,0,0
+2010,"High income","USA","United States",1,0,0,0,0
+2011,"High income","USA","United States",1,0,0,0,0
+2012,"High income","USA","United States",1,0,0,0,0
+2013,"High income","USA","United States",1,0,0,0,0
+2014,"High income","USA","United States",1,0,0,0,0
+2015,"High income","USA","United States",1,0,0,0,0
+2016,"High income","USA","United States",1,0,0,0,0
+2001,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2002,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2003,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2004,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2005,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2006,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2007,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2008,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2009,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2010,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2011,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2012,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2013,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2014,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2015,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2016,"High income","VIR","U.S. Virgin Islands",1,0,0,0,0
+2001,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2002,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2003,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2004,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2005,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2006,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2007,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2008,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2009,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2010,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2011,"Upper-middle income","URY","Uruguay",0,0,0,0,1
+2012,"High income","URY","Uruguay",1,0,0,0,0
+2013,"High income","URY","Uruguay",1,0,0,0,0
+2014,"High income","URY","Uruguay",1,0,0,0,0
+2015,"High income","URY","Uruguay",1,0,0,0,0
+2016,"High income","URY","Uruguay",1,0,0,0,0
+2001,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2002,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2003,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2004,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2005,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2006,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2007,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2008,"Low income","UZB","Uzbekistan",0,1,0,0,0
+2009,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2010,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2011,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2012,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2013,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2014,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2015,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2016,"Lower-middle income","UZB","Uzbekistan",0,0,1,0,0
+2001,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2002,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2003,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2004,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2005,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2006,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2007,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2008,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2009,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2010,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2011,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2012,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2013,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2014,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2015,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2016,"Lower-middle income","VUT","Vanuatu",0,0,1,0,0
+2001,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2002,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2003,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2004,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2005,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2006,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2007,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2008,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2009,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2010,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2011,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2012,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2013,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2014,"High income","VEN","Venezuela",1,0,0,0,0
+2015,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2016,"Upper-middle income","VEN","Venezuela",0,0,0,0,1
+2001,"Low income","VNM","Vietnam",0,1,0,0,0
+2002,"Low income","VNM","Vietnam",0,1,0,0,0
+2003,"Low income","VNM","Vietnam",0,1,0,0,0
+2004,"Low income","VNM","Vietnam",0,1,0,0,0
+2005,"Low income","VNM","Vietnam",0,1,0,0,0
+2006,"Low income","VNM","Vietnam",0,1,0,0,0
+2007,"Low income","VNM","Vietnam",0,1,0,0,0
+2008,"Low income","VNM","Vietnam",0,1,0,0,0
+2009,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2010,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2011,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2012,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2013,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2014,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2015,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2016,"Lower-middle income","VNM","Vietnam",0,0,1,0,0
+2001,"Low income","YEM","Yemen",0,1,0,0,0
+2002,"Low income","YEM","Yemen",0,1,0,0,0
+2003,"Low income","YEM","Yemen",0,1,0,0,0
+2004,"Low income","YEM","Yemen",0,1,0,0,0
+2005,"Low income","YEM","Yemen",0,1,0,0,0
+2006,"Low income","YEM","Yemen",0,1,0,0,0
+2007,"Low income","YEM","Yemen",0,1,0,0,0
+2008,"Low income","YEM","Yemen",0,1,0,0,0
+2009,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2010,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2011,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2012,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2013,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2014,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2015,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2016,"Lower-middle income","YEM","Yemen",0,0,1,0,0
+2001,"Low income","ZMB","Zambia",0,1,0,0,0
+2002,"Low income","ZMB","Zambia",0,1,0,0,0
+2003,"Low income","ZMB","Zambia",0,1,0,0,0
+2004,"Low income","ZMB","Zambia",0,1,0,0,0
+2005,"Low income","ZMB","Zambia",0,1,0,0,0
+2006,"Low income","ZMB","Zambia",0,1,0,0,0
+2007,"Low income","ZMB","Zambia",0,1,0,0,0
+2008,"Low income","ZMB","Zambia",0,1,0,0,0
+2009,"Low income","ZMB","Zambia",0,1,0,0,0
+2010,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2011,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2012,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2013,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2014,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2015,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2016,"Lower-middle income","ZMB","Zambia",0,0,1,0,0
+2001,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2002,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2003,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2004,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2005,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2006,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2007,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2008,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2009,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2010,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2011,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2012,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2013,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2014,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2015,"Low income","ZWE","Zimbabwe",0,1,0,0,0
+2016,"Low income","ZWE","Zimbabwe",0,1,0,0,0

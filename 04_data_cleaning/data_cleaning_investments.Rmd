@@ -1,0 +1,90 @@
+---
+title: "Data Cleaning BRI Energy Investments"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleaning script for AEI investment data
+
+This data contains overseas FDIs and construction projects from Chinese state-owned or private companies. It was limited to transactions in the energy and transport sector, and includes investments in fossil fuels, hydropower and alternative energies (including nuclear) in the energy sector. In the transport sector, the data measures investments in railway and shipping infrastructure. 
+The AEI dataset measuring "troubled transactions" was not included in the analysis, as it is unclear whether those investments, actually went through, and methodological issues with the underlying data have been cited: https://www.ft.com/content/5159fddc-fe98-11e6-8d8e-a5e3738f9ae4
+
+# To Do
+
+
+
+
+```{r libraries, results = FALSE}
+library(tidyverse)
+library(countrycode)
+library(janitor)
+library(readxl)
+library(writexl)
+library(here)
+
+```
+
+The data was loaded from the publicly available AEI dataset, emitting the sheet on troubled transactions.
+The data points were then restricted to investments in the energy and transports sector. Within the transports sector data, investments in the automotive and aviation industry were excluded, as they are not relevant to the transport of fossil fuel energy carriers.
+
+```{r load aei data}
+list_of_sectors <- c("Energy","Transport")
+list_of_subsectors <- c("Autos", "Aviation")
+
+aei <- readxl::read_xlsx(here::here("04_data_cleaning/bri_investments/China-Global-Investment-Tracker-2021-Fall-FINAL-2022.2.21-update.xlsx"), sheet = "Dataset 1+2", skip = 5)%>%
+  as.data.frame()%>%
+  clean_names()%>%
+  filter(sector %in% list_of_sectors & !subsector %in% list_of_subsectors)%>% # & !is.na(subsector)
+  subset(select = c(year, sector, subsector, quantity_in_millions, investor, country, region, share_size))%>% 
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>% 
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(country, origin = 'country.name', destination = 'region'))
+
+```
+
+The BRI dummies were created by manually compiling a list of the years in which individual countries signed a MoU of cooperating with China on the BRI, based on the information at [Belt and Road Portal](https://www.yidaiyilu.gov.cn/info/iList.jsp?cat_id=10037), and then applied to the investment projects in the form of a binary dummy.
+
+```{r add bri mous, include=FALSE}
+mou <- readxl::read_xlsx(here::here("./04_data_cleaning/bri_investments/BRI_MoU_data.xlsx"))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))
+
+aei_bri <- merge(aei, mou, by = "country", all.x = T)%>%
+  dplyr::rename(
+    bri_mou_signed = year.y,
+    year_investment = year.x
+  )%>%
+  mutate(bri = ifelse(year_investment >= bri_mou_signed, 1, 0))%>%
+  mutate(bri = replace_na(bri, 0))%>%
+  subset(select = -c(bri_mou_signed))
+
+write.csv(aei_bri, here::here("05_clean_data/investments_absolute.csv"), row.names = FALSE)
+
+```
+
+To ensure stationarity of the independent variable, the AEI investment data was transformed into a share of the receiving country's nominal GDP in the given year.
+
+
+```{r}
+gdp <- read.csv(here("05_clean_data/current_usd_gdp.csv"))
+
+investment_share <- merge(aei_bri, gdp, by.x = c("iso", "country", "year_investment"), by.y = c("iso", "country", "year"), all.x = TRUE)%>%
+  mutate(investment = quantity_in_millions*1000000)%>% #original data measures investments in million USD, multiplying to have the same unit as for gdp
+  group_by(country, year_investment)%>%
+  mutate(investment = sum(investment))%>% # summing up investments per year
+  ungroup()%>%
+  mutate(investments_share_percent_gdp = investment/gdp*100)%>% # calculating share of investments in gdo per year
+  group_by(country)%>%
+  distinct(year_investment, .keep_all = T)%>% #removing double year observations resulting from summing up investments per year
+  subset(select = -quantity_in_millions)
+
+write.csv(investment_share, here::here("05_clean_data/investments_gdpshare.csv"), row.names = FALSE)
+
+```
+
+
+

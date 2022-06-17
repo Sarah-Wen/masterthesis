@@ -1,0 +1,85 @@
+---
+title: "Binary analysis script"
+author: "Sarah Wenzel"
+date: "9 3 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+```{r loading data}
+binary_fs <- read_csv(here::here("05_clean_data/df_binary_consumption.csv"), show_col_types = FALSE)
+```
+
+
+
+
+```{r models using investment dummy}
+
+
+#Model 1: Country and year fixed effects, binary energy and transport investment dummy 
+# no regional dummies, because they will be dropped with country FE
+# + fossil_subsidies crashes this model
+# r2: 0.035938
+fs_bin_twoway <- plm(fossil_share_energy ~  inv_dummy +gdp + pop_size + bri_dummy + industry_share +  resource_rents + urban_pop_share + trade_share_gdp +  country + year,
+                   data = binary_fs,
+                   index = c("country", "year"), 
+                   model = "within",
+                   effect = "twoways",
+                   na.action=na.exclude
+                   )
+coeftest(fs_bin_twoway, vcov. = vcovSCC, type = "HC0") 
+cov_bin_twoway <- vcovSCC(fs_bin_twoway, type = "HC0")
+robust_se1 <- sqrt(diag(cov_bin_twoway))
+
+
+
+
+#Year fixed effects, binary energy and transport investment dummy 
+# R2: 0.43918
+# Basically everything significant, except IV dummy
+fs_bin_yfe <- plm(fossil_share_energy ~gdp + inv_dummy + bri_dummy + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + resource_rents*bri_dummy + + region_east_asia_pacific + region_europe_central_asia + region_latin_america_caribbean  + region_middle_east_north_africa + region_north_america + region_south_asia + region_sub_saharan_africa + year,
+               data = binary_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "time")
+coeftest(fs_bin_yfe, vcov. = vcovSCC, type = "HC1") 
+
+#Model 3: country fixed effects, binary energy and transport investment dummy 
+# R2: 0.10289
+
+fs_bin_cfe <- plm(fossil_share_energy ~ gdp + inv_dummy + bri_dummy + industry_share + trade_share_gdp + resource_rents + urban_pop_share + pop_size + country,
+               data = binary_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_bin_cfe, vcov. = vcovSCC, type = "HC1") 
+
+
+#Model 4: 
+# Random effects
+# Do not use: Hausmann test shows model is biased
+fs_mod4 <- plm(fossil_share_energy ~ gdp + inv_dummy + bri_dummy + industry_share + trade_share_gdp + resource_rents + urban_pop_share + pop_size,
+               data = binary_fs,
+               index = c("country", "year"), 
+               model = "random",
+               random.method = "nerlove")
+summary(fs_mod4)
+coeftest(fs_mod4, vcov. = vcovHC, type = "HC1") 
+
+
+# Pooled OLS 
+
+fs_bin_pool <- plm(fossil_share_energy ~ gdp + inv_dummy + bri_dummy + industry_share + trade_share_gdp + resource_rents + urban_pop_share + pop_size,
+               data = binary_fs,
+               index = c("country", "year"), 
+               model = "pooling")
+coeftest(fs_bin_pool, vcov. = vcovSCC, type = "HC0") 
+
+
+```

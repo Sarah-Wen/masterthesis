@@ -1,0 +1,227 @@
+---
+title: "Visualizations energy consumption and trade"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Energy consumption
+
+These are visualizations based on the OWID dataset, containing information on energy consumption. "owid_fcpc" is loaded from "data_cleaning_energy_consumption_trade.Rmd.
+
+
+###To Do
+* Schrift vergrößern
+* SSA umbenennen
+* beschreiben
+
+
+```{r libraries, echo = FALSE}
+
+library(tidyverse)
+library(readxl)
+library(RColorBrewer)
+library(here)
+library(plotly)
+library(htmlwidgets)
+library(countrycode)
+library(wesanderson)
+
+
+```
+
+## Including Plots
+
+Plotting share of fossil fuels across time by country (too cluttered)
+
+fspe = fossil share in primary energy
+
+
+This first plot shows the share of fossil fuels in total primary energy consumption for all countries in the dataset. This graph is very crowded, so I used to plotly to check which line is which country in an html file. However, since the graphs can only be included in the pdf master thesis as static graphs, a more aggregated visualization was created in the next step. The descriptions in the master thesis are based on this and the following graph. 
+
+In order to compare the energy levels in those countries which received large amounts of investments in the energy and transport sector to those that did not, the dataset was subdivided into world regions and then split in the 25% of countries who received the highest investments measured as a share of domestic GDP, and the rest of the world region.
+
+```{r load data, echo=TRUE}
+fspe <- read.csv(here("05_clean_data/owid_data.csv"))
+
+```
+
+```{r basic plot, echo=FALSE}
+
+p <- ggplot(fspe, mapping = aes(x = year, y = fossil_share_energy)) +
+  geom_line(aes(colour = as.factor(country))) +
+  theme_minimal()+
+  labs(title = "Fossil fuel consumption as share of primary energy consumption", 
+    subtitle = "Source: Mathieu and Ritchie (2021), years: 2005-2019", 
+    colour ="World regions", 
+    y = "Share of fossil energy in primary energy consumption", 
+    x = "Year")+
+  facet_wrap(~ region)
+#ggsave(here("06_tables_and_plots/fossil_share_countries.png"), width = 15, height = 6, dpi = 300)
+
+
+p1 <- ggplotly(p)
+saveWidget(p1, here("06_tables_and_plots/fossil_share_primary_energy_consumption.html"))
+
+```
+
+
+In order to have a more clear plot, the observed countries were grouped by world region to show regional trends. Sub-Sahara Africa was removed from the plot, as only data on South Africa was available, resulting in a misleading visualization of energy consumption in Sub-Sahara Africa. 
+
+```{r, echo=FALSE}
+
+fspe_ag1 <- fspe%>%
+  group_by(region, year)%>%
+  summarize(mean_fossil_share = mean(fossil_share_energy))
+  filter(region != "Sub-Saharan Africa")
+
+my_palette <- brewer.pal(name="BrBG",n=11)[c(2:4,8:11)]
+
+q <- ggplot(fspe_g, mapping = aes(x = year, y = mean_fossil_share)) +
+  geom_line(aes(colour = as.factor(region)), size = 1) +
+  scale_color_manual(values = my_palette) +
+  theme_minimal()+
+  ggtitle("Mean fossil fuel consumption as share of primary energy consumption by world region", subtitle = "Source: Mathieu and Ritchie (2021)")+
+  labs(color ="World regions", y = 'Mean share of fossil energy in primary energy consumption', x = 'Year')   
+
+ggsave(here("06_tables_and_plots/fossil_share_world_regions.png"), width = 10, height = 6, dpi = 300)
+
+q1 <- ggplotly(q)
+saveWidget(q1, here("06_tables_and_plots/aggregated_fossil_share_primary_energy_consumption.html"))
+
+```
+
+To increase the information content of this plot, a binary dummy indicating the top 25% receivers of Chinese investments per world region was introduced. The plot was then adapted to compare the average fossil fuel consumption in those countries to the average consumption in the rest of the region. 
+
+```{r countries per region}
+#Loading investment data and checking how many countries there are per world region
+aei_share <- read.csv(here("05_clean_data/investments_gdpshare.csv"))
+
+test <- aei_share%>%
+  filter(iso %in% fspe$iso)%>% #only including those countries that are also present in the fspe data
+  group_by(region)%>%
+  summarise(count_countries = n_distinct(country))
+
+```
+
+Results: In order to plot average energy consumption in the 25% of countries that received the most investments against average energy consumption in the rest of the region, we need: 3 observations from East Asia and Pacific, 8 from Europe and Central Asia, 2 from Latin America and the Caribbean, 3 from MENA, and 1 from South Asia. North America and Sub-Sahara Africa will not be examined on the difference between countries that received large investments and those that did not because of the low number of observations. 
+
+
+```{r large investors}
+# Defining vectors of those countries that received the most investments, measured in terms of annual nominal GDP
+# For this purpose, the investments that countries received from China (as a gdp share of the respective year) were summed up
+  
+investments_quant <- aei_share%>%
+  filter(iso %in% fspe$iso)%>% #only including those countries that are also present in the fspe data
+  group_by(country)%>%
+  mutate(investmentmean = mean(investments_share_percent_gdp))%>% #for plotting absolute investments, use investment
+  distinct(country, .keep_all = T)%>% # since the amount of investments is aggregated over time, only one country observation is needed
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(country, origin = 'country.name', destination = 'region'))%>%
+  arrange(desc(investmentmean)) %>% 
+  group_by(region)
+
+temp1 <- investments_quant %>%
+  filter(region %in% c("East Asia & Pacific","Middle East & North Africa")) %>% #this works bc the data strructure is still grouped by region
+  slice_head(n = 3)
+temp2 <- investments_quant %>%
+  filter(region == "Latin America & Caribbean") %>%
+  slice_head(n = 2)
+temp3 <- investments_quant %>%
+  filter(region == "South Asia") %>%
+  slice_head(n = 1)
+temp4 <- investments_quant%>%
+  filter(region == "Europe & Central Asia")%>%
+  slice_head(n= 8)
+
+large_investments <- rbind(temp1, temp2, temp3, temp4)
+
+fspe <- fspe%>%
+  mutate(large = country %in% large_investments$country)
+fspe$large <- as.numeric(fspe$large)
+
+#rm(temp1, temp2, temp3, temp4, aei_share, investments_quant, large_investments)
+
+```
+
+
+Visualization used in master thesis:
+
+
+```{r}
+fspe_ag2 <- fspe%>%
+  group_by(region, year, large)%>%
+  summarize(mean_fossil_share = mean(fossil_share_energy))%>%
+  filter(region != "Sub-Saharan Africa")
+
+
+my_palette <- brewer.pal(name="Dark2",n=8)[c(1:2,5:8)]
+my_palette2 <- c("darkgreen", "gold3", "darkorange3", "lightseagreen", "skyblue4", "maroon")
+
+r <- ggplot(fspe_ag2, mapping = aes(x = year, y = mean_fossil_share)) +
+  geom_line(aes(colour = as.factor(region), linetype = as.factor(large)), size = 1) +
+  scale_color_manual(values = my_palette2) +
+  scale_linetype_manual(values = c("solid", "twodash"), labels = c("75% remaining countries", "25% countries with largest FDIs"), guide = guide_legend(reverse = TRUE))+
+  theme_minimal()+
+  theme(text = element_text(size=20))+
+  ggtitle("Mean fossil fuel consumption as share of primary energy consumption by world region", subtitle = "Source: Mathieu and Ritchie (2021), Years: 2005 - 2019")+
+  labs(color ="World regions", linetype = "Chinese FDI Dummy", y = 'Mean share of fossil energy in primary energy consumption', x = 'Year')  
+
+r1 <- ggplotly(r)
+saveWidget(r1, here("06_tables_and_plots/fossil_consumption_world_regions_dummy.html"))
+
+ggsave(here("06_tables_and_plots/fossil_consumption_world_regions_dummy.pdf"), width = 14, height = 8, dpi = 300)
+
+```
+
+
+Information that was used in the descriptive analysis:
+
+```{r}
+# Which countries are the largest investment receivers?
+blub <- fspe%>%
+  filter(large == 1)%>%
+  group_by(country)%>%
+  mutate(mean_fossil_share = mean(fossil_share_energy))%>%
+  distinct(country, .keep_all = T)%>%
+  subset(select = c(country, mean_fossil_share, region))%>%
+  arrange(region)%>%
+  rename(
+    Country = country,
+    'Fossil share of primary energy consumption' = mean_fossil_share,
+    Region = region
+  )
+print(xtable::xtable(blub), type = "latex",  include.rownames=FALSE)
+
+# How much energy did the top receiving and comparison group use on average between 2005 - 2019?
+
+test <- fspe%>%
+  group_by(region, large)%>%
+  summarize(sum = mean(fossil_share_energy))
+
+
+
+
+```
+
+
+
+
+
+Add ons: Plot fossil consumption per capita & total energy consumption, to get a feeling of how energy consumption in general has changed
+
+```{r}
+p2 <- ggplot(fspe, mapping = aes(x = year, y = fossil_energy_per_capita)) +
+  geom_line(aes(colour = as.factor(country))) +
+  theme_minimal()+
+  facet_wrap(~ region)
+
+p3 <-ggplot(fspe, mapping = aes(x = year, y = energy_per_capita)) +
+  geom_line(aes(colour = as.factor(country))) +
+  theme_minimal()+
+  facet_wrap(~ region)
+
+
+```
+

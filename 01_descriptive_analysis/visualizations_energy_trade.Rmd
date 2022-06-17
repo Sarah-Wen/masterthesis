@@ -1,0 +1,200 @@
+---
+title: "Visualization Trade Data"
+author: "Sarah Wenzel"
+date: "25 11 2021"
+output: html_document
+---
+
+
+```{r libraries, echo = FALSE}
+library(tidyverse)
+library(here)
+library(pals)
+library(RColorBrewer)
+library(plotly)
+library(htmlwidgets)
+library(readxl)
+library(countrycode)
+options(scipen=999)
+
+```
+
+For the export dataset, the same visualization procedure as in the  energy consumption visualization was followed: A binary dummy indicating the top 25% receivers of Chinese investments per world region was introduced and the plot was then adapted to compare the average fossil fuel consumption in those countries to the average consumption in the rest of the region. The list of largest investment receivers was newly defined for this visualization, as the export and the energy consumption dataset contained different countries.
+
+```{r plot export value}
+# Getting the 20 largest exporters
+df_tm_v <- read.csv(here("05_clean_data/trademaps_cleaned_value.csv"))
+
+test <- df_tm_v[is.na(df_tm_v$region),] #testing whether there are countries that were not attributed a region, there are none
+
+
+quanttest <- df_tm_v%>%
+  group_by(exporter) %>%
+  summarise(sum = sum(exports, na.rm = TRUE))
+quanttest <- quanttest[order(-quanttest$sum),]%>%
+  head(n = 20L)
+#creating a vector
+quanttest <- dplyr::pull(quanttest, exporter)
+
+# subset df to 25 largest exporters for plotting:
+plotdf_v <- df_tm_v[is.element(df_tm_v$exporter, quanttest),]
+
+p_v <-  ggplot(plotdf_v, aes(x=year, y=exports, group=exporter)) +
+  geom_line(aes(colour= exporter), size = 1.05)+
+  scale_colour_manual(values=stepped2(20))+
+  scale_y_continuous(name="Exports", labels = scales::comma)+
+  labs(title="Fossil energy exports in USD", colour = "Exporters", x="Year")+
+  theme_minimal()+
+  facet_wrap(~ region)
+
+ggsave(here("06_tables_and_plots/fossil_exports_usd.png"), width = 9, height = 7, dpi = 300)
+
+```
+
+
+
+```{r countries per region}
+#Loading investment data and checking how many countries there are per world region countries that received the most investments by world region
+aei_share <- read.csv(here("05_clean_data/investments_gdpshare.csv"))
+test <- aei_share%>%
+  filter(iso %in% df_tm_v$iso)%>% #only including those countries that are also present in the fspe data
+  group_by(region)%>%
+  summarise(count_countries = n_distinct(country))
+
+```
+
+Results: In order to plot average energy consumption in the 25% of countries that received the most investments against average energy consumption in the rest of the region, we need: 5 observations from East Asia and Pacific, 9 from Europe and Central Asia, 10 from Sub-Saharan Africa, 5 from Latin America and the Caribbean, 4 from MENA, and 2 from South Asia. 
+
+
+```{r large investors}
+# Defining vectors of those countries that received the most investments, measured in terms of annual nominal GDP
+  
+investments_quant <- aei_share%>%
+  filter(iso %in% df_tm_v$iso)%>% #only including those countries that are also present in the trademaps data
+  group_by(country)%>%
+  mutate(investmentmean = mean(investments_share_percent_gdp))%>%
+  distinct(country, .keep_all = T)%>% # since the amount of investments is aggregated over time, only one country observation is needed
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(country, origin = 'country.name', destination = 'region'))%>%
+  arrange(desc(investmentmean))%>%
+  group_by(region)
+
+temp1 <- investments_quant %>%
+  filter(region == "Europe & Central Asia") %>%
+  slice_head(n = 9)
+temp2 <- investments_quant %>%
+  filter(region %in% c("East Asia & Pacific","Latin America & Caribbean")) %>%
+  slice_head(n = 5)
+temp3 <- investments_quant %>%
+  filter(region == "Middle East & North Africa") %>%
+  slice_head(n = 4)
+temp4 <- investments_quant%>%
+  filter(region == "South Asia")%>%
+  slice_head(n = 2)
+temp5 <- investments_quant%>%
+  filter(region == "Sub-Saharan Africa")%>%
+  slice_head(n = 8)
+
+large_investments <- rbind(temp1, temp2, temp3, temp4, temp5)
+
+rm(temp1, temp2, temp3, temp4, temp5, investments_quant)
+
+```
+
+
+
+
+```{r large investors}
+
+df_tm_v <- df_tm_v%>%
+  mutate(large = iso %in% large_investments$iso)
+df_tm_v$large <- as.numeric(df_tm_v$large)
+
+df_v_ag <- df_tm_v%>%
+  group_by(region, year, large)%>%
+  summarise(export_share = mean(exports_share_percent_gdp, na.rm=TRUE))
+
+my_palette <- c("darkgreen", "gold3", "darkorange3", "lightseagreen", "skyblue4", "maroon", "darkslateblue")
+
+p_v_ag <- ggplot(df_v_ag, mapping = aes(x = year, y = export_share)) +
+  geom_line(aes(colour = as.factor(region), linetype = as.factor(large)), size = 1) +
+  scale_color_manual(values = my_palette) +
+  scale_linetype_manual(values = c("solid", "twodash"), labels = c("75% remaining countries", "25% countries with largest FDIs"), guide = guide_legend(reverse = TRUE))+
+  theme_minimal()+
+  theme(text = element_text(size=20))+
+  ggtitle("Share of fossil energy exports in GDP by world region", subtitle = "Source: International Trade Center (2021)")+
+  labs(color ="World regions", linetype = "Chinese FDI Dummy", y = "Mean share of fossil energy exports in GDP", x = "Year")  
+ggsave(here("06_tables_and_plots/fossil_exports_world_regions_dummy.pdf"), width = 14, height = 8, dpi = 300)
+
+p_v_ag1 <- ggplotly(p_v_ag)
+saveWidget(p_v_ag1, here("06_tables_and_plots/fossil_exports_world_regions_dummy.html"))
+
+```
+
+
+Information that was used in the descriptive analysis:
+
+```{r}
+# Which countries are the largest investment receivers?
+blub <- df_tm_v%>%
+  filter(large == 1)
+unique(blub$exporter)
+
+# How much energy did the top receiving and comparison group export on average between 2005 - 2019?
+test <- df_v_ag%>%
+  group_by(region, large)%>%
+  summarize(sum = mean(export_share, na.rm=TRUE))
+
+
+# Which countries are the largest investment receivers?
+blob <- df_tm_v%>%
+  filter(large == 1)%>%
+  group_by(exporter)%>%
+  mutate(export_share = mean(exports_share_percent_gdp, na.rm=TRUE))%>%
+  distinct(exporter, .keep_all = T)%>%
+  subset(select = c(exporter, export_share, region))%>%
+  arrange(region)%>%
+  rename(
+    Country = exporter,
+    'Fossil share of primary energy consumption' = export_share,
+    Region = region
+  )
+print(xtable::xtable(blob), type = "latex",  include.rownames=FALSE)
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+
+
+my_palette <- brewer.pal(name="BrBG",n=11)[c(2:4,8:11)]
+
+p <- ggplot(p_q_ag, mapping = aes(x = year, y = exports)) +
+  geom_line(aes(colour = as.factor(region)), size = 1) +
+  scale_color_manual(values = my_palette) +
+  theme_minimal()+
+  ggtitle("Mean fossil fuel exports by world region", subtitle = "Source: Mathieu and Ritchie (2021)")+
+  labs(color ="World regions", y = 'Mean share of fossil energy in primary energy consumption', x = 'Year')   
+
+ggsave(here("06_tables_and_plots/fossil_share_world_regions.png"), width = 10, height = 6, dpi = 300)
+
+q1 <- ggplotly(q)
+saveWidget(q1, here("06_tables_and_plots/aggregated_fossil_share_primary_energy_consumption.html"))
+```
+
+
+
+

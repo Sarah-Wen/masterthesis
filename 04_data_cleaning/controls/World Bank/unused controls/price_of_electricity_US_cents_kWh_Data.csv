@@ -1,0 +1,219 @@
+﻿Series Name,Series Code,Economy Name,Economy Code,2004 [YR2004],2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019],2020 [YR2020]
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Beijing,CHN_BEI,..,..,..,..,..,..,..,..,..,..,..,14.1,14.3,13.9,18.7,17.4,16.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Chittagong,BGD_CHI,..,..,..,..,..,..,..,..,..,..,..,9.3,9,9.3,9.2,9.3,10.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Delhi,IND_DEL,..,..,..,..,..,..,..,..,..,..,..,20.3,19.8,16,15.2,14.9,16.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Dhaka,BGD_DHA,..,..,..,..,..,..,..,..,..,..,..,9.3,9,9.3,9.2,9.2,9.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Jakarta,IDN_JAK,..,..,..,..,..,..,..,..,..,..,..,14.2,13.7,11,11.1,10.7,10.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kano,NGA_KAN,..,..,..,..,..,..,..,..,..,..,..,16.2,23.1,20.2,18.3,16.3,14.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Karachi,PAK_KAR,..,..,..,..,..,..,..,..,..,..,..,21.2,19.7,19,18.8,18.7,22.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lagos,NGA_LAG,..,..,..,..,..,..,..,..,..,..,..,15.7,26.7,20.1,16.4,12.8,11.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lahore,PAK_LAH,..,..,..,..,..,..,..,..,..,..,..,20,18.6,19,18.8,18.7,20.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Los Angeles,USA_LA,..,..,..,..,..,..,..,..,..,..,..,17.3,17.8,17.2,17.9,18.9,20.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mexico City,MEX_MEC,..,..,..,..,..,..,..,..,..,..,..,17.4,14.5,6.7,6.5,11.5,17
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Monterrey,MEX_MON,..,..,..,..,..,..,..,..,..,..,..,12.1,9.5,7.1,9.9,11.8,13.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Moscow,RUS_MOS,..,..,..,..,..,..,..,..,..,..,..,12.7,11.5,9.7,7.8,8,8.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mumbai,IND_MUM,..,..,..,..,..,..,..,..,..,..,..,25.8,24.6,25.8,20.3,19.4,20.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,New York,USA_NY,..,..,..,..,..,..,..,..,..,..,..,13.8,13.7,15.9,15.8,15.9,16.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Osaka,JPN_OSA,..,..,..,..,..,..,..,..,..,..,..,22.7,20.2,18.8,18.6,16,16.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Rio de Janeiro,BRA_RIO,..,..,..,..,..,..,..,..,..,..,..,14.3,16.9,20.4,17.2,21.1,18.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Sao Paulo,BRA_SAO,..,..,..,..,..,..,..,..,..,..,..,11.1,15,16.9,14.2,13.3,16.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Shanghai,CHN_SHA,..,..,..,..,..,..,..,..,..,..,..,14.5,14.6,14.7,12.7,14,12.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,St. Petersburg,RUS_STP,..,..,..,..,..,..,..,..,..,..,..,10.4,10.3,10,8,8.5,8.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Surabaya,IDN_SUR,..,..,..,..,..,..,..,..,..,..,..,14.4,13.9,11.3,11.4,10.9,11.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Tokyo,JPN_TOK,..,..,..,..,..,..,..,..,..,..,..,32.6,28.9,24.6,23.3,20,23.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Afghanistan,AFG,..,..,..,..,..,..,..,..,..,..,..,23.3,22,20.9,18.6,17.6,18
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Albania,ALB,..,..,..,..,..,..,..,..,..,..,..,9.5,10.2,9.6,9.1,8.7,9.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Algeria,DZA,..,..,..,..,..,..,..,..,..,..,..,2.7,2.7,3,2.6,2.2,2.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Angola,AGO,..,..,..,..,..,..,..,..,..,..,..,4.7,4.6,8.8,6,4.6,3.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Antigua and Barbuda,ATG,..,..,..,..,..,..,..,..,..,..,..,50.7,44.5,44.2,43.2,43.7,44.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Argentina,ARG,..,..,..,..,..,..,..,..,..,..,..,9.4,7,8.8,10.6,15.5,10.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Armenia,ARM,..,..,..,..,..,..,..,..,..,..,..,8,8.3,9.1,8,7.6,7.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Australia,AUS,..,..,..,..,..,..,..,..,..,..,..,22.2,21.4,19.3,17.2,23.1,20.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Austria,AUT,..,..,..,..,..,..,..,..,..,..,..,11.6,11.3,9.5,8.9,9.8,10.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Azerbaijan,AZE,..,..,..,..,..,..,..,..,..,..,..,7.6,7.6,5.9,6.1,5.4,4.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Bahamas, The",BHS,..,..,..,..,..,..,..,..,..,..,..,39.9,39.4,23.9,27.7,27.6,28.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bahrain,BHR,..,..,..,..,..,..,..,..,..,..,..,4.2,4.3,5.3,5.1,4.8,6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bangladesh,BGD,..,..,..,..,..,..,..,..,..,..,..,9.3,9,9.3,9.2,9.2,9.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Barbados,BRB,..,..,..,..,..,..,..,..,..,..,..,30.9,22,18.2,24.5,25.8,26.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Belarus,BLR,..,..,..,..,..,..,..,..,..,..,..,14.6,20.2,23.8,17.1,11.7,14.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Belgium,BEL,..,..,..,..,..,..,..,..,..,..,..,19.5,19.2,16.9,16.7,15.8,16.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Belize,BLZ,..,..,..,..,..,..,..,..,..,..,..,22.6,22.3,19.5,19.4,19.5,22.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Benin,BEN,..,..,..,..,..,..,..,..,..,..,..,23.2,23.1,22.8,20.7,19.6,20.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bhutan,BTN,..,..,..,..,..,..,..,..,..,..,..,4.6,5,5.7,5.5,5.4,5.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bolivia,BOL,..,..,..,..,..,..,..,..,..,..,..,14,15.2,17.8,18.1,17,17.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bosnia and Herzegovina,BIH,..,..,..,..,..,..,..,..,..,..,..,13.7,14,11.8,13.6,16.2,11.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Botswana,BWA,..,..,..,..,..,..,..,..,..,..,..,15.7,14,11.8,13.2,14.4,16.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Brazil,BRA,..,..,..,..,..,..,..,..,..,..,..,12.3,15.7,18.2,15.4,16.3,17.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Brunei Darussalam,BRN,..,..,..,..,..,..,..,..,..,..,..,6,5.7,5.3,5.2,5.2,5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Bulgaria,BGR,..,..,..,..,..,..,..,..,..,..,..,10,12.8,9.7,9,12.4,10.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Burkina Faso,BFA,..,..,..,..,..,..,..,..,..,..,..,29.4,28.8,26.4,24.2,22.9,23.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Burundi,BDI,..,..,..,..,..,..,..,..,..,..,..,11.7,11.3,11.3,11.1,15.7,17.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Cabo Verde,CPV,..,..,..,..,..,..,..,..,..,..,..,35,35.2,32.5,25.1,28.9,26.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Cambodia,KHM,..,..,..,..,..,..,..,..,..,..,..,19.1,18.7,17.8,17.5,18,18.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Cameroon,CMR,..,..,..,..,..,..,..,..,..,..,..,22.3,21.8,15.7,17.1,14.1,17
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Canada,CAN,..,..,..,..,..,..,..,..,..,..,..,12.9,12.6,15.5,14.2,13.3,12.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Central African Republic,CAF,..,..,..,..,..,..,..,..,..,..,..,12,11.1,11,10.2,9.8,10.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Chad,TCD,..,..,..,..,..,..,..,..,..,..,..,25.7,25.4,24.7,23.2,20.5,21.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Chile,CHL,..,..,..,..,..,..,..,..,..,..,..,9.8,10.1,10.5,9.9,9.7,10.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,China,CHN,..,..,..,..,..,..,..,..,..,..,..,14.3,14.5,14.3,15.4,15.5,14.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Colombia,COL,..,..,..,..,..,..,..,..,..,..,..,14.4,14.3,15,14.4,13.2,19.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Comoros,COM,..,..,..,..,..,..,..,..,..,..,..,32.9,32.6,27.9,27.4,26.8,28.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Congo, Dem. Rep.",COD,..,..,..,..,..,..,..,..,..,..,..,11.5,11.7,10,10,10,10
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Congo, Rep.",COG,..,..,..,..,..,..,..,..,..,..,..,11.1,11.1,12.4,10.6,8.2,8.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Costa Rica,CRI,..,..,..,..,..,..,..,..,..,..,..,25.2,25.7,24.5,14.6,14.4,14.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Côte d'Ivoire,CIV,..,..,..,..,..,..,..,..,..,..,..,12.1,12.6,13.9,12,11.8,12.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Croatia,HRV,..,..,..,..,..,..,..,..,..,..,..,18.4,18.4,16.2,17.1,17.6,16.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Cyprus,CYP,..,..,..,..,..,..,..,..,..,..,..,25.4,20,18.7,17.5,14.9,19.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Czech Republic,CZE,..,..,..,..,..,..,..,..,..,..,..,17.7,15.3,13.8,12.1,12.1,13.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Denmark,DNK,..,..,..,..,..,..,..,..,..,..,..,14.7,14.5,22.5,21.4,20.3,24.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Djibouti,DJI,..,..,..,..,..,..,..,..,..,..,..,22.8,22.8,26,26,25.5,26.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Dominica,DMA,..,..,..,..,..,..,..,..,..,..,..,46.5,36.5,33.4,35.2,34.5,36.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Dominican Republic,DOM,..,..,..,..,..,..,..,..,..,..,..,25,24.5,22,21.3,20.4,20.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Ecuador,ECU,..,..,..,..,..,..,..,..,..,..,..,7.9,9.9,10.7,12.5,11.7,11.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Egypt, Arab Rep.",EGY,..,..,..,..,..,..,..,..,..,..,..,10.8,11.5,10.9,12.1,8,9.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,El Salvador,SLV,..,..,..,..,..,..,..,..,..,..,..,21.3,19.2,14,15.8,16.7,19.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Equatorial Guinea,GNQ,..,..,..,..,..,..,..,..,..,..,..,22,22.7,23.3,21.4,17,17.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Eritrea,ERI,..,..,..,..,..,..,..,..,..,..,..,21.9,..,..,..,..,..
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Estonia,EST,..,..,..,..,..,..,..,..,..,..,..,11.2,11.4,10.5,9.9,8.5,10.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Eswatini,SWZ,..,..,..,..,..,..,..,..,..,..,..,20.6,20,13.6,15,16.2,16.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Ethiopia,ETH,..,..,..,..,..,..,..,..,..,..,..,4.7,4.7,4.4,4.1,3.9,3.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Fiji,FJI,..,..,..,..,..,..,..,..,..,..,..,24.7,24,22.2,21.1,20.3,21.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Finland,FIN,..,..,..,..,..,..,..,..,..,..,..,16.4,14.3,12.7,11.8,11.3,13.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,France,FRA,..,..,..,..,..,..,..,..,..,..,..,14.2,14.3,14.5,13.6,13,13.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Gabon,GAB,..,..,..,..,..,..,..,..,..,..,..,22.2,22.6,21.2,19.4,18.9,19.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Gambia, The",GMB,..,..,..,..,..,..,..,..,..,..,..,29,25.4,23.7,21.1,20,20.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Georgia,GEO,..,..,..,..,..,..,..,..,..,..,..,8.2,7.9,9.8,7.4,6.5,6.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Germany,DEU,..,..,..,..,..,..,..,..,..,..,..,29.2,28.5,26.6,33.8,32.2,25.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Ghana,GHA,..,..,..,..,..,..,..,..,..,..,..,27.1,25.4,19.3,24.5,22.2,23.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Greece,GRC,..,..,..,..,..,..,..,..,..,..,..,14.1,15.6,22.2,20.7,19.5,20.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Grenada,GRD,..,..,..,..,..,..,..,..,..,..,..,39.8,29.8,23.9,27.7,27.6,30.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Guatemala,GTM,..,..,..,..,..,..,..,..,..,..,..,21.4,16.6,14.2,12.3,19.4,20.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Guinea,GIN,..,..,..,..,..,..,..,..,..,..,..,17.2,17,16.4,20.9,19.6,20.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Guinea-Bissau,GNB,..,..,..,..,..,..,..,..,..,..,..,33.1,31.2,27.6,26.9,24.9,27.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Guyana,GUY,..,..,..,..,..,..,..,..,..,..,..,32.2,29.3,30.1,28.9,30,32.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Haiti,HTI,..,..,..,..,..,..,..,..,..,..,..,36.8,35.7,30.5,26.2,22.7,21.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Honduras,HND,..,..,..,..,..,..,..,..,..,..,..,24.5,19.6,17.2,21.1,17.2,20.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Hong Kong, China",HKG,..,..,..,..,..,..,..,..,..,..,..,15.3,15.5,15,15.1,15.4,16.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Hungary,HUN,..,..,..,..,..,..,..,..,..,..,..,15.3,16.3,25.1,23.4,17.6,18
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Iceland,ISL,..,..,..,..,..,..,..,..,..,..,..,8.9,8.9,8.8,9.4,10,12.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,India,IND,..,..,..,..,..,..,..,..,..,..,..,22.9,22,20.6,17.6,17,18.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Indonesia,IDN,..,..,..,..,..,..,..,..,..,..,..,14.2,13.7,11.1,11.2,10.7,10.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Iran, Islamic Rep.",IRN,..,..,..,..,..,..,..,..,..,..,..,10,8.1,6.2,5.8,5.3,5.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Iraq,IRQ,..,..,..,..,..,..,..,..,..,..,..,7.9,7.9,14.3,12,9.5,8.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Ireland,IRL,..,..,..,..,..,..,..,..,..,..,..,24.1,23.4,21.4,20.6,19.7,19
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Israel,ISR,..,..,..,..,..,..,..,..,..,..,..,14.2,14.3,13.9,12.6,11.9,11.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Italy,ITA,..,..,..,..,..,..,..,..,..,..,..,25.5,23.8,21.6,20.2,19.3,16.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Jamaica,JAM,..,..,..,..,..,..,..,..,..,..,..,41.6,28,20.5,23.3,22.3,26.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Japan,JPN,..,..,..,..,..,..,..,..,..,..,..,29.1,25.9,22.6,21.7,18.6,21.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Jordan,JOR,..,..,..,..,..,..,..,..,..,..,..,22.8,24.5,24.5,23.8,23.9,24.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kazakhstan,KAZ,..,..,..,..,..,..,..,..,..,..,..,9.8,9.1,9.8,6,5,4.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kenya,KEN,..,..,..,..,..,..,..,..,..,..,..,23.1,21.6,17.6,20.2,21.5,21.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kiribati,KIR,..,..,..,..,..,..,..,..,..,..,..,56.2,52.2,46.2,42.4,39.4,41.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Korea, Rep.",KOR,..,..,..,..,..,..,..,..,..,..,..,10,10.1,9,8.7,8.5,11.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kosovo,XKX,..,..,..,..,..,..,..,..,..,..,..,15,16.3,13.5,12.8,12.1,9.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kuwait,KWT,..,..,..,..,..,..,..,..,..,..,..,0.7,0.7,0.8,0.7,0.8,0.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Kyrgyz Republic,KGZ,..,..,..,..,..,..,..,..,..,..,..,3.1,4.2,3.8,3.4,2.9,3.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lao PDR,LAO,..,..,..,..,..,..,..,..,..,..,..,10.5,11,11.3,11,12.9,13.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Latvia,LVA,..,..,..,..,..,..,..,..,..,..,..,20.1,16.4,15.2,7.4,9.9,11.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lebanon,LBN,..,..,..,..,..,..,..,..,..,..,..,13.2,13.3,13.2,13.3,13.2,13
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lesotho,LSO,..,..,..,..,..,..,..,..,..,..,..,15.7,15.8,13,10.9,13.9,13.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Liberia,LBR,..,..,..,..,..,..,..,..,..,..,..,51.4,55.6,55.6,55.6,39,39
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Libya,LBY,..,..,..,..,..,..,..,..,..,..,..,14.9,18.2,17.5,14.4,11.6,12.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Liechtenstein,LIE,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,9.3,9.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Lithuania,LTU,..,..,..,..,..,..,..,..,..,..,..,20.4,12.3,10.7,9.1,8.3,9.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Luxembourg,LUX,..,..,..,..,..,..,..,..,..,..,..,15.5,14.3,12.7,11.3,10.6,12.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Madagascar,MDG,..,..,..,..,..,..,..,..,..,..,..,15.8,15,13.1,14.2,15.7,11.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Malawi,MWI,..,..,..,..,..,..,..,..,..,..,..,14.2,12.1,17.1,13.3,11.5,17.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Malaysia,MYS,..,..,..,..,..,..,..,..,..,..,..,16.8,15.4,14.3,12.9,11.6,12
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Maldives,MDV,..,..,..,..,..,..,..,..,..,..,..,41.8,33.3,27.3,43.4,44.9,39.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mali,MLI,..,..,..,..,..,..,..,..,..,..,..,15.8,16.3,15.3,13.9,13.6,14.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Malta,MLT,..,..,..,..,..,..,..,..,..,..,..,26.6,26.8,17.6,17.9,17,19
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Marshall Islands,MHL,..,..,..,..,..,..,..,..,..,..,..,49.7,40.6,40.6,40.4,39.1,40.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mauritania,MRT,..,..,..,..,..,..,..,..,..,..,..,21.2,20.9,21.3,19.5,17.7,17.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mauritius,MUS,..,..,..,..,..,..,..,..,..,..,..,26.6,22.9,21.6,20.3,19.6,20.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mexico,MEX,..,..,..,..,..,..,..,..,..,..,..,16.5,13.7,6.8,7.1,11.5,16.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Micronesia, Fed. Sts.",FSM,..,..,..,..,..,..,..,..,..,..,..,56,44,35.1,38.8,37.8,41.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Moldova,MDA,..,..,..,..,..,..,..,..,..,..,..,11.1,10.3,10.5,9,8.8,8.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mongolia,MNG,..,..,..,..,..,..,..,..,..,..,..,6.9,7.6,6.9,6.3,5.9,5.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Montenegro,MNE,..,..,..,..,..,..,..,..,..,..,..,9.9,9.6,13.3,12.5,13.3,14.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Morocco,MAR,..,..,..,..,..,..,..,..,..,..,..,11.6,13,12.8,12.8,12.3,12.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Mozambique,MOZ,..,..,..,..,..,..,..,..,..,..,..,7.1,7,8.5,8.9,10.4,9.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Myanmar,MMR,..,..,..,..,..,..,..,..,..,..,..,12.5,13,10,9.3,8.3,8.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Namibia,NAM,..,..,..,..,..,..,..,..,..,..,..,18.5,18.1,17.3,15.3,13.5,15.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Nepal,NPL,..,..,..,..,..,..,..,..,..,..,..,12.9,11.4,10.4,13.3,11.4,12
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Netherlands,NLD,..,..,..,..,..,..,..,..,..,..,..,12,11.7,11.6,10.8,10.6,14.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,New Zealand,NZL,..,..,..,..,..,..,..,..,..,..,..,13.8,14.3,13.2,12.2,11.5,12
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Nicaragua,NIC,..,..,..,..,..,..,..,..,..,..,..,36.1,35.9,33.2,33.2,33.7,33.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Niger,NER,..,..,..,..,..,..,..,..,..,..,..,25.5,25.2,23.6,22.1,19.3,21.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Nigeria,NGA,..,..,..,..,..,..,..,..,..,..,..,15.8,25.9,20.1,16.8,13.6,11.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,North Macedonia,MKD,..,..,..,..,..,..,..,..,..,..,..,18.4,18.2,17,13.4,12.8,15.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Norway,NOR,..,..,..,..,..,..,..,..,..,..,..,9.7,12.9,11.3,10.1,10,10.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Oman,OMN,..,..,..,..,..,..,..,..,..,..,..,5.3,5.3,5.9,5.3,5.1,6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Pakistan,PAK,..,..,..,..,..,..,..,..,..,..,..,20.8,19.3,19,18.8,18.7,21.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Palau,PLW,..,..,..,..,..,..,..,..,..,..,..,41.2,26.5,25.7,26.1,31.1,32.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Panama,PAN,..,..,..,..,..,..,..,..,..,..,..,24.7,24.2,24.9,21.2,18.8,25.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Papua New Guinea,PNG,..,..,..,..,..,..,..,..,..,..,..,44.3,40.1,35.7,31.5,30.3,28.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Paraguay,PRY,..,..,..,..,..,..,..,..,..,..,..,6.7,6.5,6.2,7.1,6.5,6.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Peru,PER,..,..,..,..,..,..,..,..,..,..,..,14.2,14.5,13.2,12.2,17.1,19.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Philippines,PHL,..,..,..,..,..,..,..,..,..,..,..,20,19.4,17.6,17.7,16.4,18.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Poland,POL,..,..,..,..,..,..,..,..,..,..,..,14.3,15.2,15.1,14.1,13.2,13.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Portugal,PRT,..,..,..,..,..,..,..,..,..,..,..,27.7,29.6,18.3,17.4,25.2,22.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Puerto Rico,PRI,..,..,..,..,..,..,..,..,..,..,..,29.2,24,24.5,24.5,24.5,24.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Qatar,QAT,..,..,..,..,..,..,..,..,..,..,..,3.3,3.5,4.8,4.1,4,3.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Romania,ROU,..,..,..,..,..,..,..,..,..,..,..,9.1,8.7,8.5,8,5.9,9.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Russian Federation,RUS,..,..,..,..,..,..,..,..,..,..,..,12,11.2,9.8,7.8,8.2,8.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Rwanda,RWA,..,..,..,..,..,..,..,..,..,..,..,19.5,18.8,17.9,16.4,13.9,13.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Samoa,WSM,..,..,..,..,..,..,..,..,..,..,..,41.2,41.3,37.1,36.7,39.1,38.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,San Marino,SMR,..,..,..,..,..,..,..,..,..,..,..,16.3,16.4,13.7,13.7,13.8,15.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,São Tomé and Principe,STP,..,..,..,..,..,..,..,..,..,..,..,35.1,35.7,31.8,17.9,17,18.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Saudi Arabia,SAU,..,..,..,..,..,..,..,..,..,..,..,6.2,6.3,9,8.5,7.6,7.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Senegal,SEN,..,..,..,..,..,..,..,..,..,..,..,23.1,22.6,21.3,17.7,17.3,18.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Serbia,SRB,..,..,..,..,..,..,..,..,..,..,..,16.3,15.6,6.8,6.6,7.3,10.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Seychelles,SYC,..,..,..,..,..,..,..,..,..,..,..,35.9,37.1,28.5,31,31.1,32.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Sierra Leone,SLE,..,..,..,..,..,..,..,..,..,..,..,30.3,32.3,25.9,24.1,20.4,18
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Singapore,SGP,..,..,..,..,..,..,..,..,..,..,..,16.8,11.3,8.1,10,10.2,5.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Slovak Republic,SVK,..,..,..,..,..,..,..,..,..,..,..,16.1,15.5,14.3,12.9,11.6,15.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Slovenia,SVN,..,..,..,..,..,..,..,..,..,..,..,13.3,13.9,14.7,13.8,14.6,26.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Solomon Islands,SLB,..,..,..,..,..,..,..,..,..,..,..,98.7,99.9,96,67.9,67.4,71.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Somalia,SOM,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,South Africa,ZAF,..,..,..,..,..,..,..,..,..,..,..,9.9,9.3,15.4,15.1,14.8,16.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,South Sudan,SSD,..,..,..,..,..,..,..,..,..,..,..,22,..,..,..,..,..
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Spain,ESP,..,..,..,..,..,..,..,..,..,..,..,23.1,25.1,15.9,19.1,24.8,26
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Sri Lanka,LKA,..,..,..,..,..,..,..,..,..,..,..,24.2,20.3,20.1,20.1,16.9,17.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,St. Kitts and Nevis,KNA,..,..,..,..,..,..,..,..,..,..,..,40.1,30.4,29.7,30,29.7,30.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,St. Lucia,LCA,..,..,..,..,..,..,..,..,..,..,..,37.8,36.8,28.1,31.5,30.9,32.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,St. Vincent and the Grenadines,VCT,..,..,..,..,..,..,..,..,..,..,..,40.8,30.1,29.8,29.7,31.5,34.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Sudan,SDN,..,..,..,..,..,..,..,..,..,..,..,6.6,5.6,5.1,5.4,4.4,2.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Suriname,SUR,..,..,..,..,..,..,..,..,..,..,..,7,7.2,15.4,9.1,7.3,7.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Sweden,SWE,..,..,..,..,..,..,..,..,..,..,..,13.7,13.3,12,11,10.2,10.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Switzerland,CHE,..,..,..,..,..,..,..,..,..,..,..,17.4,16.1,15,12.5,12.3,13.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Syrian Arab Republic,SYR,..,..,..,..,..,..,..,..,..,..,..,18.6,8.1,11.5,7.4,6.7,7.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Taiwan, China",TWN,..,..,..,..,..,..,..,..,..,..,..,14.4,14.1,12.3,10.9,11.9,11.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Tajikistan,TJK,..,..,..,..,..,..,..,..,..,..,..,6.7,7.6,8.2,6.8,6.4,6.3
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Tanzania,TZA,..,..,..,..,..,..,..,..,..,..,..,16.6,16.7,15.1,13.6,12.6,12.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Thailand,THA,..,..,..,..,..,..,..,..,..,..,..,17.1,16.7,15,12.6,12.6,13.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Timor-Leste,TLS,..,..,..,..,..,..,..,..,..,..,..,21.9,23.5,24,24,21.5,23.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Togo,TGO,..,..,..,..,..,..,..,..,..,..,..,21.4,21.7,19.8,18.4,17,17.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Tonga,TON,..,..,..,..,..,..,..,..,..,..,..,52.2,41.6,33.2,39.9,38.5,36.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Trinidad and Tobago,TTO,..,..,..,..,..,..,..,..,..,..,..,7.2,7.2,7.2,7.3,6.7,6.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Tunisia,TUN,..,..,..,..,..,..,..,..,..,..,..,10.1,10.4,9.6,9,9.7,7.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Turkey,TUR,..,..,..,..,..,..,..,..,..,..,..,14.2,14,14.2,12.1,10.1,8.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Uganda,UGA,..,..,..,..,..,..,..,..,..,..,..,19.3,20.9,22.7,16.5,17.1,16.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Ukraine,UKR,..,..,..,..,..,..,..,..,..,..,..,12.5,13.6,9.1,6.9,7.1,6.4
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,United Arab Emirates,ARE,..,..,..,..,..,..,..,..,..,..,..,10.6,11.7,12.2,12.3,11,10.9
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,United Kingdom,GBR,..,..,..,..,..,..,..,..,..,..,..,15,15.6,15.5,16.1,17.2,17.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,United States,USA,..,..,..,..,..,..,..,..,..,..,..,15.2,15.3,16.4,16.6,17.1,18.1
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Uruguay,URY,..,..,..,..,..,..,..,..,..,..,..,21,19.4,18.9,17.6,16.9,16.7
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Uzbekistan,UZB,..,..,..,..,..,..,..,..,..,..,..,6.4,6.2,6.5,6.8,5.7,5.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Vanuatu,VUT,..,..,..,..,..,..,..,..,..,..,..,49.7,41.1,33.8,35.1,43.6,38.2
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Venezuela, RB",VEN,..,..,..,..,..,..,..,..,..,..,..,954.7,820.7,1038,704.6,653.9,123.8
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Vietnam,VNM,..,..,..,..,..,..,..,..,..,..,..,12,11.6,11.6,12,12.3,12.5
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,West Bank and Gaza,PSE,..,..,..,..,..,..,..,..,..,..,..,18.2,16,15.8,15.7,17.1,17.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,"Yemen, Rep.",YEM,..,..,..,..,..,..,..,..,..,..,..,9.6,..,..,..,..,..
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Zambia,ZMB,..,..,..,..,..,..,..,..,..,..,..,4.5,4.8,3.8,4.7,4.7,4.6
+Getting electricity: Price of electricity (US cents per kWh) (DB16-20 methodology),IC.ELC.PRI.KH.DB1619,Zimbabwe,ZWE,..,..,..,..,..,..,..,..,..,..,..,12.5,10.5,12.5,12.1,11.9,12.4
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Data from database: Doing Business,,,,,,,,,,,,,,,,,,,,
+Last Updated: 10/23/2019,,,,,,,,,,,,,,,,,,,,

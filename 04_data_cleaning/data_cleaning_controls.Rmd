@@ -1,0 +1,411 @@
+---
+title: "Data Cleaning Controls"
+author: "Sarah Wenzel"
+date: "12 1 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r libraries}
+library(tidyverse)
+library(countrycode)
+library(janitor)
+library(readxl)
+library(fastDummies)
+options(scipen=999)
+
+```
+
+# Cleaning World Bank control variables
+
+Those countries that only contained NAs were collected in a vector and removed when cleaning the data
+
+```{r}
+
+na_countries <- c("Channel Islands", "Kosovo", "British Virgin Islands", "French Polynesia", "Gibraltar", "Korea, Dem. People's Rep.", "Sint Maarten (Dutch part)", "St. Martin (French part)", "")
+
+```
+
+## Current USD GDP
+Used to transform investments into a share of the receiving country's GDP
+
+```{r gdp}
+
+gdp <- read.csv(here::here("04_data_cleaning/controls/World Bank/WB_current_USD_GDP_Data.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "gdp")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate_at(c("year", "gdp"), as.numeric)
+
+write.csv(gdp, here::here("05_clean_data/current_usd_gdp.csv"), row.names = FALSE)
+
+```
+
+## Per capita GDP (used as control in regression analysis)
+
+```{r per capita gdp}
+pc_gdp <- read.csv(here::here("04_data_cleaning/controls/World Bank/WB_per_capita_GDP_Data.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "gdp")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate_at(c("year", "gdp"), as.numeric)
+
+# sum(is.na(gdp$gdp))
+
+write.csv(pc_gdp, here::here("05_clean_data/per_capita_gdp.csv"), row.names = FALSE)
+```
+
+
+###  Trade openness
+
+```{r}
+
+t_o <- read.csv(here::here("04_data_cleaning/controls/World Bank/World Bank Trade Openness_Data.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "trade_share_gdp")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate_at(c("year", "trade_share_gdp"), as.numeric)
+
+write.csv(t_o, here::here("05_clean_data/trade_openness.csv"), row.names = FALSE)
+
+
+```
+### Industry share in GDP
+
+```{r industry share}
+
+i_s <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_Industry_Share_GDP_Data.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "industry_share")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate_at(c("year", "industry_share"), as.numeric)
+
+test <- subset(i_s, is.na(industry_share)) #since more countries never reported their industry share compared to their gdp, even more countries could be removed from this dataset
+
+write.csv(i_s, here::here("05_clean_data/industry_share_gdp.csv"), row.names = FALSE)
+
+```
+### Urban Population
+
+```{r urbanization}
+
+urban <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_Urban_Population.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "urban_pop_share")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate_at(c("year", "urban_pop_share"), as.numeric)
+
+test <- subset(urban, is.na(urban_pop_share))
+
+write.csv(urban, here::here("05_clean_data/urban_pop_share.csv"), row.names = FALSE)
+```
+
+### Population size
+
+```{r}
+
+pop_size <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_population_size.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  rename(country = country_name)%>%
+  mutate_at(vars(-country), as.numeric)%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "pop_size")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country %in% na_countries)%>%
+  mutate(year = as.numeric(year))
+
+test <- subset(pop_size, is.na(pop_size))
+
+write.csv(pop_size, here::here("05_clean_data/population_size.csv"), row.names = FALSE)
+
+```
+
+### Resource rents
+
+As the resource rents indicator from the World Bank included rents from mineral resources and forests, an indicator only including resource rents from coal, oil, and natural gas was constructed.
+
+```{r}
+
+# continue here
+
+rr_oil <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_Oil_Rents_GDP.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  mutate_at(vars(-country_name), as.numeric)%>%
+  pivot_longer(cols = !country_name, names_to = "year", values_to = "oil_rents")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country_name, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country_name %in% na_countries)%>%
+  mutate_at(c("year", "oil_rents"), as.numeric)
+
+rr_coal <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_Coal_Rents_GDP.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  mutate_at(vars(-country_name), as.numeric)%>%
+  pivot_longer(cols = !country_name, names_to = "year", values_to = "coal_rents")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country_name, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country_name %in% na_countries)%>%
+  mutate_at(c("year", "coal_rents"), as.numeric)
+
+
+rr_ng <- read.csv(here::here("04_data_cleaning/controls/World Bank/World_Bank_Natural_Gas_Rents_GDP.csv"))%>%
+  janitor::clean_names()%>%  
+  subset(select = -c(i_series_name, series_code, country_code))%>%
+  mutate_at(vars(-country_name), as.numeric)%>%
+  pivot_longer(cols = !country_name, names_to = "year", values_to = "gas_rents")%>%
+  mutate(year=substr(year,9,12))%>%
+  mutate(iso = countrycode(country_name, origin = 'country.name', destination = 'iso3c'))%>%
+  filter(!country_name %in% na_countries)%>%
+  mutate_at(c("year", "gas_rents"), as.numeric)
+
+rr <- rr_oil%>%
+  full_join(rr_coal, by = c("iso", "year"))%>%
+  full_join(rr_ng, by = c("iso", "year"))%>%
+  subset(select = c(country_name, iso, year, oil_rents, coal_rents, gas_rents))%>%
+  mutate(resource_rents = rowSums(.[4:6], na.rm = TRUE))%>%
+  rename(country = country_name)%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))
+
+
+write.csv(rr, here::here("05_clean_data/resource_rents_share_gdp.csv"), row.names = FALSE)
+
+
+```
+
+
+
+# Export model
+
+
+### Resource prices
+
+```{r}
+
+# Average Crude Oil Prices 
+oil_prices <- read_xlsx(here::here("04_data_cleaning/Controls/bp/bp-stats-review-2021-all-data.xlsx"), sheet = "Oil - Crude prices since 1861", skip = 3)%>%
+  clean_names()%>%
+  rename(oil_price = x2020)%>%
+  transform(year = as.numeric(year))%>%
+  filter(year >= 2000)%>%
+  subset(select = - 2)
+
+
+# Average natural gas prices
+ng_prices <- read_xlsx(here::here("04_data_cleaning/Controls/bp/bp-stats-review-2021-all-data.xlsx"), sheet = "Gas - Prices ", skip = 4)%>%
+  janitor::clean_names()%>%
+  transform(x1 = as.numeric(x1))%>%
+  filter(x1 >= 2000)%>%
+  subset(select = -countries_cif_6)%>%
+  rowwise() %>% 
+  mutate(average_ng_price = mean(c(cif1:alberta_5)))%>%
+  subset(select = c(x1, average_ng_price))%>%
+  rename(year = x1)
+
+
+# Average coal prices
+coal_prices <- read_xlsx(here::here("04_data_cleaning/Controls/bp/bp-stats-review-2021-all-data.xlsx"), sheet = "Coal - Prices", skip = 1)%>%
+  janitor::clean_names()%>%
+  rename(year = us_dollars_per_tonne)%>%
+  transform(year = as.numeric(year))%>%
+  filter_all(any_vars(!is.na(.)))%>% #removing rows that are all na
+  filter(year >= 2000)
+
+coal_prices <- coal_prices[,colSums(is.na(coal_prices))<nrow(coal_prices)]%>% # removing all na columns
+  rowwise() %>% 
+  mutate(average_coal_price = mean(c(northwest_europe_marker_price:asian_marker_price)))%>%
+  subset(select = c(year, average_coal_price))
+
+
+fossil_prices = oil_prices%>%
+  full_join(ng_prices, by = "year")%>%
+  full_join(coal_prices, by = "year")
+
+plotdf <- fossil_prices%>%
+  pivot_longer(cols = !year, names_to = "fuel", values_to = "price")
+
+
+ggplot(plotdf, aes(x=year, y=price)) +
+  geom_line(aes(colour = as.factor(fuel)))
+
+
+write.csv(fossil_prices, here::here("05_clean_data/fossil_prices.csv"), row.names = FALSE)
+
+
+```
+
+#### Infrastructural Quality
+
+
+```{r}
+
+i_q_2007 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2007", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+  mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country),country))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2007 = score_3)
+
+i_q_2010 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2010", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+  mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country), country))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2010 = score_3)
+
+i_q_2012 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2012", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+   mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country),
+                          ifelse(country == "Sco Tomi and Principe", sub("Sco Tomi and Principe", "Sao Tome and Principe", 
+                                                                         country),country)))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2012 = score_3)
+
+i_q_2014 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2014", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+  mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country),
+                          ifelse(country == "Sco Tomi and Principe", sub("Sco Tomi and Principe", "Sao Tome and Principe", 
+                                                                         country),country)))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2014 = score_3)
+
+i_q_2016 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2016", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+  mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country),country))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2016 = score_3)
+
+i_q_2018 <- read_xlsx(here::here("04_data_cleaning/controls/International_LPI_from_2007_to_2018.xlsx"), sheet = "2018", skip = 2)%>%
+  clean_names()%>%
+  subset(select = c(country, score_3))%>%
+  mutate(country = ifelse(country == "Buthan", sub("Buthan", "Bhutan", country),country))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  rename(lpi_2018 = score_3)
+
+infra_qual <- i_q_2007%>%
+  full_join(i_q_2010, by = c("iso", "country"))%>%
+  full_join(i_q_2012, by = c("iso", "country"))%>%
+  full_join(i_q_2014, by = c("iso", "country"))%>%
+  full_join(i_q_2016, by = c("iso", "country"))%>%
+  full_join(i_q_2018, by = c("iso", "country"))
+
+infra_qual <- infra_qual%>%
+  rowwise() %>%
+  mutate(lpi_2008 = mean(c(lpi_2007, lpi_2010), na.rm = TRUE))%>%
+  mutate(lpi_2009 = mean(c(lpi_2007, lpi_2010), na.rm = T))%>%
+  mutate(lpi_2011 = mean(c(lpi_2010, lpi_2012), na.rm = T))%>%
+  mutate(lpi_2013 = mean(c(lpi_2012, lpi_2014), na.rm = T))%>%
+  mutate(lpi_2015 = mean(c(lpi_2014, lpi_2016), na.rm = T))%>%
+  mutate(lpi_2017 = mean(c(lpi_2016, lpi_2018), na.rm = T))
+  
+infra_qual <- infra_qual%>%
+  pivot_longer(cols = !c(country, iso), names_to = "year", values_to = "lpi")%>%  
+  mutate(year=substr(year,5,8))%>%
+  mutate(year = as.numeric(year))%>%
+  group_by(country)%>%
+  arrange(country, year)
+
+  
+write.csv(infra_qual, here::here("05_clean_data/quality_of_infrastructure.csv"), row.names = FALSE)
+
+```
+
+
+### Global Shipping Connectivity
+* continue here: all cols are characters, need to change that
+
+```{r}
+
+shipping <- read_xlsx(here::here("04_data_cleaning/controls/unctad_shipping_liner connectivity.xlsx"), skip = 4)%>%
+  clean_names()%>%
+  filter(quarter != "ECONOMY")%>%
+  rename(country = quarter)%>%
+  mutate(across(q1_2006:q4_2021, as.numeric))%>%
+  subset(!country %in% c("Falkland Islands (Malvinas)", "Christmas Island"))%>%
+  rowwise()%>%
+  mutate(y2006 = mean(q1_2006, q2_2006,q3_2006, q4_2006, na.rm = TRUE))%>%
+  mutate(y2007 = mean(q1_2007, q2_2007,q3_2007, q4_2007, na.rm = TRUE))%>%
+  mutate(y2008 = mean(q1_2008, q2_2008,q3_2008, q4_2008, na.rm = TRUE))%>%
+  mutate(y2009 = mean(q1_2009, q2_2009,q3_2009, q4_2009, na.rm = TRUE))%>%
+  mutate(y2010 = mean(q1_2010, q2_2010,q3_2010, q4_2010, na.rm = TRUE))%>%
+  mutate(y2011 = mean(q1_2011, q2_2011,q3_2011, q4_2011, na.rm = TRUE))%>%
+  mutate(y2012 = mean(q1_2012, q2_2012,q3_2012, q4_2012, na.rm = TRUE))%>%
+  mutate(y2013 = mean(q1_2013, q2_2013,q3_2013, q4_2013, na.rm = TRUE))%>%
+  mutate(y2014 = mean(q1_2014, q2_2014,q3_2014, q4_2014, na.rm = TRUE))%>%
+  mutate(y2015 = mean(q1_2015, q2_2015,q3_2015, q4_2015, na.rm = TRUE))%>%
+  mutate(y2016 = mean(q1_2016, q2_2016,q3_2016, q4_2016, na.rm = TRUE))%>%
+  mutate(y2017 = mean(q1_2017, q2_2017,q3_2017, q4_2017, na.rm = TRUE))%>%
+  mutate(y2018 = mean(q1_2018, q2_2018,q3_2018, q4_2018, na.rm = TRUE))%>%
+  mutate(y2019 = mean(q1_2019, q2_2019,q3_2019, q4_2019, na.rm = TRUE))%>%
+  mutate(y2020 = mean(q1_2020, q2_2020,q3_2020, q4_2020, na.rm = TRUE))%>%
+  mutate(y2010 = mean(q1_2021, q2_2021,q3_2021, q4_2021, na.rm = TRUE))%>%
+  select(-contains("q"))%>%
+  pivot_longer(cols = !country, names_to = "year", values_to = "connectivity_index")%>%
+  mutate(year = substr(year, 2,5))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))
+
+
+write.csv(shipping, here::here("05_clean_data/shipping_connectivity.csv"), row.names = FALSE)
+
+
+```
+
+
+
+
+
+
+
+
+### Electricity prices
+
+Data on electricity prices is only available for 2015-2020 and will probably not be used as a control.
+```{r electricity prices}
+electricity_price <- read.csv(here::here("./Controls/World Bank/price_of_electricity_US_cents_kWh_Data.csv"), header = TRUE, sep = ",", quote = "\"", 
+                 dec = ".", fill = TRUE, comment.char = "")%>%
+  as.data.frame()%>%
+  clean_names()
+# Removing cities
+electricity_price <- electricity_price[-c(1:22),]
+
+write_csv(electricity_price, "electricity_price.csv")
+```
+

@@ -1,0 +1,136 @@
+---
+title: "Data Cleaning Energy Consumption and Trade"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Cleaning energy consumption and trade 
+
+This script contains modifications made to the OWID dataset on energy consumption 
+
+# OWID
+
+```{r libraries, echo=FALSE}
+library(tidyverse)
+library(countrycode)
+```
+
+Composite observations, disputed and overseas territories were removed, and years limited to 2000 - 2019, as data for 2020 was not available for most countries. Lastly, countrycode was used to standardise the country names. "Timor" was renamed to "Timor-Leste" beforehand because countrycode could not identify it. 
+
+```{r loading and cleaning data}
+df_owid <- readxl::read_xlsx(here::here("04_data_cleaning/energy_consumption_data/owid-energy-data_21.xlsx"))%>%
+  as.data.frame()
+
+df_owid <- df_owid %>%
+  mutate(country = str_replace(country, "Timor", "Timor-Leste"))%>%
+  subset(!country %in% c("Africa", "Asia Pacific", "CIS", "Central America", "Eastern Africa", "Europe",
+                         "Europe (other)", "Middle Africa", "Middle East",  "North America",
+                         "Northern Mariana Islands", "OPEC", "Other CIS", "Other Asia & Pacific", 
+                         "Other Caribbean", "Other Northern Africa", "Other Southern Africa", 
+                         "Other Middle East", "Other South America", "South & Central America", 
+                         "United States Pacific Islands", "USSR", "Western Africa", "World",
+                         "Yugoslavia", "Reunion", "Saint Helena", "Western Sahara") &  year >= 2005 
+                          & year < 2020)%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  mutate(region = countrycode(country, origin = 'country.name', destination = 'region'))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))
+
+
+# Check which countries remain: 214 countries or independent territories
+unique(df_owid$country)
+
+```
+## Choosing the best Dv measure
+
+The dataset was then examined for the data availability of the various variables. The two variables fossil_cons_per_capita and fossil_share_energy were subsequently chosen for closer examination. Even though significantly more data points were available for fossil_cons_per_capita, a comparison of the variable to energy_per_capita showed that it cannot be an accurate measure of per-capita fossil fuel consumption, as the share it has in energy_per_capita is much too low for many countries with carbon-intensive energy mixes. For this reason, the variable fossil_share_energy, which contains less observations, but seems to be an adequate measure of the share of fossil fuels in the total energy mix, was chosen as dependent variable in the analysis.
+
+```{r checking variables}
+data_avail <- df_owid %>%
+  sapply(function(x) sum(!is.na(x)))%>%
+  as.data.frame()
+
+data_avail_fossil_cons <- df_owid %>% 
+  group_by(country)%>%
+  tally(!is.na(fossil_cons_per_capita))%>%
+  subset(n > 0)
+
+test <- df_owid %>%
+  subset(select = c(1:3, fossil_cons_per_capita, energy_per_capita))
+
+data_avail_fossil_share <- df_owid %>% 
+  group_by(country)%>%
+  tally(!is.na(fossil_share_energy))%>%
+  subset(n > 0)
+
+```
+
+The dataset was then reduced to those variables needed for the descriptive analysis and the regression analysis.
+
+fossil_share_energy = Share of primary energy consumption that comes from fossil fuels
+
+Observations were examined for NAs, and those that contained only NAs in fossil_share_energy were removed.
+
+
+```{r reducing dataset}
+
+# Checking for countries which contain NAs in the relevant variable
+owid_test <- df_owid %>%
+  filter(is.na(fossil_share_energy))%>%
+  subset(select = c(1:3, fossil_share_energy))
+
+# Checking whether all year observations (2000 - 2019) are NA per country
+owid_test <- owid_test%>%
+  count(country)
+
+# Manually checking those countries for which NA < 20: Those contained fewer observations, still all observations are NA
+owid_test <- owid_test%>%
+  subset(n < 20)
+
+# Removing countries with only missing values
+owid_fcpc <- df_owid %>%
+  filter(!is.na(fossil_share_energy))%>%
+  subset(select = c(2:3, fossil_share_energy, fossil_energy_per_capita, energy_per_capita, region, iso))
+
+#Testing for NAs in relevant variable: no NAs
+test <- owid_fcpc%>%
+  subset(is.na(fossil_share_energy))
+
+write.csv(owid_fcpc, (here::here("05_clean_data/owid_data.csv")),  row.names=FALSE)
+```
+
+Lastly, the years and countries which are represented in the dependent variable data were examined. As each country has 20 associated year-observation, and the min and max values lie at 2000 and 2019, there are no missing years.
+
+A big drawback of the limited number of states for which this data are available is the fact that no countries in Sub-Saharan Africa except South Africa are included in the dataset, which strongly reduces the informative value of the data. 
+
+```{r missing years/countries}
+#testing for missing years
+test <- owid_fcpc%>%
+  count(country)
+
+min(owid_fcpc$year)
+max(owid_fcpc$year)
+
+# checking countries
+unique(owid_fcpc$country)
+
+test <- owid_fcpc%>%
+  group_by(region)%>%
+  summarise(count = n_distinct(country))
+
+```
+
+The data was transferred into panel format and will be used in analysis_1
+
+```{r}
+
+library(plm)
+df_owid.p <- pdata.frame(df_owid, index= c("country", "year"))
+
+
+
+
+```
+

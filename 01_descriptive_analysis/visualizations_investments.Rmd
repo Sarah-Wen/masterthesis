@@ -1,0 +1,340 @@
+---
+title: "Visualizations Descriptive Analysis Investments"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Visualizations for descriptive data analysis
+
+
+
+```{r libraries, echo=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(rnaturalearth)
+library(sf)
+library(countrycode)
+library(viridis)
+library(readxl)
+library(here)
+library(RColorBrewer)
+library(pals)
+library(xtable)
+library(tidyr)
+library(janitor)
+library(arsenal)
+library(gt)
+library(magrittr)
+library(webshot)
+library(scales)
+library(paletteer)
+library(plotly)
+library(htmlwidgets)
+
+theme_set(theme_bw())
+options(scipen=999)
+
+```
+
+
+
+```{r loading data}
+
+world <- ne_countries(scale = 'medium', returnclass = 'sf')%>%
+  mutate(iso = countrycode(sovereignt, origin = 'country.name', destination = 'iso3c'))
+inv <- read_csv(here::here("05_clean_data/investments_gdpshare.csv"), show_col_types = FALSE)
+```
+
+Regional distribution of investments 
+
+```{r worldmap}
+investments_quant <- inv%>%
+  group_by(country)%>%
+  summarise(investments = sum(investment))%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))
+
+investments_quant_geom <- merge(world, investments_quant, by = "iso", all.x = T)%>%
+  subset(sovereignt != "Antarctica")%>%
+  filter(type != "Dependency")
+
+ggplot(data = investments_quant_geom) +
+  geom_sf(aes(fill = investments)) +
+  scale_fill_viridis(option = "mako",
+                      direction = -1,
+                      na.value = "lavenderblush3",
+                      breaks=seq(min(investments_quant_geom$investments, na.rm = T),
+                                max(investments_quant_geom$investments, na.rm = T),
+                                (max(investments_quant_geom$investments, na.rm = T)
+                                 -min(investments_quant_geom$investments, na.rm = T))/4))+
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        text = element_text(size=20))+
+  ggtitle("Chinese overseas energy and transport investments", subtitle = "Investments from 2005 - 2020, Source: American Enterprise Institute (2021)") +
+  labs(fill = "Cumulative investments in million USD")
+
+ggsave(here("06_tables_and_plots/map_energy_and_transport_investments_usd.pdf"), width=15, height = 5, dpi = 300)
+
+```
+
+Tables of investment structure by sector in ten major investment destinations
+
+```{r heatmap}
+which.max(investments_quant$investments)
+investments_quant[,28]
+
+#Selecting ten major investment destinations
+max_inv <- investments_quant[with(investments_quant,order(-investments)),]
+max_inv <- max_inv[1:10,]%>%
+  subset(select = c(country, investments))
+
+# Calculating investments by sector
+investments_share <- inv%>%
+  group_by(country, subsector)%>%
+  summarise(investmentshare = sum(investment))%>%
+  filter(country %in% max_inv$country)
+  
+investments_share$subsector <- as.factor(investments_share$subsector)
+investments_share <- spread(investments_share, key = subsector, value = investmentshare)%>%
+  mutate(test = rowSums(across(where(is.numeric)), na.rm=T))
+
+investments_share <- investments_share[with(investments_share,order(-test)),]%>%
+  subset(select = -test)%>%
+  adorn_totals("row")
+
+investments_share_percent <- investments_share%>%
+  rename(
+    Country = country,
+    Unknown = '<NA>'
+  )%>%
+  ungroup() %>%
+  mutate(across(where(is.numeric))/rowSums(across(where(is.numeric)), na.rm = T))%>%
+  mutate_at(vars(-Country), funs(round(., 2)))
+  
+col_order <- c("Country" ,"Coal", "Oil", "Gas", "Hydro", "Alternative",
+               "Rail", "Shipping", "Unknown" )
+investments_share_percent <- investments_share_percent[, col_order]
+
+# plain table
+print(xtable(investments_share_percent), file = "sector_percentages_by_country")
+
+
+# Heatmap table ----
+
+full_val_range <- investments_share_percent %>% 
+  drop_na()%>%
+  ungroup %>%
+  select_if(is.numeric) %>% 
+  range
+
+tab1 <- investments_share_percent%>%
+  replace(is.na(.), 0)%>%
+  gt() %>%
+  tab_header(
+    title = "Investment shares to subsectors by country",
+    subtitle = "The top ten investment destinations, sorted by total investment volume, are presented"
+  )%>%
+  data_color(
+    columns = c(Alternative, Hydro, Gas, Oil, Coal, Rail, Shipping, Unknown),
+    colors = scales::col_numeric(
+      palette = rev(as.character(paletteer::paletteer_c('viridis::mako', 150))),
+      domain = full_val_range))%>%
+  tab_options(
+      table_body.hlines.width = 3.5)%>%
+  tab_source_note(
+    source_note = md("Source: American Enterprise Institute (2021). *China Global Investment Tracker*.")
+  )
+
+gtsave(tab1, "./06_tables_and_plots/heattable_investments_shares.png") #run this from console
+
+```
+
+
+Testing how many investments took place within the BRI compared to outside of it.
+
+```{r get overview over bri data}
+test <- inv %>%
+  count(bri)%>%
+  mutate(share = n/sum(n))
+
+test <- inv%>%
+  filter(bri == 1)%>%
+  count(year_investment)%>%
+  mutate(share = n/sum(n))
+
+sum(test$share[which(test$year_investment >=2018)])
+
+# Calculating investments by BRI
+test <- inv%>%
+  group_by(bri)%>%
+  summarise(investmentshare = sum(investment))%>%
+  mutate(share = investmentshare/sum(investmentshare))
+
+
+```
+
+Sectoral distribution of investments worldwide
+
+```{r}
+my_palette <- brewer.pal(name="BrBG",n=11)[c(10,9,2:4,7:8)]
+my.labels <- c("East Asia &\nPacific",
+               "Europe &\nCentral Asia", 
+               "Latin America &\nCaribbean",
+               "Middle East &\nNorth Africa",
+               "North\nAmerica",
+               "South\nAsia",
+               "Sub-Saharan\nAfrica")
+#labels = c("Alternative", "Coal", "Oil", "Gas", "Hydro", "Rail", "Shipping", "NA")
+
+#By activating geom_text, percentage labels can be added. Did not do this because the graph became too crowded
+plot_df <- inv%>%
+  group_by(region) %>%
+  count(region, subsector)%>%    
+         mutate(pct=n/sum(n),               
+                ypos = cumsum(n) - 0.5*n)
+
+ggplot(data = plot_df, aes(fill = factor(subsector, levels=c("Alternative", "Hydro", "Coal", "Oil", "Gas", "Rail", "Shipping", NA)), x = region, y = n))+
+  geom_bar(position="stack", stat="identity")+
+  scale_fill_manual(values = my_palette, labels = c("Alternative", "Hydro", "Coal", "Oil", "Gas", "Rail", "Shipping", "NA")) +
+  #geom_text(aes(label = round(pct, 2)), colour = "white", position=position_stack(vjust=0.5))+
+  theme(
+    legend.text=element_text(size=rel(1.5))
+  )+
+  theme_bw() +
+  mdthemes::md_theme_classic() +
+  ggtitle("Investments by subsector and world region", subtitle = "Source: American Enterprise Institute (2021). *China Global Investment Tracker*.")+
+  labs(x = "World region", y = "Investments in million USD", fill = "Subsector")+
+  scale_x_discrete(guide = guide_axis(n.dodge=3))
+
+
+ggsave(here("06_tables_and_plots/investment_share_subsectors.png"), width = 7, height = 7, dpi = 300)
+  
+
+```
+
+
+```{r}
+
+test <- inv%>%
+  group_by(region, subsector, bri)%>%
+  summarise(investmentshare = sum(investment))
+  
+test$subsector <- as.factor(test$subsector)
+test <- spread(test, key = subsector, value = investmentshare)%>%
+  mutate(sum = rowSums(across(where(is.numeric)), na.rm=T))
+
+test <- test[with(test,order(-sum)),]%>%
+  subset(select = -sum)%>%
+  adorn_totals("row")
+
+total_investments_share_percent <- test%>%
+  rename(
+    Region = region,
+    Unknown = '<NA>'
+  )%>%
+  ungroup() %>%
+  mutate(across(Alternative:Unknown)/rowSums(across(Alternative:Unknown), na.rm = T))%>%
+  mutate_at(vars(Alternative:Unknown), funs(round(., 2)))
+
+total_investments_share_percent <- total_investments_share_percent%>%
+  mutate(fossil_sum = rowSums(select(.,c(Coal, Gas, Oil)), na.rm=T))%>%
+  mutate(lc_sum = rowSums(select(.,c(Alternative, Hydro)), na.rm=T))%>%
+  mutate(transport_sum = rowSums(select(.,c(Rail, Shipping)), na.rm=T))%>%
+  arrange(Region)
+
+
+
+```
+
+
+Checking and plotting OFDI flows for context chapter:
+
+```{r}
+test <- inv%>%
+  group_by(year_investment)%>%
+  summarize(inv_sum = sum(investment))
+
+test %>%
+  filter(year_investment %in% c(2012:2014))%>%
+  summarize(inv_sum2 = sum(inv_sum))
+
+test %>%
+  filter(year_investment %in% c(2015:2017))%>%
+  summarize(inv_sum3 = sum(inv_sum))
+
+
+
+g <- ggplot(data = test, aes(x = year_investment, y = inv_sum)) +
+  geom_line()
+g1 <- ggplotly(g)
+saveWidget(g1, here("06_tables_and_plots/ofdis.html"))
+```
+
+
+## Comparing sectoral shares between BRI and general investments
+
+### To Do:
+* examine countries between nonBRI and BRI
+
+```{r}
+
+# Summing rowwise: Which share of overall investments in Alternatives, FF, etc. took place in the BRI compared to before the BRI
+
+bri_shares_by_subsector <- inv%>%
+  group_by(subsector) %>%
+  summarize(sumnonBRI = sum(investment[bri == 0]),
+            sumBRI = sum(investment[bri==1]))%>%
+  mutate(sum = rowSums(.[2:3]))%>%
+  mutate(sumnonBRI = sumnonBRI/sum,
+         sumBRI = sumBRI/sum)
+
+
+# Summing colwise: Which share of overall investments in the BRI/ before it went into alternatives/ fossil fuels?
+
+sectoral_shares_by_bri <- inv%>%
+  group_by(subsector) %>%
+  summarize(sumnonBRI = sum(investment[bri == 0]),
+            sumBRI = sum(investment[bri==1]))%>%
+  mutate_at(vars(c(sumnonBRI, sumBRI)),  funs(./sum(.)))
+
+```
+
+Ergebnis: Verhältnis fossile:erneuerbare Energien deutlich grüner in BRI, trotzdem korrelieren BRI Investitionen mit höherem Konsum fossiler Energien. Warum??
+
+
+## Descriptive Tables for Data chapter 
+
+
+```{r}
+ivstock_exp <- read_csv(here::here("05_clean_data/df_investmentstock_all_exports.csv"), show_col_types = FALSE)
+ivstock_fs <- read_csv(here::here("05_clean_data/df_continuous_all_consumption.csv"), show_col_types = FALSE)
+
+length(unique(ivstock_fs$country))
+length(unique(ivstock_exp$country))
+
+test <- ivstock_fs%>%
+  distinct(country, .keep_all = TRUE)%>%
+  count(region)
+
+test2 <- ivstock_exp%>%
+  distinct(country, .keep_all = TRUE)%>%
+  count(region)
+
+testmerge <- full_join(test, test2, by = "region")%>%
+  rename(consumption.df = n.x,
+         exports.df = n.y)
+
+
+stargazer(testmerge, summary = FALSE, rownames = FALSE,
+          column.labels = c("World region", "Countries in consumption dataframe", "Countries in export dataframe"),
+           add.lines = list(c("Sum", "69", "146")))
+
+
+```
+
+
+
+

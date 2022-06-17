@@ -1,0 +1,168 @@
+---
+title: "Data Cleaning Fossil Fuel Trade"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## To Do
+* transform data, then check for stationarity: Augmented Dickey-Fuller test
+* Mention: I preselected the data that is loaded here before downloading it, the list can be found in Appendix X
+
+## Keep in mind:
+Stationarity = mean and variance are constant and there is no seasonality
+
+This file documents the steps that were taken to clean the trade data available from ITC Trade Map, and outlines the steps that led to the selection of derived export values in USD as the dependent variable in the regression analysis.
+
+## Option 1:
+Export data from ITC Trade Map can either be downloaded using a quantity or a value measure. Within the the scope of the data collection process, both datasets were downloaded and checked for their information content. After finding that the value data contains about one third less missing values than the quantity data, the value dataset was chosen for the analysis.
+
+### Work on this
+As the export values reported by individual countries depend of the level of processing of the exported good, it can be assumed that the value data is systematically distorted by LMIC on average exporting less processed fuels. To control for this, data on the change in exported value were used in the regression analyses with the underlying assumption that the composition of fossil exports in terms of their processing level did not change within the observation period. 
+
+## Option 2:
+Export data from ITC Trade Map can be downloaded using either a quantity or a value measure. Within the the scope of the data collection process, both datasets were downloaded and checked for their information content. While the value data contains about one third less missing values than the quantity data, export values are not an ideal proxy for the export volumes of fossil fuels, which which are the actual subject of this analysis. This is due to the fact that LMIC on average export less processed fuels at lower prices, which systematically distorts the dataset, causing export values from LMIC to be displayed too low. For this reason, the quantity measure was chosen for the purpose of this analysis. 
+
+```{r libraries}
+library(tidyverse)
+library(plm)
+library(countrycode)
+library(here)
+options(scipen = 999) 
+```
+## Cleaning quantity data
+
+```{r}
+df_tm_q <- readxl::read_xlsx(here::here("04_data_cleaning/trade_data/Trade_Map_-_List_of_exporters_for_the_selected_product_group_(MA_)_tons_291121.xlsx"), 
+                        skip= 13)[-c(1,2), ]%>%
+  janitor::clean_names()%>%
+  as.data.frame()%>%
+  subset(select=-c(x4,x6,x8,x10,x12,x14,x16,x18,x20,x22,x24,x26,x28,x30,x32,x34,x36,x38,x40))
+df_tm_q[df_tm_q == "No Quantity"] <- NA
+
+#lapply(df_tm_q, class)
+df_tm_q[, c(2:21)] <- sapply(df_tm_q[, c(2:21)], as.numeric)
+```
+
+The first plots of the data showed that apparently, Croatia exported 3,644,597,277t of fossil fuels in 2017, four times more than any other country, ever. Also, in 2020, Mozambique reported exports of 12,438,241,985t of fossil fuels. For this reason, the value of Croatia's exports in 2017 and Mozambique's exports in 2020 were manually set to NA.
+
+```{r}
+
+# Pivot to long format 
+df_tm_q <- df_tm_q %>%
+  pivot_longer(!exporters, names_to = "year", values_to = "exports") %>%
+  as.data.frame(df_tm_q)
+
+#Removing empty observations from reading in the data and cleaning years
+df_tm_q <- df_tm_q %>%
+  subset(!is.na(exporters))%>%
+  mutate(year= substr(year,2,5))
+
+df_tm_q <- df_tm_q[!(df_tm_q$exporters == "Croatia" & df_tm_q$year == "2017") & !(df_tm_q$exporters == "Saudi Arabia" & df_tm_q$year == "2015"),]
+```
+
+ISO codes were introduced for easier matching of the dataset, and world regions to group plots by world areas. Country aggregates and countries that stopped existing within the observatio
+
+```{r}
+library(countrycode)
+df_tm_q <- df_tm_q %>%
+  rename(
+    exporter = exporters
+  )%>%
+  filter(!exporter %in% c('Free Zones', 'Netherlands Antilles', 'Ship stores and bunkers'))%>%
+  mutate(iso = countrycode(exporter, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(exporter, origin = 'country.name', destination = 'region'))
+write.csv(df_tm_q, here::here("./05_clean_data/trademaps_cleaned_tons.csv"), row.names = FALSE)
+```
+
+The same processes were repeated for the value dataset. Also, the value data was transformed into a share of gdp to ensure stationarity.
+
+```{r}
+df_tm_v <- readxl::read_xlsx(here::here("04_data_cleaning/trade_data/Trade_Map_-_List_of_exporters_for_the_selected_product_group_(MA_)_usd_291121.xlsx"), 
+                           skip= 13)[-c(1), ]%>%
+  janitor::clean_names()%>%
+  as.data.frame()%>%
+  pivot_longer(!exporters, names_to = "year", values_to = "exports") %>%
+  as.data.frame(df_tm_v)%>%
+  mutate(year= substr(year,19,22))%>%
+  rename(
+    exporter = exporters
+  )%>%
+  filter(!exporter %in% c('Free Zones', 'Netherlands Antilles', 'Ship stores and bunkers', 'Serbia and Montenegro', 'British Indian Ocean Territory', 'French Southern and Antarctic Territories', 'Mayotte', 'Saint Helena', 'United States Minor Outlying Islands', 'Wallis and Futuna Islands', 'Western Sahara'))%>% #exporters that were not recognized by countrycode were removed to avoid NAs in the visualization
+  mutate(iso = countrycode(exporter, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(exporter, origin = 'country.name', destination = 'region'))
+
+
+gdp <- read.csv(here("05_clean_data/gdp_controls.csv"))
+
+df_tm_v <- merge(df_tm_v, gdp, by = c("iso", "year"))
+df_tm_v$exports <- df_tm_v$exports*1000 #original data measures exports in thousand USD, multiplying to have the same unit as for gdp
+df_tm_v$gdp <- as.numeric(df_tm_v$gdp)
+df_tm_v <- df_tm_v%>%
+  mutate(exports_share_percent_gdp = exports/gdp*100)%>%
+  subset(select = -country_name)
+
+# Testing for number of NAs to compare preselected data to overall HS27 data
+blub <- df_tm_v[rowSums(is.na(df_tm_v))>0,]
+
+write.csv(df_tm_v, here("05_clean_data/trademaps_cleaned_value.csv"), row.names = FALSE)
+
+```
+
+To test whether the selection of HS codes that was made from HS group 27, including mineral fuels, mineral oils and products of their distillation, shows strong deviations from the export data of all goods in HS27, the data set containing all goods in HS 27 was loaded and qualitatively compared to the the preselected data. The two data sets did not show large deviations, also with regard to missing values. Since the dataset compiled by the author is more precise in the sense that it does not contain products processed from mineral fuels, further work was subsequently done with the preselected data.
+
+```{r}
+df_tm_v2 <- readxl::read_xlsx(here::here("04_data_cleaning/trade_data/Trade_Map_-_List_of_exporters_for_the_selected_product_(HS27).xlsx"), 
+                           skip= 13)[-c(1), ]%>%
+  janitor::clean_names()%>%
+  as.data.frame()%>%
+  pivot_longer(!exporters, names_to = "year", values_to = "exports") %>%
+  as.data.frame(df_tm_v)%>%
+  mutate(year= substr(year,19,22))%>%
+  rename(
+    exporter = exporters
+  )%>%
+  filter(!exporter %in% c('Free Zones', 'Netherlands Antilles', 'Ship stores and bunkers', 'Serbia and Montenegro', 'British Indian Ocean Territory', 'French Southern and Antarctic Territories', 'Mayotte', 'Saint Helena', 'United States Minor Outlying Islands', 'Wallis and Futuna Islands', 'Western Sahara'))%>% #exporters that were not recognized by countrycode were removed to avoid NAs in the visualization
+  mutate(iso = countrycode(exporter, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(region = countrycode(exporter, origin = 'country.name', destination = 'region'))
+
+test <- merge(df_tm_v2, gdp, by = c("iso", "year"))
+test$exports <- test$exports*1000 #original data measures exports in thousand USD, multiplying to have the same unit as for gdp
+test$gdp <- as.numeric(test$gdp)
+test <- test%>%
+  mutate(exports_share_percent_gdp = exports/gdp*100)%>%
+  subset(select = -country_name)
+
+blob <- test[rowSums(is.na(test))>0,]
+
+```
+
+
+
+Both datasets were subsequently checked for missing data. It was found that the data measured in value units contained less missing data. The dataset was thus selected for the analysis.
+
+```{r}
+
+sum(is.na(df_tm_q))
+sum(is.na(df_tm_v))
+
+sapply(df_tm_q, function(x) sum(is.na(x)))
+sapply(df_tm_v, function(x) sum(is.na(x)))
+
+test <- df_tm_v %>%
+  group_by(exporter)%>%
+  tally(is.na(exports))%>%
+  subset(n > 0)
+
+test1 <- df_tm_q %>%
+  #filter(year != 2020)%>%
+  group_by(exporter)%>%
+  tally(is.na(exports))%>%
+  subset(n > 0)
+```
+
+
+
+
+

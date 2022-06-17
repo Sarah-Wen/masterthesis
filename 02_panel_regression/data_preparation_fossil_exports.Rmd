@@ -1,0 +1,358 @@
+---
+title: "Data Transformation Trade Data"
+author: "Sarah Wenzel"
+date: "2 12 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries, message = FALSE}
+library(here)
+library(tidyverse)
+library(janitor)
+library(tidyr)
+library(AER)
+library(stargazer)
+library(countrycode)
+library(utf8)
+library(zoo)
+options(scipen=999)
+
+```
+
+
+```{r loading data}
+
+# DV: export data
+ffex <- read_csv(here::here("05_clean_data/trademaps_cleaned_value.csv"), show_col_types = FALSE)
+
+#IV: investment data
+inv <- read_csv(here::here("05_clean_data/investments_gdpshare.csv"), show_col_types = FALSE)
+
+
+# Controls
+
+# Fossil fuel prices
+prices <- read_csv(here::here("05_clean_data/fossil_prices.csv"), show_col_types = FALSE)
+# Openness to trade (share of trade in gdp)
+trade_open <- read_csv(here::here("05_clean_data/trade_openness.csv"), show_col_types = FALSE)
+# Quality of infrastructure
+if_q <- read_csv(here::here("05_clean_data/quality_of_infrastructure.csv"), show_col_types = FALSE)
+# Shipping connectivity
+shipc <- read_csv(here::here("05_clean_data/shipping_connectivity.csv"), show_col_types = FALSE)
+# resource rents as share of GDP
+resource_rents <- read_csv(here::here("05_clean_data/resource_rents_share_gdp.csv"), show_col_types = FALSE)
+
+```
+
+A binary dummy for Chinese investments is created from the AEI dataset by reducing the data to include only the first year of investments per country, and setting the dummy to 1 for all following years. The dummy thus indicates whether projects financed through Chinese FDIs were active in a country in a given year. Defining the dummy like this results in 29.02% of overall observations being in the treatment group.
+
+In addition, a BRI-dummy to test for the effects of the BRI specifically was introduced by applying the same principle: The dummy shows whether BRI-financed projects are active in a country in a given year.Using this definition, the dummy is only set on 1 for 4.67% of the country-year observations.
+
+
+```{r introducing binary dummies for general investment and BRI}
+
+# Chinese energy and transport investments dummy
+en_inv <- inv%>%
+  group_by(country)%>%
+  summarise(
+    year_first_investment = min(year_investment))
+
+ffex_en_inv <- merge(ffex, en_inv, by.x = "exporter", by.y = "country", all.x =  T)
+
+ffex_en_inv <- ffex_en_inv%>%
+  group_by(exporter)%>%
+  mutate(inv_dummy = ifelse(year >= year_first_investment, 1, 0))%>%
+  arrange(exporter, year)
+
+blub <- ffex_en_inv%>%
+  group_by(inv_dummy)%>%
+  summarise(n = n()) %>%
+  mutate(Freq = n/sum(n))
+
+# continue here
+
+# Introducing BRI dummy, replacing NAs with 0 (as no BRI investment took place in the respective countries at all)
+
+bri <- inv%>%
+  subset(bri == 1)%>%
+  group_by(country)%>%
+  summarise(
+    year_first_investment = min(year_investment))
+
+ffex_bri <- merge(ffex_en_inv, bri, by.x = "exporter", by.y = "country", all.x =  T)
+
+ffex_bri <- ffex_bri%>%
+  mutate(bri_dummy = ifelse(year >= year_first_investment.y, 1, 0))%>%
+  arrange(exporter, year)%>%
+  subset(select = -c(year_first_investment.x, year_first_investment.y))
+
+blub <- ffex_bri%>%
+  group_by(bri_dummy)%>%
+  summarise(n = n()) %>%
+  mutate(Freq = n/sum(n))
+
+write.csv(ffex_bri, here::here("05_clean_data/df_exports_merge_binary_dummies.csv"), row.names = FALSE)
+
+sapply(ffex_bri, function(x) sum(is.na(x)))
+
+
+```
+
+
+```{r}
+ffex <- read_csv(here::here("05_clean_data/df_exports_merge_binary_dummies.csv"), show_col_types = FALSE)%>%
+  rename(country = exporter)%>%
+  mutate(iso = countrycode(country, origin = 'country.name', destination = 'iso3c'))%>%
+  mutate(country = countrycode(country, origin = 'country.name', destination = 'country.name'))%>%
+  subset(select = -gdp) #removing gross GDP to avoid confusion with control for per-capita GDP
+
+
+binary_est_exp <- ffex %>%
+  full_join(prices, by = "year")%>%
+  # full_join(if_q, by = c("iso", "year", "country"))%>% #removed LPI due to reasons stated below
+  full_join(shipc, by = c("iso", "year", "country"))%>%
+  full_join(resource_rents, by = c("iso", "year", "country"))%>%
+  full_join(trade_open, by = c("iso", "year", "country"))%>%
+  subset(select = -c( oil_rents, coal_rents, gas_rents))%>%
+  mutate(bri_dummy = replace_na(bri_dummy, 0))%>%
+  mutate(inv_dummy = replace_na(inv_dummy, 0))%>%
+  mutate(covid_19 = ifelse(year == 2020, 1, 0))%>%
+  filter(!is.na(country))%>%
+  mutate(region = countrycode(iso, origin = 'iso3c', destination = 'region'))%>%
+  clean_names()%>%
+  mutate(across(c(oil_price, connectivity_index), log))
+  
+
+# Examining which observations are NA
+sapply(binary_est_exp, function(x) sum(is.na(x)))
+new_DF <- binary_est_exp[is.na(binary_est_exp$inv_dummy),]
+unique(new_DF$country)
+
+
+binary_est_exp <- binary_est_exp%>%
+  drop_na()
+
+length(unique(binary_est_exp$country))
+
+write.csv(binary_est_exp, here::here("05_clean_data/df_binary_exports.csv"), row.names = FALSE)
+
+
+```
+As LPI contained the most NA values of all variables in the dataset, and is both correlated with the connectivity index, LPI was removed from the model.
+
+
+## Continuous IV 
+
+Creating a continuous investment variable, defining investments as a share of the recipient country's GDP and summarizing investments up to the current point in time
+
+```{r}
+
+# Investment variable as continuous rolling sum of investments in a country/current year
+
+inv_2.2 <- inv%>%
+  rename('year' = 'year_investment')%>%
+  group_by(country)%>%
+  mutate(investment_stock = rollapplyr(investment, 14, sum, partial = TRUE))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(investment_stock))%>% # rolling sums creates year duplicates - selecting only the largest number per year
+  ungroup()%>%
+  mutate(investment_stock = investment_stock/gdp*100, # transforming investment stock variable to a share of GDP in a given year
+         investment = ifelse(bri == 1, investment, 0))%>%  # removing all non-BRI investments to create the same var for BRI investments
+  group_by(country)%>%
+  mutate(bri_investment_stock = ifelse(bri == 1, rollapplyr(investment, 6, sum, partial = TRUE), 0))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(bri_investment_stock))%>% 
+  ungroup()%>%
+  mutate(bri_investment_stock = bri_investment_stock/gdp*100)%>%
+  subset(select = c(country, iso, year, investment_stock, bri_investment_stock, subsector))
+
+
+ivstock_exp <- read.csv(here::here("05_clean_data/df_binary_exports.csv"))%>%
+  subset(select = -c(inv_dummy)) %>%
+  full_join(inv_2.2, by= c("country", "iso", "year"), all.x = T)%>%
+  mutate(investment_stock = replace_na(investment_stock, 0),
+         bri_investment_stock = replace_na(bri_investment_stock, 0),
+         bri_dummy = replace_na(bri_dummy, 0),
+         time = year - 2005 + 1) # introducing a time variable to control for linear trend in investments
+
+
+sapply(ivstock_exp, function(x) sum(is.na(x)))
+new_DF <- ivstock_exp[is.na(ivstock_exp$fossil_share_energy),]
+
+
+ivstock_exp <- ivstock_exp%>%
+  subset(select = -subsector)%>%
+  drop_na()
+
+# How many observations contain a value in the BRI variable?
+test <- ivstock_exp %>%
+  count(bri_investment_stock)%>%
+  mutate(share = n/sum(n))
+
+# Which observations contain a value in the BR variable?
+
+test2 <- ivstock_exp %>%
+  filter(bri_investment_stock > 0)
+
+
+write.csv(ivstock_exp, here::here("05_clean_data/df_investmentstock_all_exports.csv"), row.names = FALSE)
+
+
+```
+
+
+## Fossil fuel investment stock variable
+
+```{r}
+inv_3.2 <- inv%>%
+  rename('year' = 'year_investment')%>%
+  filter(!subsector %in% c("Rail", "Shipping", "Alternative", "Hydro"))%>%
+  filter(!is.na(subsector))%>%
+  group_by(country)%>%
+  mutate(investment_stock = rollapplyr(investment, 14, sum, partial = TRUE))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(investment_stock))%>% # rolling sums creates year duplicates - selecting only the largest number per year
+  ungroup()%>%
+  mutate(investment_stock = investment_stock/gdp*100)%>% # transforming investment stock variable to a share of GDP in a given year
+  mutate(investment = ifelse(bri == 1, investment, 0))%>%
+  group_by(country)%>%
+  mutate(bri_investment_stock = ifelse(bri == 1, rollapplyr(investment, 6, sum, partial = TRUE), 0))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(bri_investment_stock))%>% 
+  ungroup()%>%
+  mutate(bri_investment_stock = bri_investment_stock/gdp*100)%>%
+  subset(select = c(country, iso, year, investment_stock, bri_investment_stock))
+
+
+ffivstock_exp <- read.csv(here::here("05_clean_data/df_binary_exports.csv"))%>%
+  subset(select = -c(inv_dummy)) %>%
+  full_join(inv_3.2, by= c("country", "iso", "year"), all.x = T)%>%
+  mutate(investment_stock = replace_na(investment_stock, 0),
+         bri_investment_stock = replace_na(bri_investment_stock, 0),
+         bri_dummy = replace_na(bri_dummy, 0),
+         time = year - 2005 + 1)
+
+
+sapply(ffivstock_exp, function(x) sum(is.na(x)))
+new_DF <- ffivstock_exp[is.na(ffivstock_exp$fossil_share_energy),]
+
+ffivstock_exp <- ffivstock_exp%>%
+  drop_na()
+
+# How many observations contain a value in the BRI variable?
+test <- ffivstock_exp %>%
+  count(bri_investment_stock)%>%
+  mutate(share = n/sum(n))
+
+# Which observations contain a value in the BR variable?
+
+test3 <- ffivstock_exp %>%
+  filter(bri_investment_stock > 0)
+ 
+
+write.csv(ffivstock_exp, here::here("05_clean_data/df_ffcontinuous_exports.csv"), row.names = FALSE)
+
+
+```
+
+
+## Low-carbon energy investment stock variable 
+
+
+```{r}
+
+inv_4.2 <- inv%>%
+  rename('year' = 'year_investment')%>%
+  filter(!subsector %in% c("Rail", "Shipping", "Oil", "Gas", "Coal"))%>%
+  filter(!is.na(subsector))%>%
+  group_by(country)%>%
+  mutate(investment_stock = rollapplyr(investment, 14, sum, partial = TRUE))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(investment_stock))%>% # rolling sums creates year duplicates - selecting only the largest number per year
+  ungroup()%>%
+  mutate(investment_stock = investment_stock/gdp*100)%>% # transforming investment stock variable to a share of GDP in a given year
+  mutate(investment = ifelse(bri == 1, investment, 0))%>%
+  group_by(country)%>%
+  mutate(bri_investment_stock = ifelse(bri == 1, rollapplyr(investment, 6, sum, partial = TRUE), 0))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(bri_investment_stock))%>% 
+  ungroup()%>%
+  mutate(bri_investment_stock = bri_investment_stock/gdp*100)%>%
+  subset(select = c(country, iso, year, investment_stock, bri_investment_stock))
+
+lcivstock_exp <- read.csv(here::here("05_clean_data/df_binary_exports.csv"))%>%
+  subset(select = -c(inv_dummy)) %>%
+  full_join(inv_4.2, by= c("country", "iso", "year"), all.x = T)%>%
+  mutate(investment_stock = replace_na(investment_stock, 0),
+         bri_investment_stock = replace_na(bri_investment_stock, 0),
+         bri_dummy = replace_na(bri_dummy, 0),
+         time = year - 2005 + 1)
+
+
+sapply(lcivstock_exp, function(x) sum(is.na(x)))
+new_DF <- lcivstock_exp[is.na(lcivstock_exp$fossil_share_energy),]
+
+lcivstock_exp <- lcivstock_exp%>%
+  drop_na()
+
+# Which observations contain a value in the BR variable?
+
+test4 <- lcivstock_exp %>%
+  filter(bri_investment_stock > 0)
+
+write.csv(lcivstock_exp, here::here("05_clean_data/df_lccontinuous_exports.csv"), row.names = FALSE)
+
+```
+
+
+
+
+## Transport investment stock variable
+```{r}
+
+inv_5.2 <- inv%>%
+  rename('year' = 'year_investment')%>%
+  filter(subsector %in% c("Rail", "Shipping"))%>%
+  filter(!is.na(subsector))%>%
+  group_by(country)%>%
+  mutate(investment_stock = rollapplyr(investment, 14, sum, partial = TRUE))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(investment_stock))%>% # rolling sums creates year duplicates - selecting only the largest number per year
+  ungroup()%>%
+  mutate(investment_stock = investment_stock/gdp*100)%>% # transforming investment stock variable to a share of GDP in a given year
+  mutate(investment = ifelse(bri == 1, investment, 0))%>%
+  group_by(country)%>%
+  mutate(bri_investment_stock = ifelse(bri == 1, rollapplyr(investment, 6, sum, partial = TRUE), 0))%>%
+  group_by(iso, year) %>%
+        top_n(1, abs(bri_investment_stock))%>% 
+  ungroup()%>%
+  mutate(bri_investment_stock = bri_investment_stock/gdp*100)%>%
+  subset(select = c(country, iso, year, investment_stock, bri_investment_stock))
+
+
+trivstock_exp <- read.csv(here::here("05_clean_data/df_binary_exports.csv"))%>%
+  subset(select = -c(inv_dummy)) %>%
+  full_join(inv_5.2, by= c("country", "iso", "year"), all.x = T)%>%
+  mutate(investment_stock = replace_na(investment_stock, 0),
+         bri_investment_stock = replace_na(bri_investment_stock, 0),
+         bri_dummy = replace_na(bri_dummy, 0),
+         time = year - 2005 + 1)
+
+
+sapply(trivstock_exp, function(x) sum(is.na(x)))
+new_DF <- trivstock_exp[is.na(trivstock_exp$exports_share_percent_gdp),]
+
+trivstock_exp <- trivstock_exp%>%
+  drop_na()
+
+test5 <- ffivstock_exp %>%
+  filter(bri_investment_stock > 0)
+
+write.csv(trivstock_exp, here::here("05_clean_data/df_transportcontinuous_exports.csv"), row.names = FALSE)
+
+```
+

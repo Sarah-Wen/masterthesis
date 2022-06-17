@@ -1,0 +1,231 @@
+---
+title: "Robustness Checks"
+author: "Sarah Wenzel"
+date: "24 3 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(tidyverse)
+library(stargazer)
+library(plm)
+library(lmtest)
+options(scipen=999)
+
+
+```
+
+
+
+```{r loading data}
+ivstock_fs <- read_csv(here::here("05_clean_data/df_continuous_all_consumption.csv"), show_col_types = FALSE)
+ivstock_exp <- read_csv(here::here("05_clean_data/df_investmentstock_all_exports.csv"), show_col_types = FALSE)
+```
+
+
+
+
+In this script, the consumption and export models are examined for their robustness to estimation using alternative standard error estimates and sample splitting. The script requires the models from the analysis scripts to be loaded.
+
+
+## Alternative standard error estimator
+
+Consumption and export models, country FE, using White standard error estimate
+```{r}
+
+# Country fixed effects, energy and transport investment stock, consumption model
+fs_ivstock_cfe <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + investment_stock*resource_rents + country + time,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+
+
+# standard errors using heteroskedasticity robust (HC) standard errors
+# clustering across time (serial correlation)
+white_cov_fs_ivstock_cfe <- vcovHC(fs_ivstock_cfe, method = "arellano", type = "HC0", cluster = "time")
+white_robust_se_fsivstockcfe <- sqrt(diag(white_cov_fs_ivstock_cfe))
+
+# clustering group dimension (cross-sectional correlation)
+white_cov_fs_ivstock_cfe2 <- vcovHC(fs_ivstock_cfe, method = "arellano", type = "HC0", cluster = "time")
+white_robust_se_fsivstockcfe2 <- sqrt(diag(white_cov_fs_ivstock_cfe2))
+
+
+
+# Country fixed effects, energy and transport investment stock, export model
+fex_ivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ivstock, vcov. = vcovHC, type = "HC0") 
+
+
+# for robustness checks (analysis consumption script)
+# clustering time dimension (serial correlation)
+white_cov_fex_ivstock_cfe <- vcovHC(fex_ivstock, method = "arellano", type = "HC0", cluster = "time")
+white_robust_se_fexivstockcfe <- sqrt(diag(white_cov_fex_ivstock_cfe))
+
+# clustering group dimension (cross-serial correlation)
+white_cov_fex_ivstock_cfe2 <- vcovHC(fex_ivstock, method = "arellano", type = "HC0", cluster = "group")
+white_robust_se_fexivstockcfe2 <- sqrt(diag(white_cov_fex_ivstock_cfe2))
+
+
+stargazer(fs_ivstock_cfe, fs_ivstock_cfe, fex_ivstock, fex_ivstock, 
+          title = "Energy consumption, fossil consumption and Chinese OFDIs, alternative standard errors estimation",
+         column.labels = c("Consumption model, time clustered SEs", "Consumption model, group clustered SEs", "Export model, time clustered SEs", "Consumption model, group clustered SEs"),
+         dep.var.labels.include = FALSE,
+         dep.var.caption = "",
+         column.sep.width = "6pt", 
+         se = list(white_robust_se_fsivstockcfe, white_robust_se_fsivstockcfe2, white_robust_se_fexivstockcfe, white_robust_se_fsivstockcfe2), 
+         single.row = TRUE,
+         order = c(2, 1, 3:6, 11, 7:8, 10, 9),
+         covariate.labels=c("OFDI stock", "Oil price", "GDP", "Shipping line connectivity", "Trade openness", "Resource Rents", "OFDI stock*Resource Rents", "Urban population", "Log Population size", "Covid-19", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+```
+
+
+## Sample splitting
+
+Firstly, both datasets were split in one dataset containing 3/4 of observations and the other containing 1/4 of observations.
+```{r}
+
+set.seed(777)
+p = 0.75
+
+# Consumption data
+nID <- length(unique(ivstock_fs$country))
+
+picked_cons = sample(unique(ivstock_fs$country), round(nID * p), replace=FALSE)
+cons_75 =ivstock_fs[ivstock_fs$country %in% picked_cons, ]
+cons_25 =ivstock_fs[!ivstock_fs$country %in% picked_cons,]
+
+# Export data
+nIDexp <- length(unique(ivstock_exp$country))
+
+picked_exp = sample(unique(ivstock_exp$country), round(nID * p), replace=FALSE)
+exp_75 =ivstock_exp[ivstock_exp$country %in% picked_exp, ]
+exp_25 =ivstock_exp[!ivstock_exp$country %in% picked_exp,]
+```
+
+
+Then, the aggregated country-FE estimation with trend control was estimated for all four subsamples. The original country FE estimations are repeated here for comparison.
+
+
+```{r}
+# Country fixed effects, energy and transport investment stock, complete dataset
+fs_ivstock_cfe <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + investment_stock*resource_rents + country + time,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ivstock_cfe, vcov. = vcovSCC, type = "HC0")
+cov_fs_ivstock_cfe <- vcovSCC(fs_ivstock_cfe, type = "HC0")
+robust_se_fsivstockcfe <- sqrt(diag(cov_fs_ivstock_cfe))
+
+
+# Country fixed effects, energy and transport investment stock, consumption model 0.75
+fs_ivstock75 <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + investment_stock*resource_rents + country + time,
+               data = cons_75,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ivstock75, vcov. = vcovSCC, type = "HC0")
+cov_fs_ivstock75 <- vcovSCC(fs_ivstock75, type = "HC0")
+robust_se_fsivstock75 <- sqrt(diag(cov_fs_ivstock75))
+
+
+# Country fixed effects, energy and transport investment stock, consumption model 0.25
+fs_ivstock25 <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + investment_stock*resource_rents + country + time,
+               data = cons_25,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ivstock25, vcov. = vcovSCC, type = "HC0") 
+cov_fs_ivstock25 <- vcovSCC(fs_ivstock25, type = "HC0")
+robust_se_fsivstock25 <- sqrt(diag(cov_fs_ivstock25))
+
+
+# Exports, country fixed effects, energy and transport investment stock, complete dataset
+fex_ivstock <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = ivstock_exp,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ivstock, vcov. = vcovSCC, type = "HC0") 
+summary(fex_ivstock)
+cov_fex_ivstock <- vcovSCC(fex_ivstock, type = "HC0")
+robust_se_fexivstock <- sqrt(diag(cov_fex_ivstock))
+
+# Country fixed effects, energy and transport investment stock, export model 0.75
+fex_ivstock75 <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = exp_75,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ivstock75, vcov. = vcovSCC, type = "HC0") 
+cov_fex_ivstock75 <- vcovSCC(fex_ivstock75, type = "HC0")
+robust_se_fexivstock75 <- sqrt(diag(cov_fex_ivstock75))
+
+
+# Country fixed effects, energy and transport investment stock, export model 0.25
+fex_ivstock25 <- plm(exports_share_percent_gdp ~ oil_price + investment_stock + connectivity_index +  investment_stock*resource_rents +  trade_share_gdp + country + time + covid_19,
+               data = exp_25,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fex_ivstock25, vcov. = vcovSCC, type = "HC0") 
+cov_fex_ivstock25 <- vcovSCC(fex_ivstock25, type = "HC0")
+robust_se_fexivstock25 <- sqrt(diag(cov_fex_ivstock25))
+
+
+```
+
+
+#### Regression output
+
+
+```{r}
+# Consumption model, using combined dataset as reference
+stargazer(fs_ivstock_cfe, fs_ivstock75, fs_ivstock25, 
+          title = "Energy consumption and Chinese OFDIs, randomly split sample",
+         column.labels = c("Energy consumption and Chinese OFDI, complete dataset", "Energy consumption and Chinese OFDI, 75%", "Energy consumption and
+                           Chinese OFDI, 25%"),
+         dep.var.labels.include = FALSE,
+         dep.var.caption = "Dependent variable: Fossil fuels as share of primary energy consumption",
+         column.sep.width = "6pt", 
+         se = list(robust_se_fsivstockcfe, robust_se_fsivstock75, robust_se_fsivstock25), 
+         single.row = TRUE,
+         order = c(1:4, 8, 5:7),
+         covariate.labels=c("OFDI stock", "GDP", "Trade openness", "Resource Rents", "OFDI stock*Resource Rents", "Urban population", "Log Population
+                            size", "Trend control"),
+         keep.stat=c("adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+# Export model, using combined dataset as reference
+
+stargazer(fex_ivstock, fex_ivstock75, fex_ivstock25, 
+          title = "Fossil energy exports and Chinese OFDIs, randomly split sample",
+         column.labels = c("Energy exports and Chinese OFDI, complete dataset", "Energy exports and Chinese OFDI, 75%", "Energy exports and                          Chinese OFDI, 25%"),
+         dep.var.labels.include = FALSE,
+         dep.var.caption = "Dependent variable: Fossil fuel exports as share of domestic GDP",
+         column.sep.width = "6pt", 
+         se = list(robust_se_fexivstock, robust_se_fexivstock75, robust_se_fexivstock25), 
+         single.row = TRUE,
+         order = c(2, 1, 3:4, 8, 5, 7, 6),
+         covariate.labels=c("OFDI stock", "Oil price", "Shipping line connectivity",  "Resource rents", "OFDI stock*Resource rents", "Trade openness", "Covid19", "Trend control"),
+         keep.stat=c("adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+```
+
+
+
+

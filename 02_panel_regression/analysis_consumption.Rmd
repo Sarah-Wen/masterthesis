@@ -1,0 +1,483 @@
+---
+title: "analysis_2"
+author: "Sarah Wenzel"
+date: "16 2 2022"
+output: 
+  pdf_document: 
+    keep_tex: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this script, a panel regression will be estimated to examine the effect of Chinese investments on the share of fossil fuels used in a country's energy mix. 
+
+```{r libraries, message=FALSE}
+library(tidyverse)
+library(AER)
+library(plm)
+library(stargazer)
+library(texreg)
+library(ggpubr)
+library(lmtest) #for bptest
+library(lme4)
+library(funtimes) # for trend testing
+options(scipen=999)
+```
+
+
+
+```{r loading data}
+ivstock_fs <- read_csv(here::here("05_clean_data/df_continuous_all_consumption.csv"), show_col_types = FALSE)%>%
+  mutate(region = as.factor(region),
+         region = relevel(region, ref = "North America"))
+ffivstock_fs <- read_csv(here::here("05_clean_data/df_ffcontinuous_consumption.csv"), show_col_types = FALSE)
+lcivstock_fs <- read_csv(here::here("05_clean_data/df_lccontinuous_consumption.csv"), show_col_types = FALSE)
+trivstock_fs <- read_csv(here::here("05_clean_data/df_transportcontinuous_consumption.csv"), show_col_types = FALSE)
+
+```
+
+
+
+
+# Checking for multicollinearity, normality, heteroskedasticity, and serial correlation
+
+```{r}
+# Testing for multicollinearity, correlation should not be > 0.7
+reg_data <- ffivstock_fs[, c(7:16)]%>%
+  na.omit()
+test <- cor(reg_data)
+test
+
+# testing for normality, p-value should be > 0.05
+shapiro.test((ffivstock_fs$fossil_share_energy))
+
+plot(fossil_share_energy ~ gdp, data=ffivstock_fs)
+plot(fossil_share_energy ~ resource_rents, data=ffivstock_fs)
+plot(fs_mod5)
+
+# testing for heteroskedasticity, p-value should be > 0.05
+bptest(fossil_share_energy ~ gdp + pop_size +  inv_dummy +  bri_dummy + industry_share +  resource_rents + urban_pop_share + trade_share_gdp +  country + year, data = binary_fs )
+
+# Wooldridge's test for serial correlation
+pwartest(fs_ivstock)
+
+# Pesaran’s CD test for cross-sectional dependence
+pcdtest(fs_ivstock)
+
+```
+
+Result: Most predictors are not strongly correlated. However, the share of industry in a country's GDP is strongly correlated with the share of resource rents in a country's GDP. Only one of these variables should be included in a model at a given time.
+
+The dependent variable not normally distributed, which should be okay due to the large sample size. 
+The data is characterized by both by heteroskedasticity, serial and cross-sectional correlation, which is why robust standard errors are used in the estimation.
+
+
+## To Do:
+
+* Collischon & Eberl 2020 fertiglesen
+
+
+
+
+## Testing investment stock var (as GDP share) for trend
+
+```{r}
+
+ggplot(cont_iv_stock_fs, aes(y = investment_stock, x = year)) +
+  geom_jitter()
+
+
+notrend_test(ivstock_fs$investment_stock)
+notrend_test(ivstock_fs$bri_investment_stock)
+
+  
+ggplot(test, aes(y = investment_stock, x = year)) +
+  geom_jitter()
+
+```
+
+The plot shows that there is a trend in the investment stock data. For this reason, a trend control is introduced in the subsequent analysis.
+
+## Investment stock (all investments)
+
+```{r}
+
+# Country and year FE, all investments
+# year effects remove trend dummy, country effects remove regions
+fs_ivstock <- plm(fossil_share_energy ~  investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + country + year + time + investment_stock*resource_rents,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "twoways")
+coeftest(fs_ivstock, vcov. = vcovSCC, type = "HC0") 
+cov_fs_ivstock <- vcovSCC(fs_ivstock, type = "HC0")
+robust_se_fsivstock <- sqrt(diag(cov_fs_ivstock))
+
+
+fs_ivstock_yfe <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size +   investment_stock*resource_rents + investment_stock*region + year,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "time")
+coeftest(fs_ivstock_yfe, vcov. = vcovSCC, type = "HC0")
+cov_fs_ivstock_yfe <- vcovSCC(fs_ivstock_yfe, type = "HC0")
+robust_se_fsivstockyfe <- sqrt(diag(cov_fs_ivstock_yfe))
+
+
+fs_ivstock_cfe <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + investment_stock*resource_rents + country + time,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ivstock_cfe, vcov. = vcovSCC, type = "HC0")
+cov_fs_ivstock_cfe <- vcovSCC(fs_ivstock_cfe, type = "HC0")
+robust_se_fsivstockcfe <- sqrt(diag(cov_fs_ivstock_cfe))
+
+
+# Random effects model
+
+fs_ivstock_re <- plm(fossil_share_energy ~  investment_stock + gdp + trade_share_gdp +  resource_rents + urban_pop_share + pop_size + industry_share + country + year + time + investment_stock*bri_dummy,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "random",
+               random.method = "nerlove")
+coeftest(fs_ivstock, vcov. = vcovSCC, type = "HC0") 
+cov_fs_ivstock <- vcovSCC(fs_ivstock, type = "HC0")
+robust_se2 <- sqrt(diag(cov_fs_ivstock))
+
+```
+
+
+## Note: Variance-covariance matrices
+
+*vcovSCC: Driscoll and Kraay (1998) Robust Covariance Matrix Estimator: robust covariance matrix of parameters for a panel model, which is consistent with cross--sectional and serial correlation, developed specifically for macro datasets characterized by spatial dependence
+vcovNW: Newey and West(1987) Robust Covariance Matrix Estimator: restriction of the Driscoll and Kraay (1998) covariance to no cross-sectional correlation
+
+
+vcovHC: White’s heteroskedasticity-consistent covariance matrix: consistent against serial correlation, but not cross-sectional correlation (https://cran.r-project.org/web/packages/plm/vignettes/A_plmPackage.html)
+vcovBK: Beck and Katz Robust Covariance Matrix Estimators: controls either for serial or for cross-sectional correlation
+! vcovDC: Double-Clustering Robust Covariance Matrix Estimator, errors clustering along both dimensions. Summing a group- and a time-clustered covariance matrix and subtracting a diagonal one a la White
+
+
+## Hausmann test
+
+```{r}
+
+phtest(fs_ivstock, fs_ivstock_re)
+
+```
+
+Result: The random effects model is biased, fixed effects will be used.
+
+
+
+## Disaggregated Investment Stock Variables
+
+All disaggregated investment stock variables were estimated using country fixed effects and a time variable to control for the trend in the independent variable.
+
+
+
+```{r}
+
+# Fossil fuel investment stock, country effects and trend control
+fs_ffivstock <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  investment_stock*resource_rents + country + time,
+               data = ffivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ffivstock, vcov. = vcovSCC, type = "HC0")
+cov_fs_ffivstock <- vcovSCC(fs_ffivstock, type = "HC0")
+robust_se_ff <- sqrt(diag(cov_fs_ffivstock))
+
+# Low carbon investment stock, country FE, trend control
+fs_lcivstock <- plm(fossil_share_energy ~ investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  investment_stock*resource_rents + country + time,
+               data = lcivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_lcivstock, vcov. = vcovSCC, type = "HC0")
+cov_fs_lcivstock <- vcovSCC(fs_lcivstock, type = "HC0")
+robust_se_lc <- sqrt(diag(cov_fs_lcivstock))
+
+# Transport investment stock, country FE, trend control
+fs_trivstock <- plm(fossil_share_energy ~  investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size + investment_stock*resource_rents +  country + time,
+               data = trivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_trivstock, vcov. = vcovSCC, type = "HC0") 
+cov_fs_trivstock <- vcovSCC(fs_trivstock, type = "HC0")
+robust_se_tr <- sqrt(diag(cov_fs_trivstock))
+
+
+```
+
+
+
+## BRI investment stock
+
+```{r}
+
+# country fixed effects
+fs_bristock <-  plm(fossil_share_energy ~ bri_investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  bri_investment_stock*resource_rents +  time + country,
+               data = ivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_bristock, vcov. = vcovSCC, type = "HC0")
+cov_bristock <- vcovSCC(fs_bristock, type = "HC0")
+robust_se_bri <- sqrt(diag(cov_bristock))
+
+
+fs_ffbristock <-  plm(fossil_share_energy ~ bri_investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  bri_investment_stock*resource_rents +  time + country,
+               data = ffivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_ffbristock, vcov. = vcovSCC, type = "HC0")
+cov_ffbristock <- vcovSCC(fs_ffbristock, type = "HC0")
+robust_se_briff <- sqrt(diag(cov_ffbristock))
+
+fs_lcbristock <-  plm(fossil_share_energy ~ bri_investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  bri_investment_stock*resource_rents +  time + country,
+               data = lcivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_lcbristock, vcov. = vcovSCC, type = "HC0")
+cov_lcbristock <- vcovSCC(fs_lcbristock, type = "HC0")
+robust_se_brilc <- sqrt(diag(cov_lcbristock))
+
+
+
+fs_trbristock <-  plm(fossil_share_energy ~ bri_investment_stock + gdp + trade_share_gdp + urban_pop_share + pop_size +  bri_investment_stock*resource_rents +  time + country,
+               data = trivstock_fs,
+               index = c("country", "year"), 
+               model = "within",
+               effect = "individual")
+coeftest(fs_trbristock, vcov. = vcovSCC, type = "HC0")
+cov_trbristock <- vcovSCC(fs_trbristock, type = "HC0")
+robust_se_britr <- sqrt(diag(cov_trbristock))
+
+```
+
+
+## Regression outputs 
+
+First table : Aggregated investment stock, one- and twoway fixed effects
+```{r}
+
+# Akaike calculation
+
+Sum1 <- summary(fs_ivstock)
+RSS1 <- sum(Sum1$residuals^2)
+K1 <- max(fs_ivstock$assign)
+N1 <- length(fs_ivstock$residuals)
+n1 <- N1 - K1 - fs_ivstock$df.residual
+
+AIC_fs_ivstock = log(RSS1/n1) + (2*K1)/n1
+
+
+Sum2 <- summary(fs_ivstock_yfe)
+RSS2 <- sum(Sum2$residuals^2)
+K2 <- max(fs_ivstock_yfe$assign)
+N2 <- length(fs_ivstock_yfe$residuals)
+n2 <- N2 - K2 - fs_ivstock_yfe$df.residual
+
+AIC_fs_ivstock_yfe = log(RSS2/n2) + (2*K2)/n2
+
+Sum3 <- summary(fs_ivstock_cfe)
+RSS3 <- sum(Sum3$residuals^2)
+K3 <- max(fs_ivstock_cfe$assign)
+N3 <- length(fs_ivstock_cfe$residuals)
+n3 <- N3 - K3 - fs_ivstock_cfe$df.residual
+
+AIC_fs_ivstock_cfe = log(RSS3/n3) + (2*K3)/n3
+
+fs_ivstock$AIC <- AIC_fs_ivstock
+fs_ivstock_yfe$AIC <- AIC_fs_ivstock_yfe
+fs_ivstock_cfe$AIC <- AIC_fs_ivstock_cfe
+
+
+stargazer(fs_ivstock, fs_ivstock_yfe, fs_ivstock_cfe,
+          title = "Energy consumption and Chinese OFDI",
+          dep.var.caption="Dependent variable: Fossil fuels as share of primary energy consumption",
+         column.labels = c("Country and year FE", "Year FE and region controls", "Country FE and trend control"),
+         dep.var.labels.include = FALSE,
+         column.sep.width = "0.5pt", 
+         se = list(robust_se_fsivstock, robust_se_fsivstockyfe, robust_se_fsivstockcfe), 
+         single.row = TRUE,
+         order = c(1:4, 14, 5:7, 15, 8, 16, 9, 17, 10, 18, 11, 19, 12, 20, 13),
+         covariate.labels=c("OFDI stock", "GDP", "Trade openness", "Resource Rents", "OFDI stock*Resource Rents", "Urban population", "Log Population size", "East Asia and Pacific", "OFDI stock*East Asia and Pacific", "Europe/Central Asia", "OFDI stock*Europe/Central Asia", "Latin America and Caribbean", "OFDI stock*Latin America and Caribbean", "MENA", "OFDI stock*MENA", "South Asia", "OFDI stock*South Asia", "Sub-Saharan Africa", "OFDI stock*Sub-Saharan Africa", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+
+```
+
+
+Second table: Investment stock disaggregated by sectors, country fixed effects
+```{r}
+# Akaike calculation
+
+Sum4 <- summary(fs_ffivstock)
+RSS4 <- sum(Sum4$residuals^2)
+K4 <- max(fs_ffivstock$assign)
+N4 <- length(fs_ffivstock$residuals)
+n4 <- N4 - K4 - fs_ffivstock$df.residual
+
+AIC_fs_ffivstock = log(RSS4/n4) + (2*K4)/n4
+
+
+Sum5 <- summary(fs_lcivstock)
+RSS5 <- sum(Sum5$residuals^2)
+K5 <- max(fs_lcivstock$assign)
+N5 <- length(fs_lcivstock$residuals)
+n5 <- N5 - K5 - fs_lcivstock$df.residual
+
+AIC_fs_lcivstock = log(RSS5/n5) + (2*K5)/n5
+
+
+Sum6 <- summary(fs_trivstock)
+RSS6 <- sum(Sum6$residuals^2)
+K6 <- max(fs_trivstock$assign)
+N6 <- length(fs_trivstock$residuals)
+n6 <- N6 - K6 - fs_trivstock$df.residual
+
+AIC_fs_trivstock = log(RSS6/n6) + (2*K6)/n6
+
+
+fs_trivstock$AIC <- AIC_fs_trivstock
+fs_ffivstock$AIC <- AIC_fs_ffivstock
+fs_lcivstock$AIC <- AIC_fs_lcivstock
+
+stargazer(fs_ffivstock, fs_lcivstock, fs_trivstock,
+          title = "Energy consumption and Chinese OFDI, sectoral disaggregation",
+          dep.var.caption="Dependent variable: Fossil fuels as share of primary energy consumption",
+         column.labels = c("Fossil fuel investment stock", "Low carbon investment stock", "Transport investment stock"),
+         dep.var.labels.include = FALSE,
+         column.sep.width = "6pt", 
+         se = list(robust_se_ff, robust_se_lc, robust_se_tr), 
+         single.row = TRUE,
+         order = c(1:3, 6, 8, 4, 5, 7),
+         covariate.labels=c("OFDI stock", "GDP", "Trade openness", "Resource Rents", "OFDI stock*Resource Rents", "Urban population", "Log Population size", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+```
+
+
+Third table: BRI investments, aggregated and disaggregated, country fixed effects
+```{r}
+
+# Akaike calculation
+
+Sum7 <- summary(fs_bristock)
+RSS7 <- sum(Sum7$residuals^2)
+K7 <- max(fs_bristock$assign)
+N7 <- length(fs_bristock$residuals)
+n7 <- N7 - K7 - fs_bristock$df.residual
+
+AIC_fs_bristock = log(RSS7/n7) + (2*K7)/n7
+
+
+Sum8 <- summary(fs_ffbristock)
+RSS8 <- sum(Sum8$residuals^2)
+K8 <- max(fs_ffbristock$assign)
+N8 <- length(fs_ffbristock$residuals)
+n8 <- N8 - K8 - fs_ffbristock$df.residual
+
+AIC_fs_ffbristock = log(RSS8/n8) + (2*K8)/n8
+
+
+Sum9 <- summary(fs_lcbristock)
+RSS9 <- sum(Sum9$residuals^2)
+K9 <- max(fs_lcbristock$assign)
+N9 <- length(fs_lcbristock$residuals)
+n9 <- N9 - K9 - fs_lcbristock$df.residual
+
+AIC_fs_lcbristock = log(RSS9/n9) + (2*K9)/n9
+
+
+Sum10 <- summary(fs_trbristock)
+RSS10 <- sum(Sum10$residuals^2)
+K10 <- max(fs_trbristock$assign)
+N10 <- length(fs_trbristock$residuals)
+n10 <- N10 - K10 - fs_trbristock$df.residual
+
+AIC_fs_trbristock = log(RSS10/n10) + (2*K10)/n10
+
+fs_bristock$AIC <- AIC_fs_bristock
+fs_ffbristock$AIC <- AIC_fs_ffbristock
+fs_lcbristock$AIC <- AIC_fs_lcbristock
+fs_trbristock$AIC <- AIC_fs_trbristock
+
+stargazer(fs_bristock, fs_ffbristock, fs_lcbristock, fs_trbristock,
+          title = "Energy consumption and BRI OFDI, aggregate and sectoral disaggregation",
+          dep.var.caption="Dependent variable: Fossil fuels as share of primary energy consumption",
+         column.labels = c("BRI investment stock", "BRI fossil fuel investment stock", "BRI low carbon investment stock", "BRI transport investment stock"),
+         dep.var.labels.include = FALSE,
+         column.sep.width = "6pt", 
+         se = list(robust_se_bri, robust_se_briff, robust_se_brilc, robust_se_britr), 
+         single.row = TRUE,
+         order = c(1:3, 6, 8, 4, 5, 7),
+         #covariate.labels=c("BRI OFDI stock", "GDP", "Trade openness", "Resource Rents", "OFDI stock*Resource Rents", "Urban population", "Log Population size", "Trend control"),
+         keep.stat=c("aic", "adj.rsq", "n"),
+          float.env = "sidewaystable")
+
+
+```
+
+
+
+## Interpretation of the regression results
+
+
+In the consumption model, resource rents were shown to be negatively correlated with fossil fuel consumption. The reasons for this counterintuitive result are examined here:
+```{r}
+test <- ivstock_fs%>%
+  group_by(country)%>%
+  summarize(mean_rr = mean(resource_rents))
+
+test <- test[with(test,order(-mean_rr)),]
+median(test$mean_rr)
+var(test$mean_rr)
+
+
+test3 <- ivstock_fs%>%
+  group_by(country)%>%
+  summarize(mean_fs = mean(fossil_share_energy))
+
+test3 <- test3[with(test3,order(-mean_fs)),]
+
+test4 <- test3[1:10,]
+
+```
+In the BRI analysis, the low-carbon BRI IV was the only disaggregated investment variable that was positively associated with fossil fuel consumption. The reasons for this will be examined here.
+```{r}
+
+blub <- lcivstock_fs%>%
+  group_by(country)%>%
+  summarise(brisum = sum(bri_investment_stock))
+blub <- blub[with(blub,order(-brisum)),]
+
+```
+
+
+
+
+
+
+## Information on dataset for data chapter
+
+
+```{r}
+
+
+
+
+
+```
+
+

@@ -1,0 +1,677 @@
+"iso","country","year_investment","sector","subsector","investor","region","share_size","bri","gdp","investment","investments_share_percent_gdp"
+"AFG","Afghanistan",2011,"Energy","Oil","China National Petroleum Corp. (CNPC)","South Asia",NA,0,17805113118.8938,4e+08,2.2465456822936
+"AGO","Angola",2006,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa","0.75",0,52381006892.038,7.4e+08,1.41272580255131
+"AGO","Angola",2007,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,65266452081.386,1.83e+09,2.80389073044453
+"AGO","Angola",2009,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,70307163678.238,1.13e+09,1.6072330910282
+"AGO","Angola",2012,"Energy",NA,"Tebian Electric Apparatus (TBEA), Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,128052853643.106,8e+08,0.624742032090645
+"AGO","Angola",2013,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa","0.1",0,136709862831.194,1.52e+09,1.11184370207207
+"AGO","Angola",2014,"Energy","Gas","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,145712200312.505,1.77e+09,1.21472326696318
+"AGO","Angola",2016,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,101123851090.455,1.67e+09,1.65144027051164
+"AGO","Angola",2017,"Energy","Hydro","China Energy Engineering","Sub-Saharan Africa","0.61",0,122123822333.59,2.97e+09,2.43195794501685
+"ARE","United Arab Emirates",2008,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,315474615738.598,3.29e+09,1.04287313015577
+"ARE","United Arab Emirates",2012,"Energy","Coal","Shanghai Electric","Middle East & North Africa",NA,0,374590605854.323,2e+08,0.0533916219131719
+"ARE","United Arab Emirates",2015,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,358135057862.492,3.3e+08,0.0921440090142489
+"ARE","United Arab Emirates",2016,"Energy","Coal","Harbin Electric","Middle East & North Africa",NA,0,357045064669.843,3.04e+09,0.851433138506218
+"ARE","United Arab Emirates",2017,"Energy","Oil","China National Petroleum Corp. (CNPC), China National Off-shore Oil (CNOOC)","Middle East & North Africa","0.08",0,385605506848.196,4.18e+09,1.08400941526117
+"ARE","United Arab Emirates",2018,"Energy","Alternative","Shanghai Electric","Middle East & North Africa",NA,1,422215043594.282,5.76e+09,1.36423372103599
+"ARE","United Arab Emirates",2019,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,1,417215559513.364,1.68e+09,0.402669546159672
+"ARE","United Arab Emirates",2020,"Transport","Rail","CRRC","Middle East & North Africa",NA,1,358868765174.924,2.64e+09,0.735644964451888
+"ARG","Argentina",2010,"Energy",NA,"China National Off-shore Oil (CNOOC)","Latin America & Caribbean","0.5",0,423627422092.49,5.57e+09,1.31483461870509
+"ARG","Argentina",2011,"Energy","Oil","China National Off-shore Oil (CNOOC)","Latin America & Caribbean",NA,0,530163281574.658,3.3e+08,0.0622449746085497
+"ARG","Argentina",2013,"Transport","Rail","China National Machinery Industry (Sinomach)","Latin America & Caribbean",NA,0,552025140252.246,2.59e+09,0.469181530177504
+"ARG","Argentina",2015,"Energy","Alternative","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,594749285413.212,3e+08,0.0504414225216883
+"ARG","Argentina",2016,"Energy","Gas","China National Petroleum Corp. (CNPC)","Latin America & Caribbean",NA,0,557531376217.967,7.9e+08,0.141696061190133
+"ARG","Argentina",2017,"Energy","Hydro","China Energy Engineering","Latin America & Caribbean","0.65",0,643628665302.155,4.05e+09,0.62924481433696
+"ARG","Argentina",2018,"Energy","Alternative","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,524819742918.669,2.1e+08,0.0400137385899645
+"ARG","Argentina",2019,"Energy","Hydro","China Communications Construction","Latin America & Caribbean",NA,0,451932356085.842,8.7e+08,0.192506685632119
+"ARG","Argentina",2020,"Transport","Rail","China Railway Construction","Latin America & Caribbean",NA,0,389288056265.325,1.75e+09,0.449538579937131
+"ATG","Antigua & Barbuda",2014,"Transport","Shipping","China Railway Construction","Latin America & Caribbean",NA,0,1249733333.33333,2.6e+08,20.8044382801665
+"AUS","Australia",2007,"Energy","Coal","China International Trust and Investment (CITIC)","East Asia & Pacific","0.08",0,853955405511.502,1e+08,0.0117102133617975
+"AUS","Australia",2008,"Energy","Coal","Shenhua","East Asia & Pacific",NA,0,1055127126230.98,7.5e+08,0.0710814821602659
+"AUS","Australia",2009,"Energy","Coal","MCC","East Asia & Pacific",NA,0,928042998085.702,5.33e+09,0.574326837333435
+"AUS","Australia",2010,"Energy","Coal","Taiyuan Heavy","East Asia & Pacific","1",0,1147589183475.73,3.11e+09,0.271002902848968
+"AUS","Australia",2011,"Energy","Gas","China National Petroleum Corp. (CNPC)","East Asia & Pacific","0.5",0,1397907916789.9,8.75e+09,0.625935363474667
+"AUS","Australia",2012,"Energy","Coal","Shandong Energy","East Asia & Pacific","1",0,1546508558465.66,4.28e+09,0.276752428984054
+"AUS","Australia",2013,"Energy",NA,"State Grid","East Asia & Pacific","0.19900000000000001",0,1576335282651.07,4.62e+09,0.293084856429155
+"AUS","Australia",2014,"Energy","Gas","Shandong Landbridge","East Asia & Pacific","1",0,1467504819608.92,5.18e+09,0.352980101379186
+"AUS","Australia",2015,"Transport","Shipping","Shandong Landbridge","East Asia & Pacific","0.8",0,1350534154255.76,2.57e+09,0.190295076351938
+"AUS","Australia",2016,"Energy","Alternative","State Power Investment Corporation","East Asia & Pacific","1",0,1206685107002.47,4.43e+09,0.367121461456053
+"AUS","Australia",2017,"Energy","Coal","Yankuang Group","East Asia & Pacific","0.28999999999999998",0,1326882872011.46,5.08e+09,0.382852179883751
+"AUS","Australia",2018,"Energy","Alternative","Risen Energy","East Asia & Pacific",NA,0,1428529571351.06,2.3e+09,0.161004717446957
+"AUS","Australia",2019,"Energy","Alternative","State Power Investment Corporation","East Asia & Pacific",NA,0,1391952510370.48,1.16e+09,0.0833361764397591
+"AUS","Australia",2020,"Transport","Rail","China Communications Construction","East Asia & Pacific",NA,0,1327836171068.51,6.4e+08,0.0481987171267516
+"AZE","Azerbaijan",2007,"Energy","Gas","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,33050343782.7759,2.1e+08,0.635394298407997
+"BEL","Belgium",2012,"Energy","Oil","Sinochem","Europe & Central Asia","0.35",0,496181260258.3,2.6e+08,0.0524002054943893
+"BEN","Benin",2014,"Transport","Shipping","China Gansu International Corp for Economic and Technical Cooperation","Sub-Saharan Africa",NA,0,13284528654.0574,6.4e+08,4.81763423201718
+"BEN","Benin",2015,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,11388160958.249,1.6e+08,1.40496784851029
+"BEN","Benin",2019,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa",NA,1,14391686632.7821,6.9e+08,4.79443457605784
+"BGD","Bangladesh",2010,"Energy",NA,"China National Chemical Engineering","South Asia",NA,0,115279077465.226,4.3e+08,0.373007842754215
+"BGD","Bangladesh",2011,"Transport","Rail","China Railway Engineering","South Asia",NA,0,128637938711.386,2e+08,0.155475128102544
+"BGD","Bangladesh",2012,"Energy","Gas","China Energy Engineering","South Asia",NA,0,133355749482.478,4.9e+08,0.367438225874455
+"BGD","Bangladesh",2013,"Energy","Coal","Harbin Electric","South Asia",NA,0,149990451022.29,7.6e+08,0.506698923044812
+"BGD","Bangladesh",2014,"Energy","Gas","Shanghai Electric","South Asia",NA,0,172885454931.453,1.9e+08,0.109899355081856
+"BGD","Bangladesh",2015,"Energy","Coal","Power Construction Corp. (PowerChina), HTG","South Asia","0.3",0,195078678697.23,3.66e+09,1.87616608049743
+"BGD","Bangladesh",2016,"Energy","Oil","Power Construction Corp. (PowerChina)","South Asia",NA,1,221415188000.475,5.46e+09,2.46595549713974
+"BGD","Bangladesh",2017,"Transport","Rail","Power Construction Corp. (PowerChina)","South Asia",NA,1,249710922462.309,1.2e+09,0.480555671400848
+"BGD","Bangladesh",2018,"Transport","Rail","China Railway Engineering","South Asia",NA,1,274038973437.275,3.12e+09,1.1385241890472
+"BGD","Bangladesh",2019,"Energy","Coal","China North Industries (Norinco)","South Asia",NA,1,302571320445.75,1.67e+09,0.551935985717267
+"BGD","Bangladesh",2020,"Transport","Shipping","China State Shipbuilding","South Asia",NA,1,323056957972.312,4.3e+08,0.133103463457009
+"BGR","Bulgaria",2019,"Transport","Shipping","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,1,68915416141.9576,1.3e+08,0.188637038383713
+"BIH","Bosnia & Herzegovina",2010,"Energy","Coal","Dongfang Electric Corporation","Europe & Central Asia",NA,0,17176781045.5967,7.1e+08,4.13348693282674
+"BIH","Bosnia & Herzegovina",2013,"Energy","Gas","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,0,18172335776.3301,2.8e+08,1.54080357883716
+"BIH","Bosnia & Herzegovina",2020,"Energy","Hydro","China Energy Engineering","Europe & Central Asia",NA,1,19946496562.9733,3.4e+08,1.70455999090659
+"BLR","Belarus",2008,"Energy",NA,"China General Technology (Genertec)","Europe & Central Asia",NA,0,60763483146.0674,3.3e+08,0.543089340692869
+"BLR","Belarus",2010,"Energy",NA,"China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,57222490768.7143,1.15e+09,2.00969930625381
+"BLR","Belarus",2014,"Energy",NA,"China Energy Engineering","Europe & Central Asia",NA,0,78813839984.3506,3.4e+08,0.431396313220509
+"BOL","Bolivia",2013,"Transport","Rail","China National Machinery Industry (Sinomach)","Latin America & Caribbean",NA,0,30659338880.3786,1e+08,0.326164893477198
+"BOL","Bolivia",2014,"Energy","Hydro","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,32996188012.6821,2.4e+08,0.727356747718118
+"BOL","Bolivia",2016,"Energy","Hydro","China Three Gorges","Latin America & Caribbean",NA,0,33941126200.0606,9.9e+08,2.91681541197131
+"BOL","Bolivia",2017,"Energy","Hydro","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,37508642165.3366,1.9e+08,0.506549928313821
+"BRA","Brazil",2005,"Energy","Coal","China International Trust and Investment (CITIC)","Latin America & Caribbean",NA,0,891633826603.377,4.3e+08,0.0482260752306872
+"BRA","Brazil",2006,"Energy","Gas","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,1107626711406.63,1.29e+09,0.11646523027255
+"BRA","Brazil",2008,"Energy","Oil","China Investment Corporation (CIC)","Latin America & Caribbean",NA,0,1695855391810.9,1.1e+08,0.006486402114896
+"BRA","Brazil",2009,"Transport","Shipping","China Communications Construction","Latin America & Caribbean",NA,0,1666996294372.87,1e+08,0.00599881357490482
+"BRA","Brazil",2010,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean","0.4",0,2208838108577.09,1.189e+10,0.538292052904656
+"BRA","Brazil",2011,"Energy",NA,"China Petroleum and Chemical (Sinopec)","Latin America & Caribbean","0.3",0,2616156606666.62,4.8e+09,0.183475254798142
+"BRA","Brazil",2012,"Energy",NA,"State Grid","Latin America & Caribbean",NA,0,2465228293894.01,1.49e+09,0.0604406498047463
+"BRA","Brazil",2013,"Energy","Oil","China National Petroleum Corp. (CNPC), China National Off-shore Oil (CNOOC)","Latin America & Caribbean","10%, 10%",0,2472819362216.69,1.78e+09,0.0719826133359118
+"BRA","Brazil",2014,"Energy","Hydro","China Three Gorges","Latin America & Caribbean","0.33",0,2456043766028.73,1.5e+09,0.0610738302284168
+"BRA","Brazil",2015,"Energy",NA,"China Three Gorges","Latin America & Caribbean",NA,0,1802211999538.68,4.79e+09,0.265784491570699
+"BRA","Brazil",2016,"Energy",NA,"State Grid","Latin America & Caribbean",NA,0,1795693265810.23,1.209e+10,0.673277570851996
+"BRA","Brazil",2017,"Energy",NA,"State Grid","Latin America & Caribbean","0.4",0,2063514688761.98,7.08e+09,0.343103930326161
+"BRA","Brazil",2018,"Energy","Gas","Shangdon Kerui","Latin America & Caribbean",NA,0,1916933708381.89,1.02e+09,0.0532099777650108
+"BRA","Brazil",2019,"Energy","Alternative","China General Nuclear Power","Latin America & Caribbean",NA,0,1877824273720.78,2.49e+09,0.13260026696035
+"BRA","Brazil",2020,"Energy","Gas","State Power Investment Corporation","Latin America & Caribbean","0.33",0,1444733258971.65,6.4e+08,0.0442988348212837
+"BRN","Brunei",2014,"Energy","Oil","Zhejiang Hengyi","East Asia & Pacific","0.7",0,17098342541.4365,3.44e+09,20.1189091379087
+"BWA","Botswana",2009,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,10267133177.7334,1.07e+09,10.4216043707365
+"BWA","Botswana",2018,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa",NA,0,16914245098.0392,1e+08,0.591217635906155
+"CAN","Canada",2005,"Energy","Oil","China National Off-shore Oil (CNOOC)","North America","0.17",0,1173108598778.68,2.5e+08,0.0213108999678524
+"CAN","Canada",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","North America","0.6",0,1374625142157.29,1.74e+09,0.12657996326688
+"CAN","Canada",2010,"Energy","Oil","China Petroleum and Chemical (Sinopec)","North America","0.09",0,1617343367486.26,6.36e+09,0.393237461373769
+"CAN","Canada",2011,"Energy",NA,"China Petroleum and Chemical (Sinopec)","North America","1",0,1793326630174.52,4.4e+09,0.245354076940898
+"CAN","Canada",2012,"Energy","Oil","China National Petroleum Corp. (CNPC)","North America","0.4",0,1828366481521.6,2.079e+10,1.13708056946538
+"CAN","Canada",2013,"Energy",NA,"Shaanxi Yanchang Petroleum","North America","1",0,1846597421834.98,3e+08,0.0162460965477731
+"CAN","Canada",2014,"Energy","Gas","Zhejiang Rongsheng, Shanghai Zhongrong, Legend","North America",NA,0,1805749878439.94,3.04e+09,0.168351111983814
+"CAN","Canada",2015,"Energy","Gas","Sinoenergy","North America","1",0,1556508816217.14,1.7e+08,0.0109218783876316
+"CAN","Canada",2016,"Energy","Oil","Geo-Jade Petroleum","North America","1",0,1527994741907.43,1.1e+09,0.0719897765241552
+"CAN","Canada",2017,"Energy",NA,"MIE, Can-China Global Resources","North America",NA,0,1649265644244.09,5.5e+08,0.0333481754088246
+"CAN","Canada",2018,"Energy","Oil","China National Off-shore Oil (CNOOC)","North America",NA,0,1725329192783.02,3.14e+09,0.181994254379656
+"CHE","Switzerland",2009,"Energy",NA,"China Petroleum and Chemical (Sinopec)","Europe & Central Asia","1",0,558199868578.256,7.2e+09,1.28986056882072
+"CHE","Switzerland",2012,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Europe & Central Asia","0.5",0,692109693986.886,1.7e+08,0.0245625803939716
+"CHE","Switzerland",2015,"Energy","Oil","China National Chemical (ChemChina)","Europe & Central Asia","0.12",0,702149580770.901,3.6e+08,0.0512711265318638
+"CHE","Switzerland",2017,"Energy","Oil","HNA","Europe & Central Asia","0.51",0,704478516963.855,5.8e+08,0.0823304027069087
+"CHL","Chile",2012,"Energy","Alternative","Xinjiang Goldwind","Latin America & Caribbean","0.5",0,267122320056.772,1.9e+08,0.0711284627805041
+"CHL","Chile",2016,"Energy","Alternative","State Power Investment Corporation","Latin America & Caribbean",NA,0,250440149690.846,1.4e+08,0.0559015797478248
+"CHL","Chile",2018,"Energy","Hydro","China Three Gorges","Latin America & Caribbean","1",1,297571693064.193,1.54e+09,0.517522343655109
+"CHL","Chile",2019,"Energy",NA,"State Grid","Latin America & Caribbean",NA,1,279385487344.492,2.23e+09,0.79818032826105
+"CHL","Chile",2020,"Energy",NA,"State Grid","Latin America & Caribbean","0.96",1,252940023046.007,3.19e+09,1.26116854169013
+"CIV","Côte d’Ivoire",2013,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,42760237561.3995,1.5e+09,3.50793186741806
+"CIV","Côte d’Ivoire",2016,"Energy","Gas","China Energy Engineering","Sub-Saharan Africa",NA,0,47964234560.0514,4.1e+08,0.854803592219695
+"CIV","Côte d’Ivoire",2018,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,1,58011466450.8643,1.17e+09,2.01684265470343
+"CIV","Côte d’Ivoire",2019,"Transport","Shipping","State Development and Investment Corp","Sub-Saharan Africa",NA,1,58539424929.7248,4.3e+08,0.734547701000146
+"CMR","Cameroon",2009,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,27932971683.4215,5e+08,1.78999930858325
+"CMR","Cameroon",2010,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,27507499709.071,6.4e+08,2.326638214192
+"CMR","Cameroon",2011,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,30630912184.7789,7.4e+08,2.41586014656044
+"CMR","Cameroon",2012,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,30155064574.0734,2.1e+08,0.696400432120291
+"CMR","Cameroon",2013,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,33728622819.0912,3.3e+08,0.97839749274676
+"CMR","Cameroon",2015,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,32210232911.6626,6.5e+08,2.01799223800288
+"CMR","Cameroon",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,33814337900.2831,3e+08,0.887197616835456
+"CMR","Cameroon",2017,"Energy","Hydro","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,36098550141.5897,5.2e+08,1.44050106710768
+"CMR","Cameroon",2018,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,39973839064.6084,8.9e+08,2.22645615439018
+"COD","Congo - Kinshasa",2011,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,25839749198.8233,3.7e+08,1.4319024428335
+"COD","Congo - Kinshasa",2014,"Energy","Hydro","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,35909040265.9328,3e+08,0.835444216214858
+"COD","Congo - Kinshasa",2016,"Energy","Hydro","Power Construction Corp. (PowerChina), China Railway Engineering","Sub-Saharan Africa",NA,0,37134799974.5225,6.6e+08,1.77730861739612
+"COD","Congo - Kinshasa",2017,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,38019265625.8845,1.3e+08,0.341931907047391
+"COD","Congo - Kinshasa",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa","0.51",0,50400747050.496,8.5e+08,1.68648293873183
+"COG","Congo - Brazzaville",2010,"Energy","Hydro","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,13135580695.2473,2.8e+08,2.13161493576991
+"COG","Congo - Brazzaville",2011,"Energy","Hydro","Gezhouba","Sub-Saharan Africa",NA,0,15634897272.7645,1.1e+08,0.703554350763894
+"COG","Congo - Brazzaville",2013,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,17953617927.2376,6.5e+08,3.62044019558798
+"COG","Congo - Brazzaville",2016,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,10215989995.0073,2.3e+09,22.5137260424496
+"COL","Colombia",2006,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean","0.5",0,161618581266.316,4.3e+08,0.266058516682215
+"COL","Colombia",2011,"Energy","Coal","China National Machinery Industry (Sinomach)","Latin America & Caribbean",NA,0,334943871931.746,2.4e+08,0.0716537963855946
+"COL","Colombia",2012,"Energy","Gas","Sinochem","Latin America & Caribbean",NA,0,370921320483.842,9.8e+08,0.264206974870481
+"COL","Colombia",2018,"Energy","Hydro","China Three Gorges","Latin America & Caribbean","0.5",0,334198214706.209,2.3e+08,0.0688214328739581
+"COL","Colombia",2020,"Transport","Rail","China Railway Construction","Latin America & Caribbean","0.2",0,271437596293.843,3e+08,0.110522640966521
+"CUB","Cuba",2014,"Transport","Shipping","China Communications Construction","Latin America & Caribbean",NA,0,8.0656e+10,1e+08,0.123983336639556
+"CUB","Cuba",2018,"Energy","Alternative","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,1.0005e+11,1.4e+08,0.139930034982509
+"CYP","Cyprus",2019,"Transport","Shipping","China National Petroleum Corp. (CNPC), China State Shipbuilding","Europe & Central Asia",NA,1,25758357774.5438,1.7e+08,0.659979962573568
+"CZE","Czechia",2009,"Energy","Alternative","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,207434296805.33,1e+08,0.0482080357684759
+"DEU","Germany",2012,"Energy","Alternative","Hanergy","Europe & Central Asia","1",0,3527344944139.83,5.1e+08,0.0144584668660572
+"DEU","Germany",2016,"Energy","Alternative","China Three Gorges","Europe & Central Asia","0.8",0,3467498002104.33,3.13e+09,0.0902668148071171
+"DJI","Djibouti",2011,"Transport","Shipping","China State Construction Engineering","Middle East & North Africa",NA,0,1239144501.77525,4.2e+08,33.8943520629185
+"DJI","Djibouti",2012,"Transport","Shipping","China Merchants Group","Middle East & North Africa","0.24",0,1353632941.5207,7e+08,51.7126894986469
+"DJI","Djibouti",2020,"Transport","Shipping","China Merchants Group","Middle East & North Africa",NA,1,3384385216.71609,5.1e+08,15.069206586798
+"DZA","Algeria",2005,"Energy",NA,"China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,103198223709.439,3.9e+08,0.377913481435562
+"DZA","Algeria",2009,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,0,137211035770.034,2.57e+09,1.8730271844222
+"DZA","Algeria",2013,"Energy","Hydro","China Three Gorges","Middle East & North Africa",NA,0,209755003250.664,6.1e+08,0.290815470690361
+"DZA","Algeria",2016,"Transport","Shipping","China State Construction Engineering, China Communications Construction","Middle East & North Africa","0.49",0,160034163871.455,2.13e+09,1.33096580659545
+"DZA","Algeria",2019,"Energy","Gas","China Communications Construction","Middle East & North Africa",NA,1,171767403748.19,5.6e+08,0.326022276508852
+"ECU","Ecuador",2005,"Energy","Oil","China National Petroleum Corp. (CNPC), China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,41507085000,1.42e+09,3.42110268644498
+"ECU","Ecuador",2010,"Energy","Oil","China National Petroleum Corp. (CNPC), China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,69555367000,3.73e+09,5.3626343456717
+"ECU","Ecuador",2011,"Energy","Hydro","Harbin Electric","Latin America & Caribbean",NA,0,79276664000,8e+08,1.00912419826344
+"ECU","Ecuador",2013,"Energy","Hydro","China Three Gorges","Latin America & Caribbean",NA,0,95129659000,9.9e+08,1.04068490353781
+"ECU","Ecuador",2014,"Energy","Hydro","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,101726331000,2.4e+08,0.235927117041113
+"ECU","Ecuador",2015,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,99290381000,5.3e+08,0.533787860074784
+"ECU","Ecuador",2018,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,1,107562008000,1.5e+08,0.139454443803243
+"EGY","Egypt",2008,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,162818181818.182,3.8e+08,0.233389168062535
+"EGY","Egypt",2010,"Energy","Oil","Rongsheng Holding, China National Chemical Engineering","Middle East & North Africa",NA,0,218983666061.706,1.99e+09,0.908743576993204
+"EGY","Egypt",2011,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,235989672977.625,4.4e+08,0.186448836700459
+"EGY","Egypt",2012,"Energy","Oil","Dalian Shipbuilding","Middle East & North Africa",NA,0,279116666666.667,3.2e+08,0.114647399534245
+"EGY","Egypt",2013,"Energy",NA,"China Petroleum and Chemical (Sinopec)","Middle East & North Africa","0.33",0,288434108527.132,3.1e+09,1.07476886691034
+"EGY","Egypt",2015,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,0,329366576819.407,6e+08,0.182167846474897
+"EGY","Egypt",2016,"Energy",NA,"State Grid, Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,1,332441717791.411,7.8e+08,0.23462759282498
+"EGY","Egypt",2017,"Transport","Rail","Aviation Industry Corp. (AVIC), China Railway Engineering","Middle East & North Africa",NA,1,235733695652.174,3.23e+09,1.37019020172911
+"EGY","Egypt",2018,"Energy","Alternative","Tebian Electric Apparatus (TBEA)","Middle East & North Africa",NA,1,249712999437.254,3.3e+08,0.132151710461081
+"EGY","Egypt",2020,"Energy","Alternative","China Energy Engineering","Middle East & North Africa",NA,1,365252651278.852,2.9e+08,0.0793970964987191
+"ERI","Eritrea",2014,"Energy","Hydro","Power Construction Corp. (PowerChina), Shanghai Construction","Sub-Saharan Africa",NA,0,NA,5e+08,NA
+"ESP","Spain",2015,"Energy","Gas","State Administration of Foreign Exchange (SAFE)","Europe & Central Asia",NA,0,1195119269971.52,7.3e+08,0.0610817696895973
+"ESP","Spain",2017,"Transport","Shipping","China Ocean Shipping (COSCO)","Europe & Central Asia","0.51",0,1309297246509.31,2.3e+08,0.0175666756050391
+"ESP","Spain",2020,"Energy","Alternative","China Three Gorges","Europe & Central Asia",NA,0,1281484640043.58,6.1e+08,0.0476010387435666
+"ETH","Ethiopia",2009,"Energy","Hydro","Gezhouba","Sub-Saharan Africa",NA,0,32437389116.038,2.87e+09,8.84781444564842
+"ETH","Ethiopia",2010,"Energy","Hydro","Dongfang Electric Corporation","Sub-Saharan Africa",NA,0,29933790334.3418,5e+08,1.6703531173811
+"ETH","Ethiopia",2011,"Transport","Rail","China Railway Engineering","Sub-Saharan Africa",NA,0,31952763089.33,4.5e+08,1.40832890959051
+"ETH","Ethiopia",2012,"Transport","Rail","China Communications Construction","Sub-Saharan Africa",NA,0,43310721414.0829,1.58e+09,3.64805745185821
+"ETH","Ethiopia",2013,"Energy","Alternative","Power Construction Corp. (PowerChina), China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa",NA,0,47648211133.2183,4.26e+09,8.94052452061544
+"ETH","Ethiopia",2014,"Transport","Rail","China Railway Engineering","Sub-Saharan Africa",NA,0,55612228233.5179,1.02e+09,1.83412898997138
+"ETH","Ethiopia",2015,"Energy",NA,"China North Industries (Norinco)","Sub-Saharan Africa",NA,0,64589334978.8013,2.3e+08,0.356095940723786
+"ETH","Ethiopia",2016,"Energy",NA,"State Grid","Sub-Saharan Africa",NA,0,74296618481.0882,5.4e+08,0.726816389547331
+"ETH","Ethiopia",2017,"Energy","Alternative","Dongfang Electric Corporation","Sub-Saharan Africa",NA,0,81770791970.982,4.6e+08,0.562548055255769
+"ETH","Ethiopia",2018,"Energy","Gas","China Poly","Sub-Saharan Africa",NA,1,84269348327.3454,3.6e+08,0.427201594821376
+"FIN","Finland",2017,"Energy","Alternative","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,255016517537.983,8.5e+08,0.333311743178909
+"FJI","Fiji",2009,"Energy","Hydro","Sinohydro","East Asia & Pacific",NA,0,2870624635.68032,1.5e+08,5.22534357629279
+"FRA","France",2008,"Energy",NA,"State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","1.6E-2",0,2918382891460.38,2.8e+09,0.0959435449060922
+"FRA","France",2011,"Energy",NA,"China National Petroleum Corp. (CNPC)","Europe & Central Asia","0.5",0,2861408170264.6,3.75e+09,0.131054354250104
+"FRA","France",2013,"Transport","Shipping","China Merchants Group","Europe & Central Asia","0.49",0,2811077725703.59,5.3e+08,0.018853978854937
+"FRA","France",2016,"Energy","Alternative","China General Nuclear Power","Europe & Central Asia",NA,0,2471285607081.72,1.1e+08,0.00445112453553664
+"GAB","Gabon",2008,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,15571349775.7848,4e+08,2.56882033837584
+"GAB","Gabon",2013,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,17595745653.3676,1.2e+08,0.681983033649009
+"GAB","Gabon",2018,"Energy","Hydro","China Energy Engineering","Sub-Saharan Africa",NA,1,16867325126.5423,2e+08,1.18572446134498
+"GBR","United Kingdom",2008,"Energy",NA,"State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.01",0,2938882352941.18,2.01e+09,0.0683933468105121
+"GBR","United Kingdom",2009,"Energy",NA,"Sinochem","Europe & Central Asia","1",0,2425798410967.44,8.8e+08,0.0362767159884916
+"GBR","United Kingdom",2011,"Energy",NA,"China National Petroleum Corp. (CNPC)","Europe & Central Asia","0.5",0,2674891473843.81,5.1e+08,0.0190661940862644
+"GBR","United Kingdom",2012,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Europe & Central Asia","0.49",0,2719158341005.79,1.5e+09,0.0551641284503191
+"GBR","United Kingdom",2013,"Transport","Shipping","Dalian Wanda","Europe & Central Asia","0.92",0,2803291406029.93,5e+08,0.0178361763933814
+"GBR","United Kingdom",2014,"Energy","Alternative","State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.49",0,3087165602962.86,3.3e+08,0.0106894168451245
+"GBR","United Kingdom",2015,"Transport","Shipping","China South Locomotive","Europe & Central Asia","1",0,2956573778737.76,1.9e+08,0.00642635747385665
+"GBR","United Kingdom",2016,"Energy","Alternative","State Development and Investment Corp","Europe & Central Asia","1",0,2722851958486.23,4.7e+08,0.0172613130337536
+"GBR","United Kingdom",2017,"Energy","Alternative","China Resources","Europe & Central Asia","0.3",0,2699016715111.39,1.38e+09,0.0511297315156882
+"GBR","United Kingdom",2018,"Energy","Gas","China Investment Corporation (CIC)","Europe & Central Asia","0.11",0,2900791442554.06,1.89e+09,0.0651546323625359
+"GBR","United Kingdom",2019,"Energy",NA,"China General Nuclear Power","Europe & Central Asia","0.34",0,2878673912414.44,8.86e+09,0.307780605569487
+"GEO","Georgia",2011,"Transport","Rail","China Railway Construction","Europe & Central Asia",NA,0,15107441446.7833,3.4e+08,2.2505465349488
+"GEO","Georgia",2016,"Energy","Gas","China National Chemical Engineering","Europe & Central Asia",NA,1,15141758566.7808,1.6e+08,1.05668043308405
+"GEO","Georgia",2017,"Energy","Coal","Dongfang Electric Corporation","Europe & Central Asia",NA,1,16242916915.7203,2.5e+08,1.53913241874705
+"GHA","Ghana",2007,"Energy","Gas","Shenzhen Energy, China Development Bank","Sub-Saharan Africa",NA,0,24827844949.6033,8e+08,3.22218864192151
+"GHA","Ghana",2012,"Energy",NA,"China Three Gorges","Sub-Saharan Africa",NA,0,41270954737.2459,1.18e+09,2.85915362877487
+"GHA","Ghana",2014,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,54782847752.5375,4.2e+08,0.766663321149722
+"GHA","Ghana",2015,"Energy","Coal","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,49406568432.6711,1.49e+09,3.01579333936236
+"GHA","Ghana",2016,"Energy","Oil","China Energy Engineering","Sub-Saharan Africa",NA,0,56165172898.8695,7.8e+08,1.38876097008454
+"GHA","Ghana",2018,"Transport","Shipping","China Communications Construction, China State Shipbuilding","Sub-Saharan Africa",NA,1,67299280679.563,2e+08,0.297179996547474
+"GHA","Ghana",2019,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,1,68337537815.7703,6.1e+08,0.892628004310729
+"GHA","Ghana",2020,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,68532281805.6722,9.3e+08,1.35702471229117
+"GIN","Guinea",2011,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,6785137172.77058,4.5e+08,6.63214299934707
+"GIN","Guinea",2015,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,8794202443.67366,1.38e+09,15.6921563818756
+"GIN","Guinea",2016,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,8595955581.21787,7.7e+08,8.95770101095505
+"GIN","Guinea",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,13513809258.2131,1.38e+09,10.2117765141705
+"GNB","Guinea-Bissau",2014,"Energy","Hydro","China North Industries (Norinco)","Sub-Saharan Africa",NA,0,1054915645.19654,2.8e+08,26.5424066156336
+"GNB","Guinea-Bissau",2017,"Energy","Alternative","Shenyang Lan Sa","Sub-Saharan Africa","0.93",0,1350177127.5523,1.7e+08,12.5909405907496
+"GNQ","Equatorial Guinea",2007,"Energy","Hydro","China National Machinery Industry (Sinomach), Sinohydro","Sub-Saharan Africa",NA,0,13071718758.7373,6.5e+08,4.97256720402993
+"GNQ","Equatorial Guinea",2009,"Energy","Gas","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,15027795173.2187,1.2e+08,0.798520332602444
+"GNQ","Equatorial Guinea",2010,"Energy",NA,"Sinohydro","Sub-Saharan Africa",NA,0,16314443428.9408,3.2e+08,1.96145214143401
+"GRC","Greece",2008,"Transport","Shipping","China Ocean Shipping (COSCO)","Europe & Central Asia",NA,0,354460802695.181,5.79e+09,1.63346693230256
+"GRC","Greece",2016,"Energy",NA,"State Grid","Europe & Central Asia","0.24",0,193017030649.7,6.7e+08,0.347119628638345
+"GRC","Greece",2017,"Energy","Alternative","China Energy Investment","Europe & Central Asia","0.75",0,199350781053.185,1.64e+09,0.822670466268433
+"GRC","Greece",2019,"Transport","Shipping","China Ocean Shipping (COSCO)","Europe & Central Asia",NA,1,205144152830.847,6.9e+08,0.33634885054167
+"GTM","Guatemala",2010,"Energy",NA,"China Machine New Energy","Latin America & Caribbean",NA,0,40676432028.5934,7e+08,1.72089823293237
+"GUY","Guyana",2012,"Energy","Hydro","China Railway Engineering","Latin America & Caribbean",NA,0,4063089191.87525,5.1e+08,12.5520257103836
+"GUY","Guyana",2018,"Energy","Oil","China National Off-shore Oil (CNOOC)","Latin America & Caribbean","0.25",1,4787636237.24043,9.3e+08,19.4250346917762
+"GUY","Guyana",2019,"Energy","Oil","China National Off-shore Oil (CNOOC)","Latin America & Caribbean","0.25",1,5173760191.84652,4e+08,7.73132084147177
+"HND","Honduras",2013,"Energy","Hydro","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,18372173380.7373,3.5e+08,1.90505495864177
+"HRV","Croatia",2018,"Energy","Alternative","China North Industries (Norinco)","Europe & Central Asia","0.76",1,62247874948.8225,2.2e+08,0.353425719642437
+"HUN","Hungary",2019,"Energy","Alternative","China General Technology (Genertec)","Europe & Central Asia",NA,1,163526491433.29,1.15e+09,0.703249968809572
+"IDN","Indonesia",2005,"Energy","Coal","China National Machinery Industry (Sinomach), Sinohydro","East Asia & Pacific",NA,0,285868618224.017,8.6e+08,0.300837498478435
+"IDN","Indonesia",2006,"Energy","Oil","China International Trust and Investment (CITIC)","East Asia & Pacific","0.51",0,364570514304.85,1.31e+09,0.359326919923259
+"IDN","Indonesia",2007,"Energy","Hydro","Sinohydro","East Asia & Pacific","0.7",0,432216737774.861,2.48e+09,0.573786201054485
+"IDN","Indonesia",2008,"Energy",NA,"China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,0,510228634992.258,1.26e+09,0.246948115724457
+"IDN","Indonesia",2009,"Energy","Coal","Shenhua","East Asia & Pacific","0.7",0,539580085612.401,2.3e+08,0.0426257391873459
+"IDN","Indonesia",2010,"Energy","Gas","China Petroleum and Chemical (Sinopec)","East Asia & Pacific","0.18",0,755094160363.071,8.3e+08,0.109920066075059
+"IDN","Indonesia",2011,"Energy","Coal","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,892969107923.094,1.62e+09,0.181417250118301
+"IDN","Indonesia",2012,"Energy","Coal","Dongfang Electric Corporation","East Asia & Pacific",NA,0,917869910105.749,1.48e+09,0.161242893323465
+"IDN","Indonesia",2013,"Transport","Shipping","China Communications Construction","East Asia & Pacific","0.7",0,912524136718.018,1.26e+09,0.138078539438059
+"IDN","Indonesia",2014,"Energy","Coal","China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,0,890814755233.225,2.03e+09,0.227881272517598
+"IDN","Indonesia",2015,"Energy","Coal","China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,0,860854235065.079,4.45e+09,0.516928397252247
+"IDN","Indonesia",2016,"Energy","Coal","Harbin Electric","East Asia & Pacific",NA,0,931877364177.742,3.07e+09,0.329442490826984
+"IDN","Indonesia",2017,"Energy","Gas","China National Off-shore Oil (CNOOC)","East Asia & Pacific","0.14000000000000001",0,1015618742565.81,1.68e+09,0.165416403773303
+"IDN","Indonesia",2018,"Energy","Gas","China Energy Engineering","East Asia & Pacific",NA,1,1042271531011.99,4.09e+09,0.392412138133412
+"IDN","Indonesia",2019,"Energy",NA,"China Energy Engineering","East Asia & Pacific",NA,1,1119091259074.62,1.06e+09,0.0947197104261646
+"IDN","Indonesia",2020,"Transport","Rail","China Railway Engineering","East Asia & Pacific",NA,1,1058423838345.14,3.09e+09,0.291943537933845
+"IND","India",2006,"Energy","Coal","Shandong Electric Power Construction III","South Asia",NA,0,940259888792.141,1.5e+09,0.159530361539393
+"IND","India",2007,"Energy","Coal","Shandong Electric Power Construction","South Asia",NA,0,1216735441524.86,4.55e+09,0.373951464280334
+"IND","India",2008,"Energy","Coal","Shanghai Electric","South Asia",NA,0,1198895582137.51,1.47e+09,0.122612846514885
+"IND","India",2009,"Energy","Coal","Shandong Electric Power Construction III","South Asia",NA,0,1341886602798.69,8.1e+08,0.0603627756854143
+"IND","India",2010,"Energy","Coal","Harbin Electric","South Asia",NA,0,1675615335600.56,1.85e+09,0.110407201503497
+"IND","India",2011,"Energy","Coal","Shandong Electric Power Construction","South Asia",NA,0,1823049927771.46,3e+08,0.0164559398747091
+"IND","India",2012,"Energy",NA,"Tebian Electric Apparatus (TBEA)","South Asia","1",0,1827637859135.7,2e+08,0.0109430869469174
+"IND","India",2013,"Energy","Coal","Power Construction Corp. (PowerChina)","South Asia",NA,0,1856722121394.53,2.7e+09,0.145417559735439
+"IND","India",2014,"Energy",NA,"Tebian Electric Apparatus (TBEA)","South Asia",NA,0,2039127446298.55,1e+08,0.00490405835993828
+"IND","India",2015,"Energy","Alternative","Trina Solar","South Asia",NA,0,2103587813812.75,4.8e+08,0.0228181584266739
+"IND","India",2016,"Energy",NA,"Jiangsu Longze","South Asia","0.51",0,2294797980509.01,1.3e+08,0.00566498668310509
+"IND","India",2018,"Energy","Alternative","China Poly","South Asia","0.4",0,2701111782775.03,6.8e+08,0.0251748189148022
+"IND","India",2019,"Energy","Coal","Power Construction Corp. (PowerChina)","South Asia",NA,0,2870504096717.77,1.86e+09,0.0647969812036425
+"IND","India",2020,"Transport","Rail","Dongbei Steel","South Asia","0.9",0,2660245248867.63,1.4e+08,0.00526267268251275
+"IRL","Ireland",2016,"Energy","Alternative","China General Nuclear Power","Europe & Central Asia",NA,0,298725229419.215,4.3e+08,0.143944989459381
+"IRN","Iran",2006,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,0,266298911661.144,3.15e+09,1.18288128943173
+"IRN","Iran",2007,"Energy","Hydro","Gezhouba","Middle East & North Africa","0.49",0,349881601458.56,2.22e+09,0.634500354047035
+"IRN","Iran",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,416397025729.361,1.76e+09,0.422673528207168
+"IRN","Iran",2010,"Energy","Hydro","Sinohydro","Middle East & North Africa",NA,0,486807615326.147,1.5e+09,0.308129937325455
+"IRN","Iran",2011,"Transport","Rail","China North Industries (Norinco)","Middle East & North Africa",NA,0,580764902917.439,5.9e+08,0.101590161016303
+"IRN","Iran",2012,"Transport","Rail","China North Industries (Norinco)","Middle East & North Africa",NA,0,598868460912.847,1.25e+09,0.20872697121078
+"IRN","Iran",2014,"Transport","Rail","China National Machinery Industry (Sinomach)","Middle East & North Africa",NA,0,432687036177.818,5e+08,0.115556963392478
+"IRN","Iran",2016,"Energy","Gas","China National Petroleum Corp. (CNPC)","Middle East & North Africa","0.3",0,417983583565.54,9.3e+08,0.222496776563995
+"IRN","Iran",2017,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,1,445345256459.105,1.64e+09,0.368253613620918
+"IRN","Iran",2018,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,1,294356680624.658,2.08e+09,0.706625715300908
+"IRN","Iran",2019,"Transport","Rail","China General Technology (Genertec), Beijing Power","Middle East & North Africa",NA,1,258245497664.394,1.54e+09,0.596331790458289
+"IRQ","Iraq",2007,"Energy",NA,"Shanghai Electric","Middle East & North Africa",NA,0,88837055195.2619,1.08e+09,1.21570891518881
+"IRQ","Iraq",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,111657581662.35,8.58e+09,7.68420726318946
+"IRQ","Iraq",2011,"Energy",NA,"Shanghai Electric","Middle East & North Africa",NA,0,185749664444.444,1.18e+09,0.635263597126404
+"IRQ","Iraq",2012,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,218002481737.691,1.88e+09,0.862375503716553
+"IRQ","Iraq",2013,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,234637675128.645,1.8e+09,0.767140229723599
+"IRQ","Iraq",2014,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,228415656174.957,1.03e+09,0.45093231228032
+"IRQ","Iraq",2015,"Energy","Oil","Zhongman Petroleum","Middle East & North Africa",NA,0,166774109673.732,6.7e+08,0.401741014424093
+"IRQ","Iraq",2016,"Energy","Gas","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,166602488747.885,1.29e+09,0.774298157065422
+"IRQ","Iraq",2018,"Energy","Oil","China North Industries (Norinco)","Middle East & North Africa","0.9",1,227367469034.031,1.83e+09,0.804864481174348
+"IRQ","Iraq",2019,"Energy","Gas","China National Petroleum Corp. (CNPC)","Middle East & North Africa","1",1,235097182233.503,3.4e+09,1.44621044271941
+"IRQ","Iraq",2020,"Energy","Gas","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,1,166756984395.973,2e+08,0.119935006455316
+"ISR","Israel",2014,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,310944937638.436,9.5e+08,0.305520330131456
+"ISR","Israel",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,319024417316.889,2.6e+08,0.0814984640319052
+"ISR","Israel",2017,"Transport","Rail","Shenzhen Metro, China Railway Construction","Middle East & North Africa",NA,0,355277223507.485,1.7e+08,0.047849957371787
+"ISR","Israel",2018,"Transport","Rail","China Railway Engineering","Middle East & North Africa",NA,0,373641241440.789,7.1e+08,0.190021850174297
+"ISR","Israel",2019,"Energy","Gas","China Communications Construction","Middle East & North Africa","0.49",0,397934596952.56,7.8e+08,0.196012110023444
+"ITA","Italy",2010,"Energy","Alternative","Jiangsu Zongyi","Europe & Central Asia","1",0,2134017843247.16,2e+08,0.00937199286467429
+"ITA","Italy",2012,"Transport","Shipping","Shandong Heavy Industry","Europe & Central Asia","0.75",0,2087077032435.15,4.6e+08,0.0220403939505426
+"ITA","Italy",2014,"Energy","Oil","State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.02",0,2159133919743.77,6.18e+09,0.286225877120832
+"ITA","Italy",2015,"Energy","Alternative","China Three Gorges","Europe & Central Asia","0.49",0,1835899237320.04,1e+08,0.00544692202966299
+"ITA","Italy",2016,"Transport","Shipping","China Ocean Shipping (COSCO)","Europe & Central Asia","0.4",0,1875797463583.87,1.5e+08,0.00799659893522898
+"JAM","Jamaica",2017,"Energy","Oil","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,14808989993.3185,7.6e+08,5.13201778340654
+"JOR","Jordan",2007,"Transport","Rail","China Electronics Corporation","Middle East & North Africa","0.5",0,17110587447.1086,1e+08,0.584433470265793
+"JOR","Jordan",2008,"Energy","Gas","Shandong Electric Power Construction III","Middle East & North Africa",NA,0,22657662392.5602,1.4e+08,0.617892515010595
+"JOR","Jordan",2013,"Energy","Oil","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,34454440140.8451,1.7e+09,4.93405202072833
+"JOR","Jordan",2014,"Energy","Oil","China Energy Engineering","Middle East & North Africa",NA,0,36847643521.1268,1.6e+09,4.34220440469316
+"JOR","Jordan",2016,"Energy","Oil","Guangdong Province, Huaneng Power","Middle East & North Africa","0.45",0,39892551126.7606,9.5e+08,2.38139696050355
+"JOR","Jordan",2017,"Energy","Gas","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,41408960845.0704,3.8e+08,0.917675769314162
+"JPN","Japan",2006,"Energy","Alternative","Wuxi Suntech","East Asia & Pacific","0.67",0,4601663122649.92,1.1e+08,0.00239044008803181
+"JPN","Japan",2018,"Energy","Oil","China International Trust and Investment (CITIC)","East Asia & Pacific",NA,0,5036891740656.35,1e+08,0.00198535138630891
+"KAZ","Kazakhstan",2005,"Energy","Oil","China National Petroleum Corp. (CNPC)","Europe & Central Asia","0.67",0,57123671733.8952,4.2e+09,7.35246855203088
+"KAZ","Kazakhstan",2006,"Energy",NA,"China International Trust and Investment (CITIC)","Europe & Central Asia",NA,0,81003884545.4099,1.91e+09,2.35791161216383
+"KAZ","Kazakhstan",2007,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,104849886825.584,1.31e+09,1.24940525894812
+"KAZ","Kazakhstan",2008,"Energy",NA,"Xinjiang Guanghui","Europe & Central Asia","0.49",0,133441612246.798,2.5e+08,0.187347856332573
+"KAZ","Kazakhstan",2009,"Energy","Gas","China Investment Corporation (CIC)","Europe & Central Asia","0.11",0,115308661142.927,3.54e+09,3.07002090295031
+"KAZ","Kazakhstan",2010,"Energy","Hydro","Gezhouba, Xinjiang International Economic Cooperation","Europe & Central Asia",NA,0,148047348240.643,7.3e+08,0.493085495062988
+"KAZ","Kazakhstan",2011,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Europe & Central Asia",NA,0,192626507971.584,8.5e+08,0.441268446877203
+"KAZ","Kazakhstan",2012,"Energy",NA,"China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,207998568865.789,2.1e+09,1.00962233127432
+"KAZ","Kazakhstan",2013,"Energy","Oil","China National Petroleum Corp. (CNPC)","Europe & Central Asia","0.08",0,236634552078.102,5.3e+09,2.23974054230708
+"KAZ","Kazakhstan",2014,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Europe & Central Asia","0.5",1,221415572819.5,1.62e+09,0.731655853908993
+"KAZ","Kazakhstan",2015,"Energy","Oil","Geo-Jade Petroleum","Europe & Central Asia","1",1,184388432148.715,6e+08,0.325400022663071
+"KAZ","Kazakhstan",2016,"Energy","Alternative","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,137278320084.171,3.4e+08,0.247672028468539
+"KAZ","Kazakhstan",2017,"Transport","Rail","China Railway Engineering","Europe & Central Asia",NA,1,166805800595.704,1.17e+09,0.701414456704531
+"KAZ","Kazakhstan",2018,"Energy","Alternative","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,179339994859.384,1.6e+08,0.0892160168318573
+"KAZ","Kazakhstan",2019,"Energy","Alternative","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,181667190075.541,1.4e+08,0.0770639981505659
+"KAZ","Kazakhstan",2020,"Transport","Rail","China State Construction Engineering","Europe & Central Asia",NA,1,171082379532.988,3.2e+08,0.187044393977638
+"KEN","Kenya",2010,"Transport","Rail","China Communications Construction","Sub-Saharan Africa",NA,0,45405587556.7313,2.2e+08,0.484521865783863
+"KEN","Kenya",2012,"Transport","Rail","China Communications Construction","Sub-Saharan Africa",NA,0,56396706005.9435,5.7e+09,10.1069732679056
+"KEN","Kenya",2014,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,68285768554.472,4.8e+08,0.702928311654135
+"KEN","Kenya",2015,"Energy","Alternative","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,70120413328.7838,1.3e+08,0.185395370375885
+"KEN","Kenya",2016,"Energy","Alternative","Jiangxi International Economic and Technical Cooperation","Sub-Saharan Africa",NA,0,74815121314.9381,1.52e+09,2.03167484498419
+"KEN","Kenya",2017,"Energy","Hydro","China Energy Engineering","Sub-Saharan Africa",NA,0,82035800868.187,4.9e+08,0.597300196760826
+"KEN","Kenya",2018,"Energy","Gas","Tebian Electric Apparatus (TBEA)","Sub-Saharan Africa",NA,1,92202956320.532,1.13e+09,1.22555723275477
+"KEN","Kenya",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,100555485831.944,1.5e+08,0.149171374151274
+"KGZ","Kyrgyzstan",2011,"Energy",NA,"Tebian Electric Apparatus (TBEA)","Europe & Central Asia",NA,0,6197766118.59856,3.9e+08,6.29258982247925
+"KGZ","Kyrgyzstan",2014,"Energy","Coal","Tebian Electric Apparatus (TBEA)","Europe & Central Asia",NA,0,7468096566.71158,2.5e+09,33.4757321047982
+"KHM","Cambodia",2006,"Energy","Hydro","Sinohydro","East Asia & Pacific",NA,0,7274595706.67154,2.8e+08,3.84901115182541
+"KHM","Cambodia",2008,"Energy","Hydro","Datang","East Asia & Pacific",NA,0,10351914093.1723,1.21e+09,11.6886595957946
+"KHM","Cambodia",2010,"Energy",NA,"Inner Mongolia Hongkun","East Asia & Pacific","0.51",0,11242275198.9783,8.9e+08,7.91654700003148
+"KHM","Cambodia",2013,"Energy","Hydro","Huaneng Power","East Asia & Pacific","0.51",0,15227991395.2201,4.1e+08,2.69241024215902
+"KHM","Cambodia",2016,"Energy",NA,"China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,1,20016747754.0192,2.2e+08,1.09907964422355
+"KHM","Cambodia",2017,"Energy","Alternative","Hengtong Group","East Asia & Pacific",NA,1,22177200511.5811,7.6e+08,3.42694290743831
+"KHM","Cambodia",2019,"Energy",NA,"China Energy Engineering, China National Machinery Industry (Sinomach)","East Asia & Pacific","0.5",1,27089389786.979,1.38e+09,5.09424542542971
+"KHM","Cambodia",2020,"Energy","Coal","Sinosteel","East Asia & Pacific",NA,1,25808561550.9514,6.7e+08,2.59603774769579
+"KOR","South Korea",2013,"Energy","Oil","China National Aviation Fuel","East Asia & Pacific","0.26",0,1370795199976.18,1.3e+08,0.00948354648471624
+"KWT","Kuwait",2007,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,114639690358.902,4.1e+08,0.35764227791999
+"KWT","Kuwait",2009,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,0,105963168867.269,5.1e+08,0.481299309422157
+"KWT","Kuwait",2014,"Energy","Alternative","China National Machinery Industry (Sinomach)","Middle East & North Africa",NA,0,162631412508.784,1e+08,0.0614887360672704
+"KWT","Kuwait",2015,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa","0.4",0,114567298105.683,1.7e+09,1.48384401841425
+"KWT","Kuwait",2016,"Energy","Gas","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,109419728566.7,2.1e+08,0.191921514292542
+"KWT","Kuwait",2018,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,1,138182400331.126,1.85e+09,1.33881014917012
+"LAO","Laos",2005,"Energy","Hydro","China North Industries (Norinco)","East Asia & Pacific",NA,0,2735558726.25625,1.2e+08,4.38667241350823
+"LAO","Laos",2006,"Energy","Hydro","China Three Gorges","East Asia & Pacific","0.9",0,3455031447.60194,1.4e+08,4.05206152601508
+"LAO","Laos",2007,"Energy","Hydro","Sinohydro","East Asia & Pacific",NA,0,4223152219.2439,3.7e+08,8.76122812514306
+"LAO","Laos",2009,"Energy","Hydro","Gezhouba","East Asia & Pacific",NA,0,5836138127.06562,2.1e+08,3.59826987346489
+"LAO","Laos",2010,"Energy",NA,"China Three Gorges","East Asia & Pacific",NA,0,7131773632.71369,2.95e+09,41.36418445011
+"LAO","Laos",2012,"Energy","Hydro","China Three Gorges","East Asia & Pacific",NA,0,10192848926.2582,7.4e+08,7.2599918369599
+"LAO","Laos",2013,"Energy",NA,"Southern Power Grid","East Asia & Pacific",NA,0,11983252611.2727,1.33e+09,11.0988230253017
+"LAO","Laos",2014,"Energy","Hydro","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,13279248478.8161,2.9e+08,2.18385852529702
+"LAO","Laos",2015,"Energy","Hydro","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,14426381187.0894,3.22e+09,22.3202198683179
+"LAO","Laos",2016,"Energy",NA,"Jiangsu Yongding, China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,1,15912495368.8717,5.83e+09,36.6378739779855
+"LAO","Laos",2017,"Energy","Hydro","State Development and Investment Corp","East Asia & Pacific",NA,1,17071162084.4067,6e+08,3.51469921633547
+"LAO","Laos",2018,"Energy","Hydro","Hebei Construction","East Asia & Pacific",NA,1,18141651381.3884,5.02e+09,27.671130342357
+"LAO","Laos",2019,"Energy","Alternative","China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,1,18897252232.5826,3.5e+08,1.85212112159106
+"LAO","Laos",2020,"Energy","Hydro","Power Construction Corp. (PowerChina), China Energy Engineering","East Asia & Pacific",NA,1,19132635711.6957,2.86e+09,14.9482802217976
+"LBR","Liberia",2014,"Energy","Oil","China Energy Engineering","Sub-Saharan Africa",NA,0,3225652000,1.6e+08,4.96023749617132
+"LBY","Libya",2008,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,0,87140405361.2292,2.6e+09,2.98369050410316
+"LKA","Sri Lanka",2006,"Energy","Coal","China National Machinery Industry (Sinomach)","South Asia",NA,0,28279814924.5918,4.6e+08,1.62660187567207
+"LKA","Sri Lanka",2007,"Transport","Shipping","Sinohydro, China Communications Construction","South Asia",NA,0,32350248410.8216,3.6e+08,1.11281989377112
+"LKA","Sri Lanka",2009,"Energy","Coal","China General Technology (Genertec)","South Asia",NA,0,42066217871.5349,8.9e+08,2.11571195375337
+"LKA","Sri Lanka",2010,"Transport","Rail","China General Technology (Genertec)","South Asia",NA,0,56725749221.9043,2.8e+08,0.493603000120234
+"LKA","Sri Lanka",2011,"Transport","Shipping","China Communications Construction","South Asia",NA,0,65292753005.4665,8.1e+08,1.24056646827587
+"LKA","Sri Lanka",2014,"Transport","Rail","China General Technology (Genertec)","South Asia",NA,1,79356449840.5771,6e+08,0.756082210337494
+"LKA","Sri Lanka",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","South Asia",NA,1,82401038709.5356,1.2e+08,0.145629232203008
+"LKA","Sri Lanka",2018,"Transport","Shipping","China Merchants Group","South Asia","0.7",1,87963042340.8379,1.12e+09,1.27326200890169
+"LKA","Sri Lanka",2019,"Energy","Hydro","China Energy Engineering","South Asia",NA,1,83990946939.4651,2.9e+08,0.345275307122102
+"LVA","Latvia",2016,"Transport","Shipping","China Communications Construction","Europe & Central Asia",NA,1,28064533352.2849,1.1e+08,0.391953782445644
+"MAR","Morocco",2008,"Transport","Rail","China Railway Engineering","Middle East & North Africa",NA,0,92507257783.5697,2.6e+08,0.281059028480011
+"MAR","Morocco",2013,"Energy","Coal","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,106825649872.108,3.6e+08,0.336997715839775
+"MAR","Morocco",2017,"Energy","Alternative","China Railway Engineering, Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,1,109682728023.112,2.3e+08,0.209695732541896
+"MDA","Moldova",2018,"Energy","Gas","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,11456728401.3069,3.5e+08,3.05497335487219
+"MDG","Madagascar",2009,"Energy","Hydro","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,9616879571.44509,1.4e+08,1.45577366296335
+"MDG","Madagascar",2011,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa","0.51",0,11551819617.6416,1.5e+08,1.29849673008159
+"MDG","Madagascar",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,11848613735.1908,2.7e+08,2.27874759051424
+"MDG","Madagascar",2019,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,1,14104664514.87,1.22e+09,8.6496208308521
+"MEX","Mexico",2013,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,1274443084716.57,2.8e+08,0.021970380894826
+"MEX","Mexico",2016,"Energy","Alternative","Envision Energy","Latin America & Caribbean","0.5",0,1078490651625.31,1.21e+09,0.112193832943893
+"MEX","Mexico",2019,"Energy","Alternative","Risen Energy","Latin America & Caribbean",NA,0,1269433932805.91,4.1e+08,0.0322978604403422
+"MLI","Mali",2009,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,10232036863.4247,6.9e+08,6.74352535286952
+"MLI","Mali",2015,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,13104764333.9941,1.57e+09,11.9803756861722
+"MLT","Malta",2014,"Energy",NA,"China Power Investment","Middle East & North Africa","0.33",0,11626281387.0068,4.4e+08,3.78452907988045
+"MMR","Myanmar (Burma)",2005,"Energy","Hydro","China International Trust and Investment (CITIC), Sinohydro","East Asia & Pacific",NA,0,10588433068.8549,1.3e+08,1.22775484488244
+"MMR","Myanmar (Burma)",2009,"Energy","Hydro","Huaneng Power","East Asia & Pacific","0.93",0,29455165594.6859,1.45e+09,4.9227358622
+"MMR","Myanmar (Burma)",2011,"Transport","Shipping","China Communications Construction","East Asia & Pacific",NA,0,54118601974.7947,2.1e+08,0.388036631282171
+"MMR","Myanmar (Burma)",2014,"Energy","Oil","China National Off-shore Oil (CNOOC)","East Asia & Pacific",NA,0,63264891867.054,3.7e+08,0.584842539172476
+"MMR","Myanmar (Burma)",2016,"Energy","Gas","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,60291738934.7783,2.33e+09,3.86454270712032
+"MMR","Myanmar (Burma)",2017,"Energy",NA,"State Grid","East Asia & Pacific",NA,1,61449391917.1299,1.3e+08,0.211556202501266
+"MMR","Myanmar (Burma)",2018,"Energy","Gas","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,1,67144726167.9303,1.23e+09,1.8318639008576
+"MMR","Myanmar (Burma)",2019,"Transport","Shipping","China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,1,68697761477.1818,2.1e+08,0.305686816403402
+"MNE","Montenegro",2017,"Energy","Alternative","State Power Investment Corporation","Europe & Central Asia",NA,1,4844592066.71174,1e+08,2.06415728348156
+"MNG","Mongolia",2005,"Energy","Oil","China Investment Corporation (CIC), Beijing Jingdeshun","East Asia & Pacific",NA,0,2523471532.01083,2e+08,7.92558970699502
+"MNG","Mongolia",2009,"Energy","Coal","China Investment Corporation (CIC)","East Asia & Pacific","0.13",0,4583850367.88972,7.5e+08,16.3617906302923
+"MNG","Mongolia",2011,"Energy","Coal","Shenhua","East Asia & Pacific","0.21",0,10409797649.3063,1.01e+09,9.7023980102755
+"MNG","Mongolia",2015,"Energy","Coal","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,11619892396.0767,1.5e+09,12.9088975084352
+"MNG","Mongolia",2016,"Energy","Hydro","China Energy Engineering","East Asia & Pacific","1",0,11181350461.4723,1e+08,0.894346352388927
+"MNG","Mongolia",2017,"Energy",NA,"Tebian Electric Apparatus (TBEA)","East Asia & Pacific",NA,1,11480847745.3187,2.2e+08,1.91623480147365
+"MNG","Mongolia",2018,"Energy","Coal","Henan Senyuan","East Asia & Pacific",NA,1,13178094459.4548,1.8e+08,1.36590309436473
+"MNG","Mongolia",2019,"Energy","Coal","Sinosteel","East Asia & Pacific",NA,1,14206359006.8095,5.7e+08,4.01228773485721
+"MOZ","Mozambique",2011,"Energy","Gas","Beijing Urban Construction","Sub-Saharan Africa",NA,0,14381552432.9494,2.8e+08,1.94693863062026
+"MOZ","Mozambique",2012,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,16350804543.0515,7e+08,4.28113490169188
+"MOZ","Mozambique",2013,"Energy","Gas","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa","0.28999999999999998",0,16974320551.0213,4.21e+09,24.8021709460806
+"MOZ","Mozambique",2014,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,17716084107.5888,6.1e+08,3.44319882596799
+"MOZ","Mozambique",2015,"Energy",NA,"China Communications Construction","Sub-Saharan Africa",NA,0,15950969018.9458,1.9e+08,1.19115020394264
+"MOZ","Mozambique",2017,"Transport",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa","0.5",0,13219084261.3664,1.19e+09,9.00213642996323
+"MRT","Mauritania",2008,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,5206444406.66154,2.9e+08,5.57002010103
+"MRT","Mauritania",2010,"Transport","Shipping","Sinohydro","Sub-Saharan Africa",NA,0,5628882266.37767,1e+08,1.77655163614485
+"MUS","Mauritius",2011,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,11518393367.2403,1.1e+08,0.954994299056093
+"MWI","Malawi",2012,"Energy","Coal","China Energy Engineering","Sub-Saharan Africa",NA,0,6028487928.83351,5e+08,8.29395373935414
+"MWI","Malawi",2015,"Energy","Hydro","Sinosteel","Sub-Saharan Africa",NA,0,6373212640.84604,2.1e+08,3.29504147804682
+"MYS","Malaysia",2008,"Energy",NA,"Sinohydro","East Asia & Pacific",NA,0,230813897715.69,1.15e+09,0.49823689621001
+"MYS","Malaysia",2010,"Energy","Hydro","Sinohydro","East Asia & Pacific",NA,0,255016609232.871,7.7e+08,0.301941117606527
+"MYS","Malaysia",2011,"Energy","Coal","China General Technology (Genertec)","East Asia & Pacific","0.5",0,297951960784.314,8.3e+08,0.278568396668761
+"MYS","Malaysia",2012,"Transport","Rail","China South Locomotive","East Asia & Pacific","1",0,314443149443.149,3.3e+08,0.104947428679684
+"MYS","Malaysia",2013,"Energy","Alternative","Comtec Solar","East Asia & Pacific","1",0,323277158906.979,1.43e+09,0.442344892177017
+"MYS","Malaysia",2014,"Energy","Coal","Shanghai Electric","East Asia & Pacific",NA,0,338061963396.376,1.57e+09,0.464411903731146
+"MYS","Malaysia",2015,"Transport","Shipping","China Communications Construction","East Asia & Pacific",NA,0,301354803994.367,5.91e+09,1.96114345006774
+"MYS","Malaysia",2016,"Energy","Alternative","Xian Longi","East Asia & Pacific","1",0,301255380276.258,8.3e+08,0.275513751568145
+"MYS","Malaysia",2017,"Energy","Hydro","China Energy Engineering","East Asia & Pacific","0.7",1,319112136545.438,7.4e+08,0.23189340524961
+"MYS","Malaysia",2018,"Transport","Rail","China Communications Construction","East Asia & Pacific",NA,1,358791603677.728,4.48e+09,1.24863568547273
+"MYS","Malaysia",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,1,365276282438.141,2.5e+08,0.0684413448174909
+"MYS","Malaysia",2020,"Energy","Alternative","Risen Energy","East Asia & Pacific",NA,1,337006066373.26,3.2e+08,0.0949537803410267
+"NAM","Namibia",2014,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,12435416060.2791,3.6e+08,2.89495742044292
+"NER","Niger",2010,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa","1",0,7851191899.3408,4.99e+09,63.5572288128503
+"NER","Niger",2013,"Energy","Oil","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,10224897934.722,1.3e+08,1.27140633412625
+"NER","Niger",2019,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa",NA,1,12916455161.1081,1.48e+09,11.4582521406983
+"NER","Niger",2020,"Energy","Hydro","China Energy Engineering","Sub-Saharan Africa",NA,1,13741378450.136,1.1e+08,0.800501932169049
+"NGA","Nigeria",2006,"Energy",NA,"China Power Energy Consulting","Sub-Saharan Africa",NA,0,236103982431.635,2.38e+09,1.00803043450957
+"NGA","Nigeria",2008,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,339476215683.592,1.26e+09,0.371160022937919
+"NGA","Nigeria",2009,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,295008767295.038,8.5e+08,0.288127030187518
+"NGA","Nigeria",2012,"Transport","Rail","China Energy Engineering","Sub-Saharan Africa",NA,0,455501524575.498,2.79e+09,0.61251167108609
+"NGA","Nigeria",2013,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,508692961937.492,1.91e+09,0.375472071153738
+"NGA","Nigeria",2015,"Energy",NA,"Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,486803295097.89,5.8e+08,0.119144633128124
+"NGA","Nigeria",2016,"Energy","Gas","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,404650006428.613,1.83e+09,0.452242671673562
+"NGA","Nigeria",2017,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,375746469538.666,3.13e+09,0.833008492093872
+"NGA","Nigeria",2018,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,1,397190484464.308,1.9e+09,0.478359898919164
+"NGA","Nigeria",2019,"Transport","Shipping","China Railway Construction","Sub-Saharan Africa","1",1,448120428858.769,8.24e+09,1.83879142064218
+"NGA","Nigeria",2020,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,1,432293776262.398,2.45e+09,0.566744222223749
+"NIC","Nicaragua",2012,"Energy","Oil","China National Machinery Industry (Sinomach)","Latin America & Caribbean",NA,0,10532006608.1447,2.3e+08,2.18381936659757
+"NLD","Netherlands",2007,"Transport","Shipping","China Ocean Shipping (COSCO)","Europe & Central Asia","0.8",0,847481522036.682,1.4e+08,0.016519534215159
+"NLD","Netherlands",2008,"Energy",NA,"State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.01",0,947997656364.435,1.24e+09,0.13080201113106
+"NLD","Netherlands",2019,"Transport","Shipping","China Merchants Group","Europe & Central Asia","1",0,910194347568.626,4.2e+08,0.0461439912390066
+"NOR","Norway",2008,"Energy","Oil","China National Off-shore Oil (CNOOC)","Europe & Central Asia","1",0,4.6225e+11,2.49e+09,0.538669551108707
+"NOR","Norway",2010,"Transport","Shipping","HNA","Europe & Central Asia",NA,0,428757038466.841,3.8e+08,0.0886282826653558
+"NOR","Norway",2014,"Energy","Alternative","China National Chemical (ChemChina)","Europe & Central Asia","1",0,498410050251.256,6.4e+08,0.128408325569953
+"NPL","Nepal",2010,"Energy","Hydro","Sinohydro","South Asia",NA,0,16002656434.4746,1.8e+08,1.1248132504565
+"NPL","Nepal",2011,"Energy","Hydro","Sinohydro","South Asia","0.9",0,21621710002.5111,1.4e+08,0.647497353279369
+"NPL","Nepal",2013,"Energy","Hydro","China Energy Engineering","South Asia",NA,0,22162208956.0893,1.3e+08,0.5865841273204
+"NPL","Nepal",2014,"Energy","Hydro","China Three Gorges","South Asia",NA,0,22731602969.6861,1e+08,0.439916182476686
+"NPL","Nepal",2018,"Energy","Hydro","Power Construction Corp. (PowerChina)","South Asia",NA,1,33111525182.7133,3.2e+08,0.966430867301347
+"NPL","Nepal",2019,"Energy","Hydro","China Communications Construction","South Asia",NA,1,34186180694.9285,1.5e+08,0.438773787977586
+"NZL","New Zealand",2020,"Transport","Rail","China Communications Construction","East Asia & Pacific",NA,1,210700848973.509,1.3e+08,0.0616988496407742
+"OMN","Oman",2009,"Energy",NA,"Shandong Electric Power Construction III","Middle East & North Africa",NA,0,48388363589.0767,7.2e+08,1.48796104392862
+"OMN","Oman",2016,"Energy","Gas","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,0,75128738621.5865,2.63e+09,3.50065773531346
+"OMN","Oman",2018,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,1,91505851755.5267,3.2e+08,0.349704411095953
+"OMN","Oman",2019,"Energy",NA,"State Grid","Middle East & North Africa","0.49",1,88060858257.4772,9.7e+08,1.10151095412205
+"OMN","Oman",2020,"Energy","Alternative","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,1,73971391417.4252,4e+08,0.540749595668378
+"PAK","Pakistan",2005,"Energy",NA,"China National Nuclear","South Asia",NA,0,120055291992.938,8.6e+08,0.716336602680195
+"PAK","Pakistan",2007,"Energy",NA,"China National Machinery Industry (Sinomach)","South Asia",NA,0,152385716311.916,1.5e+08,0.0984344226154158
+"PAK","Pakistan",2008,"Transport","Shipping","China Three Gorges","South Asia",NA,0,170077814106.305,3.2e+08,0.188149172589899
+"PAK","Pakistan",2009,"Energy",NA,"Harbin Electric","South Asia",NA,0,168152775283.032,7.5e+08,0.446022968540134
+"PAK","Pakistan",2010,"Energy","Hydro","China National Machinery Industry (Sinomach), Gezhouba","South Asia",NA,0,177165635077.065,2.96e+09,1.67075290798491
+"PAK","Pakistan",2011,"Energy","Alternative","China Three Gorges","South Asia","1",0,213587413183.996,2.89e+09,1.35307598744613
+"PAK","Pakistan",2012,"Energy","Gas","United Energy","South Asia",NA,0,224383620829.57,2e+08,0.0891330656224277
+"PAK","Pakistan",2013,"Energy","Hydro","China Communications Construction","South Asia","0.8",0,231218567178.979,3e+08,0.129747365732865
+"PAK","Pakistan",2014,"Transport","Shipping","China Communications Construction","South Asia",NA,0,244360888750.807,3.09e+09,1.26452314680812
+"PAK","Pakistan",2015,"Energy",NA,"China National Machinery Industry (Sinomach)","South Asia","0.35",0,270556131701.171,1.788e+10,6.60861015700374
+"PAK","Pakistan",2016,"Energy","Coal","China Energy Engineering","South Asia",NA,0,278654637737.69,5.42e+09,1.94506003704201
+"PAK","Pakistan",2017,"Energy","Hydro","China Energy Engineering","South Asia",NA,1,304567253219.097,5.7e+09,1.87150783275429
+"PAK","Pakistan",2018,"Energy","Coal","Shanghai Electric","South Asia","0.51",1,314567541558.339,3.28e+09,1.04270134920824
+"PAK","Pakistan",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","South Asia",NA,1,279056608888.638,3.78e+09,1.35456386969444
+"PAK","Pakistan",2020,"Energy","Hydro","China Energy Engineering","South Asia","0.8",1,262610002938.509,3.16e+09,1.20330526813174
+"PAN","Panama",2016,"Transport","Shipping","Shandong Landbridge","Latin America & Caribbean",NA,0,57907695408.9392,2e+08,0.345377239739239
+"PAN","Panama",2017,"Transport","Shipping","China Communications Construction","Latin America & Caribbean",NA,1,62202725204.4646,1e+08,0.160764660505296
+"PAN","Panama",2020,"Energy","Alternative","China Energy Engineering","Latin America & Caribbean",NA,1,53977036995.1729,1.1e+08,0.203790363687131
+"PER","Peru",2012,"Energy","Hydro","China Energy Engineering","Latin America & Caribbean",NA,0,192648999090.082,9e+08,0.467170867355072
+"PER","Peru",2013,"Energy",NA,"China National Petroleum Corp. (CNPC)","Latin America & Caribbean",NA,0,201175469114.327,2.89e+09,1.4365568589069
+"PER","Peru",2017,"Energy","Hydro","China Three Gorges","Latin America & Caribbean","0.25",0,211007207483.515,3.3e+08,0.15639276209358
+"PER","Peru",2018,"Energy","Hydro","China Three Gorges","Latin America & Caribbean",NA,0,222574697255.522,1.39e+09,0.62450944206126
+"PER","Peru",2019,"Energy",NA,"China Three Gorges","Latin America & Caribbean","0.84",1,228470919605.669,3.59e+09,1.57131594961678
+"PER","Peru",2020,"Transport","Shipping","China Ocean Shipping (COSCO)","Latin America & Caribbean","0.6",1,202014363787.233,7.8e+08,0.386111158324126
+"PHL","Philippines",2008,"Energy",NA,"State Grid","East Asia & Pacific","0.4",0,181624577153.97,1.58e+09,0.869926319861752
+"PHL","Philippines",2009,"Energy",NA,"China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,0,175974711591.53,5.8e+08,0.329592811804851
+"PHL","Philippines",2010,"Energy","Hydro","Gezhouba","East Asia & Pacific",NA,0,208368726860.828,6e+08,0.287951080298507
+"PHL","Philippines",2013,"Energy","Coal","China Energy Engineering","East Asia & Pacific",NA,0,283902728259.788,6e+08,0.211339990875665
+"PHL","Philippines",2014,"Energy","Coal","China General Technology (Genertec)","East Asia & Pacific",NA,0,297483247100.855,1.21e+09,0.406745593841719
+"PHL","Philippines",2016,"Energy","Alternative","Qingdao Hengshun Zhongsheng","East Asia & Pacific",NA,0,318626761492.305,7.2e+08,0.225969719752303
+"PHL","Philippines",2017,"Energy","Coal","China Communications Construction, Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,328480867143.204,1.67e+09,0.508400995931355
+"PHL","Philippines",2018,"Transport","Rail","China Railway Engineering","East Asia & Pacific",NA,1,346842094174.513,8.5e+08,0.245068293115634
+"PHL","Philippines",2019,"Transport","Rail","Redco","East Asia & Pacific",NA,1,376823278560.849,1.6e+09,0.42460221834242
+"PHL","Philippines",2020,"Transport","Rail","China State Construction Engineering","East Asia & Pacific",NA,1,361489325230.731,1.26e+09,0.348558010446303
+"PNG","Papua New Guinea",2012,"Transport","Shipping","China Communications Construction","East Asia & Pacific",NA,0,21295659243.6168,2.9e+08,1.36177986641538
+"PNG","Papua New Guinea",2017,"Energy","Gas","China Energy Engineering","East Asia & Pacific",NA,0,22742613553.6879,1.36e+09,5.97996354635971
+"POL","Poland",2013,"Energy","Coal","China Energy Engineering","Europe & Central Asia","0.33",0,521016262734.924,7.5e+08,0.143949441436452
+"POL","Poland",2014,"Energy","Alternative","Ex-Im Bank","Europe & Central Asia","0.5",0,542477096211.761,2e+08,0.0368679159722401
+"POL","Poland",2015,"Energy","Alternative","China Three Gorges","Europe & Central Asia","0.49",1,477811911394.084,3.4e+08,0.0711577070165542
+"POL","Poland",2017,"Energy",NA,"Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,526508877305.321,1.5e+08,0.0284895481283624
+"POL","Poland",2020,"Energy","Alternative","China National Building Material","Europe & Central Asia",NA,1,596624355719.671,6.3e+08,0.105594080087473
+"PRK","North Korea",2011,"Transport","Rail","Shangdi Guanqun Investment","East Asia & Pacific",NA,0,NA,2e+09,NA
+"PRT","Portugal",2011,"Energy",NA,"China Three Gorges","Europe & Central Asia","0.21",0,244797226567.109,3.51e+09,1.43383977393133
+"PRT","Portugal",2012,"Energy","Alternative","China Three Gorges","Europe & Central Asia","0.49",0,216236608773.976,9.8e+08,0.453207255495001
+"PRT","Portugal",2015,"Energy",NA,"State Administration of Foreign Exchange (SAFE), China Reform Holdings","Europe & Central Asia","0.05",0,199313894327.486,5.9e+08,0.296015489532602
+"PRT","Portugal",2017,"Energy","Alternative","China Three Gorges","Europe & Central Asia","0.49",0,220811110492.149,2.6e+08,0.11774769821161
+"PRT","Portugal",2020,"Energy",NA,"China Three Gorges","Europe & Central Asia",NA,1,228539245045.341,2.6e+08,0.113766018588369
+"QAT","Qatar",2009,"Energy","Gas","China National Off-shore Oil (CNOOC)","Middle East & North Africa",NA,0,97798351648.3516,1e+08,0.10225121212632
+"QAT","Qatar",2011,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,167775268626.374,8.8e+08,0.524511155431204
+"QAT","Qatar",2014,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,1,206224598571.429,1.7e+08,0.0824343949158509
+"QAT","Qatar",2016,"Energy","Gas","China National Off-shore Oil (CNOOC)","Middle East & North Africa",NA,1,151732181868.132,1.1e+08,0.0724961564815559
+"QAT","Qatar",2020,"Energy","Alternative","Power Construction Corp. (PowerChina)","Middle East & North Africa",NA,1,144411363345.27,4.6e+08,0.318534490184263
+"ROU","Romania",2012,"Energy","Coal","China Huadian Corporation (Huadian)","Europe & Central Asia",NA,0,170635805316.879,1.3e+09,0.761856515158607
+"ROU","Romania",2013,"Energy","Alternative","Ming Yan","Europe & Central Asia",NA,0,190801346194.297,5.4e+08,0.283016871091731
+"ROU","Romania",2014,"Energy","Coal","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,199959363430.073,2.7e+08,0.135027435259075
+"RUS","Russia",2006,"Energy",NA,"China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,989930542278.695,3.99e+09,0.403058581344053
+"RUS","Russia",2009,"Energy","Oil","China Investment Corporation (CIC)","Europe & Central Asia","0.45",0,1222644282201.86,3e+08,0.0245369813908368
+"RUS","Russia",2010,"Energy",NA,"China Three Gorges","Europe & Central Asia",NA,0,1524917468442.01,5.3e+08,0.034755979321392
+"RUS","Russia",2011,"Energy",NA,"China Three Gorges","Europe & Central Asia","0.5",0,2045925608274.37,2.29e+09,0.111929778421
+"RUS","Russia",2012,"Energy",NA,"China Huadian Corporation (Huadian)","Europe & Central Asia","1",0,2208295773643.15,5.9e+08,0.0267174355465366
+"RUS","Russia",2013,"Energy",NA,"State Grid","Europe & Central Asia",NA,0,2292473246621.08,2.22e+09,0.0968386437343206
+"RUS","Russia",2014,"Energy","Gas","China National Off-shore Oil (CNOOC)","Europe & Central Asia",NA,0,2059241965490.83,5.48e+09,0.266117342781222
+"RUS","Russia",2015,"Energy","Gas","State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.1",0,1363481063446.77,2.93e+09,0.214891139932167
+"RUS","Russia",2016,"Energy","Gas","State Administration of Foreign Exchange (SAFE)","Europe & Central Asia","0.1",0,1276786979221.81,2.49e+09,0.195020785810146
+"RUS","Russia",2017,"Energy",NA,"CEFC China Energy","Europe & Central Asia",NA,1,1574199387070.9,6.15e+09,0.390674780495453
+"RUS","Russia",2018,"Energy","Oil","China National Chemical Engineering","Europe & Central Asia",NA,1,1657328865709.99,4.2e+08,0.0253419830360629
+"RUS","Russia",2019,"Energy","Gas","Bomesc Offshore Engineering","Europe & Central Asia",NA,1,1687448525466.61,5.07e+09,0.300453609309241
+"RWA","Rwanda",2015,"Energy","Hydro","China Petroleum and Chemical (Sinopec), Jiangxi Water","Sub-Saharan Africa",NA,0,8539048447.78065,3.4e+08,3.98170829079168
+"RWA","Rwanda",2020,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,10333991455.5443,2.1e+08,2.03212863977483
+"SAU","Saudi Arabia",2009,"Transport","Rail","China Railway Construction","Middle East & North Africa",NA,0,429097899280,3.3e+09,0.769055268165423
+"SAU","Saudi Arabia",2011,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa","0.38",0,671238840106.667,3.81e+09,0.56760720213904
+"SAU","Saudi Arabia",2012,"Transport","Shipping","China National Chemical Engineering","Middle East & North Africa",NA,0,735974843360,4.9e+08,0.0665783626194296
+"SAU","Saudi Arabia",2013,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,746647127413.333,3.88e+09,0.519656455847059
+"SAU","Saudi Arabia",2014,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,756350347333.333,4.9e+08,0.0647847920910719
+"SAU","Saudi Arabia",2015,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,0,654269902880,2.13e+09,0.325553718828278
+"SAU","Saudi Arabia",2016,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,0,644935541440,3.3e+08,0.0511679042006558
+"SAU","Saudi Arabia",2017,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa",NA,1,688586244293.333,5.4e+08,0.0784215491487459
+"SAU","Saudi Arabia",2018,"Energy","Gas","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,1,786521831573.333,4.15e+09,0.527639517862902
+"SAU","Saudi Arabia",2019,"Energy","Alternative","State Administration of Foreign Exchange (SAFE)","Middle East & North Africa","0.25",1,792966838160,1.99e+09,0.250956270077775
+"SAU","Saudi Arabia",2020,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa",NA,1,700117873253.333,1.22e+09,0.174256371192305
+"SDN","Sudan",2008,"Energy","Hydro","Sinohydro, China Three Gorges","Sub-Saharan Africa",NA,0,64831935604.2484,4e+08,0.616979882324828
+"SDN","Sudan",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa",NA,0,51621044076.9231,5.3e+08,1.02671305758601
+"SDN","Sudan",2010,"Energy","Hydro","China Three Gorges","Sub-Saharan Africa",NA,0,58962978034.4828,1.64e+09,2.78140632422076
+"SDN","Sudan",2011,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,55018567210.5263,2.2e+08,0.39986501131187
+"SDN","Sudan",2014,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,49516748617.9775,1.45e+09,2.92830212093846
+"SEN","Senegal",2015,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,17774766636.0459,1.83e+09,10.2954938169984
+"SGP","Singapore",2008,"Transport","Shipping","China Ocean Shipping (COSCO)","East Asia & Pacific","0.28999999999999998",0,193611986712.842,3.68e+09,1.90070876420376
+"SGP","Singapore",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","East Asia & Pacific","0.46",0,194152286008.938,2.18e+09,1.12282994180127
+"SGP","Singapore",2010,"Transport","Shipping","China Communications Construction","East Asia & Pacific",NA,0,239809387605.427,3.2e+08,0.13343931327931
+"SGP","Singapore",2011,"Transport","Rail","China Railway Construction","East Asia & Pacific",NA,0,279351168707.267,5.8e+08,0.207623974756943
+"SGP","Singapore",2013,"Transport","Rail","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,307576360584.992,1.5e+08,0.0487683772948964
+"SGP","Singapore",2014,"Transport","Rail","Shanghai Shentong","East Asia & Pacific",NA,0,314851156183.411,7.6e+08,0.241383900002983
+"SGP","Singapore",2016,"Transport","Rail","China Minmetals","East Asia & Pacific",NA,0,318763807455.664,7.8e+08,0.244695282763081
+"SGP","Singapore",2017,"Transport","Rail","China State Construction Engineering","East Asia & Pacific",NA,1,343337750742.27,8.7e+08,0.253394798014237
+"SGP","Singapore",2018,"Transport","Shipping","China Communications Construction","East Asia & Pacific","1",1,375981539145.907,2e+08,0.0531941010865393
+"SGP","Singapore",2019,"Energy","Alternative","Tianjin Zhonghuan Semi","East Asia & Pacific","0.28999999999999998",1,374386306993.109,8e+08,0.213683028747824
+"SLE","Sierra Leone",2011,"Transport","Rail","China Communications Construction","Sub-Saharan Africa",NA,0,2942546781.04548,4.9e+08,16.6522416281145
+"SLE","Sierra Leone",2014,"Transport","Shipping","Tidfore Heavy","Sub-Saharan Africa",NA,0,5015157815.73406,7.1e+08,14.1570819122086
+"SRB","Serbia",2010,"Energy","Coal","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,41819468691.8251,3.4e+08,0.813018459190667
+"SRB","Serbia",2014,"Energy",NA,"China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,47062206677.6539,9.7e+08,2.06110182347352
+"SRB","Serbia",2017,"Energy","Gas","Shanghai Electric","Europe & Central Asia",NA,1,44179055279.8887,4.4e+08,0.995947055029712
+"SRB","Serbia",2018,"Energy","Alternative","Shanghai Electric","Europe & Central Asia",NA,1,50640650221.4622,1.4e+08,0.276457745680102
+"SRB","Serbia",2019,"Transport","Rail","China Railway Engineering","Europe & Central Asia",NA,1,51514222381.8428,3.5e+08,0.679424018877094
+"SSD","South Sudan",2012,"Energy","Hydro","China Energy Engineering","Sub-Saharan Africa",NA,0,11931472169.4915,1.4e+09,11.7336735996398
+"SSD","South Sudan",2015,"Energy","Oil","Sinosteel","Sub-Saharan Africa",NA,0,11997800760.2242,3.8e+08,3.16724712798864
+"STP","São Tomé & Príncipe",2013,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa",NA,0,300554483.611626,1.5e+08,49.9077565563217
+"STP","São Tomé & Príncipe",2015,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,316066072.343754,1.2e+08,37.9667450891369
+"SWE","Sweden",2018,"Energy","Alternative","China General Nuclear Power","Europe & Central Asia","0.75",0,555455371487.089,7.1e+08,0.127823050499837
+"SYR","Syria",2005,"Energy","Oil","China National Petroleum Corp. (CNPC)","Middle East & North Africa","0.16",0,134203830734.967,2.9e+08,0.21608921176975
+"SYR","Syria",2008,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Middle East & North Africa","1",0,218089977728.285,1.99e+09,0.912467423184073
+"SYR","Syria",2010,"Energy",NA,"China National Petroleum Corp. (CNPC)","Middle East & North Africa","0.35",0,252518218262.806,1.48e+09,0.586096326111292
+"TCD","Chad",2007,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa","0.5",0,8650138068.63161,2e+08,2.31210182326764
+"TCD","Chad",2009,"Energy","Oil","China National Petroleum Corp. (CNPC)","Sub-Saharan Africa","0.6",0,9290728773.35723,4.7e+08,5.05880659596701
+"TCD","Chad",2011,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,0,12172309522.6171,6e+09,49.2922069460322
+"TCD","Chad",2014,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,13940768065.6063,1.3e+08,0.932516769436305
+"TCD","Chad",2016,"Energy","Oil","CEFC China Energy","Sub-Saharan Africa","0.35",0,10097778353.7651,1.1e+08,1.08934852941177
+"TCD","Chad",2017,"Energy","Oil","China Energy Engineering","Sub-Saharan Africa",NA,0,10000395242.1457,3.1e+08,3.09987747977735
+"TGO","Togo",2009,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,3379258564.97242,3.9e+08,11.5409931646702
+"THA","Thailand",2010,"Transport","Rail","Sinohydro","East Asia & Pacific","0.5",0,341104820155.464,1.7e+08,0.049838052690818
+"THA","Thailand",2012,"Energy","Alternative","China National Machinery Industry (Sinomach)","East Asia & Pacific",NA,0,397558222957.17,1e+08,0.0251535483925265
+"THA","Thailand",2013,"Energy","Hydro","China Three Gorges","East Asia & Pacific",NA,0,420333203150.426,1.1e+08,0.0261697146871916
+"THA","Thailand",2015,"Energy","Alternative","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,401296437424.995,8.1e+08,0.201845798880633
+"THA","Thailand",2016,"Energy","Alternative","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,413366150655.591,3.9e+08,0.0943473478371336
+"THA","Thailand",2017,"Energy","Gas","China Petroleum and Chemical (Sinopec)","East Asia & Pacific",NA,1,456356961443.497,1.9e+08,0.041634075088723
+"THA","Thailand",2018,"Transport","Rail","Power Construction Corp. (PowerChina)","East Asia & Pacific","0.49",1,506611070188.362,1.5e+08,0.0296085120967114
+"THA","Thailand",2019,"Energy","Oil","China National Petroleum Corp. (CNPC)","East Asia & Pacific",NA,1,544263840039.166,4.7e+08,0.0863551765566822
+"THA","Thailand",2020,"Transport","Rail","China Railway Construction","East Asia & Pacific","0.1",1,501643653514.925,1.94e+09,0.386728704012654
+"TJK","Tajikistan",2006,"Energy",NA,"Tebian Electric Apparatus (TBEA)","Europe & Central Asia",NA,0,2830220713.07301,4e+08,14.1331733653269
+"TJK","Tajikistan",2012,"Energy","Coal","Tebian Electric Apparatus (TBEA)","Europe & Central Asia",NA,0,7633049792.09321,3.5e+08,4.58532316090158
+"TJK","Tajikistan",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,6992393787.40891,1.7e+08,2.4312131891959
+"TKM","Turkmenistan",2007,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,12664165103.1895,1.5e+08,1.18444444444444
+"TKM","Turkmenistan",2009,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,20214385964.9123,3.13e+09,15.484022148548
+"TKM","Turkmenistan",2012,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,35164210526.3158,2.92e+09,8.30389750344249
+"TKM","Turkmenistan",2014,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia","1",0,43524210526.3158,6e+08,1.37854309761052
+"TTO","Trinidad & Tobago",2009,"Energy","Oil","China National Off-shore Oil (CNOOC), China Petroleum and Chemical (Sinopec)","Latin America & Caribbean","1",0,19172165225.5015,3.2e+08,1.66908638766767
+"TTO","Trinidad & Tobago",2011,"Energy",NA,"China Investment Corporation (CIC)","Latin America & Caribbean","0.1",0,25433011405.3017,8.5e+08,3.34211307679755
+"TUR","Turkey",2005,"Transport","Rail","China Railway Construction, China General Technology (Genertec)","Europe & Central Asia",NA,0,506308311476.63,1.27e+09,0.250835305526803
+"TUR","Turkey",2007,"Energy","Coal","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,681337335021.874,6.1e+08,0.0895298068438325
+"TUR","Turkey",2008,"Energy","Coal","Datong","Europe & Central Asia",NA,0,770462156204.38,7.6e+08,0.0986420934344237
+"TUR","Turkey",2010,"Energy",NA,"China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,776992599946.766,3.6e+08,0.0463324875970073
+"TUR","Turkey",2011,"Energy","Gas","China National Chemical Engineering","Europe & Central Asia",NA,0,838762755164.179,6.4e+08,0.0763028634807141
+"TUR","Turkey",2012,"Energy",NA,"Harbin Electric","Europe & Central Asia","0.5",0,880556375779.51,7.3e+08,0.082902130979833
+"TUR","Turkey",2013,"Energy","Hydro","China General Technology (Genertec)","Europe & Central Asia",NA,0,957783020853.031,3.08e+09,0.321575965844211
+"TUR","Turkey",2015,"Energy",NA,"China National Machinery Industry (Sinomach)","Europe & Central Asia","0.75",1,864316670330.882,3.8e+08,0.0439653674450739
+"TUR","Turkey",2016,"Energy","Coal","Dongfang Electric Corporation","Europe & Central Asia",NA,1,869692960365.551,6.6e+08,0.0758888515922433
+"TUR","Turkey",2017,"Energy","Coal","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,858996263095.858,1.09e+09,0.126892286594076
+"TUR","Turkey",2019,"Energy","Coal","State Power Investment Corporation, Aviation Industry Corp. (AVIC)","Europe & Central Asia","0.79",1,761004425605.414,1.43e+09,0.187909551099177
+"TZA","Tanzania",2011,"Energy","Alternative","China Dalian International Economic & Technical","Sub-Saharan Africa",NA,0,34657139495.4031,9.4e+08,2.71228385748536
+"TZA","Tanzania",2013,"Energy",NA,"Tebian Electric Apparatus (TBEA)","Sub-Saharan Africa",NA,0,45680532613.7591,1.23e+09,2.6926130883805
+"TZA","Tanzania",2014,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,49964788814.0926,2e+08,0.400281887999474
+"TZA","Tanzania",2015,"Transport","Rail","China Railway Engineering","Sub-Saharan Africa",NA,0,47378599025.3044,1.4e+09,2.9549206367463
+"TZA","Tanzania",2017,"Transport","Shipping","China Communications Construction","Sub-Saharan Africa",NA,0,53320625958.5628,1.5e+08,0.281317027516837
+"TZA","Tanzania",2018,"Transport","Rail","China Railway Construction","Sub-Saharan Africa",NA,1,57003713610.7625,1.5e+08,0.263140750836415
+"TZA","Tanzania",2019,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,61136873692.3985,9.7e+08,1.58660386345631
+"UGA","Uganda",2013,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,28915786996.5408,4.39e+09,15.1820180461461
+"UGA","Uganda",2019,"Energy",NA,"Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,35353060634.2022,4.3e+08,1.21630204651644
+"UKR","Ukraine",2011,"Energy","Gas","China National Machinery Industry (Sinomach)","Europe & Central Asia",NA,0,169333048847.834,2.94e+09,1.73622338935263
+"UKR","Ukraine",2016,"Energy","Alternative","China National Building Material","Europe & Central Asia",NA,0,93355993628.5042,1.8e+08,0.192810330653522
+"UKR","Ukraine",2018,"Energy","Coal","Dongfang Electric Corporation","Europe & Central Asia",NA,1,130891049796.879,1.35e+09,1.03139214032967
+"UKR","Ukraine",2019,"Energy","Alternative","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,153882982016.281,1.26e+09,0.818803992157294
+"UKR","Ukraine",2020,"Energy","Alternative","China Energy Engineering","Europe & Central Asia",NA,1,155498989149.587,2.4e+08,0.154341839334483
+"USA","United States",2007,"Energy",NA,"China Petroleum and Chemical (Sinopec)","North America",NA,0,14451858656000,1e+08,0.000691952518913426
+"USA","United States",2009,"Energy","Oil","China National Off-shore Oil (CNOOC)","North America",NA,0,14448933025000,1.78e+09,0.0123192487425901
+"USA","United States",2010,"Energy","Gas","Hopu Investment","North America","0.01",0,14992052727000,4.01e+09,0.0267475046481005
+"USA","United States",2011,"Energy","Alternative","Xinjiang Goldwind","North America","1",0,15542581104000,2e+08,0.00128678755904017
+"USA","United States",2012,"Energy","Alternative","Wanxiang","North America",NA,0,16197007349000,3.5e+09,0.0216089301226136
+"USA","United States",2013,"Energy","Gas","Shenhua","North America","0.51",0,16784849196000,3.27e+09,0.0194818551052533
+"USA","United States",2014,"Energy",NA,"China Investment Corporation (CIC)","North America","0.08",0,17527163695000,8.6e+08,0.00490666952717132
+"USA","United States",2015,"Transport","Rail","China Railway Rolling Stock Corporation (CRRC)","North America","1",0,18238300569000,2.95e+09,0.0161747526247822
+"USA","United States",2016,"Energy","Alternative","China Poly","North America",NA,0,18745075687000,1.5e+08,0.000800210159215454
+"USA","United States",2017,"Transport","Rail","China Railway Rolling Stock Corporation (CRRC)","North America","1",0,19542979183000,2.13e+09,0.0108990547452092
+"USA","United States",2018,"Transport","Rail","China State Construction Engineering","North America",NA,0,20611860934000,6e+08,0.00291094531406564
+"UZB","Uzbekistan",2007,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia",NA,0,22311393927.8817,8.8e+08,3.94417311103229
+"UZB","Uzbekistan",2012,"Energy","Coal","Harbin Electric","Europe & Central Asia",NA,0,67517349212.0609,2.27e+09,3.36209881829084
+"UZB","Uzbekistan",2013,"Transport","Rail","China Railway Engineering","Europe & Central Asia",NA,0,73180036692.3255,4.6e+08,0.628586730468585
+"UZB","Uzbekistan",2016,"Energy","Alternative","China Singyes","Europe & Central Asia",NA,1,86138288615.1218,1.5e+08,0.174138588555226
+"UZB","Uzbekistan",2017,"Energy","Gas","China National Petroleum Corp. (CNPC)","Europe & Central Asia","0.5",1,62081323299.0324,3e+08,0.483237121984279
+"UZB","Uzbekistan",2020,"Energy","Alternative","Power Construction Corp. (PowerChina)","Europe & Central Asia",NA,1,59929951114.3598,6.5e+08,1.08459958320282
+"VEN","Venezuela",2010,"Energy",NA,"China National Machinery Industry (Sinomach)","Latin America & Caribbean",NA,0,393192354510.653,3.12e+09,0.793504747538388
+"VEN","Venezuela",2011,"Transport","Shipping","China Communications Construction","Latin America & Caribbean",NA,0,316482190800.364,3.2e+08,0.101111534646149
+"VEN","Venezuela",2012,"Energy","Oil","Power Construction Corp. (PowerChina)","Latin America & Caribbean",NA,0,381286237847.667,2.24e+09,0.587485143089516
+"VEN","Venezuela",2013,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Latin America & Caribbean",NA,0,371005379786.566,1.4e+09,0.377353018655794
+"VEN","Venezuela",2014,"Energy","Hydro","Dongfang Electric Corporation","Latin America & Caribbean",NA,0,482359318767.703,1.08e+09,0.223899478662319
+"VEN","Venezuela",2015,"Energy",NA,"China Energy Engineering","Latin America & Caribbean",NA,0,NA,3.12e+09,NA
+"VEN","Venezuela",2016,"Energy","Oil","China National Petroleum Corp. (CNPC)","Latin America & Caribbean",NA,0,NA,1.46e+09,NA
+"VEN","Venezuela",2018,"Energy","Oil","China National Petroleum Corp. (CNPC)","Latin America & Caribbean","0.1",1,NA,6.1e+08,NA
+"VNM","Vietnam",2006,"Energy","Coal","Dongfang Electric Corporation","East Asia & Pacific","0.55000000000000004",0,66371664817.0436,3.3e+08,0.497200124344718
+"VNM","Vietnam",2008,"Transport","Shipping","China Communications Construction","East Asia & Pacific",NA,0,99130304099.1274,1.6e+08,0.161403721550178
+"VNM","Vietnam",2009,"Transport","Rail","China Railway Engineering","East Asia & Pacific",NA,0,106014659770.222,1.8e+09,1.69787839144261
+"VNM","Vietnam",2010,"Energy","Hydro","Hydrochina","East Asia & Pacific",NA,0,115931749697.241,3.4e+09,2.9327600151634
+"VNM","Vietnam",2011,"Energy","Coal","China Huadian Corporation (Huadian)","East Asia & Pacific",NA,0,135539438559.709,3.26e+09,2.40520400161159
+"VNM","Vietnam",2012,"Energy","Hydro","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,0,155820001920.492,3e+08,0.192529839752586
+"VNM","Vietnam",2013,"Energy","Coal","Harbin Electric, China Energy Engineering","East Asia & Pacific",NA,0,171222025117.381,8.7e+08,0.508112200754297
+"VNM","Vietnam",2015,"Transport","Rail","China Railway Engineering","East Asia & Pacific",NA,0,193241108709.536,3.33e+09,1.72323581780178
+"VNM","Vietnam",2017,"Energy","Alternative","Trina Solar","East Asia & Pacific","1",1,223779865815.183,9.1e+08,0.406649631630201
+"VNM","Vietnam",2018,"Energy","Alternative","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,1,245213686369.157,5.5e+08,0.224294168952708
+"VNM","Vietnam",2019,"Energy","Alternative","Shanxi Construction Investment","East Asia & Pacific",NA,1,261921244843.172,6.5e+08,0.248166199877827
+"VNM","Vietnam",2020,"Energy","Alternative","Power Construction Corp. (PowerChina)","East Asia & Pacific",NA,1,271158442448.537,3.66e+09,1.349764354357
+"YEM","Yemen",2008,"Energy","Oil","Sinochem","Middle East & North Africa","0.16800000000000001",0,26910851361.7555,4.7e+08,1.74650736121988
+"YEM","Yemen",2013,"Transport","Shipping","China Communications Construction","Middle East & North Africa",NA,0,40415235701.9871,5.1e+08,1.2619003480782
+"ZAF","South Africa",2012,"Energy","Coal","Beijing Jingmei","Sub-Saharan Africa","0.24",0,434400545085.811,1e+08,0.0230202289410678
+"ZAF","South Africa",2015,"Energy","Coal","Qingdao Hengshun","Sub-Saharan Africa","0.34",0,346709790458.563,4.9e+08,0.141328573200059
+"ZAF","South Africa",2018,"Energy","Oil","China Petroleum and Chemical (Sinopec)","Sub-Saharan Africa","1",1,404842116738.074,1.33e+09,0.328523131613919
+"ZMB","Zambia",2008,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,17910858637.9048,2.8e+08,1.56329747032582
+"ZMB","Zambia",2009,"Energy","Hydro","China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,15328342303.9575,8.6e+08,5.61052188779711
+"ZMB","Zambia",2011,"Energy",NA,"Tebian Electric Apparatus (TBEA)","Sub-Saharan Africa",NA,0,23459515275.5776,4.9e+08,2.08870470785094
+"ZMB","Zambia",2012,"Energy",NA,"Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,25503060420.026,6.5e+08,2.5487137202153
+"ZMB","Zambia",2014,"Energy","Coal","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,27141023558.0829,4.5e+08,1.65800674037581
+"ZMB","Zambia",2015,"Energy",NA,"Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,21251216798.7762,2.18e+09,10.2582361313331
+"ZMB","Zambia",2016,"Energy",NA,"China Railway Engineering","Sub-Saharan Africa",NA,0,20958412538.3093,2.2e+08,1.04969782228434
+"ZMB","Zambia",2020,"Energy","Alternative","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,18110631358.3114,1.38e+09,7.61983374680466
+"ZWE","Zimbabwe",2010,"Energy","Hydro","Sinohydro","Sub-Saharan Africa",NA,0,12041655200,4e+08,3.32180247114201
+"ZWE","Zimbabwe",2014,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,19495519600,7.8e+08,4.00091926762496
+"ZWE","Zimbabwe",2015,"Energy","Alternative","Zhejiang Chint","Sub-Saharan Africa",NA,0,19963120600,1.2e+09,6.01108425904114
+"ZWE","Zimbabwe",2016,"Energy","Hydro","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,0,20548678100,6e+08,2.91989585451728
+"ZWE","Zimbabwe",2017,"Energy",NA,"China National Machinery Industry (Sinomach)","Sub-Saharan Africa",NA,0,17584890936.6523,1.5e+08,0.853005006060936
+"ZWE","Zimbabwe",2018,"Energy","Gas","Sinosteel","Sub-Saharan Africa",NA,1,18115543790.7855,2.47e+09,13.6346997281769
+"ZWE","Zimbabwe",2019,"Energy","Alternative","China Energy Engineering","Sub-Saharan Africa",NA,1,19284289739.0517,2e+08,1.03711364383304
+"ZWE","Zimbabwe",2020,"Energy","Coal","Power Construction Corp. (PowerChina)","Sub-Saharan Africa",NA,1,18051170798.941,6.3e+08,3.49007832797726

@@ -1,0 +1,70 @@
+(comment)
+[unsure]
+{won't use}
+
+{27 Mineral fuels, mineral oils and products of their distillation; bituminous substances, mineral waxes}
+(I don't want to use this because ut includes mineral products that are not used for energy production, such as asphalt or paraffin wax)
+
+2701 Coal, briquettes, ovoids and similar solid fuels manufactured from coal
+	270111 Anthracite
+	270112 Bituminous coal
+	270119 Coal, whether or not pulverised, non-agglomerated (excluding anthracite and bituminous coal)
+	270120 Briquettes, ovoids and similar solid fuels manufactured from coal
+2702 Lignite, whether or not agglomerated
+	270210	Lignite, whether or not pulverised, non-agglomerated (excluding jet)
+	270220 Agglomerated lignite (excluding jet)
+
+2703 Peat (mainly exported from European countries -> only relevant for nations w/out BRI energy investment)
+
+2704 Coke and semi-coke of coal, of lignite or of peat, whether or not agglomerated; retort carbon (no sub-group)
+
+{2705 Coal gas, water gas, producer gas, lean gas and similar gases} (is not traded internationally)
+{2706 Tar distilled from coal, from lignite or from peat, and other mineral tars} (not an energy product and not traded)
+{2707 Oils and other products of the distillation of high temperature coal tar} (not included bc, with the exception of benzene, most sub-group
+commodities are used in the chemical industries and for plastic production, not for energy production (toluene, xylene, naphthalene, creosote, phenols))
+{2708 Pitch and pitch coke} (used as raw material for building production equipment for semiconductor or solar array panel)
+
+2709 Petroleum oils and oils obtained from bituminous minerals, crude 
+[Probably not all of this oil is used for energy generation, some of it will be processed and used for other purposes. So?]
+
+{2710 Petroleum oils and oils obtained from bituminous minerals (excluding crude); preparations containing >= 70% by weight of petroleum oils or of oils obtained from bituminous minerals, 
+these oils being the basic constituents of the preparations, n.e.s.; waste oils containing mainly petroleum or bituminous minerals} 
+(For many of the codes in this group, no data is available (Source: Trademaps). The HS codes for which data is available are listed below)
+
+271000 Petroleum oils and oils obtained from bituminous minerals
+271011 Light oils and preparations, of petroleum or bituminous minerals which >= 90% by volume incl. losses" distil at 210°C "ASTM D 86 method"
+(Before its creation in 2002, the code 271011 was unofficially used, meaning "Aviation spirit".
+Before using the Harmonized System (HS), some countries detailed their trade for various refined petroleum products in the SITC nomenclature (revisions 2 and 3). When these countries started to report in the HS nomenclature, they decided to use unofficial codes, like 271011, in order to continue detailing the refined petroleum products. 
+In the 2002 revision of the HS, the code 271011 was actually officially created, but with a new label "Light petroleum oils and preparations".)
+
+271012 Light oils and preparations, of petroleum or bituminous minerals which >= 90% by volume "incl. losses" distil at 210°C "ASTM D 86 method" (excluding containing biodiesel)
+(Before its creation in 2012, the code 271012 was unofficially used, meaning "Petroleum spirit for motor vehicles".)
+271019 Medium oils and preparations, of petroleum or bituminous minerals, not containing biodiesel, n.e.s.
+(Before its creation in 2002, the code 271019 was unofficially used, meaning "Light petroleum distillates nes".)
+271020 Petroleum oils and oils obtained from bituminous minerals (other than crude) and preparations n.e.s. or included, containing by weight 70 % or more of petroleum oils or of oils obtained from bituminous minerals, these oils being the basic constituents of the preparations, containing biodiesel (excluding waste oils)
+
+{271091 Waste oils containing polychlorinated biphenyls [PCBs], polychlorinated terphenyls [PCTs] or polybrominated biphenyls [PBBs]}
+{271099 Waste oils containing mainly petroleum or bituminous minerals (excluding those containing polychlorinated biphenyls [PCBs], polychlorinated terphenyls [PCTs] or polybrominated biphenyls [PBBs])}
+
+2711 Petroleum gas and other gaseous hydrocarbons
+	271111 Natural gas, liquefied
+	271112 Propane, liquefied
+	271113 Butanes, liquefied
+	271114 Ethylene, propylene, butylene and butadiene, liquefied
+	271119 Gaseous hydrocarbons, liquefied, n.e.s. (exlcuding all before)
+	271121 Natural gas in gaseous state
+	271129 Hydrocarbons in gaseous state (excluding natural gas)
+
+{2712 Petroleum jelly, paraffin wax, micro- crystalline petroleum wax...} (not commonly used as energy source)
+
+{2713 Petroleum coke, petroleum bitumen and other residues of petroleum oil}
+	{271320 Petroleum bitumen (= asphalt)}
+	271311 Petroleum coke, non-calcined
+	271312 Petroleum coke, calcined
+	{271390 Residues of petroleum oil or of oil obtained from bituminous minerals (excluding petroleum coke and petroleum bitumen)}
+	(I honestly have no idea what this is, but a) it's trade volume is small and b) if it was used for energy production frequently, it 
+	would probably have a more specific name)
+{2714 Bitumen and asphalt, natural; bituminous or oil-shale and tar sands; asphaltites and asphaltic rocks}
+{2715 Bituminous mastics, cut-backs and other bituminous mixtures based on natural asphalt, on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch}
+{2716 Electrical energy} (not used because no information on its production is given)
+
